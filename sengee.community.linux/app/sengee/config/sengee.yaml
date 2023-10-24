@@ -1,0 +1,30 @@
+yeeProps:
+  yc.srv.address: datayoo.sengee
+  yc.srv.port: 8822
+  morten.node.id: 00000001
+  yc.cli.failure.retries: 0
+  yc.calling.expiration: 20000
+  yc.srv.work.threads: 32
+
+jarGateConfiguration:
+  #jarGateName: HdfsJarGate
+  jarGateName: LocalJarGate
+  remoteLibPath: /tmp/datayoo/operator
+  localLibPath: /home/datayoo/app/sengee/operators/
+  gateProps:
+    settingsServiceId: jarGate
+
+fsConfiguration:
+  parameterFile: 'classpath:jargate/jarGate.xml'
+  baseDir: /
+  brokerName: jarGate
+  brokerType: hdfs
+  confFiles:
+   - 'classpath:jargate/core-site.xml'
+
+sengeeEngineConfiguration:
+  workDir: ./data/workdir
+  parentFirstPatterns:
+   - org.datayoo
+  parentFirstExcludePatterns:
+   - org.datayoo.sengee.op

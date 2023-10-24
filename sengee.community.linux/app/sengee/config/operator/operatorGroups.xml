@@ -1,0 +1,407 @@
+<groups>
+    <group name="input" opType="Input">
+        <i18ns en_US="input" zh_CN="输入"/>
+        <group name="stream" opCats="stream">
+            <i18ns en_US="stream" zh_CN="文件"/>
+        </group>
+        <group name="db" opCats="db">
+            <i18ns en_US="db" zh_CN="数据库"/>
+        </group>
+        <group name="message" opCats="message">
+            <i18ns en_US="message" zh_CN="事件流"/>
+        </group>
+        <group name="app" opCats="app">
+            <i18ns en_US="app" zh_CN="应用"/>
+        </group>
+        <group name="generator" opCats="generator">
+            <i18ns en_US="generator" zh_CN="生成器"/>
+        </group>
+        <group name="resource" opCats="resource">
+            <i18ns en_US="resource" zh_CN="资源"/>
+        </group>
+        <group name="web" opCats="web">
+            <i18ns en_US="web" zh_CN="WEB"/>
+        </group>
+        <group name="trans" opCats="trans">
+            <i18ns en_US="trans" zh_CN="转换"/>
+        </group>
+    </group>
+    <group name="reader" opType="Reader">
+        <i18ns en_US="reader" zh_CN="读取"/>
+        <group name="stream" opCats="stream">
+            <i18ns en_US="stream" zh_CN="文件"/>
+        </group>
+        <group name="obj" opCats="obj">
+            <i18ns en_US="obj" zh_CN="对象"/>
+        </group>
+    </group>
+    <group name="output" opType="Output">
+        <i18ns en_US="output" zh_CN="输出"/>
+        <group name="stream" opCats="stream">
+            <i18ns en_US="stream" zh_CN="批量文件"/>
+        </group>
+        <group name="byte" opCats="byte">
+            <i18ns en_US="byte" zh_CN="文件"/>
+        </group>
+        <group name="db" opCats="db">
+            <i18ns en_US="db" zh_CN="数据库"/>
+        </group>
+        <group name="message" opCats="message">
+            <i18ns en_US="message" zh_CN="事件流"/>
+        </group>
+        <group name="resource" opCats="resource">
+            <i18ns en_US="resource" zh_CN="资源"/>
+        </group>
+        <group name="trans" opCats="trans">
+            <i18ns en_US="trans" zh_CN="转换"/>
+        </group>
+    </group>
+    <group name="writer" opType="Writer">
+        <i18ns en_US="writer" zh_CN="写出"/>
+        <group name="stream" opCats="stream">
+            <i18ns en_US="stream" zh_CN="文件"/>
+        </group>
+    </group>
+    <group name="streamProcessing" opType="Processing">
+        <i18ns en_US="streamProcessing" zh_CN="文件处理"/>
+        <group name="convertor" opCats="convertor">
+            <i18ns en_US="convertor" zh_CN="格式转换"/>
+            <group name="stream" opCats="convertor,stream">
+                <i18ns en_US="stream" zh_CN="文件"/>
+            </group>
+            <group name="img" opCats="convertor,img">
+                <i18ns en_US="img" zh_CN="图像"/>
+            </group>
+            <group name="audio" opCats="convertor,audio">
+                <i18ns en_US="audio" zh_CN="音频"/>
+            </group>
+            <group name="video" opCats="convertor,video">
+                <i18ns en_US="video" zh_CN="视频"/>
+            </group>
+        </group>
+        <group name="embedding" opCats="embedding">
+            <i18ns en_US="embedding" zh_CN="向量化"/>
+            <group name="stream" opCats="embedding,stream">
+                <i18ns en_US="stream" zh_CN="文件"/>
+            </group>
+            <group name="img" opCats="embedding,img">
+                <i18ns en_US="img" zh_CN="图像"/>
+            </group>
+            <group name="audio" opCats="embedding,audio">
+                <i18ns en_US="audio" zh_CN="音频"/>
+            </group>
+            <group name="video" opCats="embedding,video">
+                <i18ns en_US="video" zh_CN="视频"/>
+            </group>
+            <group name="text" opCats="embedding,text">
+                <i18ns en_US="text" zh_CN="文本"/>
+            </group>
+        </group>
+        <group name="splitter" opCats="splitter">
+            <i18ns en_US="splitter" zh_CN="分割"/>
+            <group name="stream" opCats="splitter,stream">
+                <i18ns en_US="stream" zh_CN="文件"/>
+            </group>
+            <group name="img" opCats="splitter,img">
+                <i18ns en_US="img" zh_CN="图像"/>
+            </group>
+            <group name="audio" opCats="splitter,audio">
+                <i18ns en_US="audio" zh_CN="音频"/>
+            </group>
+            <group name="video" opCats="splitter,video">
+                <i18ns en_US="video" zh_CN="视频"/>
+            </group>
+        </group>
+        <group name="transformer" opCats="transformer">
+            <i18ns en_US="transformer" zh_CN="转换"/>
+            <group name="stream" opCats="transformer,stream">
+                <i18ns en_US="stream" zh_CN="文件"/>
+            </group>
+            <group name="img" opCats="transformer,img">
+                <i18ns en_US="img" zh_CN="图像"/>
+            </group>
+            <group name="audio" opCats="transformer,audio">
+                <i18ns en_US="audio" zh_CN="音频"/>
+            </group>
+            <group name="video" opCats="transformer,video">
+                <i18ns en_US="video" zh_CN="视频"/>
+            </group>
+        </group>
+        <group name="extractor" opCats="extractor">
+            <i18ns en_US="extractor" zh_CN="抽取"/>
+            <group name="stream" opCats="extractor,stream">
+                <i18ns en_US="stream" zh_CN="文件"/>
+                <group name="props" opCats="extractor,stream,props">
+                    <i18ns en_US="props" zh_CN="属性"/>
+                </group>
+                <group name="txt" opCats="extractor,stream,txt">
+                    <i18ns en_US="txt" zh_CN="文本"/>
+                </group>
+                <group name="obj" opCats="extractor,stream,obj">
+                    <i18ns en_US="obj" zh_CN="对象"/>
+                </group>
+                <group name="rel" opCats="extractor,stream,rel">
+                    <i18ns en_US="rel" zh_CN="关系"/>
+                </group>
+            </group>
+            <group name="img" opCats="extractor,img">
+                <i18ns en_US="img" zh_CN="图像"/>
+                <group name="props" opCats="extractor,img,props">
+                    <i18ns en_US="props" zh_CN="属性"/>
+                </group>
+                <group name="txt" opCats="extractor,img,txt">
+                    <i18ns en_US="txt" zh_CN="文本"/>
+                </group>
+                <group name="obj" opCats="extractor,img,obj">
+                    <i18ns en_US="obj" zh_CN="对象"/>
+                </group>
+            </group>
+            <group name="audio" opCats="extractor,audio">
+                <i18ns en_US="audio" zh_CN="音频"/>
+                <group name="props" opCats="extractor,audio,props">
+                    <i18ns en_US="props" zh_CN="属性"/>
+                </group>
+                <group name="txt" opCats="extractor,audio,txt">
+                    <i18ns en_US="txt" zh_CN="文本"/>
+                </group>
+                <group name="obj" opCats="extractor,audio,obj">
+                    <i18ns en_US="obj" zh_CN="对象"/>
+                </group>
+            </group>
+            <group name="video" opCats="extractor,video">
+                <i18ns en_US="video" zh_CN="视频"/>
+                <group name="props" opCats="extractor,video,props">
+                    <i18ns en_US="props" zh_CN="属性"/>
+                </group>
+                <group name="txt" opCats="extractor,video,txt">
+                    <i18ns en_US="txt" zh_CN="文本"/>
+                </group>
+                <group name="obj" opCats="extractor,video,obj">
+                    <i18ns en_US="obj" zh_CN="对象"/>
+                </group>
+            </group>
+        </group>
+        <group name="recognizer" opCats="recognizer">
+            <i18ns en_US="recognizer" zh_CN="识别"/>
+            <group name="stream" opCats="recognizer,stream">
+                <i18ns en_US="stream" zh_CN="文件"/>
+            </group>
+            <group name="img" opCats="recognizer,img">
+                <i18ns en_US="img" zh_CN="图像"/>
+            </group>
+            <group name="audio" opCats="recognizer,audio">
+                <i18ns en_US="audio" zh_CN="音频"/>
+            </group>
+            <group name="video" opCats="recognizer,video">
+                <i18ns en_US="video" zh_CN="视频"/>
+            </group>
+        </group>
+        <group name="classification" opCats="classification">
+            <i18ns en_US="classification" zh_CN="分类"/>
+            <group name="stream" opCats="classification,stream">
+                <i18ns en_US="stream" zh_CN="文件"/>
+            </group>
+            <group name="img" opCats="classification,img">
+                <i18ns en_US="img" zh_CN="图像"/>
+            </group>
+            <group name="audio" opCats="classification,audio">
+                <i18ns en_US="audio" zh_CN="音频"/>
+            </group>
+            <group name="video" opCats="classification,video">
+                <i18ns en_US="video" zh_CN="视频"/>
+            </group>
+        </group>
+    </group>
+    <group name="resMan" opType="ResMan">
+        <i18ns en_US="resMan" zh_CN="资源池"/>
+        <group name="db" opCats="db">
+            <i18ns en_US="db" zh_CN="数据库"/>
+        </group>
+    </group>
+    <group name="control" opType="Control">
+        <i18ns en_US="control" zh_CN="控制"/>
+        <group name="loop" opCats="loop">
+            <i18ns en_US="loop" zh_CN="循环"/>
+        </group>
+        <group name="condition" opCats="condition">
+            <i18ns en_US="condition" zh_CN="条件分支"/>
+        </group>
+        <group name="logic" opCats="logic">
+            <i18ns en_US="logic" zh_CN="逻辑门"/>
+        </group>
+        <group name="ref" opCats="ref">
+            <i18ns en_US="ref" zh_CN="引用"/>
+        </group>
+        <group name="pipeline" opCats="pipeline">
+            <i18ns en_US="pipeline" zh_CN="管道"/>
+        </group>
+        <group name="env" opCats="env">
+            <i18ns en_US="env" zh_CN="环境"/>
+        </group>
+        <group name="engine" opCats="engine">
+            <i18ns en_US="engine" zh_CN="引擎"/>
+        </group>
+        <group name="speed" opCats="speed">
+            <i18ns en_US="speed" zh_CN="速度"/>
+        </group>
+    </group>
+    <group name="processing" opType="Processing">
+        <i18ns en_US="processing" zh_CN="处理"/>
+        <group name="column" opCats="column">
+            <i18ns en_US="column" zh_CN="列值处理"/>
+            <group name="coding" opCats="column,coding">
+                <i18ns en_US="coding" zh_CN="编码"/>
+            </group>
+            <group name="transformer" opCats="column,transformer">
+                <i18ns en_US="transformer" zh_CN="转换"/>
+            </group>
+            <group name="splitter" opCats="column,splitter">
+                <i18ns en_US="splitter" zh_CN="分割"/>
+            </group>
+            <group name="extractor" opCats="column,extractor">
+                <i18ns en_US="extractor" zh_CN="抽取"/>
+            </group>
+        </group>
+        <group name="rowset" opCats="rowset">
+            <i18ns en_US="rowset" zh_CN="集合处理"/>
+            <group name="structure" opCats="rowset,structure">
+                <i18ns en_US="structure" zh_CN="结构化"/>
+            </group>
+            <group name="splitter" opCats="rowset,splitter">
+                <i18ns en_US="splitter" zh_CN="分割"/>
+            </group>
+            <group name="filter" opCats="rowset,filter">
+                <i18ns en_US="filter" zh_CN="过滤"/>
+            </group>
+            <group name="sampling" opCats="rowset,sampling">
+                <i18ns en_US="sampling" zh_CN="采样"/>
+            </group>
+            <group name="grouping" opCats="rowset,grouping">
+                <i18ns en_US="grouping" zh_CN="分组"/>
+            </group>
+            <group name="join" opCats="rowset,join">
+                <i18ns en_US="join" zh_CN="连接"/>
+            </group>
+            <group name="order" opCats="rowset,order">
+                <i18ns en_US="order" zh_CN="排序"/>
+            </group>
+            <group name="sql" opCats="rowset,sql">
+                <i18ns en_US="sql" zh_CN="SQL"/>
+            </group>
+            <group name="flatter" opCats="rowset,flat">
+                <i18ns en_US="flatter" zh_CN="扁平化"/>
+            </group>
+        </group>
+        <group name="feature" opCats="feature">
+            <i18ns en_US="feature" zh_CN="特征处理"/>
+            <group name="selector" opCats="feature,selector">
+                <i18ns en_US="selector" zh_CN="特征筛选"/>
+            </group>
+            <group name="extractor" opCats="feature,extractor">
+                <i18ns en_US="extractor" zh_CN="特征抽取"/>
+            </group>
+            <group name="transformer" opCats="feature,transformer">
+                <i18ns en_US="transformer" zh_CN="特征转换"/>
+            </group>
+        </group>
+        <group name="domain" opCats="domain">
+            <i18ns en_US="domain" zh_CN="领域处理"/>
+            <group name="nlp" opCats="domain,nlp">
+                <i18ns en_US="nlp" zh_CN="自然语言处理"/>
+                <group name="langRecognizer" opCats="domain,nlp,langRecognizer">
+                    <i18ns en_US="langRecognizer" zh_CN="语种识别"/>
+                </group>
+                <group name="classification" opCats="domain,nlp,classification">
+                    <i18ns en_US="classification" zh_CN="自然语言分类"/>
+                </group>
+                <group name="conversation" opCats="domain,nlp,conversation">
+                    <i18ns en_US="conversation" zh_CN="对话"/>
+                </group>
+                <group name="segmenter" opCats="domain,nlp,segmenter">
+                    <i18ns en_US="segmenter" zh_CN="分词"/>
+                </group>
+                <group name="ner" opCats="domain,nlp,ner">
+                    <i18ns en_US="ner" zh_CN="命名实体识别"/>
+                </group>
+                <group name="rel" opCats="domain,nlp,rel">
+                    <i18ns en_US="rel" zh_CN="关系识别"/>
+                </group>
+                <group name="translator" opCats="domain,nlp,translator">
+                    <i18ns en_US="translator" zh_CN="翻译"/>
+                </group>
+                <group name="summarize" opCats="domain,nlp,summarize">
+                    <i18ns en_US="summarize" zh_CN="摘要"/>
+                </group>
+                <group name="generator" opCats="domain,nlp,generator">
+                    <i18ns en_US="generator" zh_CN="生成器"/>
+                </group>
+                <group name="fillMask" opCats="domain,nlp,fillMask">
+                    <i18ns en_US="fillMask" zh_CN="填充"/>
+                </group>
+                <group name="similarity" opCats="domain,nlp,similarity">
+                    <i18ns en_US="similarity" zh_CN="相似"/>
+                </group>
+            </group>
+            <group name="aicg" opCats="domain,aicg">
+                <i18ns en_US="aicg" zh_CN="生成"/>
+                <group name="txt" opCats="domain,aicg,txt">
+                    <i18ns en_US="txt" zh_CN="文本"/>
+                </group>
+                <group name="img" opCats="domain,aicg,img">
+                    <i18ns en_US="img" zh_CN="图像"/>
+                </group>
+            </group>
+            <group name="privacy" opCats="domain,privacy">
+                <i18ns en_US="privacy" zh_CN="隐私"/>
+            </group>
+            <group name="network" opCats="domain,network">
+                <i18ns en_US="network" zh_CN="网络"/>
+            </group>
+            <group name="security" opCats="domain,security">
+                <i18ns en_US="security" zh_CN="安全"/>
+                <group name="extractor" opCats="domain,security,extractor">
+                    <i18ns en_US="extractor" zh_CN="抽取"/>
+                </group>
+            </group>
+        </group>
+        <group name="script" opCats="script">
+            <i18ns en_US="script" zh_CN="脚本"/>
+        </group>
+    </group>
+    <group name="analysis" opType="Analysis">
+        <i18ns en_US="analysis" zh_CN="分析"/>
+        <group name="clustering" opCats="clustering">
+            <i18ns en_US="clustering" zh_CN="聚类"/>
+        </group>
+        <group name="classification" opCats="classification">
+            <i18ns en_US="classification" zh_CN="分类"/>
+        </group>
+        <group name="regression" opCats="regression">
+            <i18ns en_US="regression" zh_CN="回归"/>
+        </group>
+        <group name="timeSeries" opCats="timeSeries">
+            <i18ns en_US="timeSeries" zh_CN="时间序列"/>
+        </group>
+        <group name="evaluator" opCats="evaluator">
+            <i18ns en_US="evaluator" zh_CN="评估"/>
+        </group>
+        <group name="validator" opCats="validator">
+            <i18ns en_US="validator" zh_CN="验证"/>
+        </group>
+        <group name="predictor" opCats="predictor">
+            <i18ns en_US="predictor" zh_CN="预测"/>
+        </group>
+    </group>
+    <group name="action" opType="Action">
+        <i18ns en_US="action" zh_CN="动作"/>
+        <group name="db" opCats="db">
+            <i18ns en_US="db" zh_CN="数据库"/>
+        </group>
+        <group name="web" opCats="web">
+            <i18ns en_US="web" zh_CN="WEB"/>
+        </group>
+        <group name="data" opCats="data">
+            <i18ns en_US="data" zh_CN="数据"/>
+        </group>
+    </group>
+</groups>

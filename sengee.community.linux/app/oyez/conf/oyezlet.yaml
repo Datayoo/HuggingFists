@@ -1,0 +1,30 @@
+workDir: ./oyezlet
+jarGateConfiguration:
+ # jarGateName: HdfsJarGate
+  jarGateName: LocalJarGate
+#oyez的localJarGate会将workdir拼接上locallibPath
+  localLibPath: /operators
+  remoteLibPath: /tmp/datayoo/operator
+  gateProps:
+    settingsServiceId: jarGate
+parentFirstPatterns:
+  - org.datayoo
+parentFirstExcludePatterns:
+  - org.datayoo.sengee.op
+engineInstances: 10
+debuggableEngineInstances: 10
+envProperties:
+  #oyez.poll.interval:
+  #oyez.stop.waiting:
+  oyez.thread.block: 36000
+  oyez.log.path: ./log/
+bandwidth: 100
+tags: 
+    envDeps:
+      - python
+yeeProps:
+  #yc.cli.servers: docker.for.mac.host.internal:8822
+  yc.cli.servers: datayoo.sengee:8823
+  yc.calling.expiration: 2000000
+  yc.concurrent.max: 30
+  yc.cli.failure.retries: 0

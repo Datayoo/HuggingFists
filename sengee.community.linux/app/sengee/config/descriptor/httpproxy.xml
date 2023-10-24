@@ -1,0 +1,37 @@
+<resourcedescriptor name="httpproxy" alias="网络Http代理服务"
+                    type="httpproxy" category="Proxy">
+    <parametersDescriptor>
+        <parameters>
+            <parametergroup name="general" c_Alias="代理配置" c_Compox="sightx-tab">
+                    <parameter name="address" c_Alias="地址" c_Option="false"
+                               c_Compox="sightx-input" c_Index="0">
+                    </parameter>
+                    <parameter name="port" c_Alias="端口"
+                               c_Compox="sightx-uinteger" c_Index="1">
+                    </parameter>
+                    <parameter name="protocol" c_Alias="协议" c_Option="false"
+                               c_Compox="protocolType" c_Index="2"></parameter>
+                    <parameter name="user" c_Alias="用户名" c_Option="true"
+                               c_Compox="port" c_Index="3">
+                    </parameter>
+                    <parameter name="password" c_Alias="密码" c_Option="true"
+                               c_Compox="sightx-password" c_Index="4">
+                    </parameter>
+            </parametergroup>
+        </parameters>
+        <compoxes>
+            <compox id="protocolType" parentId="sightx-combox" type="CONTROLER">
+                <attributes/>
+                <dataDescriptor>
+                    <defaultValue><![CDATA[http]]></defaultValue>
+                    <data>
+                        <![CDATA[[{"label": "http", "value": "http"}, {"label": "socks5", "value": "socks5"}]]]></data>
+                    <actionScript><![CDATA[]]></actionScript>
+                </dataDescriptor>
+                <visibleDescriptors/>
+                <components/>
+            </compox>
+        </compoxes>
+
+    </parametersDescriptor>
+</resourcedescriptor>

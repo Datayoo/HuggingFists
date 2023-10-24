@@ -1,0 +1,720 @@
+[
+  {
+    "opType": "Input",
+    "rules": [
+      {
+        "tags": [
+          "stream"
+        ],
+        "group": "input.stream"
+      },
+      {
+        "tags": [
+          "db"
+        ],
+        "group": "input.db"
+      },
+      {
+        "tags": [
+          "message"
+        ],
+        "group": "input.message"
+      },
+      {
+        "tags": [
+          "app"
+        ],
+        "group": "input.app"
+      },
+      {
+        "tags": [
+          "generator"
+        ],
+        "group": "input.generator"
+      },
+      {
+        "tags": [
+          "resource"
+        ],
+        "group": "input.resource"
+      },
+      {
+        "tags": [
+          "web"
+        ],
+        "group": "input.web"
+      },
+      {
+        "tags": [
+          "trans"
+        ],
+        "group": "input.trans"
+      }
+    ]
+  },
+  {
+    "opType": "Reader",
+    "rules": [
+      {
+        "tags": [
+          "stream"
+        ],
+        "group": "reader.stream"
+      },
+      {
+        "tags": [
+          "obj"
+        ],
+        "group": "reader.obj"
+      }
+    ]
+  },
+  {
+    "opType": "Output",
+    "rules": [
+      {
+        "tags": [
+          "stream"
+        ],
+        "group": "output.stream"
+      },
+      {
+        "tags": [
+          "byte"
+        ],
+        "group": "output.byte"
+      },
+      {
+        "tags": [
+          "byte"
+        ],
+        "group": "output.byte"
+      },
+      {
+        "tags": [
+          "db"
+        ],
+        "group": "output.db"
+      },
+      {
+        "tags": [
+          "message"
+        ],
+        "group": "output.message"
+      },
+      {
+        "tags": [
+          "resource"
+        ],
+        "group": "output.resource"
+      },
+      {
+        "tags": [
+          "trans"
+        ],
+        "group": "output.trans"
+      }
+    ]
+  },
+  {
+    "opType": "Writer",
+    "rules": [
+      {
+        "tags": [
+          "stream"
+        ],
+        "group": "writer.stream"
+      }
+    ]
+  },
+  {
+    "opType": "Processing",
+    "rules": [
+      {
+        "tags": [
+          "convertor",
+          "stream"
+        ],
+        "group": "streamProcessing.convertor.stream"
+      },
+      {
+        "tags": [
+          "convertor",
+          "img"
+        ],
+        "group": "streamProcessing.convertor.img"
+      },
+      {
+        "tags": [
+          "convertor",
+          "audio"
+        ],
+        "group": "streamProcessing.convertor.audio"
+      },
+      {
+        "tags": [
+          "convertor",
+          "video"
+        ],
+        "group": "streamProcessing.convertor.video"
+      },
+      {
+        "tags": [
+          "embedding",
+          "stream"
+        ],
+        "group": "streamProcessing.embedding.stream"
+      },
+      {
+        "tags": [
+          "embedding",
+          "img"
+        ],
+        "group": "streamProcessing.embedding.img"
+      },
+      {
+        "tags": [
+          "embedding",
+          "audio"
+        ],
+        "group": "streamProcessing.embedding.audio"
+      },
+      {
+        "tags": [
+          "embedding",
+          "video"
+        ],
+        "group": "streamProcessing.embedding.video"
+      },
+      {
+        "tags": [
+          "splitter",
+          "stream"
+        ],
+        "group": "streamProcessing.splitter.stream"
+      },
+      {
+        "tags": [
+          "splitter",
+          "img"
+        ],
+        "group": "streamProcessing.splitter.img"
+      },
+      {
+        "tags": [
+          "splitter",
+          "audio"
+        ],
+        "group": "streamProcessing.splitter.audio"
+      },
+      {
+        "tags": [
+          "splitter",
+          "video"
+        ],
+        "group": "streamProcessing.splitter.video"
+      },
+      {
+        "tags": [
+          "transformer",
+          "stream"
+        ],
+        "group": "streamProcessing.transformer.stream"
+      },
+      {
+        "tags": [
+          "transformer",
+          "img"
+        ],
+        "group": "streamProcessing.transformer.img"
+      },
+      {
+        "tags": [
+          "transformer",
+          "audio"
+        ],
+        "group": "streamProcessing.transformer.audio"
+      },
+      {
+        "tags": [
+          "transformer",
+          "video"
+        ],
+        "group": "streamProcessing.transformer.video"
+      },
+      {
+        "tags": [
+          "extractor",
+          "stream"
+        ],
+        "group": "streamProcessing.extractor.stream"
+      },
+      {
+        "tags": [
+          "extractor",
+          "img",
+          "props"
+        ],
+        "group": "streamProcessing.extractor.img.props"
+      },
+      {
+        "tags": [
+          "extractor",
+          "stream",
+          "txt"
+        ],
+        "group": "streamProcessing.extractor.stream.txt"
+      },
+      {
+        "tags": [
+          "extractor",
+          "stream",
+          "obj"
+        ],
+        "group": "streamProcessing.extractor.stream.obj"
+      },
+      {
+        "tags": [
+          "extractor",
+          "rel"
+        ],
+        "group": "streamProcessing.extractor.rel"
+      },
+      {
+        "tags": [
+          "img",
+          "props"
+        ],
+        "group": "streamProcessing.img.props"
+      },
+      {
+        "tags": [
+          "img",
+          "txt"
+        ],
+        "group": "streamProcessing.img.txt"
+      },
+      {
+        "tags": [
+          "img",
+          "obj"
+        ],
+        "group": "streamProcessing.img.obj"
+      },
+      {
+        "tags": [
+          "audio",
+          "props"
+        ],
+        "group": "streamProcessing.audio.props"
+      },
+      {
+        "tags": [
+          "audio",
+          "txt"
+        ],
+        "group": "streamProcessing.audio.txt"
+      },
+      {
+        "tags": [
+          "audio",
+          "obj"
+        ],
+        "group": "streamProcessing.audio.obj"
+      },
+      {
+        "tags": [
+          "video",
+          "props"
+        ],
+        "group": "streamProcessing.video.props"
+      },
+      {
+        "tags": [
+          "video",
+          "txt"
+        ],
+        "group": "streamProcessing.video.txt"
+      },
+      {
+        "tags": [
+          "video",
+          "obj"
+        ],
+        "group": "streamProcessing.video.obj"
+      },
+      {
+        "tags": [
+          "recognizer",
+          "stream"
+        ],
+        "group": "streamProcessing.recognizer.stream"
+      },
+      {
+        "tags": [
+          "recognizer",
+          "img"
+        ],
+        "group": "streamProcessing.recognizer.img"
+      },
+      {
+        "tags": [
+          "recognizer",
+          "audio"
+        ],
+        "group": "streamProcessing.recognizer.audio"
+      },
+      {
+        "tags": [
+          "recognizer",
+          "video"
+        ],
+        "group": "streamProcessing.recognizer.video"
+      },
+      {
+        "tags": [
+          "column",
+          "coding"
+        ],
+        "group": "processing.column.coding"
+      },
+      {
+        "tags": [
+          "column",
+          "transformer"
+        ],
+        "group": "processing.column.transformer"
+      },
+      {
+        "tags": [
+          "column",
+          "splitter"
+        ],
+        "group": "processing.column.splitter"
+      },
+      {
+        "tags": [
+          "column",
+          "extractor"
+        ],
+        "group": "processing.column.extractor"
+      },
+      {
+        "tags": [
+          "column",
+          "recognizer"
+        ],
+        "group": "processing.column.recognizer"
+      },
+      {
+        "tags": [
+          "rowset"
+        ],
+        "group": "processing.rowset"
+      },
+      {
+        "tags": [
+          "rowset",
+          "structure"
+        ],
+        "group": "processing.rowset.structure"
+      },
+      {
+        "tags": [
+          "rowset",
+          "splitter"
+        ],
+        "group": "processing.rowset.splitter"
+      },
+      {
+        "tags": [
+          "rowset",
+          "filter"
+        ],
+        "group": "processing.rowset.filter"
+      },
+      {
+        "tags": [
+          "rowset",
+          "sampling"
+        ],
+        "group": "processing.rowset.sampling"
+      },
+      {
+        "tags": [
+          "rowset",
+          "grouping"
+        ],
+        "group": "processing.rowset.grouping"
+      },
+      {
+        "tags": [
+          "rowset",
+          "join"
+        ],
+        "group": "processing.rowset.join"
+      },
+      {
+        "tags": [
+          "rowset",
+          "order"
+        ],
+        "group": "processing.rowset.order"
+      },
+      {
+        "tags": [
+          "rowset",
+          "sql"
+        ],
+        "group": "processing.rowset.sql"
+      },
+      {
+        "tags": [
+          "feature",
+          "selector"
+        ],
+        "group": "processing.feature.selector"
+      },
+      {
+        "tags": [
+          "feature",
+          "extractor"
+        ],
+        "group": "processing.feature.extractor"
+      },
+      {
+        "tags": [
+          "feature",
+          "transformer"
+        ],
+        "group": "processing.feature.transformer"
+      },
+      {
+        "tags": [
+          "domain",
+          "nlp",
+          "langRecognizer"
+        ],
+        "group": "processing.domain.nlp.langRecognizer"
+      },
+      {
+        "tags": [
+          "domain",
+          "nlp",
+          "segmenter"
+        ],
+        "group": "processing.domain.nlp.segmenter"
+      },
+      {
+        "tags": [
+          "domain",
+          "nlp",
+          "ner"
+        ],
+        "group": "processing.domain.nlp.ner"
+      },
+      {
+        "tags": [
+          "domain",
+          "nlp",
+          "rel"
+        ],
+        "group": "processing.domain.nlp.rel"
+      },
+      {
+        "tags": [
+          "domain",
+          "nlp",
+          "translator"
+        ],
+        "group": "processing.domain.nlp.translator"
+      },
+      {
+        "tags": [
+          "domain",
+          "nlp",
+          "summarize"
+        ],
+        "group": "processing.domain.nlp.summarize"
+      },
+      {
+        "tags": [
+          "domain",
+          "aicg",
+          "txt"
+        ],
+        "group": "processing.domain.aicg.txt"
+      },
+      {
+        "tags": [
+          "domain",
+          "aicg",
+          "img"
+        ],
+        "group": "processing.domain.aicg.img"
+      },
+      {
+        "tags": [
+          "domain",
+          "privacy"
+        ],
+        "group": "processing.domain.privacy"
+      },
+      {
+        "tags": [
+          "domain",
+          "network"
+        ],
+        "group": "processing.domain.network"
+      },
+      {
+        "tags": [
+          "domain",
+          "security",
+          "extractor"
+        ],
+        "group": "processing.domain.security.extractor"
+      },
+      {
+        "tags": [
+          "script"
+        ],
+        "group": "processing.script"
+      }
+    ]
+  },
+  {
+    "opType": "ResMan",
+    "rules": [
+      {
+        "tags": [
+          "db"
+        ],
+        "group": "resMan.db"
+      }
+    ]
+  },
+  {
+    "opType": "Control",
+    "rules": [
+      {
+        "tags": [
+          "loop"
+        ],
+        "group": "control.loop"
+      },
+      {
+        "tags": [
+          "condition"
+        ],
+        "group": "control.condition"
+      },
+      {
+        "tags": [
+          "logic"
+        ],
+        "group": "control.logic"
+      },
+      {
+        "tags": [
+          "ref"
+        ],
+        "group": "control.ref"
+      },
+      {
+        "tags": [
+          "pipeline"
+        ],
+        "group": "control.pipeline"
+      },
+      {
+        "tags": [
+          "env"
+        ],
+        "group": "control.env"
+      },
+      {
+        "tags": [
+          "engine"
+        ],
+        "group": "control.engine"
+      },
+      {
+        "tags": [
+          "speed"
+        ],
+        "group": "control.speed"
+      }
+    ]
+  },
+  {
+    "opType": "Analysis",
+    "rules": [
+      {
+        "tags": [
+          "clustering"
+        ],
+        "group": "analysis.clustering"
+      },
+      {
+        "tags": [
+          "classification"
+        ],
+        "group": "analysis.classification"
+      },
+      {
+        "tags": [
+          "regression"
+        ],
+        "group": "analysis.regression"
+      },
+      {
+        "tags": [
+          "timeSeries"
+        ],
+        "group": "analysis.timeSeries"
+      },
+      {
+        "tags": [
+          "evaluator"
+        ],
+        "group": "analysis.evaluator"
+      },
+      {
+        "tags": [
+          "validator"
+        ],
+        "group": "analysis.validator"
+      },
+      {
+        "tags": [
+          "predictor"
+        ],
+        "group": "analysis.predictor"
+      }
+    ]
+  },
+  {
+    "opType": "Action",
+    "rules": [
+      {
+        "tags": [
+          "db"
+        ],
+        "group": "action.db"
+      },
+      {
+        "tags": [
+          "web"
+        ],
+        "group": "action.web"
+      },
+      {
+        "tags": [
+          "data"
+        ],
+        "group": "action.data"
+      }
+    ]
+  }
+]
