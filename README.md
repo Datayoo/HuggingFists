@@ -25,27 +25,27 @@
 
 ## 系统简介
 
-### ![](/Users/foundation/数由/市场/文章/Hugging "Hugging Face"/归档/1.png)首页
+### ![](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/11.png)首页
 
 ​	用于宏观展示系统中各类资源及运行结果
 
-### ![2](/Users/foundation/数由/市场/文章/Hugging "Hugging Face"/归档/2.png)数据源
+### ![2](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/12.png)数据源
 
 ​	用于管理系统中读写可能涉及到的各类数据源。类型包括：数据库、文件系统以及应用等。使用者通过界面选取特定数据源类型，创建数据源实例。可通过数据源实例对数据源进行基本的浏览及管理功能。另外，输入/输出算子可引用数据源实例作为读取和写出的目标。
 
-### ![3](/Users/foundation/数由/市场/文章/Hugging "Hugging Face"/归档/3.png)流程管理
+### ![3](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/13.png)流程管理
 
 ​	用于设计、调试及管理面向业务的各种数据处理流程。使用者通过拖拽算子，连接端口，构建数据处理流程。一个数据处理流程可被理解为一段可以被执行的代码。有别于目前很多流行的数据处理与分析工具，HuggingFists系统的算子有明确的输入/输出端口来接入和写出数据集。每个输入端口都可以同时接入多个前置端口；每个输出端口也可以同时写出到多个后置的端口。点击端口可以获得数据的输入/输出结构，类似函数调用时，了解函数的输入与返回。另外，HuggingFists是少有的能够提供调试功能的低代码工具，可以点中端口完成断点设置，辅助流程逻辑的正确编写。还有诸如流程分支执行、函数调用、流程变量、上下文变量、参数变量等概念，辅助使用者完成复杂的数据处理流程编写。
 
-### ![4](/Users/foundation/数由/市场/文章/Hugging "Hugging Face"/归档/4.png)作业管理
+### ![4](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/14.png)作业管理
 
 ​	用于创建及调度流程作业，设置作业的执行周期，满足业务系统的生产需要。只能为正式发布的流程创建作业，没有被发布的流程被视作草稿态，无法安排作业调度计划。即时作业创建后立刻执行；定时作业创建后按指定的调度计划执行。作业每次调度时，产生一个任务，系统会留存任务执行的相关信息，如：日志、运行状态、输出结果等。
 
-### ![6](/Users/foundation/数由/市场/文章/Hugging "Hugging Face"/归档/6.png)环境管理
+### ![6](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/16.png)环境管理
 
 ​	用于管理系统运行所需要的资源环境，如：工作节点管理、服务设置管理等。工作节点管理管理作业运行时的资源，流程被派发到工作节点进行解释执行。支持在计算资源不足时，水平扩展为多个工作节点。服务设置管理提供Http代理的管理。
 
-### ![7](/Users/foundation/数由/市场/文章/Hugging "Hugging Face"/归档/7.png)资源管理
+### ![7](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/17.png)资源管理
 
 ​	用于管理系统中的各类数据制品资源，如：连接器管理、算子管理等。允许用户根据需求扩展连接器和算子。相关开发标准正在整理过程中。连接器用于实现与数据源的连接，每种类型的数据源都有一个或多个连接器的实现。有些情况下，需要为不同版本的数据源准备不同的连接器实现；算子用于实现不同的功能，类似编程语言的一个函数，使用者通过连接算子组成数据处理逻辑，完成的数据的处理。
 
@@ -61,27 +61,27 @@
 
 ​	其次，在HuggingFists右上角的个人信息->个人设置->资源账号中添加一个Hugging Face访问账号。进入资源账号界面后，选择添加资源账号，弹出如下的界面：
 
-<img src="/Users/foundation/数由/市场/文章/Hugging &quot;Hugging Face&quot;/归档/res_account.png" alt="image-20230921001554650" style="zoom: 33%;" />
+<img src="https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/res_account.png" alt="image-20230921001554650" style="zoom: 33%;" />
 
 选中Hugging Face类型，并将申请到的访问令牌填充进“访问token”输入框，填充完成后提交，创建成功。
 
 ​	有时候，我们可能处于一个内网环境，无法直接访问到Hugging Face网站，那么我们可以配置一个Http代理，以方便我们跨过局域网的限制。在HuggingFists系统中，进入“环境管理”->"服务配置"模块。点击“新建服务配置”，弹出如下界面：
 
-<img src="/Users/foundation/数由/市场/文章/Hugging &quot;Hugging Face&quot;/归档/svc_settings.png" alt="svc_settings" style="zoom:33%;" />
+<img src="https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/svc_settings.png" alt="svc_settings" style="zoom:33%;" />
 
 选中“网络Http代理服务”类型，填充代理相关信息，提交保存代理配置。
 
 ​	好，准备工作已经就绪，我们可以尝试使用Hugging Face算子来访问模型实现业务需求了。下面我们来看两个相关示例，一个是使用自然语言相关模型的例子；一个是使用图像相关模型的例子。先看使用自然语言相关模型的例子。
 
-![image-20230921110737524](/Users/foundation/数由/市场/文章/Hugging "Hugging Face"/归档/txt_flow.png)
+![image-20230921110737524](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/txt_flow.png)
 
-​	上图为一个读取互联网新闻，抽取新闻中的文本内容，然后对其进行文本摘要、文本情感分类以及命名实体识别三种作业任务的流程示例。秉持着无视频无真相的逻辑，各位看官如果想了解详细的操作流程和解读，可以点击“[玩转数据之低代码玩转HuggingFace](https://www.bilibili.com/video/BV1Ku4y1r72H/)”观看视频。图中红色框选部分为流程定义过程中可以使用的算子树；蓝色部分为流程的定义模板；绿色部分为算子的属性配置及帮助区。如图所示，选中一个Hugging Face的摘要提取算子后，右侧绿色框中显示了它的可配置属性和文档说明。属性部分的前两个框输入之前已经提前准备好的Http代理和Hugging Face账号。后面的参数框可根据算子帮助辅助完成设置。以此方式拖拽和定义完所有流程，就可以点击蓝色区域上侧的按钮调试或执行流程了。下面我们再看一个图像相关模型的例子。
+​	上图为一个读取互联网新闻，抽取新闻中的文本内容，然后对其进行文本摘要、文本情感分类以及命名实体识别三种作业任务的流程示例。图中红色框选部分为流程定义过程中可以使用的算子树；蓝色部分为流程的定义模板；绿色部分为算子的属性配置及帮助区。如图所示，选中一个Hugging Face的摘要提取算子后，右侧绿色框中显示了它的可配置属性和文档说明。属性部分的前两个框输入之前已经提前准备好的Http代理和Hugging Face账号。后面的参数框可根据算子帮助辅助完成设置。以此方式拖拽和定义完所有流程，就可以点击蓝色区域上侧的按钮调试或执行流程了。下面我们再看一个图像相关模型的例子。
 
-![image-20230921131732072](/Users/foundation/数由/市场/文章/Hugging "Hugging Face"/归档/img_flow.png)
+![image-20230921131732072](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/img_flow.png)
 
 ​	该示例同样可在上面提到的视频中看到详细的操作和讲解。其主要演示了对一张图片进行了物体识别、图像分割以及图像分类三种作业任务，涉及了三个不同的模型。
 
-​	以上示例中，我们演示了几个模型。但实际使用时，哪个模型效果比较好呢？这个问题我们也回答不了，需要使用者自己去查找和比较了。这也是我们做这个系统的初衷之一，让大家更方便的了解和挑选模型。
+​	以上示例中，演示了几个模型。但实际使用时，哪个模型效果比较好呢？需要使用者自己去查找和比较了。
 
 ### 如何访问本地化部署的Hugging Face模型
 
@@ -89,13 +89,13 @@
 
 ​	首先，我们选择一个希望本地部署的模型，然后选中模型的"Files and versions"页，如下图：
 
-![image-20230921135329469](/Users/foundation/数由/市场/文章/Hugging "Hugging Face"/归档/modelFiles.png)
+![image-20230921135329469](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/modelFiles.png)
 
  从图中我们可以看到模型相关的文件有很多，一般而言除了说明类文档，都是模型装载运行所需要的。所以，我们需要提前把所有相关的文件都下载本地，并将这些文件都存放在同一个文件夹下。由于Hugging Face没有提供文件的打包下载功能，所以目前只能手动，一个一个的下载(这是模型本地化部署最麻烦的地方)。
 
 ​	模型下载完成后，创建模型的应用流程。流程的创建过程及搭建方式与使用Inference API算子一致，唯一的差别是，当选择算子时，需要选择算子名中带有"Pte"部分的算子。这类算子支持模型的本地调用。"Pte"算子的种类超过Inference API算子，因为Hugging Face并不是为所有类型的任务都提供了Inference API。两种算子最大的差别如下：
 
-​	<img src="/Users/foundation/数由/市场/文章/Hugging &quot;Hugging Face&quot;/归档/op_pte.png" alt="image-20230921143501025" style="zoom: 50%;" />
+​	<img src="https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/op_pte.png" alt="image-20230921143501025" style="zoom: 50%;" />
 
 ​	图中可以看到在使用本地化部署的模型时，不再需要Http代理以及Hugging Face账号，取而代之的是选择一个本地的文件夹路径。文件夹内即为我们下载的模型。一般情况下，算子调用时不会再拉取其它文件，但笔者团队实验时发现，确实存在还要在运行时下载部分模型文件的情况。这种情况下，算子的启动速度就会被拖慢。另外还有两个属性Python脚本片段和计算设备值得注意。由于Hugging Face网站上的模型太多，有些模型在调用时会有细微差别，若存在无法正常启动模型的情况，可适当调整Python脚本片段确保模型可被正常加载执行。计算设备属性用于指定模型运行在本地计算机的哪个计算单元上，支持CPU和GPU两种计算单元。可以根据本地机器的情况设定该参数。算子的其它相关属性可参见算子说明进行配置。配置完成就可以驱动流程在本地使用模型了。
 
@@ -105,13 +105,13 @@
 
 ​	首先，在数据源功能模块中，选中应用程序Tab页，选中HuggingFace连接器创建HuggingFace数据源，并设置好访问账号与访问代理等配置。如下图：
 
-<img src="/Users/foundation/数由/市场/文章/Hugging &quot;Hugging Face&quot;/归档/create_connector.png" alt="create_connector" style="zoom:33%;" />
+<img src="https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/create_connector.png" alt="create_connector" style="zoom:33%;" />
 
 点击“提交”按钮后，会创建出一个HuggingFace数据源。可以通过点击“查看数据”按钮浏览数据源，挑选合适的数据集。
 
-![image-20231001162817148](/Users/foundation/数由/市场/文章/Hugging "Hugging Face"/归档/dataset.png)选中合适的数据集后，可以定义一个数据处理流程将数据集中的数据读出并存储到数据库或文件中。如下图流程，使用HuggingFaceReader读取数据集，并将其写入MySQL数据表，操作详情可参见视频“[玩转数据之低代码读取HuggingFace数据集](https://www.bilibili.com/video/BV1G84y1m79m/)“。
+![image-20231001162817148](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/dataset.png)选中合适的数据集后，可以定义一个数据处理流程将数据集中的数据读出并存储到数据库或文件中。
 
-![image-20231004092415115](/Users/foundation/数由/市场/文章/Hugging "Hugging Face"/归档/huggingfacereader.png)
+![image-20231004092415115](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/huggingfacereader.png)
 
 ## 学习资料
 
