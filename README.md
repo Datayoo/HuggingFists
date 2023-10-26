@@ -57,7 +57,7 @@
 
 ### 如何通过Inference API访问Hugging Face中的模型
 
-​	要想通过Inference API访问Hugging Face模型，首先需要在Hugging Face网站中注册一个账号。可通过以下的链接https://huggingface.co/join注册账号。注册成功后，通过界面右上角的个人信息->Settings->Access Tokens申请一个专属的访问令牌。
+​	要想通过Inference API访问Hugging Face模型，首先需要在Hugging Face网站中注册一个账号。可通过以下的链接https://huggingface.co/join 注册账号。注册成功后，通过界面右上角的个人信息->Settings->Access Tokens申请一个专属的访问令牌。
 
 ​	其次，在HuggingFists右上角的个人信息->个人设置->资源账号中添加一个Hugging Face访问账号。进入资源账号界面后，选择添加资源账号，弹出如下的界面：
 
