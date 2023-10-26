@@ -12,20 +12,20 @@
 
 ​	至少4核8G，系统使用Containerd容器，容器以及镜像会固定存放到/data目录下
 
-![](https://github.com/Datayoo/HuggingFists/upload/main/docs/imgs/1.png)
+![](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/1.png)
 
 ### 安装步骤
 
 - 从git上拉取工程文件 git clone https://github.com/Datayoo/HuggingFists.git
 - 进入sengee.community.linux,执行安装脚本 bash install.sh。
 
-![](https://github.com/Datayoo/HuggingFists/upload/main/docs/imgs/3.png)
+![](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/3.png)
 
-![](https://github.com/Datayoo/HuggingFists/upload/main/docs/imgs/4.png)
+![](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/4.png)
 
 ​	脚本执行结束后，可通过curl http://localhost:38172测试系统是否正确安装。安装结束后，可通过访问url地址：“http://服务器IP:38172” 打开工具使用界面。
 
-![](https://github.com/Datayoo/HuggingFists/upload/main/docs/imgs/5.png)
+![](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/5.png)
 
 
 
