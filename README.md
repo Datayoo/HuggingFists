@@ -23,7 +23,7 @@
 
 ![](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/4.png)
 
-​	脚本执行结束后，可通过curl http://localhost:38172测试系统是否正确安装。安装结束后，可通过访问url地址：“http://服务器IP:38172” 打开工具使用界面。
+​	脚本执行结束后，可通过curl http://localhost:38172 测试系统是否正确安装。安装结束后，可通过访问url地址：“http://服务器IP:38172” 打开工具使用界面。
 
 ![](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/5.png)
 
