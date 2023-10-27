@@ -3,8 +3,6 @@
 node_modules
 # Log file
 *.log
-data
-logs
 
 # BlueJ files
 *.ctxt
