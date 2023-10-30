@@ -32,6 +32,9 @@ systemctl start containerd
 systemctl stop containerd
 systemctl start containerd
 echo '装载镜像'
+cat ./images/mysql.tar.gz.* > ./images/mysql.tar.gz
+cat ./images/cal.tar.gz.* > ./images/cal.tar.gz
+
 nerdctl load -i ./images/mysql.tar.gz
 nerdctl load -i ./images/nginx.tar.gz
 nerdctl load -i ./images/server.tar.gz
