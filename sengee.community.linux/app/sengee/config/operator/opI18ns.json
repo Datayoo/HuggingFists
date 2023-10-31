@@ -1,0 +1,2347 @@
+[
+  {
+    "id": "ImageOilPainting",
+    "i18ns": {
+      "en_US": "ImageOilPainting",
+      "zh_CN": "油画"
+    }
+  },
+  {
+    "id": "FilterByLucene",
+    "i18ns": {
+      "en_US": "FilterByLucene",
+      "zh_CN": "Lucene语法过滤"
+    }
+  },
+  {
+    "id": "VideoExtractAudio",
+    "i18ns": {
+      "en_US": "VideoExtractAudio",
+      "zh_CN": "音频抽取"
+    }
+  },
+  {
+    "id": "FtpOutput",
+    "i18ns": {
+      "en_US": "FtpOutput",
+      "zh_CN": "FTP输出"
+    }
+  },
+  {
+    "id": "HuggingFacePteTextEmbedding",
+    "i18ns": {
+      "en_US": "HuggingFacePteTextEmbedding",
+      "zh_CN": "HuggingFace本地化文本Embedding"
+    }
+  },
+  {
+    "id": "HuggingFacePteTextClassification",
+    "i18ns": {
+      "en_US": "HuggingFacePteTextClassification",
+      "zh_CN": "HuggingFace本地化文本分类"
+    }
+  },
+  {
+    "id": "ImageAdjuster",
+    "i18ns": {
+      "en_US": "ImageAdjuster",
+      "zh_CN": "色度透明调整"
+    }
+  },
+  {
+    "id": "DM8Writer",
+    "i18ns": {
+      "en_US": "DM8Writer",
+      "zh_CN": "达梦8数据库写出"
+    }
+  },
+  {
+    "id": "RdbWriter",
+    "i18ns": {
+      "en_US": "RdbWriter",
+      "zh_CN": "关系数据库写出"
+    }
+  },
+  {
+    "id": "HiveConn",
+    "i18ns": {
+      "en_US": "HiveConn",
+      "zh_CN": "Hive连接"
+    }
+  },
+  {
+    "id": "Distinct",
+    "i18ns": {
+      "en_US": "Distinct",
+      "zh_CN": "去重"
+    }
+  },
+  {
+    "id": "SwitchController",
+    "i18ns": {
+      "en_US": "SwitchController",
+      "zh_CN": "Switch条件控制"
+    }
+  },
+  {
+    "id": "ValuesSet",
+    "i18ns": {
+      "en_US": "ValuesSet",
+      "zh_CN": "值设置"
+    }
+  },
+  {
+    "id": "CephOutput",
+    "i18ns": {
+      "en_US": "CephOutput",
+      "zh_CN": "Ceph输出"
+    }
+  },
+  {
+    "id": "TimeExtractor",
+    "i18ns": {
+      "en_US": "TimeExtractor",
+      "zh_CN": "时间抽取"
+    }
+  },
+  {
+    "id": "InputWrapper",
+    "i18ns": {
+      "en_US": "InputWrapper",
+      "zh_CN": "流输入转换器"
+    }
+  },
+  {
+    "id": "DBSCAN",
+    "i18ns": {
+      "en_US": "DBSCAN",
+      "zh_CN": "DBSCAN聚类"
+    }
+  },
+  {
+    "id": "PaddleOCRExtractor",
+    "i18ns": {
+      "en_US": "PaddleOCRExtractor",
+      "zh_CN": "飞浆OCR识别"
+    }
+  },
+  {
+    "id": "ImageRelief",
+    "i18ns": {
+      "en_US": "ImageRelief",
+      "zh_CN": "浮雕化"
+    }
+  },
+  {
+    "id": "HuggingFaceSpeechToText",
+    "i18ns": {
+      "en_US": "HuggingFaceSpeechToText",
+      "zh_CN": "HuggingFace语音识别"
+    }
+  },
+  {
+    "id": "ValuesExtract",
+    "i18ns": {
+      "en_US": "ValuesExtract",
+      "zh_CN": "值抽取"
+    }
+  },
+  {
+    "id": "OneHotEncoder",
+    "i18ns": {
+      "en_US": "OneHotEncoder",
+      "zh_CN": "独热编码"
+    }
+  },
+  {
+    "id": "OutputWrapper",
+    "i18ns": {
+      "en_US": "OutputWrapper",
+      "zh_CN": "流输出转换器"
+    }
+  },
+  {
+    "id": "S3Output",
+    "i18ns": {
+      "en_US": "S3Output",
+      "zh_CN": "Amazon输出"
+    }
+  },
+  {
+    "id": "TushareReader",
+    "i18ns": {
+      "en_US": "TushareReader",
+      "zh_CN": "Tushare应用读取"
+    }
+  },
+  {
+    "id": "ProtoBufReader",
+    "i18ns": {
+      "en_US": "ProtoBufReader",
+      "zh_CN": "ProtoBuf读取"
+    }
+  },
+  {
+    "id": "MungedWordsSplitter",
+    "i18ns": {
+      "en_US": "MungedWordsSplitter",
+      "zh_CN": "粘着词拆分"
+    }
+  },
+  {
+    "id": "PrivacyAggregate",
+    "i18ns": {
+      "en_US": "PrivacyAggregate",
+      "zh_CN": "差分隐私聚合"
+    }
+  },
+  {
+    "id": "MySQLReader",
+    "i18ns": {
+      "en_US": "MySQLReader",
+      "zh_CN": "MySQL读取"
+    }
+  },
+  {
+    "id": "XmlFlatter",
+    "i18ns": {
+      "en_US": "XmlFlatter",
+      "zh_CN": "Xml扁平化"
+    }
+  },
+  {
+    "id": "PostgreSQLReader",
+    "i18ns": {
+      "en_US": "PostgreSQLReader",
+      "zh_CN": "PostgreSQL读取"
+    }
+  },
+  {
+    "id": "HuggingFacePteTextToSpeech",
+    "i18ns": {
+      "en_US": "HuggingFacePteTextToSpeech",
+      "zh_CN": "HuggingFace本地化文本转语音"
+    }
+  },
+  {
+    "id": "MySQLWriter",
+    "i18ns": {
+      "en_US": "MySQLWriter",
+      "zh_CN": "MySQL写出"
+    }
+  },
+  {
+    "id": "EqualWidthDiscretizer",
+    "i18ns": {
+      "en_US": "EqualWidthDiscretizer",
+      "zh_CN": "等宽分档离散"
+    }
+  },
+  {
+    "id": "HuggingFacePteImageToImage",
+    "i18ns": {
+      "en_US": "HuggingFacePteImageToImage",
+      "zh_CN": "HuggingFace本地化图生图"
+    }
+  },
+  {
+    "id": "FileInput",
+    "i18ns": {
+      "en_US": "FileInput",
+      "zh_CN": "文件输入"
+    }
+  },
+  {
+    "id": "StreamCopyer",
+    "i18ns": {
+      "en_US": "StreamCopyer",
+      "zh_CN": "流复制"
+    }
+  },
+  {
+    "id": "SplitBestModelTrainer",
+    "i18ns": {
+      "en_US": "SplitBestModelTrainer",
+      "zh_CN": "最优模型训练器"
+    }
+  },
+  {
+    "id": "Union",
+    "i18ns": {
+      "en_US": "Union",
+      "zh_CN": "并集"
+    }
+  },
+  {
+    "id": "KafkaOutput",
+    "i18ns": {
+      "en_US": "KafkaOutput",
+      "zh_CN": "Kafka输出"
+    }
+  },
+  {
+    "id": "AlluxioOutputs",
+    "i18ns": {
+      "en_US": "AlluxioOutputs",
+      "zh_CN": "Alluxio批量输出"
+    }
+  },
+  {
+    "id": "StructureBlockParser",
+    "i18ns": {
+      "en_US": "StructureBlockParser",
+      "zh_CN": "文本块结构化解析"
+    }
+  },
+  {
+    "id": "PostgreSQLWriter",
+    "i18ns": {
+      "en_US": "PostgreSQLWriter",
+      "zh_CN": "PostgreSQL写出"
+    }
+  },
+  {
+    "id": "HuggingFaceTextTranslation",
+    "i18ns": {
+      "en_US": "HuggingFaceTextTranslation",
+      "zh_CN": "HuggingFace文本翻译"
+    }
+  },
+  {
+    "id": "UrlEncode",
+    "i18ns": {
+      "en_US": "UrlEncode",
+      "zh_CN": "URL编码"
+    }
+  },
+  {
+    "id": "PhnumExtractor",
+    "i18ns": {
+      "en_US": "PhnumExtractor",
+      "zh_CN": "电话号码抽取"
+    }
+  },
+  {
+    "id": "MongoDBWriter",
+    "i18ns": {
+      "en_US": "MongoDBWriter",
+      "zh_CN": "Mongo数据库写出"
+    }
+  },
+  {
+    "id": "AzureOutputs",
+    "i18ns": {
+      "en_US": "AzureOutputs",
+      "zh_CN": "Azure批量输出"
+    }
+  },
+  {
+    "id": "UnixCryptHash",
+    "i18ns": {
+      "en_US": "UnixCryptHash",
+      "zh_CN": "UNIX加密哈希"
+    }
+  },
+  {
+    "id": "S3Outputs",
+    "i18ns": {
+      "en_US": "S3Outputs",
+      "zh_CN": "Amazon批量输出"
+    }
+  },
+  {
+    "id": "HiveWriter",
+    "i18ns": {
+      "en_US": "HiveWriter",
+      "zh_CN": "Hive写出"
+    }
+  },
+  {
+    "id": "TiDBWriter",
+    "i18ns": {
+      "en_US": "TiDBWriter",
+      "zh_CN": "TiDB写出"
+    }
+  },
+  {
+    "id": "TransformerModelInput",
+    "i18ns": {
+      "en_US": "TransformerModelInput",
+      "zh_CN": "值转换模型输入"
+    }
+  },
+  {
+    "id": "PaddleRelationExtractor",
+    "i18ns": {
+      "en_US": "PaddleRelationExtractor",
+      "zh_CN": "Paddle关系抽取"
+    }
+  },
+  {
+    "id": "DB2Conn",
+    "i18ns": {
+      "en_US": "DB2Conn",
+      "zh_CN": "DB2连接"
+    }
+  },
+  {
+    "id": "RenameColumnsByPattern",
+    "i18ns": {
+      "en_US": "RenameColumnsByPattern",
+      "zh_CN": "基于模式重命名列"
+    }
+  },
+  {
+    "id": "MdHash",
+    "i18ns": {
+      "en_US": "MdHash",
+      "zh_CN": "消息散列哈希"
+    }
+  },
+  {
+    "id": "RdbConn",
+    "i18ns": {
+      "en_US": "RdbConn",
+      "zh_CN": "关系数据库连接"
+    }
+  },
+  {
+    "id": "OperandAction",
+    "i18ns": {
+      "en_US": "OperandAction",
+      "zh_CN": "操作数方法调用"
+    }
+  },
+  {
+    "id": "COSInput",
+    "i18ns": {
+      "en_US": "COSInput",
+      "zh_CN": "腾讯云输入"
+    }
+  },
+  {
+    "id": "ImplictSampling",
+    "i18ns": {
+      "en_US": "ImplictSampling",
+      "zh_CN": "ignore"
+    }
+  },
+  {
+    "id": "MongoDBReader",
+    "i18ns": {
+      "en_US": "MongoDBReader",
+      "zh_CN": "MongoDB读取"
+    }
+  },
+  {
+    "id": "ValuesCut",
+    "i18ns": {
+      "en_US": "ValuesCut",
+      "zh_CN": "值剪切"
+    }
+  },
+  {
+    "id": "RowSplitterByPattern",
+    "i18ns": {
+      "en_US": "RowSplitterByPattern",
+      "zh_CN": "基于模式行拆分"
+    }
+  },
+  {
+    "id": "Aggregate",
+    "i18ns": {
+      "en_US": "Aggregate",
+      "zh_CN": "聚合"
+    }
+  },
+  {
+    "id": "HuggingFacePteImageSegmentation",
+    "i18ns": {
+      "en_US": "HuggingFacePteImageSegmentation",
+      "zh_CN": "HuggingFace本地化图像切分"
+    }
+  },
+  {
+    "id": "ProtoBufWriter",
+    "i18ns": {
+      "en_US": "ProtoBufWriter",
+      "zh_CN": "ProtoBuf写出"
+    }
+  },
+  {
+    "id": "CLARANS",
+    "i18ns": {
+      "en_US": "CLARANS",
+      "zh_CN": "基于随机选择的聚类"
+    }
+  },
+  {
+    "id": "ClearWaterMarkVariable",
+    "i18ns": {
+      "en_US": "ClearWaterMarkVariable",
+      "zh_CN": "清除水位线变量"
+    }
+  },
+  {
+    "id": "MilvusReader",
+    "i18ns": {
+      "en_US": "MilvusReader",
+      "zh_CN": "Milvus读取"
+    }
+  },
+  {
+    "id": "RidgeRegression",
+    "i18ns": {
+      "en_US": "RidgeRegression",
+      "zh_CN": "岭回归"
+    }
+  },
+  {
+    "id": "ImageRegion",
+    "i18ns": {
+      "en_US": "ImageRegion",
+      "zh_CN": "图片区域截取"
+    }
+  },
+  {
+    "id": "HuggingFacePteTextToImage",
+    "i18ns": {
+      "en_US": "HuggingFacePteTextToImage",
+      "zh_CN": "HuggingFace本地化图生成"
+    }
+  },
+  {
+    "id": "HuggingFacePteConversation",
+    "i18ns": {
+      "en_US": "HuggingFacePteConversation",
+      "zh_CN": "HuggingFace本地化对话"
+    }
+  },
+  {
+    "id": "JavaCRC",
+    "i18ns": {
+      "en_US": "JavaCRC",
+      "zh_CN": "Java循环校验码"
+    }
+  },
+  {
+    "id": "LogicNotGate",
+    "i18ns": {
+      "en_US": "LogicNotGate",
+      "zh_CN": "逻辑非"
+    }
+  },
+  {
+    "id": "HtmlExtractor",
+    "i18ns": {
+      "en_US": "HtmlExtractor",
+      "zh_CN": "Html内容抽取"
+    }
+  },
+  {
+    "id": "S3Input",
+    "i18ns": {
+      "en_US": "S3Input",
+      "zh_CN": "Amazon输入"
+    }
+  },
+  {
+    "id": "JoinWithRight",
+    "i18ns": {
+      "en_US": "JoinWithRight",
+      "zh_CN": "基于右侧字典集合的连接"
+    }
+  },
+  {
+    "id": "FtpInput",
+    "i18ns": {
+      "en_US": "FtpInput",
+      "zh_CN": "FTP输入"
+    }
+  },
+  {
+    "id": "HuggingFaceTextClassification",
+    "i18ns": {
+      "en_US": "HuggingFaceTextClassification",
+      "zh_CN": "HuggingFace文本分类"
+    }
+  },
+  {
+    "id": "SybaseReader",
+    "i18ns": {
+      "en_US": "SybaseReader",
+      "zh_CN": "Sybase读取"
+    }
+  },
+  {
+    "id": "LinearSVM",
+    "i18ns": {
+      "en_US": "LinearSVM",
+      "zh_CN": "线性支持向量机"
+    }
+  },
+  {
+    "id": "GCSInput",
+    "i18ns": {
+      "en_US": "GCSInput",
+      "zh_CN": "谷歌云输入"
+    }
+  },
+  {
+    "id": "SnowflakeConn",
+    "i18ns": {
+      "en_US": "SnowflakeConn",
+      "zh_CN": "Snowflake连接"
+    }
+  },
+  {
+    "id": "RdbReader",
+    "i18ns": {
+      "en_US": "RdbReader",
+      "zh_CN": "关系数据库读取"
+    }
+  },
+  {
+    "id": "DM8Reader",
+    "i18ns": {
+      "en_US": "DM8Reader",
+      "zh_CN": "达梦8数据库读取"
+    }
+  },
+  {
+    "id": "HuggingFaceConversation",
+    "i18ns": {
+      "en_US": "HuggingFaceConversation",
+      "zh_CN": "HuggingFace对话"
+    }
+  },
+  {
+    "id": "BaiduPanOutputs",
+    "i18ns": {
+      "en_US": "BaiduPanOutputs",
+      "zh_CN": "百度盘批量输出"
+    }
+  },
+  {
+    "id": "ModelOutput",
+    "i18ns": {
+      "en_US": "ModelOutput",
+      "zh_CN": "模型输出"
+    }
+  },
+  {
+    "id": "ImageGrayScale",
+    "i18ns": {
+      "en_US": "ImageGrayScale",
+      "zh_CN": "图像灰度处理"
+    }
+  },
+  {
+    "id": "ParagraphsExtractor",
+    "i18ns": {
+      "en_US": "ParagraphsExtractor",
+      "zh_CN": "按段落分割文本"
+    }
+  },
+  {
+    "id": "DorisWriter",
+    "i18ns": {
+      "en_US": "DorisWriter",
+      "zh_CN": "Doris写出"
+    }
+  },
+  {
+    "id": "RowTransposition",
+    "i18ns": {
+      "en_US": "RowTransposition",
+      "zh_CN": "行列转换"
+    }
+  },
+  {
+    "id": "ShodanReader",
+    "i18ns": {
+      "en_US": "ShodanReader",
+      "zh_CN": "Shodan应用读取"
+    }
+  },
+  {
+    "id": "OpenCVBlindWatermark",
+    "i18ns": {
+      "en_US": "OpenCVBlindWatermark",
+      "zh_CN": "隐水印"
+    }
+  },
+  {
+    "id": "TikTokenTextMerger",
+    "i18ns": {
+      "en_US": "TikTokenTextMerger",
+      "zh_CN": "基于TikeToken的文本合并"
+    }
+  },
+  {
+    "id": "OperandActionByCondition",
+    "i18ns": {
+      "en_US": "OperandActionByCondition",
+      "zh_CN": "基于条件的操作数方法调用"
+    }
+  },
+  {
+    "id": "XmlReader",
+    "i18ns": {
+      "en_US": "XmlReader",
+      "zh_CN": "Xml读取"
+    }
+  },
+  {
+    "id": "IteractiveController",
+    "i18ns": {
+      "en_US": "IteractiveController",
+      "zh_CN": "迭代控制器"
+    }
+  },
+  {
+    "id": "LassoRegression",
+    "i18ns": {
+      "en_US": "LassoRegression",
+      "zh_CN": "Lasso回归"
+    }
+  },
+  {
+    "id": "HuggingFacePteTextGenerator",
+    "i18ns": {
+      "en_US": "HuggingFacePteTextGenerator",
+      "zh_CN": "HuggingFace本地化文本生成"
+    }
+  },
+  {
+    "id": "MurmurHash",
+    "i18ns": {
+      "en_US": "MurmurHash",
+      "zh_CN": "Murmur哈希"
+    }
+  },
+  {
+    "id": "HdfsOutput",
+    "i18ns": {
+      "en_US": "HdfsOutput",
+      "zh_CN": "HDFS输出"
+    }
+  },
+  {
+    "id": "AzureOutput",
+    "i18ns": {
+      "en_US": "AzureOutput",
+      "zh_CN": "Azure输出"
+    }
+  },
+  {
+    "id": "HuggingFaceImageSegmentation",
+    "i18ns": {
+      "en_US": "HuggingFaceImageSegmentation",
+      "zh_CN": "HuggingFace图像切分"
+    }
+  },
+  {
+    "id": "TikTokenTextSplitter",
+    "i18ns": {
+      "en_US": "TikTokenTextSplitter",
+      "zh_CN": "基于TikToken的文本分割"
+    }
+  },
+  {
+    "id": "KFoldBestModelTrainer",
+    "i18ns": {
+      "en_US": "KFoldBestModelTrainer",
+      "zh_CN": "K折最优模型训练器"
+    }
+  },
+  {
+    "id": "HuggingFacePteTextZeroShotClassification",
+    "i18ns": {
+      "en_US": "HuggingFacePteTextZeroShotClassification",
+      "zh_CN": "HuggingFace零样本文本分类"
+    }
+  },
+  {
+    "id": "ValuesSetByCondition",
+    "i18ns": {
+      "en_US": "ValuesSetByCondition",
+      "zh_CN": "基于条件的值设置"
+    }
+  },
+  {
+    "id": "HuggingFaceTextGenerator",
+    "i18ns": {
+      "en_US": "HuggingFaceTextGenerator",
+      "zh_CN": "HuggingFace文本生成"
+    }
+  },
+  {
+    "id": "ObjectFlatter",
+    "i18ns": {
+      "en_US": "ObjectFlatter",
+      "zh_CN": "对象结构映射"
+    }
+  },
+  {
+    "id": "ColumnsMapper",
+    "i18ns": {
+      "en_US": "ColumnsMapper",
+      "zh_CN": "列映射"
+    }
+  },
+  {
+    "id": "ClickHouseReader",
+    "i18ns": {
+      "en_US": "ClickHouseReader",
+      "zh_CN": "ClickHouse读取"
+    }
+  },
+  {
+    "id": "JobReference",
+    "i18ns": {
+      "en_US": "JobReference",
+      "zh_CN": "作业引用"
+    }
+  },
+  {
+    "id": "HuggingFacePteTokenClassification",
+    "i18ns": {
+      "en_US": "HuggingFacePteTokenClassification",
+      "zh_CN": "HuggingFace标记分类"
+    }
+  },
+  {
+    "id": "GitHubReader",
+    "i18ns": {
+      "en_US": "GitHubReader",
+      "zh_CN": "GitHub应用读取"
+    }
+  },
+  {
+    "id": "Complement",
+    "i18ns": {
+      "en_US": "Complement",
+      "zh_CN": "补集"
+    }
+  },
+  {
+    "id": "ChainOperator",
+    "i18ns": {
+      "en_US": "ChainOperator",
+      "zh_CN": "链算子"
+    }
+  },
+  {
+    "id": "LogicOrGate",
+    "i18ns": {
+      "en_US": "LogicOrGate",
+      "zh_CN": "逻辑或"
+    }
+  },
+  {
+    "id": "FileOutput",
+    "i18ns": {
+      "en_US": "FileOutput",
+      "zh_CN": "文件输出"
+    }
+  },
+  {
+    "id": "OpenCVImageResize",
+    "i18ns": {
+      "en_US": "OpenCVImageResize",
+      "zh_CN": "基于OpenCV的图片缩放"
+    }
+  },
+  {
+    "id": "MLPClassification",
+    "i18ns": {
+      "en_US": "MLPClassification",
+      "zh_CN": "多层感知机分类"
+    }
+  },
+  {
+    "id": "CommonPrompt",
+    "i18ns": {
+      "en_US": "CommonPrompt",
+      "zh_CN": "大语言模型提示"
+    }
+  },
+  {
+    "id": "NaiveBayes",
+    "i18ns": {
+      "en_US": "NaiveBayes",
+      "zh_CN": "朴素贝叶斯分类"
+    }
+  },
+  {
+    "id": "ModelTransformer",
+    "i18ns": {
+      "en_US": "ModelTransformer",
+      "zh_CN": "基于模型预处理"
+    }
+  },
+  {
+    "id": "GMeans",
+    "i18ns": {
+      "en_US": "GMeans",
+      "zh_CN": "G均值聚类"
+    }
+  },
+  {
+    "id": "HuggingFaceAudioClassification",
+    "i18ns": {
+      "en_US": "HuggingFaceAudioClassification",
+      "zh_CN": "HuggingFace语音分类"
+    }
+  },
+  {
+    "id": "SQLServerConn",
+    "i18ns": {
+      "en_US": "SQLServerConn",
+      "zh_CN": "SQLServer连接"
+    }
+  },
+  {
+    "id": "GridFsOutput",
+    "i18ns": {
+      "en_US": "GridFsOutput",
+      "zh_CN": "GridFs输出"
+    }
+  },
+  {
+    "id": "InteractionGenerator",
+    "i18ns": {
+      "en_US": "InteractionGenerator",
+      "zh_CN": "交互式数据输入"
+    }
+  },
+  {
+    "id": "JsonReader",
+    "i18ns": {
+      "en_US": "JsonReader",
+      "zh_CN": "Json读取"
+    }
+  },
+  {
+    "id": "ImageDecoloring",
+    "i18ns": {
+      "en_US": "ImageDecoloring",
+      "zh_CN": "去色"
+    }
+  },
+  {
+    "id": "AzureInput",
+    "i18ns": {
+      "en_US": "AzureInput",
+      "zh_CN": "Azure输入"
+    }
+  },
+  {
+    "id": "ClassificationEvaluator",
+    "i18ns": {
+      "en_US": "ClassificationEvaluator",
+      "zh_CN": "分类算法评估"
+    }
+  },
+  {
+    "id": "CsvWriter",
+    "i18ns": {
+      "en_US": "CsvWriter",
+      "zh_CN": "CSV写出"
+    }
+  },
+  {
+    "id": "ClusteringEvaluator",
+    "i18ns": {
+      "en_US": "ClusteringEvaluator",
+      "zh_CN": "聚类评估"
+    }
+  },
+  {
+    "id": "OSSInput",
+    "i18ns": {
+      "en_US": "OSSInput",
+      "zh_CN": "阿里云输入"
+    }
+  },
+  {
+    "id": "EsWriter",
+    "i18ns": {
+      "en_US": "EsWriter",
+      "zh_CN": "Elasticsearch写出"
+    }
+  },
+  {
+    "id": "QuantileDiscretizer",
+    "i18ns": {
+      "en_US": "QuantileDiscretizer",
+      "zh_CN": "分位分档离散"
+    }
+  },
+  {
+    "id": "ValuesReplace",
+    "i18ns": {
+      "en_US": "ValuesReplace",
+      "zh_CN": "文本替换"
+    }
+  },
+  {
+    "id": "HuggingFacePteImageVitClassification",
+    "i18ns": {
+      "en_US": "HuggingFacePteImageVitClassification",
+      "zh_CN": "HuggingFace本地化Vit模型图像分类"
+    }
+  },
+  {
+    "id": "Filter",
+    "i18ns": {
+      "en_US": "Filter",
+      "zh_CN": "过滤"
+    }
+  },
+  {
+    "id": "SQLServerWriter",
+    "i18ns": {
+      "en_US": "SQLServerWriter",
+      "zh_CN": "SQLServer写出"
+    }
+  },
+  {
+    "id": "XmlizeHtml",
+    "i18ns": {
+      "en_US": "XmlizeHtml",
+      "zh_CN": "Html转XML"
+    }
+  },
+  {
+    "id": "FileTypeRecognizer",
+    "i18ns": {
+      "en_US": "FileTypeRecognizer",
+      "zh_CN": "文件类型识别"
+    }
+  },
+  {
+    "id": "SnowflakeWriter",
+    "i18ns": {
+      "en_US": "SnowflakeWriter",
+      "zh_CN": "Snowflake写出"
+    }
+  },
+  {
+    "id": "FileOutputs",
+    "i18ns": {
+      "en_US": "FileOutputs",
+      "zh_CN": "批量文件输出"
+    }
+  },
+  {
+    "id": "BaiduTranslator",
+    "i18ns": {
+      "en_US": "BaiduTranslator",
+      "zh_CN": "百度翻译"
+    }
+  },
+  {
+    "id": "HdfsInput",
+    "i18ns": {
+      "en_US": "HdfsInput",
+      "zh_CN": "HDFS输入"
+    }
+  },
+  {
+    "id": "OracleWriter",
+    "i18ns": {
+      "en_US": "OracleWriter",
+      "zh_CN": "Oracle写出"
+    }
+  },
+  {
+    "id": "FlinkSQLQuery",
+    "i18ns": {
+      "en_US": "FlinkSQLQuery",
+      "zh_CN": "FlinkSQL查询器"
+    }
+  },
+  {
+    "id": "GCSOutputs",
+    "i18ns": {
+      "en_US": "GCSOutputs",
+      "zh_CN": "谷歌云批量输出"
+    }
+  },
+  {
+    "id": "OpenAIEntityExtractor",
+    "i18ns": {
+      "en_US": "OpenAIEntityExtractor",
+      "zh_CN": "OpenAI实体抽取器"
+    }
+  },
+  {
+    "id": "XXHash",
+    "i18ns": {
+      "en_US": "XXHash",
+      "zh_CN": "XX哈希"
+    }
+  },
+  {
+    "id": "HuggingFacePteImageEmbedding",
+    "i18ns": {
+      "en_US": "HuggingFacePteImageEmbedding",
+      "zh_CN": "HuggingFace图像Embedding"
+    }
+  },
+  {
+    "id": "MySQLDataCleaner",
+    "i18ns": {
+      "en_US": "MySQLDataCleaner",
+      "zh_CN": "MySQL表数据清除"
+    }
+  },
+  {
+    "id": "SdApiImageGenerator",
+    "i18ns": {
+      "en_US": "SdApiImageGenerator",
+      "zh_CN": "StableDiffusion图生成"
+    }
+  },
+  {
+    "id": "SybaseWriter",
+    "i18ns": {
+      "en_US": "SybaseWriter",
+      "zh_CN": "Sybase写出"
+    }
+  },
+  {
+    "id": "FastDFSReader",
+    "i18ns": {
+      "en_US": "FastDFSReader",
+      "zh_CN": "FastDFS读取器"
+    }
+  },
+  {
+    "id": "ExcelReader",
+    "i18ns": {
+      "en_US": "ExcelReader",
+      "zh_CN": "Excel读取"
+    }
+  },
+  {
+    "id": "FeatureHasher",
+    "i18ns": {
+      "en_US": "FeatureHasher",
+      "zh_CN": "特征哈希"
+    }
+  },
+  {
+    "id": "FtpOutputs",
+    "i18ns": {
+      "en_US": "FtpOutputs",
+      "zh_CN": "FTP批量输出"
+    }
+  },
+  {
+    "id": "ElasticNetRegression",
+    "i18ns": {
+      "en_US": "ElasticNetRegression",
+      "zh_CN": "ElasticNet回归"
+    }
+  },
+  {
+    "id": "AesDecode",
+    "i18ns": {
+      "en_US": "AesDecode",
+      "zh_CN": "AES解码"
+    }
+  },
+  {
+    "id": "VisioConvertor",
+    "i18ns": {
+      "en_US": "VisioConvertor",
+      "zh_CN": "Visio文件转换器"
+    }
+  },
+  {
+    "id": "Binarizer",
+    "i18ns": {
+      "en_US": "Binarizer",
+      "zh_CN": "二值化"
+    }
+  },
+  {
+    "id": "ChiSquareSelector",
+    "i18ns": {
+      "en_US": "ChiSquareSelector",
+      "zh_CN": "卡方筛选"
+    }
+  },
+  {
+    "id": "HuggingFacePteImageToText",
+    "i18ns": {
+      "en_US": "HuggingFacePteImageToText",
+      "zh_CN": "HuggingFace本地化图像转文字"
+    }
+  },
+  {
+    "id": "HuggingFaceImageClassification",
+    "i18ns": {
+      "en_US": "HuggingFaceImageClassification",
+      "zh_CN": "HuggingFace图像分类"
+    }
+  },
+  {
+    "id": "TextSplit",
+    "i18ns": {
+      "en_US": "TextSplit",
+      "zh_CN": "按块尺寸分割文本"
+    }
+  },
+  {
+    "id": "OpenCVExtractWatermark",
+    "i18ns": {
+      "en_US": "OpenCVExtractWatermark",
+      "zh_CN": "隐水印抽取"
+    }
+  },
+  {
+    "id": "GridFsInput",
+    "i18ns": {
+      "en_US": "GridFsInput",
+      "zh_CN": "GridFs文件输入"
+    }
+  },
+  {
+    "id": "GridFsOutputs",
+    "i18ns": {
+      "en_US": "GridFsOutputs",
+      "zh_CN": "批量GridFs输出"
+    }
+  },
+  {
+    "id": "DB2Writer",
+    "i18ns": {
+      "en_US": "DB2Writer",
+      "zh_CN": "DB2写出"
+    }
+  },
+  {
+    "id": "HuggingFacePteVideoClassification",
+    "i18ns": {
+      "en_US": "HuggingFacePteVideoClassification",
+      "zh_CN": "HuggingFace本地化视频分类"
+    }
+  },
+  {
+    "id": "ImageMosaic",
+    "i18ns": {
+      "en_US": "ImageMosaic",
+      "zh_CN": "马赛克"
+    }
+  },
+  {
+    "id": "OpenAIWhisper",
+    "i18ns": {
+      "en_US": "OpenAIWhisper",
+      "zh_CN": "OpenAI语音识别"
+    }
+  },
+  {
+    "id": "BaiduOASRecognizer",
+    "i18ns": {
+      "en_US": "BaiduOASRecognizer",
+      "zh_CN": "百度物体与场景识别"
+    }
+  },
+  {
+    "id": "BaiduPanInput",
+    "i18ns": {
+      "en_US": "BaiduPanInput",
+      "zh_CN": "百度盘输入"
+    }
+  },
+  {
+    "id": "ValuesTrim",
+    "i18ns": {
+      "en_US": "ValuesTrim",
+      "zh_CN": "值修剪"
+    }
+  },
+  {
+    "id": "AcdaSegmenter",
+    "i18ns": {
+      "en_US": "AcdaSegmenter",
+      "zh_CN": "基于AC自动机的分词器"
+    }
+  },
+  {
+    "id": "Imputer",
+    "i18ns": {
+      "en_US": "Imputer",
+      "zh_CN": "缺失值填充"
+    }
+  },
+  {
+    "id": "HuggingFaceImageDetection",
+    "i18ns": {
+      "en_US": "HuggingFaceImageDetection",
+      "zh_CN": "HuggingFace对象识别"
+    }
+  },
+  {
+    "id": "LocalOutput",
+    "i18ns": {
+      "en_US": "LocalOutput",
+      "zh_CN": "本地输出"
+    }
+  },
+  {
+    "id": "HuggingFacePteImageTransClassification",
+    "i18ns": {
+      "en_US": "HuggingFacePteImageTransClassification",
+      "zh_CN": "HuggingFace图像分类"
+    }
+  },
+  {
+    "id": "AddWaterMarkVariable",
+    "i18ns": {
+      "en_US": "AddWaterMarkVariable",
+      "zh_CN": "设置水位线变量"
+    }
+  },
+  {
+    "id": "PostgreSQLConn",
+    "i18ns": {
+      "en_US": "PostgreSQLConn",
+      "zh_CN": "PostgreSQL连接"
+    }
+  },
+  {
+    "id": "AddColumns",
+    "i18ns": {
+      "en_US": "AddColumns",
+      "zh_CN": "列添加"
+    }
+  },
+  {
+    "id": "AnsjSegmenter",
+    "i18ns": {
+      "en_US": "AnsjSegmenter",
+      "zh_CN": "Ansj分词"
+    }
+  },
+  {
+    "id": "DataGenerator",
+    "i18ns": {
+      "en_US": "DataGenerator",
+      "zh_CN": "数据生成器"
+    }
+  },
+  {
+    "id": "DorisReader",
+    "i18ns": {
+      "en_US": "DorisReader",
+      "zh_CN": "Doris读取"
+    }
+  },
+  {
+    "id": "FilterByLineNo",
+    "i18ns": {
+      "en_US": "FilterByLineNo",
+      "zh_CN": "基于行号过滤"
+    }
+  },
+  {
+    "id": "MinMaxScaler",
+    "i18ns": {
+      "en_US": "MinMaxScaler",
+      "zh_CN": "最值归一化"
+    }
+  },
+  {
+    "id": "AesEncode",
+    "i18ns": {
+      "en_US": "AesEncode",
+      "zh_CN": "AES编码"
+    }
+  },
+  {
+    "id": "XmlWriter",
+    "i18ns": {
+      "en_US": "XmlWriter",
+      "zh_CN": "Xml写出"
+    }
+  },
+  {
+    "id": "BotuScript",
+    "i18ns": {
+      "en_US": "BotuScript",
+      "zh_CN": "Botu脚本"
+    }
+  },
+  {
+    "id": "XMeans",
+    "i18ns": {
+      "en_US": "XMeans",
+      "zh_CN": "X均值聚类"
+    }
+  },
+  {
+    "id": "AvroReader",
+    "i18ns": {
+      "en_US": "AvroReader",
+      "zh_CN": "Avro读取"
+    }
+  },
+  {
+    "id": "LogicAndGate",
+    "i18ns": {
+      "en_US": "LogicAndGate",
+      "zh_CN": "逻辑与"
+    }
+  },
+  {
+    "id": "LocalOutputs",
+    "i18ns": {
+      "en_US": "LocalOutputs",
+      "zh_CN": "本地文件输出"
+    }
+  },
+  {
+    "id": "ImageResize",
+    "i18ns": {
+      "en_US": "ImageResize",
+      "zh_CN": "图片缩放"
+    }
+  },
+  {
+    "id": "KafkaInput",
+    "i18ns": {
+      "en_US": "KafkaInput",
+      "zh_CN": "Kafka输入"
+    }
+  },
+  {
+    "id": "WordImageExtractor",
+    "i18ns": {
+      "en_US": "WordImageExtractor",
+      "zh_CN": "抽取WORD中的图片"
+    }
+  },
+  {
+    "id": "ModelPredictor",
+    "i18ns": {
+      "en_US": "ModelPredictor",
+      "zh_CN": "模型预测"
+    }
+  },
+  {
+    "id": "EstimatorPipeline",
+    "i18ns": {
+      "en_US": "EstimatorPipeline",
+      "zh_CN": "评估器管道"
+    }
+  },
+  {
+    "id": "SFtpOutput",
+    "i18ns": {
+      "en_US": "SFtpOutput",
+      "zh_CN": "SFTP输出"
+    }
+  },
+  {
+    "id": "BinningDiscretizer",
+    "i18ns": {
+      "en_US": "BinningDiscretizer",
+      "zh_CN": "特征分桶"
+    }
+  },
+  {
+    "id": "OpenAIAudioTranscription",
+    "i18ns": {
+      "en_US": "OpenAIAudioTranscription",
+      "zh_CN": "OpenAI语音识别"
+    }
+  },
+  {
+    "id": "AlluxioOutput",
+    "i18ns": {
+      "en_US": "AlluxioOutput",
+      "zh_CN": "Alluxio输出"
+    }
+  },
+  {
+    "id": "OlsRegression",
+    "i18ns": {
+      "en_US": "OlsRegression",
+      "zh_CN": "最小二乘回归"
+    }
+  },
+  {
+    "id": "HttpDownloader",
+    "i18ns": {
+      "en_US": "HttpDownloader",
+      "zh_CN": "页面下载器"
+    }
+  },
+  {
+    "id": "StandardScaler",
+    "i18ns": {
+      "en_US": "StandardScaler",
+      "zh_CN": "标准归一化"
+    }
+  },
+  {
+    "id": "HuggingFacePteImageClassification",
+    "i18ns": {
+      "en_US": "HuggingFacePteImageClassification",
+      "zh_CN": "HuggingFace本地化图像分类"
+    }
+  },
+  {
+    "id": "DM8Conn",
+    "i18ns": {
+      "en_US": "DM8Conn",
+      "zh_CN": "达梦8数据库连接"
+    }
+  },
+  {
+    "id": "LargeTextPrompt",
+    "i18ns": {
+      "en_US": "LargeTextPrompt",
+      "zh_CN": "大文本大语言模型提示"
+    }
+  },
+  {
+    "id": "AvroWriter",
+    "i18ns": {
+      "en_US": "AvroWriter",
+      "zh_CN": "Avro写出"
+    }
+  },
+  {
+    "id": "IocExtractor",
+    "i18ns": {
+      "en_US": "IocExtractor",
+      "zh_CN": "IOC抽取"
+    }
+  },
+  {
+    "id": "VisioRelationExtractor",
+    "i18ns": {
+      "en_US": "VisioRelationExtractor",
+      "zh_CN": "Visio关系抽取"
+    }
+  },
+  {
+    "id": "LocalFileInput",
+    "i18ns": {
+      "en_US": "LocalFileInput",
+      "zh_CN": "本地文件输入"
+    }
+  },
+  {
+    "id": "CrossValidator",
+    "i18ns": {
+      "en_US": "CrossValidator",
+      "zh_CN": "交叉验证"
+    }
+  },
+  {
+    "id": "BinaryClassificationEvaluator",
+    "i18ns": {
+      "en_US": "BinaryClassificationEvaluator",
+      "zh_CN": "二分类算法评估"
+    }
+  },
+  {
+    "id": "TimeSeriesModelInput",
+    "i18ns": {
+      "en_US": "TimeSeriesModelInput",
+      "zh_CN": "时序模型输入"
+    }
+  },
+  {
+    "id": "RowSetDuplicateController",
+    "i18ns": {
+      "en_US": "RowSetDuplicateController",
+      "zh_CN": "数据集复制"
+    }
+  },
+  {
+    "id": "ImageWatermark",
+    "i18ns": {
+      "en_US": "ImageWatermark",
+      "zh_CN": "图片加水印"
+    }
+  },
+  {
+    "id": "BaiduOCRExtractor",
+    "i18ns": {
+      "en_US": "BaiduOCRExtractor",
+      "zh_CN": "百度OCR识别"
+    }
+  },
+  {
+    "id": "SparkSQL",
+    "i18ns": {
+      "en_US": "SparkSQL",
+      "zh_CN": "SparkSQL"
+    }
+  },
+  {
+    "id": "Join",
+    "i18ns": {
+      "en_US": "Join",
+      "zh_CN": "联结"
+    }
+  },
+  {
+    "id": "RenameColumns",
+    "i18ns": {
+      "en_US": "RenameColumns",
+      "zh_CN": "重命名列"
+    }
+  },
+  {
+    "id": "FastDFSInput",
+    "i18ns": {
+      "en_US": "FastDFSInput",
+      "zh_CN": "FastDFS文件输入"
+    }
+  },
+  {
+    "id": "PythonScript",
+    "i18ns": {
+      "en_US": "PythonScript",
+      "zh_CN": "Python脚本"
+    }
+  },
+  {
+    "id": "ImageRotate",
+    "i18ns": {
+      "en_US": "ImageRotate",
+      "zh_CN": "图片旋转"
+    }
+  },
+  {
+    "id": "HiveReader",
+    "i18ns": {
+      "en_US": "HiveReader",
+      "zh_CN": "Hive读取"
+    }
+  },
+  {
+    "id": "StringIndexer",
+    "i18ns": {
+      "en_US": "StringIndexer",
+      "zh_CN": "字符串索引转换"
+    }
+  },
+  {
+    "id": "StratifiedSampling",
+    "i18ns": {
+      "en_US": "StratifiedSampling",
+      "zh_CN": "分层采样"
+    }
+  },
+  {
+    "id": "OracleReader",
+    "i18ns": {
+      "en_US": "OracleReader",
+      "zh_CN": "Oracle读取"
+    }
+  },
+  {
+    "id": "FeatureStatisticor",
+    "i18ns": {
+      "en_US": "FeatureStatisticor",
+      "zh_CN": "特征统计"
+    }
+  },
+  {
+    "id": "DENCLUE",
+    "i18ns": {
+      "en_US": "DENCLUE",
+      "zh_CN": "基于密度分布函数的聚类"
+    }
+  },
+  {
+    "id": "TiDBReader",
+    "i18ns": {
+      "en_US": "TiDBReader",
+      "zh_CN": "TiDB读取"
+    }
+  },
+  {
+    "id": "FastDFSOutput",
+    "i18ns": {
+      "en_US": "FastDFSOutput",
+      "zh_CN": "FastDFS文件输出"
+    }
+  },
+  {
+    "id": "HuggingFaceTokenClassification",
+    "i18ns": {
+      "en_US": "HuggingFaceTokenClassification",
+      "zh_CN": "HuggingFace标记分类"
+    }
+  },
+  {
+    "id": "HuggingFacePteTextSummarization",
+    "i18ns": {
+      "en_US": "HuggingFacePteTextSummarization",
+      "zh_CN": "HuggingFace本地化文本摘要"
+    }
+  },
+  {
+    "id": "HuggingFacePteAudioClassification",
+    "i18ns": {
+      "en_US": "HuggingFacePteAudioClassification",
+      "zh_CN": "HuggingFace本地化语音分类"
+    }
+  },
+  {
+    "id": "HuggingFacePteImageTimmClassification",
+    "i18ns": {
+      "en_US": "HuggingFacePteImageTimmClassification",
+      "zh_CN": "HuggingFace本地化Timm图像分类"
+    }
+  },
+  {
+    "id": "SingleRowController",
+    "i18ns": {
+      "en_US": "SingleRowController",
+      "zh_CN": "单数据控速器"
+    }
+  },
+  {
+    "id": "FastDFSOutputs",
+    "i18ns": {
+      "en_US": "FastDFSOutputs",
+      "zh_CN": "FastDFS文件批量输出"
+    }
+  },
+  {
+    "id": "ProcessReference",
+    "i18ns": {
+      "en_US": "ProcessReference",
+      "zh_CN": "流程引用"
+    }
+  },
+  {
+    "id": "TiDBConn",
+    "i18ns": {
+      "en_US": "TiDBConn",
+      "zh_CN": "TiDB连接"
+    }
+  },
+  {
+    "id": "OSSOutputs",
+    "i18ns": {
+      "en_US": "OSSOutputs",
+      "zh_CN": "阿里云批量输出"
+    }
+  },
+  {
+    "id": "HuggingFaceFillMask",
+    "i18ns": {
+      "en_US": "HuggingFaceFillMask",
+      "zh_CN": "HuggingFace蒙版填充"
+    }
+  },
+  {
+    "id": "ExcelWriter",
+    "i18ns": {
+      "en_US": "ExcelWriter",
+      "zh_CN": "Excel写出"
+    }
+  },
+  {
+    "id": "COSOutputs",
+    "i18ns": {
+      "en_US": "COSOutputs",
+      "zh_CN": "腾讯云批量输出"
+    }
+  },
+  {
+    "id": "SFtpOutputs",
+    "i18ns": {
+      "en_US": "SFtpOutputs",
+      "zh_CN": "SFTP批量输出"
+    }
+  },
+  {
+    "id": "ShaCryptHash",
+    "i18ns": {
+      "en_US": "ShaCryptHash",
+      "zh_CN": "SHA加密哈希"
+    }
+  },
+  {
+    "id": "DB2Reader",
+    "i18ns": {
+      "en_US": "DB2Reader",
+      "zh_CN": "DB2读取"
+    }
+  },
+  {
+    "id": "CsvReader",
+    "i18ns": {
+      "en_US": "CsvReader",
+      "zh_CN": "CSV读取"
+    }
+  },
+  {
+    "id": "ConsoleOutput",
+    "i18ns": {
+      "en_US": "ConsoleOutput",
+      "zh_CN": "控制台输出"
+    }
+  },
+  {
+    "id": "Intersect",
+    "i18ns": {
+      "en_US": "Intersect",
+      "zh_CN": "交集"
+    }
+  },
+  {
+    "id": "OracleConn",
+    "i18ns": {
+      "en_US": "OracleConn",
+      "zh_CN": "Oracle连接"
+    }
+  },
+  {
+    "id": "ModelForecaster",
+    "i18ns": {
+      "en_US": "ModelForecaster",
+      "zh_CN": "时序预测"
+    }
+  },
+  {
+    "id": "AlluxioInput",
+    "i18ns": {
+      "en_US": "AlluxioInput",
+      "zh_CN": "Alluxio输入"
+    }
+  },
+  {
+    "id": "SFtpInput",
+    "i18ns": {
+      "en_US": "SFtpInput",
+      "zh_CN": "SFTP输入"
+    }
+  },
+  {
+    "id": "Javascript",
+    "i18ns": {
+      "en_US": "Javascript",
+      "zh_CN": "Javascript脚本"
+    }
+  },
+  {
+    "id": "ConCrossValidator",
+    "i18ns": {
+      "en_US": "ConCrossValidator",
+      "zh_CN": "容器型交叉验证"
+    }
+  },
+  {
+    "id": "Sort",
+    "i18ns": {
+      "en_US": "Sort",
+      "zh_CN": "排序"
+    }
+  },
+  {
+    "id": "ConsoleInput",
+    "i18ns": {
+      "en_US": "ConsoleInput",
+      "zh_CN": "控制台输入"
+    }
+  },
+  {
+    "id": "StreamAsBlockReader",
+    "i18ns": {
+      "en_US": "StreamAsBlockReader",
+      "zh_CN": "全文读取"
+    }
+  },
+  {
+    "id": "ARMA",
+    "i18ns": {
+      "en_US": "ARMA",
+      "zh_CN": "自回归滑动平均模型"
+    }
+  },
+  {
+    "id": "LogisticRegression",
+    "i18ns": {
+      "en_US": "LogisticRegression",
+      "zh_CN": "逻辑回归"
+    }
+  },
+  {
+    "id": "OpenAITranslator",
+    "i18ns": {
+      "en_US": "OpenAITranslator",
+      "zh_CN": "OpenAI翻译器"
+    }
+  },
+  {
+    "id": "Sampling",
+    "i18ns": {
+      "en_US": "Sampling",
+      "zh_CN": "采样"
+    }
+  },
+  {
+    "id": "BaseDecode",
+    "i18ns": {
+      "en_US": "BaseDecode",
+      "zh_CN": "基础解码"
+    }
+  },
+  {
+    "id": "MySQLConn",
+    "i18ns": {
+      "en_US": "MySQLConn",
+      "zh_CN": "MySQL连接"
+    }
+  },
+  {
+    "id": "DecisionTree",
+    "i18ns": {
+      "en_US": "DecisionTree",
+      "zh_CN": "决策树"
+    }
+  },
+  {
+    "id": "KMeans",
+    "i18ns": {
+      "en_US": "KMeans",
+      "zh_CN": "K均值聚类"
+    }
+  },
+  {
+    "id": "HuggingFacePteImageDetection",
+    "i18ns": {
+      "en_US": "HuggingFacePteImageDetection",
+      "zh_CN": "HuggingFace本地化对象检测"
+    }
+  },
+  {
+    "id": "ZipInput",
+    "i18ns": {
+      "en_US": "ZipInput",
+      "zh_CN": "压缩流输入"
+    }
+  },
+  {
+    "id": "EstimatorModelInput",
+    "i18ns": {
+      "en_US": "EstimatorModelInput",
+      "zh_CN": "估计模型输入"
+    }
+  },
+  {
+    "id": "SybaseConn",
+    "i18ns": {
+      "en_US": "SybaseConn",
+      "zh_CN": "Sybase连接"
+    }
+  },
+  {
+    "id": "DorisConn",
+    "i18ns": {
+      "en_US": "DorisConn",
+      "zh_CN": "Doris连接"
+    }
+  },
+  {
+    "id": "RandomForestRegression",
+    "i18ns": {
+      "en_US": "RandomForestRegression",
+      "zh_CN": "随机森林回归"
+    }
+  },
+  {
+    "id": "ValuesSplit",
+    "i18ns": {
+      "en_US": "ValuesSplit",
+      "zh_CN": "值分割"
+    }
+  },
+  {
+    "id": "CephOutputs",
+    "i18ns": {
+      "en_US": "CephOutputs",
+      "zh_CN": "Ceph批量输出"
+    }
+  },
+  {
+    "id": "Autoregressive",
+    "i18ns": {
+      "en_US": "Autoregressive",
+      "zh_CN": "自回归预测"
+    }
+  },
+  {
+    "id": "BaseEncode",
+    "i18ns": {
+      "en_US": "BaseEncode",
+      "zh_CN": "基础编码"
+    }
+  },
+  {
+    "id": "JsonFlatter",
+    "i18ns": {
+      "en_US": "JsonFlatter",
+      "zh_CN": "Json扁平化"
+    }
+  },
+  {
+    "id": "HuggingFaceTextSummarization",
+    "i18ns": {
+      "en_US": "HuggingFaceTextSummarization",
+      "zh_CN": "HuggingFace文本摘要"
+    }
+  },
+  {
+    "id": "IfElseController",
+    "i18ns": {
+      "en_US": "IfElseController",
+      "zh_CN": "If条件控制"
+    }
+  },
+  {
+    "id": "TextExtractor",
+    "i18ns": {
+      "en_US": "TextExtractor",
+      "zh_CN": "文本抽取"
+    }
+  },
+  {
+    "id": "RowSetSplitter",
+    "i18ns": {
+      "en_US": "RowSetSplitter",
+      "zh_CN": "列集拆分"
+    }
+  },
+  {
+    "id": "RegressionEvaluator",
+    "i18ns": {
+      "en_US": "RegressionEvaluator",
+      "zh_CN": "回归算法评估"
+    }
+  },
+  {
+    "id": "VisioTextExtractor",
+    "i18ns": {
+      "en_US": "VisioTextExtractor",
+      "zh_CN": "Visio文本抽取"
+    }
+  },
+  {
+    "id": "ClickHouseConn",
+    "i18ns": {
+      "en_US": "ClickHouseConn",
+      "zh_CN": "ClickHouse连接"
+    }
+  },
+  {
+    "id": "Except",
+    "i18ns": {
+      "en_US": "Except",
+      "zh_CN": "差集"
+    }
+  },
+  {
+    "id": "HuggingFacePteTextTranslation",
+    "i18ns": {
+      "en_US": "HuggingFacePteTextTranslation",
+      "zh_CN": "HuggingFace本地化文本翻译"
+    }
+  },
+  {
+    "id": "ProcessOperator",
+    "i18ns": {
+      "en_US": "ProcessOperator",
+      "zh_CN": "过程"
+    }
+  },
+  {
+    "id": "HmacHash",
+    "i18ns": {
+      "en_US": "HmacHash",
+      "zh_CN": "Hmac哈希"
+    }
+  },
+  {
+    "id": "SingleSetController",
+    "i18ns": {
+      "en_US": "SingleSetController",
+      "zh_CN": "单集合控速器"
+    }
+  },
+  {
+    "id": "ImageBinarize",
+    "i18ns": {
+      "en_US": "ImageBinarize",
+      "zh_CN": "黑白化"
+    }
+  },
+  {
+    "id": "HuggingFaceSentenceSimilarity",
+    "i18ns": {
+      "en_US": "HuggingFaceSentenceSimilarity",
+      "zh_CN": "HuggingFace文本相似"
+    }
+  },
+  {
+    "id": "KModes",
+    "i18ns": {
+      "en_US": "KModes",
+      "zh_CN": "KModes聚类"
+    }
+  },
+  {
+    "id": "COSOutput",
+    "i18ns": {
+      "en_US": "COSOutput",
+      "zh_CN": "腾讯云输出"
+    }
+  },
+  {
+    "id": "CensysReader",
+    "i18ns": {
+      "en_US": "CensysReader",
+      "zh_CN": "Censys应用读取"
+    }
+  },
+  {
+    "id": "SSDeepHash",
+    "i18ns": {
+      "en_US": "SSDeepHash",
+      "zh_CN": "SSDeep哈希"
+    }
+  },
+  {
+    "id": "HdfsOutputs",
+    "i18ns": {
+      "en_US": "HdfsOutputs",
+      "zh_CN": "HDFS批量输出"
+    }
+  },
+  {
+    "id": "CommonWriter",
+    "i18ns": {
+      "en_US": "CommonWriter",
+      "zh_CN": "通用写出"
+    }
+  },
+  {
+    "id": "PaddleEntityExtractor",
+    "i18ns": {
+      "en_US": "PaddleEntityExtractor",
+      "zh_CN": "Paddle实体抽取"
+    }
+  },
+  {
+    "id": "ImageConvert",
+    "i18ns": {
+      "en_US": "ImageConvert",
+      "zh_CN": "图像格式转换"
+    }
+  },
+  {
+    "id": "HuggingFacePteSpeechToText",
+    "i18ns": {
+      "en_US": "HuggingFacePteSpeechToText",
+      "zh_CN": "HuggingFace本地化语音识别"
+    }
+  },
+  {
+    "id": "ClickHouseWriter",
+    "i18ns": {
+      "en_US": "ClickHouseWriter",
+      "zh_CN": "ClickHouse写出"
+    }
+  },
+  {
+    "id": "RandomForestClassification",
+    "i18ns": {
+      "en_US": "RandomForestClassification",
+      "zh_CN": "随机森林分类"
+    }
+  },
+  {
+    "id": "OldGridFsOutputs",
+    "i18ns": {
+      "en_US": "OldGridFsOutputs",
+      "zh_CN": "ignore"
+    }
+  },
+  {
+    "id": "ObjectReader",
+    "i18ns": {
+      "en_US": "ObjectReader",
+      "zh_CN": "对象读取"
+    }
+  },
+  {
+    "id": "OldGridFsOutput",
+    "i18ns": {
+      "en_US": "OldGridFsOutput",
+      "zh_CN": "ignore"
+    }
+  },
+  {
+    "id": "WordContentExtractor",
+    "i18ns": {
+      "en_US": "WordContentExtractor",
+      "zh_CN": "WORD文本抽取"
+    }
+  },
+  {
+    "id": "CephInput",
+    "i18ns": {
+      "en_US": "CephInput",
+      "zh_CN": "Ceph输入"
+    }
+  },
+  {
+    "id": "GCSOutput",
+    "i18ns": {
+      "en_US": "GCSOutput",
+      "zh_CN": "谷歌云输出"
+    }
+  },
+  {
+    "id": "SQLServerReader",
+    "i18ns": {
+      "en_US": "SQLServerReader",
+      "zh_CN": "SQLServer读取"
+    }
+  },
+  {
+    "id": "RemoveColumns",
+    "i18ns": {
+      "en_US": "RemoveColumns",
+      "zh_CN": "列删除"
+    }
+  },
+  {
+    "id": "WordTableExtractor",
+    "i18ns": {
+      "en_US": "WordTableExtractor",
+      "zh_CN": "WORD表格抽取"
+    }
+  },
+  {
+    "id": "HuggingFacePteImageZeroShotClassification",
+    "i18ns": {
+      "en_US": "HuggingFacePteImageZeroShotClassification",
+      "zh_CN": "HuggingFace本地化零样本图像分类"
+    }
+  },
+  {
+    "id": "OSSOutput",
+    "i18ns": {
+      "en_US": "OSSOutput",
+      "zh_CN": "阿里云输出"
+    }
+  },
+  {
+    "id": "Json2KVTable",
+    "i18ns": {
+      "en_US": "Json2KVTable",
+      "zh_CN": "Json转KV表"
+    }
+  },
+  {
+    "id": "HuggingFaceZeroShotTextClassification",
+    "i18ns": {
+      "en_US": "HuggingFaceZeroShotTextClassification",
+      "zh_CN": "HuggingFace本地化零样本文本分类"
+    }
+  },
+  {
+    "id": "AlienVaultReader",
+    "i18ns": {
+      "en_US": "AlienVaultReader",
+      "zh_CN": "AlienVault应用读取"
+    }
+  },
+  {
+    "id": "JsonWriter",
+    "i18ns": {
+      "en_US": "JsonWriter",
+      "zh_CN": "Json写出"
+    }
+  },
+  {
+    "id": "BaiduPanOutput",
+    "i18ns": {
+      "en_US": "BaiduPanOutput",
+      "zh_CN": "百度盘输出"
+    }
+  },
+  {
+    "id": "OpenAIImageGenerator",
+    "i18ns": {
+      "en_US": "OpenAIImageGenerator",
+      "zh_CN": "OpenAI图像生成"
+    }
+  },
+  {
+    "id": "SnowflakeReader",
+    "i18ns": {
+      "en_US": "SnowflakeReader",
+      "zh_CN": "Snowflake读取"
+    }
+  },
+  {
+    "id": "MilvusWriter",
+    "i18ns": {
+      "en_US": "MilvusWriter",
+      "zh_CN": "Milvus写出"
+    }
+  },
+  {
+    "id": "LanguageRecognizer",
+    "i18ns": {
+      "en_US": "LanguageRecognizer",
+      "zh_CN": "语种识别"
+    }
+  },
+  {
+    "id": "EsReader",
+    "i18ns": {
+      "en_US": "EsReader",
+      "zh_CN": "Elasticsearch读取"
+    }
+  },
+  {
+    "id": "UrlDecode",
+    "i18ns": {
+      "en_US": "UrlDecode",
+      "zh_CN": "URL解码"
+    }
+  },
+  {
+    "id": "VideoKeyFrame",
+    "i18ns": {
+      "en_US": "VideoKeyFrame",
+      "zh_CN": "视频关键帧抽取"
+    }
+  },
+  {
+    "id": "HttpAction",
+    "i18ns": {
+      "en_US": "HttpAction",
+      "zh_CN": "Http行为"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<students>
+    <student number="1001">
+        <name>zhangSan</name>
+        <age>23</age>
+        <sex>male</sex>
+    </student>
+    <student number="1002">
+        <name>liSi</name>
+        <age>32</age>
+        <sex>female</sex>
+    </student>
+    <student number="1003">
+        <name>wangWu</name>
+        <age>55</age>
+        <sex>male</sex>
+    </student>
+</students>

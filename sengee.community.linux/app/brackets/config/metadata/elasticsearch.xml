@@ -1,0 +1,184 @@
+<bracketsourcedescriptor>
+    <name>elasticsearch</name>
+    <alias>ElasticSearch</alias>
+    <dsVersion>*</dsVersion>
+    <version>1.0</version>
+    <types>DocDB</types>
+    <category>DATABASE</category>
+    <dataObjectType>SEMI_STRUCTED</dataObjectType>
+    <provider>DataYoo</provider>
+    <factoryClass>org.datayoo.brackets.elasticsearch.ElasticSearchBracketSourceFactory</factoryClass>
+    <elementDescriptor name="ConnectionSettings">
+        <parameters>
+            <parametergroup name="general" c_Alias="连接配置" c_Compox="sightx-tab">
+                <parametergroup name="connectionSettings">
+                    <parameter name="connType" c_Alias="连接类型" c_Option="false"
+                               c_Compox="connType">DEFAULT
+                    </parameter>
+                    <parameter name="dbType" c_Alias="数据库类型"
+                               c_Compox="sightx-hidden">elasticSearch
+                    </parameter>d
+                    <parameter name="address" c_Alias="数据库地址" c_Option="false"
+                               c_Compox="address"></parameter>
+                    <parameter name="port" c_Alias="数据库端口" c_Option="false"
+                               c_Compox="port">9200
+                    </parameter>
+                    <parametergroup name="authSettingsService" c_Option="true"
+                                    c_Compox="datayoo-elasticsearch-auth"
+                                    c_Alias="访问帐号">
+                        <parameter name="serviceName"></parameter>
+                        <parameter name="serviceId"></parameter>
+                    </parametergroup>
+                    <parameter name="url" c_Alias="URL" c_Option="false"
+                               c_Compox="url">
+                        localhost:9200
+                    </parameter>
+
+                    <parametertable name="props" c_Option="true"
+                                    c_Compox="sightx-tablelist">
+                        <head>
+                            <parameter name="key" c_Alias="字段名"
+                                       c_Compox="sightx-input"
+                                       c_type="String">
+                            </parameter>
+                            <parameter name="value" c_Alias="字段值"
+                                       c_Compox="sightx-input"
+                                       c_type="String">
+                            </parameter>
+                        </head>
+                    </parametertable>
+                </parametergroup>
+            </parametergroup>
+        </parameters>
+        <compoxes>
+            <compox id="connType" parentId="sightx-combox" type="CONTROLER">
+                <attributes/>
+                <dataDescriptor>
+                    <defaultValue><![CDATA[DEFAULT]]></defaultValue>
+                    <data>
+                        <![CDATA[[{"label": "缺省", "value": "DEFAULT"}, {"label": "URL", "value": "URL"}]]]></data>
+                    <actionScript><![CDATA[]]></actionScript>
+                </dataDescriptor>
+                <visibleDescriptors/>
+                <components/>
+            </compox>
+            <compox id="address" parentId="sightx-input" type="CONTROLER">
+                <attributes/>
+                <dataDescriptor/>
+                <visibleDescriptors>
+                    <visibleDescriptor type="VISIBLE">
+                        <condition>
+                            <![CDATA[connType == "DEFAULT"]]></condition>
+                    </visibleDescriptor>
+                </visibleDescriptors>
+                <components/>
+            </compox>
+            <compox id="port" parentId="sightx-integer" type="CONTROLER">
+                <attributes/>
+                <dataDescriptor/>
+                <visibleDescriptors>
+                    <visibleDescriptor type="VISIBLE">
+                        <condition>
+                            <![CDATA[connType == "DEFAULT"]]></condition>
+                    </visibleDescriptor>
+                </visibleDescriptors>
+                <components/>
+            </compox>
+            <compox id="url" parentId="sightx-input" type="CONTROLER">
+                <attributes/>
+                <actionDescriptors>
+                    <actionDescriptor>
+                        <event eventType="VCHANGE" handler="connectionTypes">
+                        </event>
+                        <actionScript>
+                            <![CDATA[
+                            if (handlerParameter.value === "URL") {
+                                selfParameter.value = "localhost:9200";
+                            } else {
+                                selfParameter.value = "%s:%d";
+                            }
+                        ]]>
+                        </actionScript>
+                    </actionDescriptor>
+                </actionDescriptors>
+                <dataDescriptor>
+                    <defaultValue><![CDATA[]]></defaultValue>
+                    <data/>
+                    <actionScript>
+                    </actionScript>
+                </dataDescriptor>
+                <visibleDescriptors>
+                    <visibleDescriptor type="VISIBLE">
+                        <condition><![CDATA[connType == "URL"]]></condition>
+                    </visibleDescriptor>
+                </visibleDescriptors>
+                <components/>
+            </compox>
+        </compoxes>
+    </elementDescriptor>
+
+    <elementDescriptor name="DataTypes">
+        <parameters>
+            <parametergroup name="string">
+            </parametergroup>
+            <parametergroup name="text">
+            </parametergroup>
+            <parametergroup name="keyword">
+            </parametergroup>
+            <parametergroup name="integer">
+            </parametergroup>
+            <parametergroup name="long">
+            </parametergroup>
+            <parametergroup name="short">
+            </parametergroup>
+            <parametergroup name="byte">
+            </parametergroup>
+            <parametergroup name="double">
+            </parametergroup>
+            <parametergroup name="float">
+            </parametergroup>
+            <parametergroup name="half_float">
+            </parametergroup>
+            <parametergroup name="scaled_float">
+            </parametergroup>
+            <parametergroup name="date">
+                <parameter name="format" c_Compox="sightx-input"
+                           c_Alias="格式化">yyy-MM-dd HH:mm:ss
+                </parameter>
+            </parametergroup>
+            <parametergroup name="binary">
+            </parametergroup>
+            <!-- 复合类型 -->
+            <parametergroup name="array">
+            </parametergroup>
+            <parametergroup name="object">
+            </parametergroup>
+            <parametergroup name="nested">
+            </parametergroup>
+            <!-- 地理类型 -->
+            <parametergroup name="geo_point">
+            </parametergroup>
+            <parametergroup name="geo_shape">
+            </parametergroup>
+            <!-- 特殊类型 -->
+            <parametergroup name="ip">
+            </parametergroup>
+            <parametergroup name="completion">
+            </parametergroup>
+            <parametergroup name="token_count">
+            </parametergroup>
+            <parametergroup name="attachment">
+            </parametergroup>
+            <parametergroup name="percolator">
+            </parametergroup>
+
+        </parameters>
+    </elementDescriptor>
+
+    <elementDescriptor name="Table">
+    </elementDescriptor>
+
+    <elementDescriptor name="Query">
+    </elementDescriptor>
+
+</bracketsourcedescriptor>

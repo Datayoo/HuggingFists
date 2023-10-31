@@ -1,0 +1,8954 @@
+{
+  data: [
+	{
+	  "num": "004",
+	  "label": "Afghanistan",
+	  "c2": "AF",
+	  "name": "阿富汗",
+	  "c3": "AFG",
+	  "cp": [
+		69.11,
+		34.28
+	  ],
+	  "area": [
+		{
+		  "label": "Badakhshan"
+		},
+		{
+		  "label": "Badghis"
+		},
+		{
+		  "label": "Baghlan"
+		},
+		{
+		  "label": "Balkh"
+		},
+		{
+		  "label": "Bamyan"
+		},
+		{
+		  "label": "Daykundi"
+		},
+		{
+		  "label": "Farah"
+		},
+		{
+		  "label": "Faryab"
+		},
+		{
+		  "label": "Ghazni"
+		},
+		{
+		  "label": "Ghor"
+		},
+		{
+		  "label": "Helmand"
+		},
+		{
+		  "label": "Herat"
+		},
+		{
+		  "label": "Jowzjan"
+		},
+		{
+		  "label": "Kabul"
+		},
+		{
+		  "label": "Kandahar"
+		},
+		{
+		  "label": "Kapisa"
+		},
+		{
+		  "label": "Khost"
+		},
+		{
+		  "label": "Kunar"
+		},
+		{
+		  "label": "Kunduz"
+		},
+		{
+		  "label": "Laghman"
+		},
+		{
+		  "label": "Logar"
+		},
+		{
+		  "label": "Nangarhar"
+		},
+		{
+		  "label": "Nimruz"
+		},
+		{
+		  "label": "Nuristan"
+		},
+		{
+		  "label": "Paktia"
+		},
+		{
+		  "label": "Paktika"
+		},
+		{
+		  "label": "Panjshir"
+		},
+		{
+		  "label": "Parwan"
+		},
+		{
+		  "label": "Samangan"
+		},
+		{
+		  "label": "Sar-e Pol"
+		},
+		{
+		  "label": "Takhar"
+		},
+		{
+		  "label": "Urōzgān"
+		},
+		{
+		  "label": "Wardak"
+		},
+		{
+		  "label": "Zabul"
+		}
+	  ]
+	},
+	{
+	  "num": "024",
+	  "label": "Angola",
+	  "c2": "AO",
+	  "name": "安哥拉",
+	  "c3": "AGO",
+	  "cp": [
+		13.15,
+		-8.5
+	  ],
+	  "area": [
+		{
+		  "label": "Bengo"
+		},
+		{
+		  "label": "Benguela"
+		},
+		{
+		  "label": "Bié"
+		},
+		{
+		  "label": "Cabinda"
+		},
+		{
+		  "label": "Cuando Cubango"
+		},
+		{
+		  "label": "Cuanza Norte"
+		},
+		{
+		  "label": "Cuanza Sul"
+		},
+		{
+		  "label": "Cunene"
+		},
+		{
+		  "label": "Huambo"
+		},
+		{
+		  "label": "Huíla"
+		},
+		{
+		  "label": "Luanda"
+		},
+		{
+		  "label": "Lunda Norte"
+		},
+		{
+		  "label": "Lunda Sul"
+		},
+		{
+		  "label": "Malanje"
+		},
+		{
+		  "label": "Moxico"
+		},
+		{
+		  "label": "Namibe"
+		},
+		{
+		  "label": "Uíge"
+		},
+		{
+		  "label": "Zaire"
+		}
+	  ]
+	},
+	{
+	  "num": "008",
+	  "label": "Albania",
+	  "c2": "AL",
+	  "name": "阿尔巴尼亚",
+	  "c3": "ALB",
+	  "cp": [
+		19.49,
+		41.18
+	  ],
+	  "area": [
+		{
+		  "label": "Berat"
+		},
+		{
+		  "label": "Diber"
+		},
+		{
+		  "label": "Durres"
+		},
+		{
+		  "label": "Elbasan"
+		},
+		{
+		  "label": "Fier"
+		},
+		{
+		  "label": "Gjirokaster"
+		},
+		{
+		  "label": "Korce"
+		},
+		{
+		  "label": "Kukës"
+		},
+		{
+		  "label": "Lezhe"
+		},
+		{
+		  "label": "Shkoder"
+		},
+		{
+		  "label": "Tiranë"
+		},
+		{
+		  "label": "Vlore"
+		}
+	  ]
+	},
+	{
+	  "num": "784",
+	  "label": "United Arab Emirates",
+	  "c2": "AE",
+	  "name": "阿联酋",
+	  "c3": "ARE",
+	  "cp": [
+		54.22,
+		24.28
+	  ],
+	  "area": [
+		{
+		  "label": "Abu Dhabi"
+		},
+		{
+		  "label": "Ajman"
+		},
+		{
+		  "label": "Dubai"
+		},
+		{
+		  "label": "Fujairah"
+		},
+		{
+		  "label": "Ras al-Khaimah"
+		},
+		{
+		  "label": "Sharjah"
+		},
+		{
+		  "label": "Umm al-Quwain"
+		}
+	  ]
+	},
+	{
+	  "num": "032",
+	  "label": "Argentina",
+	  "c2": "AR",
+	  "name": "阿根廷",
+	  "c3": "ARG",
+	  "cp": [
+		-60,
+		-36.3
+	  ],
+	  "area": [
+		{
+		  "label": "Autonomous City of Buenos Aires"
+		},
+		{
+		  "label": "Buenos Aires"
+		},
+		{
+		  "label": "Catamarca"
+		},
+		{
+		  "label": "Chaco"
+		},
+		{
+		  "label": "Chubut"
+		},
+		{
+		  "label": "Córdoba"
+		},
+		{
+		  "label": "Corrientes"
+		},
+		{
+		  "label": "Entre Ríos"
+		},
+		{
+		  "label": "Formosa"
+		},
+		{
+		  "label": "Jujuy"
+		},
+		{
+		  "label": "La Pampa"
+		},
+		{
+		  "label": "La Rioja"
+		},
+		{
+		  "label": "Mendoza"
+		},
+		{
+		  "label": "Misiones"
+		},
+		{
+		  "label": "Neuquén"
+		},
+		{
+		  "label": "Río Negro"
+		},
+		{
+		  "label": "Salta"
+		},
+		{
+		  "label": "San Juan"
+		},
+		{
+		  "label": "San Luis"
+		},
+		{
+		  "label": "Santa Cruz"
+		},
+		{
+		  "label": "Santa Fe"
+		},
+		{
+		  "label": "Santiago del Estero"
+		},
+		{
+		  "label": "Tierra del Fuego"
+		},
+		{
+		  "label": "Tucumán"
+		}
+	  ]
+	},
+	{
+	  "num": "051",
+	  "label": "Armenia",
+	  "c2": "AM",
+	  "name": "亚美尼亚",
+	  "c3": "ARM",
+	  "cp": [
+		44.31,
+		40.1
+	  ],
+	  "area": [
+		{
+		  "label": "Aragatsotn region"
+		},
+		{
+		  "label": "Ararat"
+		},
+		{
+		  "label": "Armavir"
+		},
+		{
+		  "label": "Gegharkunik"
+		},
+		{
+		  "label": "Kotayk"
+		},
+		{
+		  "label": "Lori"
+		},
+		{
+		  "label": "Shirak"
+		},
+		{
+		  "label": "Syunik"
+		},
+		{
+		  "label": "Tavush"
+		},
+		{
+		  "label": "Vayots Dzor"
+		},
+		{
+		  "label": "Yerevan"
+		}
+	  ]
+	},
+	{
+	  "num": "250",
+	  "label": "France",
+	  "c2": "FR",
+	  "name": "法国",
+	  "c3": "FRA",
+	  "cp": [
+		2.2,
+		48.5
+	  ],
+	  "area": [
+		{
+		  "label": "Alsace–Champagne-Ardenne–Lorraine"
+		},
+		{
+		  "label": "Aquitaine-Limousin-Poitou-Charentes"
+		},
+		{
+		  "label": "Auvergne-Rhône-Alpes"
+		},
+		{
+		  "label": "Bourgogne-Franche-Comté"
+		},
+		{
+		  "label": "Brittany"
+		},
+		{
+		  "label": "Centre-Val de Loire"
+		},
+		{
+		  "label": "Corsica"
+		},
+		{
+		  "label": "French Guiana"
+		},
+		{
+		  "label": "Guadeloupe"
+		},
+		{
+		  "label": "Ile-de-France"
+		},
+		{
+		  "label": "Languedoc-Roussillon-Midi-Pyrénées"
+		},
+		{
+		  "label": "Martinique"
+		},
+		{
+		  "label": "Mayotte"
+		},
+		{
+		  "label": "Nord-Pas-de-Calais and Picardy"
+		},
+		{
+		  "label": "Normandy"
+		},
+		{
+		  "label": "Pays de la Loire"
+		},
+		{
+		  "label": "Provence-Alpes-Côte d'Azur"
+		},
+		{
+		  "label": "Réunion"
+		}
+	  ]
+	},
+	{
+	  "num": "036",
+	  "label": "Australia",
+	  "c2": "AU",
+	  "name": "澳大利亚",
+	  "c3": "AUS",
+	  "cp": [
+		149.08,
+		-35.15
+	  ],
+	  "area": [
+		{
+		  "label": "Ashmore and Cartier Islands"
+		},
+		{
+		  "label": "Australian Capital Territory"
+		},
+		{
+		  "label": "Christmas Island"
+		},
+		{
+		  "label": "Heard Island and McDonald Islands"
+		},
+		{
+		  "label": "Jervis Bay Territory"
+		},
+		{
+		  "label": "New South Wales"
+		},
+		{
+		  "label": "Norfolk Island"
+		},
+		{
+		  "label": "Northern Territory"
+		},
+		{
+		  "label": "Queensland"
+		},
+		{
+		  "label": "South Australia"
+		},
+		{
+		  "label": "Tasmania"
+		},
+		{
+		  "label": "Victoria"
+		},
+		{
+		  "label": "Western Australia"
+		}
+	  ]
+	},
+	{
+	  "num": "040",
+	  "label": "Austria",
+	  "c2": "AT",
+	  "name": "奥地利",
+	  "c3": "AUT",
+	  "cp": [
+		16.22,
+		48.12
+	  ],
+	  "area": [
+		{
+		  "label": "Burgenland"
+		},
+		{
+		  "label": "Carinthia"
+		},
+		{
+		  "label": "Lower Austria"
+		},
+		{
+		  "label": "Salzburg (state)"
+		},
+		{
+		  "label": "Styria"
+		},
+		{
+		  "label": "Tyrol"
+		},
+		{
+		  "label": "Upper Austria"
+		},
+		{
+		  "label": "Vienna"
+		},
+		{
+		  "label": "Vorarlberg"
+		}
+	  ]
+	},
+	{
+	  "num": "031",
+	  "label": "Azerbaijan",
+	  "c2": "AZ",
+	  "name": "阿塞拜疆",
+	  "c3": "AZE",
+	  "cp": [
+		49.56,
+		40.29
+	  ],
+	  "area": [
+		{
+		  "label": "Abşeron rayonu"
+		},
+		{
+		  "label": "Ağcabədi rayonu"
+		},
+		{
+		  "label": "Ağdam rayonu"
+		},
+		{
+		  "label": "Ağdaş rayonu"
+		},
+		{
+		  "label": "Ağstafa rayonu"
+		},
+		{
+		  "label": "Ağsu rayonu"
+		},
+		{
+		  "label": "Astara rayonu"
+		},
+		{
+		  "label": "Bakı İnzibati Ərazisi"
+		},
+		{
+		  "label": "Balakən rayonu"
+		},
+		{
+		  "label": "Bərdə rayonu"
+		},
+		{
+		  "label": "Beyləqan rayonu"
+		},
+		{
+		  "label": "Biləsuvar rayonu"
+		},
+		{
+		  "label": "Cəlilabad rayonu"
+		},
+		{
+		  "label": "Daşkəsən rayonu"
+		},
+		{
+		  "label": "Füzuli rayonu"
+		},
+		{
+		  "label": "Gədəbəy rayonu"
+		},
+		{
+		  "label": "Göyçay rayonu"
+		},
+		{
+		  "label": "Goygol District"
+		},
+		{
+		  "label": "Hacıqabul rayonu"
+		},
+		{
+		  "label": "İmişli rayonu"
+		},
+		{
+		  "label": "İsmayıllı rayonu"
+		},
+		{
+		  "label": "Kürdəmir rayonu"
+		},
+		{
+		  "label": "Lənkəran rayonu"
+		},
+		{
+		  "label": "Lerik rayonu"
+		},
+		{
+		  "label": "Masallı rayonu"
+		},
+		{
+		  "label": "Mingəçevir İnzibati Ərazisi"
+		},
+		{
+		  "label": "Neftçala rayonu"
+		},
+		{
+		  "label": "Oğuz rayonu"
+		},
+		{
+		  "label": "Qax rayonu"
+		},
+		{
+		  "label": "Qəbələ rayonu"
+		},
+		{
+		  "label": "Qobustan rayonu"
+		},
+		{
+		  "label": "Quba rayonu"
+		},
+		{
+		  "label": "Qusar rayonu"
+		},
+		{
+		  "label": "Saatlı rayonu"
+		},
+		{
+		  "label": "Sabirabad rayonu"
+		},
+		{
+		  "label": "Şabran rayonu"
+		},
+		{
+		  "label": "Salyan rayonu"
+		},
+		{
+		  "label": "Şamaxı rayonu"
+		},
+		{
+		  "label": "Samux rayonu"
+		},
+		{
+		  "label": "Şəki rayonu"
+		},
+		{
+		  "label": "Şəmkir rayonu"
+		},
+		{
+		  "label": "Şirvan İnzibati Ərazisi"
+		},
+		{
+		  "label": "Siyəzən rayonu"
+		},
+		{
+		  "label": "Sumqayıt İnzibati Ərazisi"
+		},
+		{
+		  "label": "Tərtər rayonu"
+		},
+		{
+		  "label": "Tovuz rayonu"
+		},
+		{
+		  "label": "Ucar rayonu"
+		},
+		{
+		  "label": "Xaçmaz rayonu"
+		},
+		{
+		  "label": "Xızı rayonu"
+		},
+		{
+		  "label": "Xocavənd rayonu"
+		},
+		{
+		  "label": "Yardımlı rayonu"
+		},
+		{
+		  "label": "Zaqatala rayonu"
+		},
+		{
+		  "label": "Zərdab rayonu"
+		}
+	  ]
+	},
+	{
+	  "num": "108",
+	  "label": "Burundi",
+	  "c2": "BI",
+	  "name": "布隆迪",
+	  "c3": "BDI",
+	  "cp": [
+		29.18,
+		-3.16
+	  ],
+	  "area": [
+		{
+		  "label": "Bubanza"
+		},
+		{
+		  "label": "Bujumbura Mairie"
+		},
+		{
+		  "label": "Bujumbura Rural"
+		},
+		{
+		  "label": "Bururi"
+		},
+		{
+		  "label": "Cankuzo"
+		},
+		{
+		  "label": "Cibitoke"
+		},
+		{
+		  "label": "Gitega"
+		},
+		{
+		  "label": "Karuzi"
+		},
+		{
+		  "label": "Kayanza"
+		},
+		{
+		  "label": "Kirundo"
+		},
+		{
+		  "label": "Makamba"
+		},
+		{
+		  "label": "Muramvya"
+		},
+		{
+		  "label": "Muyinga"
+		},
+		{
+		  "label": "Mwaro"
+		},
+		{
+		  "label": "Ngozi"
+		},
+		{
+		  "label": "Rutana"
+		},
+		{
+		  "label": "Ruyigi"
+		}
+	  ]
+	},
+	{
+	  "num": "056",
+	  "label": "Belgium",
+	  "c2": "BE",
+	  "name": "比利时",
+	  "c3": "BEL",
+	  "cp": [
+		4.21,
+		50.51
+	  ],
+	  "area": [
+		{
+		  "label": "Brussels-Capital"
+		},
+		{
+		  "label": "Flanders"
+		},
+		{
+		  "label": "Wallonia"
+		}
+	  ]
+	},
+	{
+	  "num": "204",
+	  "label": "Benin",
+	  "c2": "BJ",
+	  "name": "贝宁",
+	  "c3": "BEN",
+	  "cp": [
+		2.42,
+		6.23
+	  ],
+	  "area": [
+		{
+		  "label": "Alibori"
+		},
+		{
+		  "label": "Atakora"
+		},
+		{
+		  "label": "Atlantique"
+		},
+		{
+		  "label": "Borgou"
+		},
+		{
+		  "label": "Collines"
+		},
+		{
+		  "label": "Donga"
+		},
+		{
+		  "label": "Kouffo"
+		},
+		{
+		  "label": "Littoral"
+		},
+		{
+		  "label": "Mono"
+		},
+		{
+		  "label": "Ouémé"
+		},
+		{
+		  "label": "Plateau"
+		},
+		{
+		  "label": "Zou"
+		}
+	  ]
+	},
+	{
+	  "num": "854",
+	  "label": "Burkina Faso",
+	  "c2": "BF",
+	  "name": "布基纳法索",
+	  "c3": "BFA",
+	  "cp": [
+		-1.3,
+		12.15
+	  ],
+	  "area": [
+		{
+		  "label": "Boucle du Mouhoun"
+		},
+		{
+		  "label": "Central-East"
+		},
+		{
+		  "label": "Central-North"
+		},
+		{
+		  "label": "Central-Plateau"
+		},
+		{
+		  "label": "Central-South"
+		},
+		{
+		  "label": "Central-West"
+		},
+		{
+		  "label": "Centre"
+		},
+		{
+		  "label": "East"
+		},
+		{
+		  "label": "North"
+		},
+		{
+		  "label": "Sahel"
+		},
+		{
+		  "label": "Southwest"
+		},
+		{
+		  "label": "Upper-Basins"
+		},
+		{
+		  "label": "Waterfalls"
+		}
+	  ]
+	},
+	{
+	  "num": "050",
+	  "label": "Bangladesh",
+	  "c2": "BD",
+	  "name": "孟加拉",
+	  "c3": "BGD",
+	  "cp": [
+		90.26,
+		23.43
+	  ],
+	  "area": [
+		{
+		  "label": "Barisal Division"
+		},
+		{
+		  "label": "Chittagong Division"
+		},
+		{
+		  "label": "Dhaka Division"
+		},
+		{
+		  "label": "Khulna Division"
+		},
+		{
+		  "label": "Rajshahi Division"
+		},
+		{
+		  "label": "Rangpur Division"
+		},
+		{
+		  "label": "Sylhet Division"
+		}
+	  ]
+	},
+	{
+	  "num": "100",
+	  "label": "Bulgaria",
+	  "c2": "BG",
+	  "name": "保加利亚",
+	  "c3": "BGR",
+	  "cp": [
+		23.2,
+		42.45
+	  ],
+	  "area": [
+		{
+		  "label": "Blagoevgrad Region"
+		},
+		{
+		  "label": "Burgas Region"
+		},
+		{
+		  "label": "Dobrich Region"
+		},
+		{
+		  "label": "Gabrovo Region"
+		},
+		{
+		  "label": "Haskovo Region"
+		},
+		{
+		  "label": "Kardzhali Region"
+		},
+		{
+		  "label": "Kyustendil Region"
+		},
+		{
+		  "label": "Lovech Region"
+		},
+		{
+		  "label": "Montana Region"
+		},
+		{
+		  "label": "Pazardzhik Region"
+		},
+		{
+		  "label": "Pernik Region"
+		},
+		{
+		  "label": "Pleven Region"
+		},
+		{
+		  "label": "Plovdiv Region"
+		},
+		{
+		  "label": "Razgrad Region"
+		},
+		{
+		  "label": "Ruse Region"
+		},
+		{
+		  "label": "Shumen Region"
+		},
+		{
+		  "label": "Silistra Region"
+		},
+		{
+		  "label": "Sliven Region"
+		},
+		{
+		  "label": "Smolyan Region"
+		},
+		{
+		  "label": "Sofia-City Region"
+		},
+		{
+		  "label": "Sofia Province"
+		},
+		{
+		  "label": "Stara Zagora Region"
+		},
+		{
+		  "label": "Targovishte Region"
+		},
+		{
+		  "label": "Varna Region"
+		},
+		{
+		  "label": "Veliko Tarnovo Region"
+		},
+		{
+		  "label": "Vidin Province"
+		},
+		{
+		  "label": "Vratsa Region"
+		},
+		{
+		  "label": "Yambol Region"
+		}
+	  ]
+	},
+	{
+	  "num": "044",
+	  "label": "The Bahamas",
+	  "c2": "BS",
+	  "name": "巴哈马",
+	  "c3": "BHS",
+	  "cp": [
+		-77.2,
+		25.05
+	  ],
+	  "area": [
+		{
+		  "label": "The Bahamas"
+		}
+	  ]
+	},
+	{
+	  "num": "070",
+	  "label": "Bosnia and Herzegovina",
+	  "c2": "BA",
+	  "name": "波黑",
+	  "c3": "BIH",
+	  "area": [
+		{
+		  "label": "Brcko district of Bosnia and Herzegowina"
+		},
+		{
+		  "label": "Entity Federation of Bosnia and Herzegovina"
+		},
+		{
+		  "label": "Republika Srpska"
+		}
+	  ]
+	},
+	{
+	  "num": "112",
+	  "label": "Belarus",
+	  "c2": "BY",
+	  "name": "白俄罗斯",
+	  "c3": "BLR",
+	  "cp": [
+		27.3,
+		53.52
+	  ],
+	  "area": [
+		{
+		  "label": "Brest region"
+		},
+		{
+		  "label": "Homel region"
+		},
+		{
+		  "label": "Hrodna region"
+		},
+		{
+		  "label": "Maglieu region"
+		},
+		{
+		  "label": "Minsk"
+		},
+		{
+		  "label": "Minsk Region"
+		},
+		{
+		  "label": "Vitebsk region"
+		}
+	  ]
+	},
+	{
+	  "num": "084",
+	  "label": "Belize",
+	  "c2": "BZ",
+	  "name": "伯利兹",
+	  "c3": "BLZ",
+	  "cp": [
+		-88.3,
+		17.18
+	  ],
+	  "area": [
+		{
+		  "label": "Belize District"
+		},
+		{
+		  "label": "Cayo"
+		},
+		{
+		  "label": "Corozal"
+		},
+		{
+		  "label": "Orange Walk"
+		},
+		{
+		  "label": "Stann Creek"
+		},
+		{
+		  "label": "Toledo"
+		}
+	  ]
+	},
+	{
+	  "num": "068",
+	  "label": "Bolivia",
+	  "c2": "BO",
+	  "name": "玻利维亚",
+	  "c3": "BOL",
+	  "cp": [
+		-68.1,
+		-16.2
+	  ],
+	  "area": [
+		{
+		  "label": "Beni"
+		},
+		{
+		  "label": "Chuquisaca"
+		},
+		{
+		  "label": "Cochabamba"
+		},
+		{
+		  "label": "La Paz"
+		},
+		{
+		  "label": "Oruro"
+		},
+		{
+		  "label": "Pando"
+		},
+		{
+		  "label": "Potosí"
+		},
+		{
+		  "label": "Santa Cruz"
+		},
+		{
+		  "label": "Tarija"
+		}
+	  ]
+	},
+	{
+	  "num": "076",
+	  "label": "Brazil",
+	  "c2": "BR",
+	  "name": "巴西",
+	  "c3": "BRA",
+	  "cp": [
+		-47.55,
+		-15.47
+	  ],
+	  "area": [
+		{
+		  "label": "Central-West Region"
+		},
+		{
+		  "label": "Northeast Region"
+		},
+		{
+		  "label": "North Region"
+		},
+		{
+		  "label": "Southeast Region"
+		},
+		{
+		  "label": "South Region"
+		}
+	  ]
+	},
+	{
+	  "num": "096",
+	  "label": "Brunei",
+	  "c2": "BN",
+	  "name": "文莱",
+	  "c3": "BRN",
+	  "cp": [
+		115,
+		4.52
+	  ],
+	  "area": [
+		{
+		  "label": "Belait"
+		},
+		{
+		  "label": "Brunei-Muara"
+		},
+		{
+		  "label": "Temburong"
+		},
+		{
+		  "label": "Tutong"
+		}
+	  ]
+	},
+	{
+	  "num": "064",
+	  "label": "Bhutan",
+	  "c2": "BT",
+	  "name": "不丹",
+	  "c3": "BTN",
+	  "cp": [
+		89.45,
+		27.31
+	  ],
+	  "area": [
+		{
+		  "label": "Bumthang District"
+		},
+		{
+		  "label": "Chukha District"
+		},
+		{
+		  "label": "Dagana District"
+		},
+		{
+		  "label": "Gasa District"
+		},
+		{
+		  "label": "Haa District"
+		},
+		{
+		  "label": "Lhuntse District"
+		},
+		{
+		  "label": "Mongar District"
+		},
+		{
+		  "label": "Paro District"
+		},
+		{
+		  "label": "Pemagatshel District"
+		},
+		{
+		  "label": "Punakha District"
+		},
+		{
+		  "label": "Samdrup Jongkhar District"
+		},
+		{
+		  "label": "Samtse District"
+		},
+		{
+		  "label": "Sarpang District"
+		},
+		{
+		  "label": "Thimphu District"
+		},
+		{
+		  "label": "Trashigang District"
+		},
+		{
+		  "label": "Trashiyangtse District"
+		},
+		{
+		  "label": "Trongsa District"
+		},
+		{
+		  "label": "Tsirang District"
+		},
+		{
+		  "label": "Wangdue Phodrang District"
+		},
+		{
+		  "label": "Zhemgang District"
+		}
+	  ]
+	},
+	{
+	  "num": "072",
+	  "label": "Botswana",
+	  "c2": "BW",
+	  "name": "博茨瓦纳",
+	  "c3": "BWA",
+	  "cp": [
+		25.57,
+		-24.45
+	  ],
+	  "area": [
+		{
+		  "label": "Central District"
+		},
+		{
+		  "label": "Ghanzi District"
+		},
+		{
+		  "label": "Kgalagadi District"
+		},
+		{
+		  "label": "Kgatleng District"
+		},
+		{
+		  "label": "Kweneng District"
+		},
+		{
+		  "label": "North-East District"
+		},
+		{
+		  "label": "North-West District"
+		},
+		{
+		  "label": "South-East District"
+		},
+		{
+		  "label": "Southern District"
+		}
+	  ]
+	},
+	{
+	  "num": "140",
+	  "label": "Central African Republic",
+	  "c2": "CF",
+	  "name": "中非",
+	  "c3": "CAF",
+	  "cp": [
+		18.35,
+		4.23
+	  ],
+	  "area": [
+		{
+		  "label": "Bamingui-Bangoran"
+		},
+		{
+		  "label": "Basse-Kotto"
+		},
+		{
+		  "label": "Haute-Kotto"
+		},
+		{
+		  "label": "Haut-Mbomou"
+		},
+		{
+		  "label": "Kémo"
+		},
+		{
+		  "label": "Lobaye"
+		},
+		{
+		  "label": "Mambéré-Kadéï"
+		},
+		{
+		  "label": "Mbomou"
+		},
+		{
+		  "label": "Nana-Grébizi"
+		},
+		{
+		  "label": "Nana-Mambéré"
+		},
+		{
+		  "label": "Ombella M'Poko"
+		},
+		{
+		  "label": "Ouaka"
+		},
+		{
+		  "label": "Ouham"
+		},
+		{
+		  "label": "Ouham-Pendé"
+		},
+		{
+		  "label": "Sangha-Mbaéré"
+		},
+		{
+		  "label": "Vakaga"
+		}
+	  ]
+	},
+	{
+	  "num": "124",
+	  "label": "Canada",
+	  "c2": "CA",
+	  "name": "加拿大",
+	  "c3": "CAN",
+	  "cp": [
+		-75.42,
+		45.27
+	  ],
+	  "area": [
+		{
+		  "label": "Alberta"
+		},
+		{
+		  "label": "British Columbia"
+		},
+		{
+		  "label": "Manitoba"
+		},
+		{
+		  "label": "New Brunswick"
+		},
+		{
+		  "label": "Newfoundland and Labrador"
+		},
+		{
+		  "label": "Northwest Territories"
+		},
+		{
+		  "label": "Nova Scotia"
+		},
+		{
+		  "label": "Nunavut"
+		},
+		{
+		  "label": "Ontario"
+		},
+		{
+		  "label": "Prince Edward Island"
+		},
+		{
+		  "label": "Quebec"
+		},
+		{
+		  "label": "Saskatchewan"
+		},
+		{
+		  "label": "Yukon"
+		}
+	  ]
+	},
+	{
+	  "num": "756",
+	  "label": "Switzerland",
+	  "c2": "CH",
+	  "name": "瑞士",
+	  "c3": "CHE",
+	  "cp": [
+		7.28,
+		46.57
+	  ],
+	  "area": [
+		{
+		  "label": "Sifundza seHhohho"
+		},
+		{
+		  "label": "Sifundza seLubombo"
+		},
+		{
+		  "label": "Sifundza seManzini"
+		},
+		{
+		  "label": "Sifundza seShiselweni"
+		}
+	  ]
+	},
+	{
+	  "num": "152",
+	  "label": "Chile",
+	  "c2": "CL",
+	  "name": "智利",
+	  "c3": "CHL",
+	  "cp": [
+		-70.4,
+		-33.24
+	  ],
+	  "area": [
+		{
+		  "label": "III Región de Atacama"
+		},
+		{
+		  "label": "II Región de Antofagasta"
+		},
+		{
+		  "label": "Amazonas"
+		},
+		{
+		  "label": "Antioquia"
+		},
+		{
+		  "label": "Arauca"
+		},
+		{
+		  "label": "Archipiélago de San Andrés, Providencia y Santa Catalina"
+		},
+		{
+		  "label": "Bolívar"
+		},
+		{
+		  "label": "Casanare"
+		},
+		{
+		  "label": "Cesar"
+		},
+		{
+		  "label": "Córdoba"
+		},
+		{
+		  "label": "Cundinamarca"
+		},
+		{
+		  "label": "Huila"
+		},
+		{
+		  "label": "La Guajira"
+		},
+		{
+		  "label": "Nariño"
+		},
+		{
+		  "label": "Putumayo"
+		},
+		{
+		  "label": "Santander"
+		},
+		{
+		  "label": "Tolima"
+		},
+		{
+		  "label": "Vichada"
+		}
+	  ]
+	},
+	{
+	  "num": "156",
+	  "label": "China",
+	  "c2": "CN",
+	  "name": "中国",
+	  "c3": "CHN",
+	  "cp": [
+		116.2,
+		39.55
+	  ],
+	  "area": [
+		{
+		  "label": "台湾"
+		},
+		{
+		  "label": "河北"
+		},
+		{
+		  "label": "山西"
+		},
+		{
+		  "label": "内蒙古"
+		},
+		{
+		  "label": "辽宁"
+		},
+		{
+		  "label": "吉林"
+		},
+		{
+		  "label": "黑龙江"
+		},
+		{
+		  "label": "江苏"
+		},
+		{
+		  "label": "浙江"
+		},
+		{
+		  "label": "安徽"
+		},
+		{
+		  "label": "福建"
+		},
+		{
+		  "label": "江西"
+		},
+		{
+		  "label": "山东"
+		},
+		{
+		  "label": "河南"
+		},
+		{
+		  "label": "湖北"
+		},
+		{
+		  "label": "湖南"
+		},
+		{
+		  "label": "广东"
+		},
+		{
+		  "label": "广西"
+		},
+		{
+		  "label": "海南"
+		},
+		{
+		  "label": "四川"
+		},
+		{
+		  "label": "贵州"
+		},
+		{
+		  "label": "云南"
+		},
+		{
+		  "label": "西藏"
+		},
+		{
+		  "label": "陕西"
+		},
+		{
+		  "label": "甘肃"
+		},
+		{
+		  "label": "青海"
+		},
+		{
+		  "label": "宁夏"
+		},
+		{
+		  "label": "新疆"
+		},
+		{
+		  "label": "北京"
+		},
+		{
+		  "label": "天津"
+		},
+		{
+		  "label": "上海"
+		},
+		{
+		  "label": "重庆"
+		},
+		{
+		  "label": "香港"
+		},
+		{
+		  "label": "澳门"
+		}
+	  ]
+	},
+	{
+	  "num": "384",
+	  "label": "Ivory Coast",
+	  "c2": "CI",
+	  "name": "科特迪瓦",
+	  "c3": "CIV",
+	  "cp": [
+		-5.17,
+		6.49
+	  ],
+	  "area": []
+	},
+	{
+	  "num": "120",
+	  "label": "Cameroon",
+	  "c2": "CM",
+	  "name": "喀麦隆",
+	  "c3": "CMR",
+	  "cp": [
+		11.35,
+		3.5
+	  ],
+	  "area": [
+		{
+		  "label": "Adamawa"
+		},
+		{
+		  "label": "Centre"
+		},
+		{
+		  "label": "East"
+		},
+		{
+		  "label": "Far-North"
+		},
+		{
+		  "label": "Littoral"
+		},
+		{
+		  "label": "North"
+		},
+		{
+		  "label": "Northwest"
+		},
+		{
+		  "label": "South"
+		},
+		{
+		  "label": "Southwest"
+		},
+		{
+		  "label": "West"
+		}
+	  ]
+	},
+	{
+	  "num": "180",
+	  "label": "Democratic Republic of the Congo",
+	  "c2": "CD",
+	  "name": "刚果（金）",
+	  "c3": "COD",
+	  "cp": [
+		15.12,
+		-4.09
+	  ],
+	  "area": []
+	},
+	{
+	  "num": "178",
+	  "label": "Republic of the Congo",
+	  "c2": "CG",
+	  "name": "刚果（布）",
+	  "c3": "COG",
+	  "cp": [
+		15.12,
+		-4.09
+	  ],
+	  "area": []
+	},
+	{
+	  "num": "170",
+	  "label": "Colombia",
+	  "c2": "CO",
+	  "name": "哥伦比亚",
+	  "c3": "COL",
+	  "cp": [
+		-74,
+		4.34
+	  ],
+	  "area": [
+		{
+		  "label": "Atlántico"
+		},
+		{
+		  "label": "Bogota"
+		},
+		{
+		  "label": "Boyacá"
+		},
+		{
+		  "label": "Caldas"
+		},
+		{
+		  "label": "Caquetá"
+		},
+		{
+		  "label": "Cauca"
+		},
+		{
+		  "label": "Chocó"
+		},
+		{
+		  "label": "Guainía"
+		},
+		{
+		  "label": "Guaviare"
+		},
+		{
+		  "label": "Magdalena"
+		},
+		{
+		  "label": "Meta"
+		},
+		{
+		  "label": "Norte de Santander"
+		},
+		{
+		  "label": "Quindío"
+		},
+		{
+		  "label": "Risaralda"
+		},
+		{
+		  "label": "Sucre"
+		},
+		{
+		  "label": "Valle del Cauca"
+		},
+		{
+		  "label": "Vaupés"
+		}
+	  ]
+	},
+	{
+	  "num": "188",
+	  "label": "Costa Rica",
+	  "c2": "CR",
+	  "name": "哥斯达黎加",
+	  "c3": "CRI",
+	  "cp": [
+		-84.02,
+		9.55
+	  ],
+	  "area": [
+		{
+		  "label": "Alajuela"
+		},
+		{
+		  "label": "Cartago"
+		},
+		{
+		  "label": "Guanacaste"
+		},
+		{
+		  "label": "Heredia"
+		},
+		{
+		  "label": "Limón"
+		},
+		{
+		  "label": "Puntarenas"
+		},
+		{
+		  "label": "San José"
+		}
+	  ]
+	},
+	{
+	  "num": "192",
+	  "label": "Cuba",
+	  "c2": "CU",
+	  "name": "古巴",
+	  "c3": "CUB",
+	  "cp": [
+		-82.22,
+		23.08
+	  ],
+	  "area": [
+		{
+		  "label": "Artemisa"
+		},
+		{
+		  "label": "Camagüey"
+		},
+		{
+		  "label": "Ciego de Avila"
+		},
+		{
+		  "label": "Cienfuegos"
+		},
+		{
+		  "label": "Granma"
+		},
+		{
+		  "label": "Guantánamo"
+		},
+		{
+		  "label": "Havana"
+		},
+		{
+		  "label": "Holguín"
+		},
+		{
+		  "label": "Isle of Youth"
+		},
+		{
+		  "label": "Las Tunas"
+		},
+		{
+		  "label": "Matanzas"
+		},
+		{
+		  "label": "Mayabeque"
+		},
+		{
+		  "label": "Pinar del Rio"
+		},
+		{
+		  "label": "Sancti Spiritus"
+		},
+		{
+		  "label": "Santiago de Cuba"
+		},
+		{
+		  "label": "Villa Clara"
+		}
+	  ]
+	},
+	{
+	  "num": "-98",
+	  "label": "Northern Cyprus",
+	  "c2": "KKTC",
+	  "name": "北塞浦路斯土耳其",
+	  "c3": "KKTC",
+	  "cp": [
+		32.54,
+		39.57
+	  ],
+	  "area": []
+	},
+	{
+	  "num": "196",
+	  "label": "Cyprus",
+	  "c2": "CY",
+	  "name": "塞浦路斯",
+	  "c3": "CYP",
+	  "cp": [
+		33.25,
+		35.1
+	  ],
+	  "area": [
+		{
+		  "label": "Famagusta"
+		},
+		{
+		  "label": "Kyrenia"
+		},
+		{
+		  "label": "Larnaca"
+		},
+		{
+		  "label": "Limassol"
+		},
+		{
+		  "label": "Nicosia"
+		},
+		{
+		  "label": "Paphos"
+		}
+	  ]
+	},
+	{
+	  "num": "203",
+	  "label": "Czech Republic",
+	  "c2": "CZ",
+	  "name": "捷克",
+	  "c3": "CZE",
+	  "cp": [
+		14.22,
+		50.05
+	  ],
+	  "area": []
+	},
+	{
+	  "num": "276",
+	  "label": "Germany",
+	  "c2": "DE",
+	  "name": "德国",
+	  "c3": "DEU",
+	  "cp": [
+		13.25,
+		52.3
+	  ],
+	  "area": [
+		{
+		  "label": "Baden-Württemberg"
+		},
+		{
+		  "label": "Berlin"
+		},
+		{
+		  "label": "Brandenburg"
+		},
+		{
+		  "label": "Bremen"
+		},
+		{
+		  "label": "Free State of Bavaria"
+		},
+		{
+		  "label": "Hamburg"
+		},
+		{
+		  "label": "Hesse"
+		},
+		{
+		  "label": "Lower Saxony"
+		},
+		{
+		  "label": "Mecklenburg-Vorpommern"
+		},
+		{
+		  "label": "North Rhine-Westphalia"
+		},
+		{
+		  "label": "Rhineland-Palatinate"
+		},
+		{
+		  "label": "Saarland"
+		},
+		{
+		  "label": "Saxony"
+		},
+		{
+		  "label": "Saxony-Anhalt"
+		},
+		{
+		  "label": "Schleswig-Holstein"
+		},
+		{
+		  "label": "Thuringia"
+		}
+	  ]
+	},
+	{
+	  "num": "262",
+	  "label": "Djibouti",
+	  "c2": "DJ",
+	  "name": "吉布提",
+	  "c3": "DJI",
+	  "cp": [
+		42.2,
+		11.08
+	  ],
+	  "area": [
+		{
+		  "label": "Ali Sabieh"
+		},
+		{
+		  "label": "Arta"
+		},
+		{
+		  "label": "Dikhil"
+		},
+		{
+		  "label": "Djibouti"
+		},
+		{
+		  "label": "Obock"
+		},
+		{
+		  "label": "Tadjourah"
+		}
+	  ]
+	},
+	{
+	  "num": "208",
+	  "label": "Denmark",
+	  "c2": "DK",
+	  "name": "丹麦",
+	  "c3": "DNK",
+	  "cp": [
+		12.34,
+		55.41
+	  ],
+	  "area": [
+		{
+		  "label": "Albertslund Municipality"
+		},
+		{
+		  "label": "Allerød Municipality"
+		},
+		{
+		  "label": "Ballerup Municipality"
+		},
+		{
+		  "label": "Bornholms Regionskommune"
+		},
+		{
+		  "label": "Brøndby Municipality"
+		},
+		{
+		  "label": "Copenhagen Municipality"
+		},
+		{
+		  "label": "Dragør Municipality"
+		},
+		{
+		  "label": "Egedal Municipality"
+		},
+		{
+		  "label": "Fredensborg Municipality"
+		},
+		{
+		  "label": "Frederiksberg Municipality"
+		},
+		{
+		  "label": "Frederikssund Municipality"
+		},
+		{
+		  "label": "Furesø Municipality"
+		},
+		{
+		  "label": "Gentofte Municipality"
+		},
+		{
+		  "label": "Gladsaxe Municipality"
+		},
+		{
+		  "label": "Glostrup Municipality"
+		},
+		{
+		  "label": "Gribskov Municipality"
+		},
+		{
+		  "label": "Halsnæs Municipality"
+		},
+		{
+		  "label": "Helsingør Municipality"
+		},
+		{
+		  "label": "Herlev Municipality"
+		},
+		{
+		  "label": "Hillerød Municipality"
+		},
+		{
+		  "label": "Høje-Taastrup Municipality"
+		},
+		{
+		  "label": "Hørsholm Municipality"
+		},
+		{
+		  "label": "Hvidovre Municipality"
+		},
+		{
+		  "label": "Ishøj Municipality"
+		},
+		{
+		  "label": "Lyngby-Taarbæk Municipality"
+		},
+		{
+		  "label": "Rødovre Municipality"
+		},
+		{
+		  "label": "Rudersdal Municipality"
+		},
+		{
+		  "label": "Tårnby Kommune"
+		},
+		{
+		  "label": "Vallensbæk Municipality"
+		}
+	  ]
+	},
+	{
+	  "num": "214",
+	  "label": "Dominican Republic",
+	  "c2": "DO",
+	  "name": "多米尼加",
+	  "c3": "DOM",
+	  "cp": [
+		-61.24,
+		15.2
+	  ],
+	  "area": [
+		{
+		  "label": "Azua"
+		},
+		{
+		  "label": "Baoruco"
+		},
+		{
+		  "label": "Barahona"
+		},
+		{
+		  "label": "Dajabón"
+		},
+		{
+		  "label": "Distrito Nacional"
+		},
+		{
+		  "label": "Duarte"
+		},
+		{
+		  "label": "Elías Piña"
+		},
+		{
+		  "label": "El Seibo"
+		},
+		{
+		  "label": "Espaillat"
+		},
+		{
+		  "label": "Hato Mayor"
+		},
+		{
+		  "label": "Hermanas Mirabal"
+		},
+		{
+		  "label": "Independencia"
+		},
+		{
+		  "label": "La Altagracia"
+		},
+		{
+		  "label": "La Romana"
+		},
+		{
+		  "label": "La Vega"
+		},
+		{
+		  "label": "María Trinidad Sánchez"
+		},
+		{
+		  "label": "Monseñor Nouel"
+		},
+		{
+		  "label": "Monte Cristi"
+		},
+		{
+		  "label": "Monte Plata"
+		},
+		{
+		  "label": "Pedernales"
+		},
+		{
+		  "label": "Peravia"
+		},
+		{
+		  "label": "Puerto Plata"
+		},
+		{
+		  "label": "Samaná"
+		},
+		{
+		  "label": "Sánchez Ramírez"
+		},
+		{
+		  "label": "San Cristóbal"
+		},
+		{
+		  "label": "San José de Ocoa"
+		},
+		{
+		  "label": "San Juan"
+		},
+		{
+		  "label": "San Pedro de Macorís"
+		},
+		{
+		  "label": "Santiago"
+		},
+		{
+		  "label": "Santiago Rodríguez"
+		},
+		{
+		  "label": "Santo Domingo"
+		},
+		{
+		  "label": "Valverde"
+		}
+	  ]
+	},
+	{
+	  "num": "012",
+	  "label": "Algeria",
+	  "c2": "DZ",
+	  "name": "阿尔及利亚",
+	  "c3": "DZA",
+	  "cp": [
+		3.08,
+		36.42
+	  ],
+	  "area": [
+		{
+		  "label": "Adrar"
+		},
+		{
+		  "label": "Aïn Defla"
+		},
+		{
+		  "label": "Aïn Témouchent"
+		},
+		{
+		  "label": "Algiers"
+		},
+		{
+		  "label": "Annaba"
+		},
+		{
+		  "label": "Batna"
+		},
+		{
+		  "label": "Béchar"
+		},
+		{
+		  "label": "Béjaïa"
+		},
+		{
+		  "label": "Biskra"
+		},
+		{
+		  "label": "Blida"
+		},
+		{
+		  "label": "Bordj Bou Arreridj‎"
+		},
+		{
+		  "label": "Bouira"
+		},
+		{
+		  "label": "Boumerdès"
+		},
+		{
+		  "label": "Chlef"
+		},
+		{
+		  "label": "Constantine"
+		},
+		{
+		  "label": "Djelfa"
+		},
+		{
+		  "label": "El Bayadh"
+		},
+		{
+		  "label": "El Oued"
+		},
+		{
+		  "label": "El Tarf"
+		},
+		{
+		  "label": "Ghardaia"
+		},
+		{
+		  "label": "Guelma"
+		},
+		{
+		  "label": "Illizi"
+		},
+		{
+		  "label": "Jijel"
+		},
+		{
+		  "label": "Khenchela"
+		},
+		{
+		  "label": "Laghouat"
+		},
+		{
+		  "label": "Mascara"
+		},
+		{
+		  "label": "Médéa"
+		},
+		{
+		  "label": "Mila"
+		},
+		{
+		  "label": "Mostaganem"
+		},
+		{
+		  "label": "M'Sila"
+		},
+		{
+		  "label": "Naâma"
+		},
+		{
+		  "label": "Oran"
+		},
+		{
+		  "label": "Ouargla"
+		},
+		{
+		  "label": "Oum El Bouaghi"
+		},
+		{
+		  "label": "Relizane"
+		},
+		{
+		  "label": "Saïda"
+		},
+		{
+		  "label": "Sétif"
+		},
+		{
+		  "label": "Sidi Bel Abbès"
+		},
+		{
+		  "label": "Skikda"
+		},
+		{
+		  "label": "Souk Ahras"
+		},
+		{
+		  "label": "Tamanrasset"
+		},
+		{
+		  "label": "Tébessa"
+		},
+		{
+		  "label": "Tiaret"
+		},
+		{
+		  "label": "Tindouf"
+		},
+		{
+		  "label": "Tipaza"
+		},
+		{
+		  "label": "Tissemsilt"
+		},
+		{
+		  "label": "Tizi Ouzou"
+		},
+		{
+		  "label": "Tlemcen"
+		}
+	  ]
+	},
+	{
+	  "num": "218",
+	  "label": "Ecuador",
+	  "c2": "EC",
+	  "name": "厄瓜多尔",
+	  "c3": "ECU",
+	  "cp": [
+		-78.35,
+		-0.15
+	  ],
+	  "area": [
+		{
+		  "label": "Azuay"
+		},
+		{
+		  "label": "Bolívar"
+		},
+		{
+		  "label": "Cañar"
+		},
+		{
+		  "label": "Carchi"
+		},
+		{
+		  "label": "Chimborazo"
+		},
+		{
+		  "label": "Cotopaxi"
+		},
+		{
+		  "label": "El Oro"
+		},
+		{
+		  "label": "Esmeraldas"
+		},
+		{
+		  "label": "Galápagos Province"
+		},
+		{
+		  "label": "Guayas"
+		},
+		{
+		  "label": "Imbabura"
+		},
+		{
+		  "label": "Loja"
+		},
+		{
+		  "label": "Los Ríos"
+		},
+		{
+		  "label": "Manabí"
+		},
+		{
+		  "label": "Morona Santiago"
+		},
+		{
+		  "label": "Napo"
+		},
+		{
+		  "label": "Orellana"
+		},
+		{
+		  "label": "Pastaza"
+		},
+		{
+		  "label": "Pichincha"
+		},
+		{
+		  "label": "Santa Elena Province"
+		},
+		{
+		  "label": "Santo Domingo de los Tsáchilas"
+		},
+		{
+		  "label": "Sucumbíos"
+		},
+		{
+		  "label": "Tungurahua"
+		},
+		{
+		  "label": "Zamora Chinchipe"
+		}
+	  ]
+	},
+	{
+	  "num": "818",
+	  "label": "Egypt",
+	  "c2": "EG",
+	  "name": "埃及",
+	  "c3": "EGY",
+	  "cp": [
+		31.14,
+		30.01
+	  ],
+	  "area": [
+		{
+		  "label": "Alexandria Governorate"
+		},
+		{
+		  "label": "Al Sharqia Governorate"
+		},
+		{
+		  "label": "Aswan Governorate"
+		},
+		{
+		  "label": "Asyut Governorate"
+		},
+		{
+		  "label": "Beheira Governorate"
+		},
+		{
+		  "label": "Beni Suef Governorate"
+		},
+		{
+		  "label": "Cairo Governorate"
+		},
+		{
+		  "label": "Dakahlia Governorate"
+		},
+		{
+		  "label": "Damietta Governorate"
+		},
+		{
+		  "label": "Faiyum Governorate"
+		},
+		{
+		  "label": "Gharbiyya Governorate"
+		},
+		{
+		  "label": "Giza Governorate"
+		},
+		{
+		  "label": "Ismailia Governorate"
+		},
+		{
+		  "label": "Kafr el-Sheikh Governorate"
+		},
+		{
+		  "label": "Luxor Governate"
+		},
+		{
+		  "label": "Matrouh Governorate"
+		},
+		{
+		  "label": "Minya Governate"
+		},
+		{
+		  "label": "Monufia Governorate"
+		},
+		{
+		  "label": "New Valley Governorate"
+		},
+		{
+		  "label": "North Sinai Governorate"
+		},
+		{
+		  "label": "Port Said Governorate"
+		},
+		{
+		  "label": "Qalyubia Governorate"
+		},
+		{
+		  "label": "Qena Governorate"
+		},
+		{
+		  "label": "Red Sea Governorate"
+		},
+		{
+		  "label": "Sohag Governorate"
+		},
+		{
+		  "label": "South Sinai Governorate"
+		},
+		{
+		  "label": "Suez Governorate"
+		}
+	  ]
+	},
+	{
+	  "num": "232",
+	  "label": "Eritrea",
+	  "c2": "ER",
+	  "name": "厄立特里亚",
+	  "c3": "ERI",
+	  "cp": [
+		38.55,
+		15.19
+	  ],
+	  "area": [
+		{
+		  "label": "Anseba"
+		},
+		{
+		  "label": "Debubawi Kayih Bahri"
+		},
+		{
+		  "label": "Gash-Barka Region"
+		},
+		{
+		  "label": "Maekel Region"
+		},
+		{
+		  "label": "Semienawi Kayih Bahri"
+		},
+		{
+		  "label": "Southern Red Sea Region"
+		}
+	  ]
+	},
+	{
+	  "num": "724",
+	  "label": "Spain",
+	  "c2": "ES",
+	  "name": "西班牙",
+	  "c3": "ESP",
+	  "cp": [
+		-3.45,
+		40.25
+	  ],
+	  "area": [
+		{
+		  "label": "Andalusia"
+		},
+		{
+		  "label": "Aragon"
+		},
+		{
+		  "label": "Balearic Islands"
+		},
+		{
+		  "label": "Basque Country"
+		},
+		{
+		  "label": "Canary Islands"
+		},
+		{
+		  "label": "Cantabria"
+		},
+		{
+		  "label": "Castile and León"
+		},
+		{
+		  "label": "Castile-La Mancha"
+		},
+		{
+		  "label": "Catalonia"
+		},
+		{
+		  "label": "Ceuta"
+		},
+		{
+		  "label": "Community of Madrid"
+		},
+		{
+		  "label": "Comunidad Foral de Navarra"
+		},
+		{
+		  "label": "Extremadura"
+		},
+		{
+		  "label": "Galicia"
+		},
+		{
+		  "label": "Melilla"
+		},
+		{
+		  "label": "Principality of Asturias"
+		},
+		{
+		  "label": "Región de Murcia"
+		},
+		{
+		  "label": "Rioja"
+		},
+		{
+		  "label": "Valencian Community"
+		}
+	  ]
+	},
+	{
+	  "num": "233",
+	  "label": "Estonia",
+	  "c2": "EE",
+	  "name": "爱沙尼亚",
+	  "c3": "EST",
+	  "cp": [
+		24.48,
+		59.22
+	  ],
+	  "area": [
+		{
+		  "label": "Harju maakond"
+		},
+		{
+		  "label": "Hiiu maakond"
+		},
+		{
+		  "label": "Ida-Viru maakond"
+		},
+		{
+		  "label": "Järva maakond"
+		},
+		{
+		  "label": "Jõgeva maakond"
+		},
+		{
+		  "label": "Lääne maakond"
+		},
+		{
+		  "label": "Lääne-Viru maakond"
+		},
+		{
+		  "label": "Pärnu maakond"
+		},
+		{
+		  "label": "Põlva maakond"
+		},
+		{
+		  "label": "Rapla maakond"
+		},
+		{
+		  "label": "Saare maakond"
+		},
+		{
+		  "label": "Tartu maakond"
+		},
+		{
+		  "label": "Valga maakond"
+		},
+		{
+		  "label": "Viljandi maakond"
+		},
+		{
+		  "label": "Võru maakond"
+		}
+	  ]
+	},
+	{
+	  "num": "231",
+	  "label": "Ethiopia",
+	  "c2": "ET",
+	  "name": "埃塞俄比亚",
+	  "c3": "ETH",
+	  "cp": [
+		38.42,
+		9.02
+	  ],
+	  "area": [
+		{
+		  "label": "Addis Ababa"
+		},
+		{
+		  "label": "Afar"
+		},
+		{
+		  "label": "Amhara"
+		},
+		{
+		  "label": "Benishangul-Gumuz Region"
+		},
+		{
+		  "label": "Dire Dawa"
+		},
+		{
+		  "label": "Gambela"
+		},
+		{
+		  "label": "Harari"
+		},
+		{
+		  "label": "Oromia"
+		},
+		{
+		  "label": "Somali"
+		},
+		{
+		  "label": "Southern Nations"
+		},
+		{
+		  "label": "Tigray"
+		}
+	  ]
+	},
+	{
+	  "num": "246",
+	  "label": "Finland",
+	  "c2": "FI",
+	  "name": "芬兰",
+	  "c3": "FIN",
+	  "cp": [
+		25.03,
+		60.15
+	  ],
+	  "area": [
+		{
+		  "label": "Finland"
+		}
+	  ]
+	},
+	{
+	  "num": "242",
+	  "label": "Fiji",
+	  "c2": "FJ",
+	  "name": "斐济群岛",
+	  "c3": "FJI",
+	  "cp": [
+		178.3,
+		-18.06
+	  ],
+	  "area": [
+		{
+		  "label": "Fiji"
+		}
+	  ]
+	},
+	{
+	  "num": "826",
+	  "label": "United Kingdom",
+	  "c2": "GB",
+	  "name": "英国",
+	  "c3": "GBR",
+	  "cp": [
+		-0.05,
+		51.36
+	  ],
+	  "area": [
+		{
+		  "label": "England"
+		},
+		{
+		  "label": "Northern Ireland"
+		},
+		{
+		  "label": "Scotland"
+		},
+		{
+		  "label": "Wales"
+		}
+	  ]
+	},
+	{
+	  "num": "250",
+	  "label": "France",
+	  "c2": "FR",
+	  "name": "法国",
+	  "c3": "FRA",
+	  "cp": [
+		2.2,
+		48.5
+	  ],
+	  "area": [
+		{
+		  "label": "Alsace–Champagne-Ardenne–Lorraine"
+		},
+		{
+		  "label": "Aquitaine-Limousin-Poitou-Charentes"
+		},
+		{
+		  "label": "Auvergne-Rhône-Alpes"
+		},
+		{
+		  "label": "Bourgogne-Franche-Comté"
+		},
+		{
+		  "label": "Brittany"
+		},
+		{
+		  "label": "Centre-Val de Loire"
+		},
+		{
+		  "label": "Corsica"
+		},
+		{
+		  "label": "French Guiana"
+		},
+		{
+		  "label": "Guadeloupe"
+		},
+		{
+		  "label": "Ile-de-France"
+		},
+		{
+		  "label": "Languedoc-Roussillon-Midi-Pyrénées"
+		},
+		{
+		  "label": "Martinique"
+		},
+		{
+		  "label": "Mayotte"
+		},
+		{
+		  "label": "Nord-Pas-de-Calais and Picardy"
+		},
+		{
+		  "label": "Normandy"
+		},
+		{
+		  "label": "Pays de la Loire"
+		},
+		{
+		  "label": "Provence-Alpes-Côte d'Azur"
+		},
+		{
+		  "label": "Réunion"
+		}
+	  ]
+	},
+	{
+	  "num": "266",
+	  "label": "Gabon",
+	  "c2": "GA",
+	  "name": "加蓬",
+	  "c3": "GAB",
+	  "cp": [
+		9.26,
+		0.25
+	  ],
+	  "area": [
+		{
+		  "label": "Estuaire"
+		},
+		{
+		  "label": "Haut-Ogooué"
+		},
+		{
+		  "label": "Moyen-Ogooué"
+		},
+		{
+		  "label": "Ngounié"
+		},
+		{
+		  "label": "Nyanga"
+		},
+		{
+		  "label": "Ogooué-Ivindo"
+		},
+		{
+		  "label": "Ogooué-Lolo"
+		},
+		{
+		  "label": "Ogooué-Maritime"
+		},
+		{
+		  "label": "Woleu-Ntem"
+		}
+	  ]
+	},
+	{
+	  "num": "826",
+	  "label": "United Kingdom",
+	  "c2": "GB",
+	  "name": "英国",
+	  "c3": "GBR",
+	  "cp": [
+		-0.05,
+		51.36
+	  ],
+	  "area": [
+		{
+		  "label": "England"
+		},
+		{
+		  "label": "Northern Ireland"
+		},
+		{
+		  "label": "Scotland"
+		},
+		{
+		  "label": "Wales"
+		}
+	  ]
+	},
+	{
+	  "num": "268",
+	  "label": "Georgia",
+	  "c2": "GE",
+	  "name": "格鲁吉亚",
+	  "c3": "GEO",
+	  "cp": [
+		44.5,
+		41.43
+	  ],
+	  "area": [
+		{
+		  "label": "Autonomous Republic of Abkhazia"
+		},
+		{
+		  "label": "Autonomous Republic of Adjara"
+		},
+		{
+		  "label": "Guria"
+		},
+		{
+		  "label": "Imereti"
+		},
+		{
+		  "label": "Inner Kartli"
+		},
+		{
+		  "label": "Kakheti"
+		},
+		{
+		  "label": "Lower Kartli"
+		},
+		{
+		  "label": "Mtskheta-Mtianeti"
+		},
+		{
+		  "label": "Racha-Lechkhumi and Lower Svaneti"
+		},
+		{
+		  "label": "Samegrelo-Upper Svaneti"
+		},
+		{
+		  "label": "Samtskhe-Javakheti"
+		},
+		{
+		  "label": "South Ossetia"
+		},
+		{
+		  "label": "Tbilisi"
+		}
+	  ]
+	},
+	{
+	  "num": "288",
+	  "label": "Ghana",
+	  "c2": "GH",
+	  "name": "加纳",
+	  "c3": "GHA",
+	  "cp": [
+		-0.06,
+		5.35
+	  ],
+	  "area": [
+		{
+		  "label": "Ashanti Region"
+		},
+		{
+		  "label": "Brong-Ahafo Region"
+		},
+		{
+		  "label": "Central Region"
+		},
+		{
+		  "label": "Eastern Region"
+		},
+		{
+		  "label": "Greater Accra Region"
+		},
+		{
+		  "label": "Northern Region"
+		},
+		{
+		  "label": "Upper East Region"
+		},
+		{
+		  "label": "Upper West Region"
+		},
+		{
+		  "label": "Volta Region"
+		},
+		{
+		  "label": "Western Region"
+		}
+	  ]
+	},
+	{
+	  "num": "324",
+	  "label": "Guinea",
+	  "c2": "GN",
+	  "name": "几内亚",
+	  "c3": "GIN",
+	  "cp": [
+		-13.49,
+		9.29
+	  ],
+	  "area": [
+		{
+		  "label": "Conakry"
+		},
+		{
+		  "label": "Faranah Region"
+		},
+		{
+		  "label": "Kankan Region"
+		},
+		{
+		  "label": "Kindia Region"
+		},
+		{
+		  "label": "Labé Region"
+		},
+		{
+		  "label": "Mamou Region"
+		},
+		{
+		  "label": "Nzérékoré Region"
+		},
+		{
+		  "label": "Région de Boké"
+		}
+	  ]
+	},
+	{
+	  "num": "270",
+	  "label": "Gambia",
+	  "c2": "GM",
+	  "name": "冈比亚",
+	  "c3": "GMB",
+	  "cp": [
+		-16.4,
+		13.28
+	  ],
+	  "area": []
+	},
+	{
+	  "num": "624",
+	  "label": "Guinea Bissau",
+	  "c2": "GW",
+	  "name": "几内亚比绍",
+	  "c3": "GNB",
+	  "cp": [
+		-15.45,
+		11.45
+	  ],
+	  "area": []
+	},
+	{
+	  "num": "226",
+	  "label": "Equatorial Guinea",
+	  "c2": "GQ",
+	  "name": "赤道几内亚",
+	  "c3": "GNQ",
+	  "cp": [
+		8.5,
+		3.45
+	  ],
+	  "area": [
+		{
+		  "label": "Región Continental"
+		},
+		{
+		  "label": "Región Insular"
+		}
+	  ]
+	},
+	{
+	  "num": "300",
+	  "label": "Greece",
+	  "c2": "GR",
+	  "name": "希腊",
+	  "c3": "GRC",
+	  "cp": [
+		23.46,
+		37.58
+	  ],
+	  "area": [
+		{
+		  "label": "Aegean Sea Administration"
+		},
+		{
+		  "label": "Crete Administration"
+		},
+		{
+		  "label": "Decentralized Administration of Attica"
+		},
+		{
+		  "label": "Decentralized Administration of Thessaly - Central Greece"
+		},
+		{
+		  "label": "Epirus - Western Macedonia Administration"
+		},
+		{
+		  "label": "Macedonia - Thrace Administration"
+		},
+		{
+		  "label": "Peloponnese, West Greece and Ionian Sea Administration"
+		}
+	  ]
+	},
+	{
+	  "num": "208",
+	  "label": "Denmark",
+	  "c2": "DK",
+	  "name": "丹麦",
+	  "c3": "DNK",
+	  "cp": [
+		12.34,
+		55.41
+	  ],
+	  "area": [
+		{
+		  "label": "Albertslund Municipality"
+		},
+		{
+		  "label": "Allerød Municipality"
+		},
+		{
+		  "label": "Ballerup Municipality"
+		},
+		{
+		  "label": "Bornholms Regionskommune"
+		},
+		{
+		  "label": "Brøndby Municipality"
+		},
+		{
+		  "label": "Copenhagen Municipality"
+		},
+		{
+		  "label": "Dragør Municipality"
+		},
+		{
+		  "label": "Egedal Municipality"
+		},
+		{
+		  "label": "Fredensborg Municipality"
+		},
+		{
+		  "label": "Frederiksberg Municipality"
+		},
+		{
+		  "label": "Frederikssund Municipality"
+		},
+		{
+		  "label": "Furesø Municipality"
+		},
+		{
+		  "label": "Gentofte Municipality"
+		},
+		{
+		  "label": "Gladsaxe Municipality"
+		},
+		{
+		  "label": "Glostrup Municipality"
+		},
+		{
+		  "label": "Gribskov Municipality"
+		},
+		{
+		  "label": "Halsnæs Municipality"
+		},
+		{
+		  "label": "Helsingør Municipality"
+		},
+		{
+		  "label": "Herlev Municipality"
+		},
+		{
+		  "label": "Hillerød Municipality"
+		},
+		{
+		  "label": "Høje-Taastrup Municipality"
+		},
+		{
+		  "label": "Hørsholm Municipality"
+		},
+		{
+		  "label": "Hvidovre Municipality"
+		},
+		{
+		  "label": "Ishøj Municipality"
+		},
+		{
+		  "label": "Lyngby-Taarbæk Municipality"
+		},
+		{
+		  "label": "Rødovre Municipality"
+		},
+		{
+		  "label": "Rudersdal Municipality"
+		},
+		{
+		  "label": "Tårnby Kommune"
+		},
+		{
+		  "label": "Vallensbæk Municipality"
+		}
+	  ]
+	},
+	{
+	  "num": "320",
+	  "label": "Guatemala",
+	  "c2": "GT",
+	  "name": "危地马拉",
+	  "c3": "GTM",
+	  "cp": [
+		-90.22,
+		14.4
+	  ],
+	  "area": [
+		{
+		  "label": "Alta Verapaz"
+		},
+		{
+		  "label": "Baja Verapaz"
+		},
+		{
+		  "label": "Chimaltenango"
+		},
+		{
+		  "label": "Chiquimula"
+		},
+		{
+		  "label": "El Progreso"
+		},
+		{
+		  "label": "Escuintla"
+		},
+		{
+		  "label": "Guatemala"
+		},
+		{
+		  "label": "Huehuetenango"
+		},
+		{
+		  "label": "Izabal"
+		},
+		{
+		  "label": "Jalapa"
+		},
+		{
+		  "label": "Jutiapa"
+		},
+		{
+		  "label": "Petén"
+		},
+		{
+		  "label": "Quetzaltenango"
+		},
+		{
+		  "label": "Quiché"
+		},
+		{
+		  "label": "Retalhuleu"
+		},
+		{
+		  "label": "Sacatepéquez"
+		},
+		{
+		  "label": "San Marcos"
+		},
+		{
+		  "label": "Santa Rosa"
+		},
+		{
+		  "label": "Sololá"
+		},
+		{
+		  "label": "Suchitepéquez"
+		},
+		{
+		  "label": "Totonicapán"
+		},
+		{
+		  "label": "Zacapa"
+		}
+	  ]
+	},
+	{
+	  "num": "328",
+	  "label": "Guyana",
+	  "c2": "GY",
+	  "name": "圭亚那",
+	  "c3": "GUY",
+	  "cp": [
+		-58.12,
+		6.5
+	  ],
+	  "area": [
+		{
+		  "label": "Guyana"
+		}
+	  ]
+	},
+	{
+	  "num": "340",
+	  "label": "Honduras",
+	  "c2": "HN",
+	  "name": "洪都拉斯",
+	  "c3": "HND",
+	  "cp": [
+		-87.14,
+		14.05
+	  ],
+	  "area": [
+		{
+		  "label": "Atlántida"
+		},
+		{
+		  "label": "Bay Islands"
+		},
+		{
+		  "label": "Choluteca"
+		},
+		{
+		  "label": "Colón"
+		},
+		{
+		  "label": "Comayagua"
+		},
+		{
+		  "label": "Copán"
+		},
+		{
+		  "label": "Cortés"
+		},
+		{
+		  "label": "El Paraíso"
+		},
+		{
+		  "label": "Francisco Morazán"
+		},
+		{
+		  "label": "Gracias a Dios"
+		},
+		{
+		  "label": "Intibucá"
+		},
+		{
+		  "label": "La Paz"
+		},
+		{
+		  "label": "Lempira"
+		},
+		{
+		  "label": "Ocotepeque"
+		},
+		{
+		  "label": "Olancho"
+		},
+		{
+		  "label": "Santa Bárbara"
+		},
+		{
+		  "label": "Valle"
+		},
+		{
+		  "label": "Yoro"
+		}
+	  ]
+	},
+	{
+	  "num": "191",
+	  "label": "Croatia",
+	  "c2": "HR",
+	  "name": "克罗地亚",
+	  "c3": "HRV",
+	  "cp": [
+		15.58,
+		45.5
+	  ],
+	  "area": [
+		{
+		  "label": "Bjelovar-Bilogora"
+		},
+		{
+		  "label": "Brod-Posavina"
+		},
+		{
+		  "label": "City of Zagreb"
+		},
+		{
+		  "label": "Dubrovnik-Neretva"
+		},
+		{
+		  "label": "Istria"
+		},
+		{
+		  "label": "Karlovac"
+		},
+		{
+		  "label": "Koprivnica-Križevci"
+		},
+		{
+		  "label": "Krapina-Zagorje"
+		},
+		{
+		  "label": "Lika-Senj"
+		},
+		{
+		  "label": "Međimurje"
+		},
+		{
+		  "label": "Osijek-Baranja"
+		},
+		{
+		  "label": "Požega-Slavonia"
+		},
+		{
+		  "label": "Primorje-Gorski Kotar"
+		},
+		{
+		  "label": "Šibenik-Knin"
+		},
+		{
+		  "label": "Sisak-Moslavina"
+		},
+		{
+		  "label": "Split-Dalmatia"
+		},
+		{
+		  "label": "Varaždin"
+		},
+		{
+		  "label": "Virovitica-Podravina"
+		},
+		{
+		  "label": "Vukovar-Syrmia"
+		},
+		{
+		  "label": "Zadar County"
+		},
+		{
+		  "label": "Zagreb County"
+		}
+	  ]
+	},
+	{
+	  "num": "332",
+	  "label": "Haiti",
+	  "c2": "HT",
+	  "name": "海地",
+	  "c3": "HTI",
+	  "cp": [
+		-72.2,
+		18.4
+	  ],
+	  "area": [
+		{
+		  "label": "Artibonite Department"
+		},
+		{
+		  "label": "Centre Department"
+		},
+		{
+		  "label": "Département de la Grande-Anse"
+		},
+		{
+		  "label": "Département de l'Ouest"
+		},
+		{
+		  "label": "Département des Nippes"
+		},
+		{
+		  "label": "Département du Nord"
+		},
+		{
+		  "label": "Département du Sud-Est"
+		},
+		{
+		  "label": "Nord-Est Department"
+		},
+		{
+		  "label": "Nord-Ouest Department"
+		},
+		{
+		  "label": "Sud Department"
+		}
+	  ]
+	},
+	{
+	  "num": "348",
+	  "label": "Hungary",
+	  "c2": "HU",
+	  "name": "匈牙利",
+	  "c3": "HUN",
+	  "cp": [
+		19.05,
+		47.29
+	  ],
+	  "area": [
+		{
+		  "label": "Great Plain and North"
+		},
+		{
+		  "label": "Közép-Magyarország"
+		},
+		{
+		  "label": "Transdanubia"
+		}
+	  ]
+	},
+	{
+	  "num": "360",
+	  "label": "Indonesia",
+	  "c2": "ID",
+	  "name": "印尼",
+	  "c3": "IDN",
+	  "area": [
+		{
+		  "label": "Aceh"
+		},
+		{
+		  "label": "Bali"
+		},
+		{
+		  "label": "Bangka-Belitung Islands"
+		},
+		{
+		  "label": "Banten"
+		},
+		{
+		  "label": "Bengkulu"
+		},
+		{
+		  "label": "Central Java"
+		},
+		{
+		  "label": "Central Kalimantan"
+		},
+		{
+		  "label": "Central Sulawesi"
+		},
+		{
+		  "label": "East Java"
+		},
+		{
+		  "label": "East Kalimantan"
+		},
+		{
+		  "label": "East Nusa Tenggara"
+		},
+		{
+		  "label": "Gorontalo"
+		},
+		{
+		  "label": "Jakarta Special Capital Region"
+		},
+		{
+		  "label": "Jambi"
+		},
+		{
+		  "label": "Lampung"
+		},
+		{
+		  "label": "Maluku"
+		},
+		{
+		  "label": "North Kalimantan"
+		},
+		{
+		  "label": "North Maluku"
+		},
+		{
+		  "label": "North Sulawesi"
+		},
+		{
+		  "label": "North Sumatra"
+		},
+		{
+		  "label": "Papua"
+		},
+		{
+		  "label": "Riau"
+		},
+		{
+		  "label": "Riau Islands"
+		},
+		{
+		  "label": "Southeast Sulawesi"
+		},
+		{
+		  "label": "South Kalimantan"
+		},
+		{
+		  "label": "South Sulawesi"
+		},
+		{
+		  "label": "South Sumatra"
+		},
+		{
+		  "label": "Special Region of Yogyakarta"
+		},
+		{
+		  "label": "West Java"
+		},
+		{
+		  "label": "West Kalimantan"
+		},
+		{
+		  "label": "West Nusa Tenggara"
+		},
+		{
+		  "label": "West Papua"
+		},
+		{
+		  "label": "West Sulawesi"
+		},
+		{
+		  "label": "West Sumatra"
+		}
+	  ]
+	},
+	{
+	  "num": "356",
+	  "label": "India",
+	  "c2": "IN",
+	  "name": "印度",
+	  "c3": "IND",
+	  "cp": [
+		77.13,
+		28.37
+	  ],
+	  "area": [
+		{
+		  "label": "Andaman and Nicobar Islands"
+		},
+		{
+		  "label": "Andhra Pradesh"
+		},
+		{
+		  "label": "Arunachal Pradesh"
+		},
+		{
+		  "label": "Assam"
+		},
+		{
+		  "label": "Bihar"
+		},
+		{
+		  "label": "Chandigarh"
+		},
+		{
+		  "label": "Chhattisgarh"
+		},
+		{
+		  "label": "Dadra and Nagar Haveli"
+		},
+		{
+		  "label": "Delhi"
+		},
+		{
+		  "label": "Goa"
+		},
+		{
+		  "label": "Gujarat"
+		},
+		{
+		  "label": "Haryana"
+		},
+		{
+		  "label": "Himachal Pradesh"
+		},
+		{
+		  "label": "Jammu and Kashmir"
+		},
+		{
+		  "label": "Jharkhand"
+		},
+		{
+		  "label": "Karnataka"
+		},
+		{
+		  "label": "Kerala"
+		},
+		{
+		  "label": "Madhya Pradesh"
+		},
+		{
+		  "label": "Maharashtra"
+		},
+		{
+		  "label": "Manipur"
+		},
+		{
+		  "label": "Meghalaya"
+		},
+		{
+		  "label": "Mizoram"
+		},
+		{
+		  "label": "Nagaland"
+		},
+		{
+		  "label": "Odisha"
+		},
+		{
+		  "label": "Pondicherry"
+		},
+		{
+		  "label": "Punjab"
+		},
+		{
+		  "label": "Rajasthan"
+		},
+		{
+		  "label": "Sikkim"
+		},
+		{
+		  "label": "Tamil Nadu"
+		},
+		{
+		  "label": "Telangana"
+		},
+		{
+		  "label": "Tripura"
+		},
+		{
+		  "label": "Uttarakhand"
+		},
+		{
+		  "label": "Uttar Pradesh"
+		},
+		{
+		  "label": "West Bengal"
+		}
+	  ]
+	},
+	{
+	  "num": "372",
+	  "label": "Ireland",
+	  "c2": "IE",
+	  "name": "爱尔兰",
+	  "c3": "IRL",
+	  "cp": [
+		-6.15,
+		53.21
+	  ],
+	  "area": [
+		{
+		  "label": "Connacht"
+		},
+		{
+		  "label": "Leinster"
+		},
+		{
+		  "label": "Munster"
+		}
+	  ]
+	},
+	{
+	  "num": "364",
+	  "label": "Iran",
+	  "c2": "IR",
+	  "name": "伊朗",
+	  "c3": "IRN",
+	  "cp": [
+		51.3,
+		35.44
+	  ],
+	  "area": []
+	},
+	{
+	  "num": "368",
+	  "label": "Iraq",
+	  "c2": "IQ",
+	  "name": "伊拉克",
+	  "c3": "IRQ",
+	  "cp": [
+		44.3,
+		33.2
+	  ],
+	  "area": [
+		{
+		  "label": "Iraq"
+		}
+	  ]
+	},
+	{
+	  "num": "352",
+	  "label": "Iceland",
+	  "c2": "IS",
+	  "name": "冰岛",
+	  "c3": "ISL",
+	  "cp": [
+		-21.57,
+		64.1
+	  ],
+	  "area": [
+		{
+		  "label": "Capital Region"
+		},
+		{
+		  "label": "Eastern Region"
+		},
+		{
+		  "label": "Northeastern Region"
+		},
+		{
+		  "label": "Northwestern Region"
+		},
+		{
+		  "label": "Southern Peninsula"
+		},
+		{
+		  "label": "Southern Region"
+		},
+		{
+		  "label": "Western Region"
+		},
+		{
+		  "label": "Westfjords"
+		}
+	  ]
+	},
+	{
+	  "num": "376",
+	  "label": "Israel",
+	  "c2": "IL",
+	  "name": "以色列",
+	  "c3": "ISR",
+	  "cp": [
+		35.12,
+		31.47
+	  ],
+	  "area": [
+		{
+		  "label": "Center District"
+		},
+		{
+		  "label": "Haifa District"
+		},
+		{
+		  "label": "Jerusalem District"
+		},
+		{
+		  "label": "North District"
+		},
+		{
+		  "label": "South District"
+		},
+		{
+		  "label": "Tel Aviv District"
+		}
+	  ]
+	},
+	{
+	  "num": "380",
+	  "label": "Italy",
+	  "c2": "IT",
+	  "name": "意大利",
+	  "c3": "ITA",
+	  "cp": [
+		12.29,
+		41.54
+	  ],
+	  "area": [
+		{
+		  "label": "Abruzzo"
+		},
+		{
+		  "label": "Aosta Valley"
+		},
+		{
+		  "label": "Apulia"
+		},
+		{
+		  "label": "Basilicata"
+		},
+		{
+		  "label": "Calabria"
+		},
+		{
+		  "label": "Campania"
+		},
+		{
+		  "label": "Emilia-Romagna"
+		},
+		{
+		  "label": "Friuli Venezia Giulia"
+		},
+		{
+		  "label": "Lazio"
+		},
+		{
+		  "label": "Lombardy"
+		},
+		{
+		  "label": "Marche"
+		},
+		{
+		  "label": "Molise"
+		},
+		{
+		  "label": "Piemont"
+		},
+		{
+		  "label": "Sardinia"
+		},
+		{
+		  "label": "Sicily"
+		},
+		{
+		  "label": "Trentino-Alto Adige - Südtirol"
+		},
+		{
+		  "label": "Tuscany"
+		},
+		{
+		  "label": "Umbria"
+		},
+		{
+		  "label": "Veneto"
+		}
+	  ]
+	},
+	{
+	  "num": "388",
+	  "label": "Jamaica",
+	  "c2": "JM",
+	  "name": "牙买加",
+	  "c3": "JAM",
+	  "cp": [
+		-76.5,
+		18
+	  ],
+	  "area": [
+		{
+		  "label": "Cornwall County"
+		},
+		{
+		  "label": "Middlesex County"
+		},
+		{
+		  "label": "Surrey County"
+		}
+	  ]
+	},
+	{
+	  "num": "400",
+	  "label": "Jordan",
+	  "c2": "JO",
+	  "name": "约旦",
+	  "c3": "JOR",
+	  "cp": [
+		35.52,
+		31.57
+	  ],
+	  "area": [
+		{
+		  "label": "Ajlun"
+		},
+		{
+		  "label": "Amman"
+		},
+		{
+		  "label": "Aqaba"
+		},
+		{
+		  "label": "Balqa"
+		},
+		{
+		  "label": "Irbid"
+		},
+		{
+		  "label": "Jerash"
+		},
+		{
+		  "label": "Kerak"
+		},
+		{
+		  "label": "Ma’an"
+		},
+		{
+		  "label": "Madaba"
+		},
+		{
+		  "label": "Mafraq"
+		},
+		{
+		  "label": "Tafilah"
+		},
+		{
+		  "label": "Zarqa"
+		}
+	  ]
+	},
+	{
+	  "num": "392",
+	  "label": "Japan",
+	  "c2": "JP",
+	  "name": "日本",
+	  "c3": "JPN",
+	  "cp": [
+		139.7,
+		35.6
+	  ],
+	  "area": [
+		{
+		  "label": "Aichi"
+		},
+		{
+		  "label": "Akita"
+		},
+		{
+		  "label": "Aomori"
+		},
+		{
+		  "label": "Chiba"
+		},
+		{
+		  "label": "Ehime Prefecture"
+		},
+		{
+		  "label": "Fukui Prefecture"
+		},
+		{
+		  "label": "Fukuoka Prefecture"
+		},
+		{
+		  "label": "Fukushima"
+		},
+		{
+		  "label": "Gifu Prefecture"
+		},
+		{
+		  "label": "Gunma"
+		},
+		{
+		  "label": "Hiroshima"
+		},
+		{
+		  "label": "Hokkaido"
+		},
+		{
+		  "label": "Hyogo Prefecture"
+		},
+		{
+		  "label": "Ibaraki"
+		},
+		{
+		  "label": "Ishikawa Prefecture"
+		},
+		{
+		  "label": "Iwate"
+		},
+		{
+		  "label": "Kagawa Prefecture"
+		},
+		{
+		  "label": "Kagoshima Prefecture"
+		},
+		{
+		  "label": "Kanagawa"
+		},
+		{
+		  "label": "Kōchi Prefecture"
+		},
+		{
+		  "label": "Kumamoto"
+		},
+		{
+		  "label": "Kyoto Prefecture"
+		},
+		{
+		  "label": "Mie Prefecture"
+		},
+		{
+		  "label": "Miyagi"
+		},
+		{
+		  "label": "Miyazaki Prefecture"
+		},
+		{
+		  "label": "Nagano"
+		},
+		{
+		  "label": "Nagasaki Prefecture"
+		},
+		{
+		  "label": "Nara Prefecture"
+		},
+		{
+		  "label": "Niigata"
+		},
+		{
+		  "label": "Oita"
+		},
+		{
+		  "label": "Okayama Prefecture"
+		},
+		{
+		  "label": "Okinawa Prefecture"
+		},
+		{
+		  "label": "Osaka Prefecture"
+		},
+		{
+		  "label": "Saga Prefecture"
+		},
+		{
+		  "label": "Saitama"
+		},
+		{
+		  "label": "Shiga"
+		},
+		{
+		  "label": "Shimane"
+		},
+		{
+		  "label": "Shizuoka"
+		},
+		{
+		  "label": "Tochigi"
+		},
+		{
+		  "label": "Tokushima Prefecture"
+		},
+		{
+		  "label": "Tokyo"
+		},
+		{
+		  "label": "Tottori Prefecture"
+		},
+		{
+		  "label": "Toyama"
+		},
+		{
+		  "label": "Wakayama Prefecture"
+		},
+		{
+		  "label": "Yamagata"
+		},
+		{
+		  "label": "Yamaguchi"
+		},
+		{
+		  "label": "Yamanashi"
+		}
+	  ]
+	},
+	{
+	  "num": "398",
+	  "label": "Kazakhstan",
+	  "c2": "KZ",
+	  "name": "哈萨克斯坦",
+	  "c3": "KAZ",
+	  "cp": [
+		71.3,
+		51.1
+	  ],
+	  "area": [
+		{
+		  "label": "Akmola Province"
+		},
+		{
+		  "label": "Aktobe Province"
+		},
+		{
+		  "label": "Almaty"
+		},
+		{
+		  "label": "Almaty Province"
+		},
+		{
+		  "label": "Astana"
+		},
+		{
+		  "label": "Atyrau"
+		},
+		{
+		  "label": "East Kazakhstan"
+		},
+		{
+		  "label": "Jambyl Province"
+		},
+		{
+		  "label": "Karagandy Province"
+		},
+		{
+		  "label": "Kostanay Province"
+		},
+		{
+		  "label": "Kyzylorda Province"
+		},
+		{
+		  "label": "Mangystau Province"
+		},
+		{
+		  "label": "North Kazakhstan"
+		},
+		{
+		  "label": "Pavlodar Province"
+		},
+		{
+		  "label": "South Kazakhstan Province"
+		},
+		{
+		  "label": "West Kazakhstan"
+		}
+	  ]
+	},
+	{
+	  "num": "404",
+	  "label": "Kenya",
+	  "c2": "KE",
+	  "name": "肯尼亚",
+	  "c3": "KEN",
+	  "cp": [
+		36.48,
+		-1.17
+	  ],
+	  "area": [
+		{
+		  "label": "Baringo"
+		},
+		{
+		  "label": "Bomet"
+		},
+		{
+		  "label": "Bungoma"
+		},
+		{
+		  "label": "Busia"
+		},
+		{
+		  "label": "Elegeyo-Marakwet"
+		},
+		{
+		  "label": "Embu"
+		},
+		{
+		  "label": "Garissa"
+		},
+		{
+		  "label": "Homa Bay"
+		},
+		{
+		  "label": "Isiolo"
+		},
+		{
+		  "label": "Kajiado"
+		},
+		{
+		  "label": "Kakamega"
+		},
+		{
+		  "label": "Kericho"
+		},
+		{
+		  "label": "Kiambu"
+		},
+		{
+		  "label": "Kilifi"
+		},
+		{
+		  "label": "Kirinyaga"
+		},
+		{
+		  "label": "Kisii"
+		},
+		{
+		  "label": "Kisumu"
+		},
+		{
+		  "label": "Kitui"
+		},
+		{
+		  "label": "Kwale"
+		},
+		{
+		  "label": "Laikipia"
+		},
+		{
+		  "label": "Lamu"
+		},
+		{
+		  "label": "Machakos"
+		},
+		{
+		  "label": "Makueni"
+		},
+		{
+		  "label": "Mandera"
+		},
+		{
+		  "label": "Marsabit"
+		},
+		{
+		  "label": "Meru"
+		},
+		{
+		  "label": "Migori"
+		},
+		{
+		  "label": "Mombasa"
+		},
+		{
+		  "label": "Murang`a"
+		},
+		{
+		  "label": "Nairobi"
+		},
+		{
+		  "label": "Nakuru"
+		},
+		{
+		  "label": "Nandi"
+		},
+		{
+		  "label": "Narok"
+		},
+		{
+		  "label": "Nyamira"
+		},
+		{
+		  "label": "Nyandarua"
+		},
+		{
+		  "label": "Nyeri"
+		},
+		{
+		  "label": "Samburu"
+		},
+		{
+		  "label": "Siaya"
+		},
+		{
+		  "label": "Taita Taveta"
+		},
+		{
+		  "label": "Tana River"
+		},
+		{
+		  "label": "Tharaka-Nithi"
+		},
+		{
+		  "label": "Trans Nzoia"
+		},
+		{
+		  "label": "Turkana"
+		},
+		{
+		  "label": "Uasin Gishu"
+		},
+		{
+		  "label": "Vihiga"
+		},
+		{
+		  "label": "Wajir"
+		},
+		{
+		  "label": "West Pokot"
+		}
+	  ]
+	},
+	{
+	  "num": "417",
+	  "label": "Kyrgyzstan",
+	  "c2": "KG",
+	  "name": "吉尔吉斯斯坦",
+	  "c3": "KGZ",
+	  "cp": [
+		74.46,
+		42.54
+	  ],
+	  "area": [
+		{
+		  "label": "Batken"
+		},
+		{
+		  "label": "Chui Province"
+		},
+		{
+		  "label": "Issyk-Kul"
+		},
+		{
+		  "label": "Jalal-Abad"
+		},
+		{
+		  "label": "Naryn"
+		},
+		{
+		  "label": "Osh"
+		},
+		{
+		  "label": "Talas"
+		}
+	  ]
+	},
+	{
+	  "num": "116",
+	  "label": "Cambodia",
+	  "c2": "KH",
+	  "name": "柬埔寨",
+	  "c3": "KHM",
+	  "cp": [
+		104.55,
+		11.33
+	  ],
+	  "area": [
+		{
+		  "label": "Bantey Meanchey"
+		},
+		{
+		  "label": "Battambang"
+		},
+		{
+		  "label": "Kampong Cham"
+		},
+		{
+		  "label": "Kampong Chhnang"
+		},
+		{
+		  "label": "Kampong Speu"
+		},
+		{
+		  "label": "Kampong Thom"
+		},
+		{
+		  "label": "Kampot"
+		},
+		{
+		  "label": "Kandal"
+		},
+		{
+		  "label": "Kep"
+		},
+		{
+		  "label": "Koh Kong"
+		},
+		{
+		  "label": "Kratie"
+		},
+		{
+		  "label": "Mondulkiri"
+		},
+		{
+		  "label": "Oddar Meanchey"
+		},
+		{
+		  "label": "Pailin"
+		},
+		{
+		  "label": "Phnom Penh"
+		},
+		{
+		  "label": "Preah Sihanouk"
+		},
+		{
+		  "label": "Preah Vihear"
+		},
+		{
+		  "label": "Prey Veng"
+		},
+		{
+		  "label": "Pursat"
+		},
+		{
+		  "label": "Ratanakiri Province"
+		},
+		{
+		  "label": "Siem Reap"
+		},
+		{
+		  "label": "Stung Treng"
+		},
+		{
+		  "label": "Svay Rieng"
+		},
+		{
+		  "label": "Takeo"
+		},
+		{
+		  "label": "Tbong Khmum"
+		}
+	  ]
+	},
+	{
+	  "num": "410",
+	  "label": "South Korea",
+	  "c2": "KR",
+	  "name": "韩国;南朝鲜",
+	  "c3": "KOR",
+	  "cp": [
+		126.58,
+		37.31
+	  ],
+	  "area": [
+		{
+		  "label": "Busan"
+		},
+		{
+		  "label": "Chungcheongbuk-do"
+		},
+		{
+		  "label": "Chungcheongnam-do"
+		},
+		{
+		  "label": "Daegu"
+		},
+		{
+		  "label": "Daejeon"
+		},
+		{
+		  "label": "Gangwon-do"
+		},
+		{
+		  "label": "Gwangju"
+		},
+		{
+		  "label": "Gyeonggi-do"
+		},
+		{
+		  "label": "Gyeongsangbuk-do"
+		},
+		{
+		  "label": "Gyeongsangnam-do"
+		},
+		{
+		  "label": "Incheon"
+		},
+		{
+		  "label": "Jeju-do"
+		},
+		{
+		  "label": "Jeollabuk-do"
+		},
+		{
+		  "label": "Jeollanam-do"
+		},
+		{
+		  "label": "Sejong"
+		},
+		{
+		  "label": "Seoul"
+		},
+		{
+		  "label": "Ulsan"
+		}
+	  ]
+	},
+	{
+	  "num": "-99",
+	  "label": "Kosovo",
+	  "c2": "YK",
+	  "name": "科索沃",
+	  "c3": "XKS",
+	  "area": []
+	},
+	{
+	  "num": "414",
+	  "label": "Kuwait",
+	  "c2": "KW",
+	  "name": "科威特",
+	  "c3": "KWT",
+	  "cp": [
+		48,
+		29.3
+	  ],
+	  "area": [
+		{
+		  "label": "Ahmadi"
+		},
+		{
+		  "label": "Al Asimah"
+		},
+		{
+		  "label": "Farwaniya"
+		},
+		{
+		  "label": "Hawalli"
+		},
+		{
+		  "label": "Jahra"
+		},
+		{
+		  "label": "Mubarak Al-Kabeer"
+		}
+	  ]
+	},
+	{
+	  "num": "418",
+	  "label": "Laos",
+	  "c2": "LA",
+	  "name": "老挝",
+	  "c3": "LAO",
+	  "cp": [
+		102.36,
+		17.58
+	  ],
+	  "area": [
+		{
+		  "label": "Attapeu"
+		},
+		{
+		  "label": "Bokeo"
+		},
+		{
+		  "label": "Bolikhamsai"
+		},
+		{
+		  "label": "Champasak"
+		},
+		{
+		  "label": "Houaphan"
+		},
+		{
+		  "label": "Khammouane"
+		},
+		{
+		  "label": "Luang Namtha"
+		},
+		{
+		  "label": "Luang Prabang"
+		},
+		{
+		  "label": "Oudomxay"
+		},
+		{
+		  "label": "Phongsaly"
+		},
+		{
+		  "label": "Sainyabuli"
+		},
+		{
+		  "label": "Salavan"
+		},
+		{
+		  "label": "Savannakhet"
+		},
+		{
+		  "label": "Vientiane"
+		},
+		{
+		  "label": "Vientiane Capital"
+		},
+		{
+		  "label": "Xaisomboun"
+		},
+		{
+		  "label": "Xiangkhouang"
+		}
+	  ]
+	},
+	{
+	  "num": "422",
+	  "label": "Lebanon",
+	  "c2": "LB",
+	  "name": "黎巴嫩",
+	  "c3": "LBN",
+	  "cp": [
+		35.31,
+		33.53
+	  ],
+	  "area": [
+		{
+		  "label": "Beirut Governorate"
+		},
+		{
+		  "label": "Beqaa Governorate"
+		},
+		{
+		  "label": "Mount Lebanon Governorate"
+		},
+		{
+		  "label": "Nabatiyeh Governorate"
+		},
+		{
+		  "label": "North Lebanon Governorate"
+		},
+		{
+		  "label": "South Lebanon Governorate"
+		}
+	  ]
+	},
+	{
+	  "num": "430",
+	  "label": "Liberia",
+	  "c2": "LR",
+	  "name": "利比里亚",
+	  "c3": "LBR",
+	  "cp": [
+		-10.47,
+		6.18
+	  ],
+	  "area": [
+		{
+		  "label": "Bomi County"
+		},
+		{
+		  "label": "Bong County"
+		},
+		{
+		  "label": "Gbarpolu County"
+		},
+		{
+		  "label": "Grand Bassa County"
+		},
+		{
+		  "label": "Grand Cape Mount County"
+		},
+		{
+		  "label": "Grand Gedeh County"
+		},
+		{
+		  "label": "Grand Kru County"
+		},
+		{
+		  "label": "Lofa County"
+		},
+		{
+		  "label": "Margibi County"
+		},
+		{
+		  "label": "Maryland County"
+		},
+		{
+		  "label": "Montserrado County"
+		},
+		{
+		  "label": "Nimba County"
+		},
+		{
+		  "label": "River Cess County"
+		},
+		{
+		  "label": "River Gee County"
+		},
+		{
+		  "label": "Sinoe County"
+		}
+	  ]
+	},
+	{
+	  "num": "434",
+	  "label": "Libya",
+	  "c2": "LY",
+	  "name": "利比亚",
+	  "c3": "LBY",
+	  "cp": [
+		13.07,
+		32.49
+	  ],
+	  "area": [
+		{
+		  "label": "Al Wahat"
+		},
+		{
+		  "label": "Benghazi"
+		},
+		{
+		  "label": "Butnan"
+		},
+		{
+		  "label": "Derna"
+		},
+		{
+		  "label": "Ghat"
+		},
+		{
+		  "label": "Jabal al Akhdar"
+		},
+		{
+		  "label": "Jabal al Gharbi"
+		},
+		{
+		  "label": "Jafara"
+		},
+		{
+		  "label": "Jufra"
+		},
+		{
+		  "label": "Kufra"
+		},
+		{
+		  "label": "Marj"
+		},
+		{
+		  "label": "Misrata"
+		},
+		{
+		  "label": "Murqub"
+		},
+		{
+		  "label": "Murzuq"
+		},
+		{
+		  "label": "Nalut"
+		},
+		{
+		  "label": "Nuqat al Khams"
+		},
+		{
+		  "label": "Sabha"
+		},
+		{
+		  "label": "Sirte"
+		},
+		{
+		  "label": "Tripoli"
+		},
+		{
+		  "label": "Wadi al Hayaa"
+		},
+		{
+		  "label": "Wadi al Shatii"
+		},
+		{
+		  "label": "Zawiya"
+		}
+	  ]
+	},
+	{
+	  "num": "144",
+	  "label": "Sri Lanka",
+	  "c2": "LK",
+	  "name": "斯里兰卡",
+	  "c3": "LKA",
+	  "area": [
+		{
+		  "label": "Central Province"
+		},
+		{
+		  "label": "Eastern"
+		},
+		{
+		  "label": "North Central"
+		},
+		{
+		  "label": "Northern Province"
+		},
+		{
+		  "label": "North Western Province"
+		},
+		{
+		  "label": "Sabaragamuwa Province"
+		},
+		{
+		  "label": "Southern Province"
+		},
+		{
+		  "label": "Uva"
+		},
+		{
+		  "label": "Western Province"
+		}
+	  ]
+	},
+	{
+	  "num": "426",
+	  "label": "Lesotho",
+	  "c2": "LS",
+	  "name": "莱索托",
+	  "c3": "LSO",
+	  "cp": [
+		27.3,
+		-29.18
+	  ],
+	  "area": [
+		{
+		  "label": "Berea District"
+		},
+		{
+		  "label": "Butha-Buthe District"
+		},
+		{
+		  "label": "Leribe District"
+		},
+		{
+		  "label": "Mafeteng District"
+		},
+		{
+		  "label": "Maseru District"
+		},
+		{
+		  "label": "Mohale's Hoek District"
+		},
+		{
+		  "label": "Mokhotlong District"
+		},
+		{
+		  "label": "Qacha's Nek District"
+		},
+		{
+		  "label": "Quthing District"
+		},
+		{
+		  "label": "Thaba-Tseka District"
+		}
+	  ]
+	},
+	{
+	  "num": "440",
+	  "label": "Lithuania",
+	  "c2": "LT",
+	  "name": "立陶宛",
+	  "c3": "LTU",
+	  "cp": [
+		25.19,
+		54.38
+	  ],
+	  "area": [
+		{
+		  "label": "Alytus County"
+		},
+		{
+		  "label": "Kaunas County"
+		},
+		{
+		  "label": "Klaipeda County"
+		},
+		{
+		  "label": "Marijampole County"
+		},
+		{
+		  "label": "Panevezys County"
+		},
+		{
+		  "label": "Siauliai County"
+		},
+		{
+		  "label": "Taurage County"
+		},
+		{
+		  "label": "Telsiai County"
+		},
+		{
+		  "label": "Utena County"
+		},
+		{
+		  "label": "Vilnius County"
+		}
+	  ]
+	},
+	{
+	  "num": "442",
+	  "label": "Luxembourg",
+	  "c2": "LU",
+	  "name": "卢森堡",
+	  "c3": "LUX",
+	  "cp": [
+		6.09,
+		49.37
+	  ],
+	  "area": []
+	},
+	{
+	  "num": "428",
+	  "label": "Latvia",
+	  "c2": "LV",
+	  "name": "拉脱维亚",
+	  "c3": "LVA",
+	  "cp": [
+		24.08,
+		56.53
+	  ],
+	  "area": [
+		{
+		  "label": "Courland"
+		},
+		{
+		  "label": "Latgale"
+		},
+		{
+		  "label": "Vidzeme"
+		},
+		{
+		  "label": "Zemgale"
+		}
+	  ]
+	},
+	{
+	  "num": "504",
+	  "label": "Morocco",
+	  "c2": "MA",
+	  "name": "摩洛哥",
+	  "c3": "MAR",
+	  "area": [
+		{
+		  "label": "Morocco"
+		}
+	  ]
+	},
+	{
+	  "num": "498",
+	  "label": "Moldova",
+	  "c2": "MD",
+	  "name": "摩尔多瓦",
+	  "c3": "MDA",
+	  "cp": [
+		28.5,
+		47.02
+	  ],
+	  "area": [
+		{
+		  "label": "Bălți Municipality"
+		},
+		{
+		  "label": "Bender"
+		},
+		{
+		  "label": "Edineț District"
+		},
+		{
+		  "label": "Municipiul Chișinău"
+		},
+		{
+		  "label": "raionul Anenii Noi"
+		},
+		{
+		  "label": "raionul Basarabeasca"
+		},
+		{
+		  "label": "raionul Briceni"
+		},
+		{
+		  "label": "raionul Cahul"
+		},
+		{
+		  "label": "raionul Călărași"
+		},
+		{
+		  "label": "raionul Cantemir"
+		},
+		{
+		  "label": "raionul Căușeni"
+		},
+		{
+		  "label": "raionul Cimișlia"
+		},
+		{
+		  "label": "raionul Criuleni"
+		},
+		{
+		  "label": "raionul Dondușeni"
+		},
+		{
+		  "label": "raionul Drochia"
+		},
+		{
+		  "label": "raionul Fălești"
+		},
+		{
+		  "label": "raionul Florești"
+		},
+		{
+		  "label": "raionul Glodeni"
+		},
+		{
+		  "label": "raionul Hîncești"
+		},
+		{
+		  "label": "raionul Ialoveni"
+		},
+		{
+		  "label": "raionul Leova"
+		},
+		{
+		  "label": "raionul Nisporeni"
+		},
+		{
+		  "label": "raionul Ocnița"
+		},
+		{
+		  "label": "raionul Orhei"
+		},
+		{
+		  "label": "raionul Rezina"
+		},
+		{
+		  "label": "raionul Sîngerei"
+		},
+		{
+		  "label": "raionul Șoldănești"
+		},
+		{
+		  "label": "raionul Soroca"
+		},
+		{
+		  "label": "raionul Ștefan Vodă"
+		},
+		{
+		  "label": "raionul Strășeni"
+		},
+		{
+		  "label": "raionul Telenești"
+		},
+		{
+		  "label": "raionul Ungheni"
+		},
+		{
+		  "label": "Rîșcani District"
+		},
+		{
+		  "label": "Taraclia District"
+		}
+	  ]
+	},
+	{
+	  "num": "450",
+	  "label": "Madagascar",
+	  "c2": "MG",
+	  "name": "马达加斯加",
+	  "c3": "MDG",
+	  "cp": [
+		47.31,
+		-18.55
+	  ],
+	  "area": [
+		{
+		  "label": "Province d’Antananarivo"
+		},
+		{
+		  "label": "Province d'Antsiranana"
+		},
+		{
+		  "label": "Province de Fianarantsoa"
+		},
+		{
+		  "label": "Province de Mahajanga"
+		},
+		{
+		  "label": "Province Toliara"
+		},
+		{
+		  "label": "Toamasina Province"
+		}
+	  ]
+	},
+	{
+	  "num": "484",
+	  "label": "Mexico",
+	  "c2": "MX",
+	  "name": "墨西哥",
+	  "c3": "MEX",
+	  "cp": [
+		-99.1,
+		19.2
+	  ],
+	  "area": [
+		{
+		  "label": "Aguascalientes"
+		},
+		{
+		  "label": "Baja California"
+		},
+		{
+		  "label": "Campeche"
+		},
+		{
+		  "label": "Chiapas"
+		},
+		{
+		  "label": "Chihuahua"
+		},
+		{
+		  "label": "Coahuila"
+		},
+		{
+		  "label": "Colima"
+		},
+		{
+		  "label": "Durango"
+		},
+		{
+		  "label": "Federal District"
+		},
+		{
+		  "label": "Guanajuato"
+		},
+		{
+		  "label": "Guerrero"
+		},
+		{
+		  "label": "Hidalgo"
+		},
+		{
+		  "label": "Jalisco"
+		},
+		{
+		  "label": "Mexico"
+		},
+		{
+		  "label": "Michoacán"
+		},
+		{
+		  "label": "Morelos"
+		},
+		{
+		  "label": "Nayarit"
+		},
+		{
+		  "label": "Nuevo León"
+		},
+		{
+		  "label": "Oaxaca"
+		},
+		{
+		  "label": "Puebla"
+		},
+		{
+		  "label": "Querétaro"
+		},
+		{
+		  "label": "San Luis Potosi"
+		},
+		{
+		  "label": "Sinaloa"
+		},
+		{
+		  "label": "Sonora"
+		},
+		{
+		  "label": "South Lower California"
+		},
+		{
+		  "label": "Tabasco"
+		},
+		{
+		  "label": "Tamaulipas"
+		},
+		{
+		  "label": "Tlaxcala"
+		},
+		{
+		  "label": "Veracruz"
+		},
+		{
+		  "label": "Yucatán"
+		},
+		{
+		  "label": "Zacatecas"
+		}
+	  ]
+	},
+	{
+	  "num": "807",
+	  "label": "Macedonia",
+	  "c2": "MK",
+	  "name": "马其顿",
+	  "c3": "MKD",
+	  "cp": [
+		21.26,
+		42.01
+	  ],
+	  "area": [
+		{
+		  "label": "Eastern Region"
+		},
+		{
+		  "label": "Northeastern Region"
+		},
+		{
+		  "label": "Pelagonia Region"
+		},
+		{
+		  "label": "Polog Region"
+		},
+		{
+		  "label": "Skopje Region"
+		},
+		{
+		  "label": "Southeastern Region"
+		},
+		{
+		  "label": "Southwestern Region"
+		},
+		{
+		  "label": "Vardar Region"
+		}
+	  ]
+	},
+	{
+	  "num": "466",
+	  "label": "Mali",
+	  "c2": "ML",
+	  "name": "马里",
+	  "c3": "MLI",
+	  "cp": [
+		-7.55,
+		12.34
+	  ],
+	  "area": [
+		{
+		  "label": "Bamako District"
+		},
+		{
+		  "label": "Gao"
+		},
+		{
+		  "label": "Kayes"
+		},
+		{
+		  "label": "Kidal"
+		},
+		{
+		  "label": "Koulikoro"
+		},
+		{
+		  "label": "Mopti"
+		},
+		{
+		  "label": "Ségou"
+		},
+		{
+		  "label": "Sikasso"
+		},
+		{
+		  "label": "Tombouctou"
+		}
+	  ]
+	},
+	{
+	  "num": "104",
+	  "label": "Myanmar",
+	  "c2": "MM",
+	  "name": "缅甸",
+	  "c3": "MMR",
+	  "cp": [
+		96.2,
+		16.45
+	  ],
+	  "area": [
+		{
+		  "label": "Ayeyarwady"
+		},
+		{
+		  "label": "Bago Region"
+		},
+		{
+		  "label": "Chin"
+		},
+		{
+		  "label": "Kachin"
+		},
+		{
+		  "label": "Kayah"
+		},
+		{
+		  "label": "Kayin"
+		},
+		{
+		  "label": "Magway"
+		},
+		{
+		  "label": "Mandalay"
+		},
+		{
+		  "label": "Mon"
+		},
+		{
+		  "label": "Naypyitaw"
+		},
+		{
+		  "label": "Rakhine"
+		},
+		{
+		  "label": "Sagaing"
+		},
+		{
+		  "label": "Shan State"
+		},
+		{
+		  "label": "Tanintharyi"
+		},
+		{
+		  "label": "Yangon"
+		}
+	  ]
+	},
+	{
+	  "num": "499",
+	  "label": "Montenegro",
+	  "c2": "ME",
+	  "name": "黑山",
+	  "c3": "MNE",
+	  "area": [
+		{
+		  "label": "Berane Municipality"
+		},
+		{
+		  "label": "Bijelo Polje Municipality"
+		},
+		{
+		  "label": "Herceg-Novi municipality"
+		},
+		{
+		  "label": "Opština Andrijevica"
+		},
+		{
+		  "label": "Opština Bar"
+		},
+		{
+		  "label": "Opština Budva"
+		},
+		{
+		  "label": "Opština Cetinje"
+		},
+		{
+		  "label": "Opština Danilovgrad"
+		},
+		{
+		  "label": "Opština Kolašin"
+		},
+		{
+		  "label": "Opština Kotor"
+		},
+		{
+		  "label": "Opština Mojkovac"
+		},
+		{
+		  "label": "Opština Nikšić"
+		},
+		{
+		  "label": "Opština Plav"
+		},
+		{
+		  "label": "Opština Plužine"
+		},
+		{
+		  "label": "Opština Podgorica"
+		},
+		{
+		  "label": "Opština Šavnik"
+		},
+		{
+		  "label": "Opština Tivat"
+		},
+		{
+		  "label": "Opština Ulcinj"
+		},
+		{
+		  "label": "Opština Žabljak"
+		},
+		{
+		  "label": "Pljevlja Municipality"
+		},
+		{
+		  "label": "Rožaje Municipality"
+		}
+	  ]
+	},
+	{
+	  "num": "496",
+	  "label": "Mongolia",
+	  "c2": "MN",
+	  "name": "蒙古国；蒙古",
+	  "c3": "MNG",
+	  "area": [
+		{
+		  "label": "Arkhangai"
+		},
+		{
+		  "label": "Bayankhongor"
+		},
+		{
+		  "label": "Bayan-Ölgii"
+		},
+		{
+		  "label": "Bulgan"
+		},
+		{
+		  "label": "Darkhan-Uul"
+		},
+		{
+		  "label": "Dornod"
+		},
+		{
+		  "label": "Dornogovi"
+		},
+		{
+		  "label": "Dundgovi"
+		},
+		{
+		  "label": "Govi-Altai"
+		},
+		{
+		  "label": "Govisümber"
+		},
+		{
+		  "label": "Khentii"
+		},
+		{
+		  "label": "Khovd"
+		},
+		{
+		  "label": "Khövsgöl"
+		},
+		{
+		  "label": "Ömnögovi"
+		},
+		{
+		  "label": "Övörkhangai"
+		},
+		{
+		  "label": "Selenge"
+		},
+		{
+		  "label": "Sükhbaatar"
+		},
+		{
+		  "label": "Töv"
+		},
+		{
+		  "label": "Ulaanbaatar"
+		},
+		{
+		  "label": "Uvs"
+		},
+		{
+		  "label": "Zavkhan"
+		}
+	  ]
+	},
+	{
+	  "num": "508",
+	  "label": "Mozambique",
+	  "c2": "MZ",
+	  "name": "莫桑比克",
+	  "c3": "MOZ",
+	  "cp": [
+		32.32,
+		-25.58
+	  ],
+	  "area": [
+		{
+		  "label": "Cabo Delgado"
+		},
+		{
+		  "label": "Gaza"
+		},
+		{
+		  "label": "Inhambane"
+		},
+		{
+		  "label": "Manica"
+		},
+		{
+		  "label": "Maputo"
+		},
+		{
+		  "label": "Nampula"
+		},
+		{
+		  "label": "Niassa"
+		},
+		{
+		  "label": "Sofala"
+		},
+		{
+		  "label": "Tete"
+		},
+		{
+		  "label": "Zambézia"
+		}
+	  ]
+	},
+	{
+	  "num": "478",
+	  "label": "Mauritania",
+	  "c2": "MR",
+	  "name": "毛里塔尼亚",
+	  "c3": "MRT",
+	  "cp": [
+		57.3,
+		-20.1
+	  ],
+	  "area": [
+		{
+		  "label": "Adrar"
+		},
+		{
+		  "label": "Assaba"
+		},
+		{
+		  "label": "Brakna"
+		},
+		{
+		  "label": "Dakhlet Nouadhibou"
+		},
+		{
+		  "label": "Gorgol"
+		},
+		{
+		  "label": "Guidimaka"
+		},
+		{
+		  "label": "Hodh Ech Chargui"
+		},
+		{
+		  "label": "Hodh El Gharbi"
+		},
+		{
+		  "label": "Inchiri"
+		},
+		{
+		  "label": "Nouakchott"
+		},
+		{
+		  "label": "Tagant"
+		},
+		{
+		  "label": "Tiris Zemmour"
+		},
+		{
+		  "label": "Trarza"
+		}
+	  ]
+	},
+	{
+	  "num": "454",
+	  "label": "Malawi",
+	  "c2": "MW",
+	  "name": "马拉维",
+	  "c3": "MWI",
+	  "cp": [
+		33.48,
+		-14
+	  ],
+	  "area": [
+		{
+		  "label": "Central Region"
+		},
+		{
+		  "label": "Northern Region"
+		},
+		{
+		  "label": "Southern Region"
+		}
+	  ]
+	},
+	{
+	  "num": "458",
+	  "label": "Malaysia",
+	  "c2": "MY",
+	  "name": "马来西亚",
+	  "c3": "MYS",
+	  "cp": [
+		101.41,
+		3.09
+	  ],
+	  "area": [
+		{
+		  "label": "Johor"
+		},
+		{
+		  "label": "Kedah"
+		},
+		{
+		  "label": "Kelantan"
+		},
+		{
+		  "label": "Kuala Lumpur"
+		},
+		{
+		  "label": "Labuan"
+		},
+		{
+		  "label": "Malacca"
+		},
+		{
+		  "label": "Negeri Sembilan"
+		},
+		{
+		  "label": "Pahang"
+		},
+		{
+		  "label": "Perak"
+		},
+		{
+		  "label": "Perlis"
+		},
+		{
+		  "label": "Putrajaya"
+		},
+		{
+		  "label": "Sabah"
+		},
+		{
+		  "label": "Sarawak"
+		},
+		{
+		  "label": "Selangor"
+		},
+		{
+		  "label": "Terengganu"
+		}
+	  ]
+	},
+	{
+	  "num": "516",
+	  "label": "Namibia",
+	  "c2": "NA",
+	  "name": "纳米比亚",
+	  "c3": "NAM",
+	  "cp": [
+		17.04,
+		-22.35
+	  ],
+	  "area": [
+		{
+		  "label": "Namibia"
+		}
+	  ]
+	},
+	{
+	  "num": "250",
+	  "label": "France",
+	  "c2": "FR",
+	  "name": "法国",
+	  "c3": "FRA",
+	  "cp": [
+		2.2,
+		48.5
+	  ],
+	  "area": [
+		{
+		  "label": "Alsace–Champagne-Ardenne–Lorraine"
+		},
+		{
+		  "label": "Aquitaine-Limousin-Poitou-Charentes"
+		},
+		{
+		  "label": "Auvergne-Rhône-Alpes"
+		},
+		{
+		  "label": "Bourgogne-Franche-Comté"
+		},
+		{
+		  "label": "Brittany"
+		},
+		{
+		  "label": "Centre-Val de Loire"
+		},
+		{
+		  "label": "Corsica"
+		},
+		{
+		  "label": "French Guiana"
+		},
+		{
+		  "label": "Guadeloupe"
+		},
+		{
+		  "label": "Ile-de-France"
+		},
+		{
+		  "label": "Languedoc-Roussillon-Midi-Pyrénées"
+		},
+		{
+		  "label": "Martinique"
+		},
+		{
+		  "label": "Mayotte"
+		},
+		{
+		  "label": "Nord-Pas-de-Calais and Picardy"
+		},
+		{
+		  "label": "Normandy"
+		},
+		{
+		  "label": "Pays de la Loire"
+		},
+		{
+		  "label": "Provence-Alpes-Côte d'Azur"
+		},
+		{
+		  "label": "Réunion"
+		}
+	  ]
+	},
+	{
+	  "num": "562",
+	  "label": "Niger",
+	  "c2": "NE",
+	  "name": "尼日尔",
+	  "c3": "NER",
+	  "cp": [
+		2.06,
+		13.27
+	  ],
+	  "area": [
+		{
+		  "label": "Agadez"
+		},
+		{
+		  "label": "Diffa"
+		},
+		{
+		  "label": "Dosso"
+		},
+		{
+		  "label": "Maradi"
+		},
+		{
+		  "label": "Niamey"
+		},
+		{
+		  "label": "Tahoua"
+		},
+		{
+		  "label": "Tillabéri"
+		},
+		{
+		  "label": "Zinder"
+		}
+	  ]
+	},
+	{
+	  "num": "566",
+	  "label": "Nigeria",
+	  "c2": "NG",
+	  "name": "尼日利亚",
+	  "c3": "NGA",
+	  "cp": [
+		7.32,
+		9.05
+	  ],
+	  "area": [
+		{
+		  "label": "Abia"
+		},
+		{
+		  "label": "Adamawa"
+		},
+		{
+		  "label": "Akwa Ibom"
+		},
+		{
+		  "label": "Anambra"
+		},
+		{
+		  "label": "Bauchi"
+		},
+		{
+		  "label": "Bayelsa"
+		},
+		{
+		  "label": "Benue"
+		},
+		{
+		  "label": "Borno"
+		},
+		{
+		  "label": "Cross River"
+		},
+		{
+		  "label": "Delta"
+		},
+		{
+		  "label": "Ebonyi"
+		},
+		{
+		  "label": "Edo"
+		},
+		{
+		  "label": "Ekiti"
+		},
+		{
+		  "label": "Enugu"
+		},
+		{
+		  "label": "Federal Capital Territory"
+		},
+		{
+		  "label": "Gombe"
+		},
+		{
+		  "label": "Imo"
+		},
+		{
+		  "label": "Jigawa"
+		},
+		{
+		  "label": "Kaduna"
+		},
+		{
+		  "label": "Kano"
+		},
+		{
+		  "label": "Katsina"
+		},
+		{
+		  "label": "Kebbi"
+		},
+		{
+		  "label": "Kogi"
+		},
+		{
+		  "label": "Kwara"
+		},
+		{
+		  "label": "Lagos"
+		},
+		{
+		  "label": "Nasarawa"
+		},
+		{
+		  "label": "Niger"
+		},
+		{
+		  "label": "Ogun"
+		},
+		{
+		  "label": "Ondo"
+		},
+		{
+		  "label": "Osun"
+		},
+		{
+		  "label": "Oyo"
+		},
+		{
+		  "label": "Plateau"
+		},
+		{
+		  "label": "Rivers"
+		},
+		{
+		  "label": "Sokoto"
+		},
+		{
+		  "label": "Taraba"
+		},
+		{
+		  "label": "Yobe"
+		},
+		{
+		  "label": "Zamfara"
+		}
+	  ]
+	},
+	{
+	  "num": "558",
+	  "label": "Nicaragua",
+	  "c2": "NI",
+	  "name": "尼加拉瓜",
+	  "c3": "NIC",
+	  "cp": [
+		-86.2,
+		12.06
+	  ],
+	  "area": [
+		{
+		  "label": "Boaco"
+		},
+		{
+		  "label": "Carazo"
+		},
+		{
+		  "label": "Chinandega"
+		},
+		{
+		  "label": "Chontales"
+		},
+		{
+		  "label": "Estelí"
+		},
+		{
+		  "label": "Granada"
+		},
+		{
+		  "label": "Jinotega"
+		},
+		{
+		  "label": "León"
+		},
+		{
+		  "label": "Madriz"
+		},
+		{
+		  "label": "Managua"
+		},
+		{
+		  "label": "Masaya"
+		},
+		{
+		  "label": "Matagalpa"
+		},
+		{
+		  "label": "North Carribean Coast Autonomous Region"
+		},
+		{
+		  "label": "Nueva Segovia"
+		},
+		{
+		  "label": "Río San Juan"
+		},
+		{
+		  "label": "Rivas"
+		},
+		{
+		  "label": "South Atlantic Autonomous Region"
+		}
+	  ]
+	},
+	{
+	  "num": "528",
+	  "label": "Netherlands",
+	  "c2": "NL",
+	  "name": "荷兰",
+	  "c3": "NLD",
+	  "cp": [
+		4.54,
+		52.23
+	  ],
+	  "area": []
+	},
+	{
+	  "num": "578",
+	  "label": "Norway",
+	  "c2": "NO",
+	  "name": "挪威",
+	  "c3": "NOR",
+	  "cp": [
+		10.45,
+		59.55
+	  ],
+	  "area": [
+		{
+		  "label": "Akershus"
+		},
+		{
+		  "label": "Aust-Agder"
+		},
+		{
+		  "label": "Bouvet Island"
+		},
+		{
+		  "label": "Buskerud"
+		},
+		{
+		  "label": "Finnmark"
+		},
+		{
+		  "label": "Hedmark"
+		},
+		{
+		  "label": "Hordaland"
+		},
+		{
+		  "label": "Jan Mayen"
+		},
+		{
+		  "label": "Møre og Romsdal"
+		},
+		{
+		  "label": "Nordland"
+		},
+		{
+		  "label": "Nord-Trøndelag"
+		},
+		{
+		  "label": "Oppland"
+		},
+		{
+		  "label": "Oslo"
+		},
+		{
+		  "label": "Østfold"
+		},
+		{
+		  "label": "Rogaland"
+		},
+		{
+		  "label": "Sogn and Fjordane"
+		},
+		{
+		  "label": "Sør-Trøndelag"
+		},
+		{
+		  "label": "Svalbard"
+		},
+		{
+		  "label": "Telemark"
+		},
+		{
+		  "label": "Troms"
+		},
+		{
+		  "label": "Vestfold"
+		},
+		{
+		  "label": "West Agder"
+		}
+	  ]
+	},
+	{
+	  "num": "524",
+	  "label": "Nepal",
+	  "c2": "NP",
+	  "name": "尼泊尔",
+	  "c3": "NPL",
+	  "cp": [
+		85.2,
+		27.45
+	  ],
+	  "area": [
+		{
+		  "label": "Central Development Region"
+		},
+		{
+		  "label": "Eastern Development Region"
+		},
+		{
+		  "label": "Far-Western Development Region"
+		},
+		{
+		  "label": "Mid-Western Development Region"
+		},
+		{
+		  "label": "Western Development Region"
+		}
+	  ]
+	},
+	{
+	  "num": "554",
+	  "label": "New Zealand",
+	  "c2": "NZ",
+	  "name": "新西兰",
+	  "c3": "NZL",
+	  "cp": [
+		174.46,
+		-41.19
+	  ],
+	  "area": [
+		{
+		  "label": "Auckland"
+		},
+		{
+		  "label": "Bay of Plenty"
+		},
+		{
+		  "label": "Canterbury"
+		},
+		{
+		  "label": "Chatham Islands"
+		},
+		{
+		  "label": "Gisborne"
+		},
+		{
+		  "label": "Hawke's Bay"
+		},
+		{
+		  "label": "Manawatu-Wanganui"
+		},
+		{
+		  "label": "Marlborough"
+		},
+		{
+		  "label": "Nelson"
+		},
+		{
+		  "label": "Northland"
+		},
+		{
+		  "label": "Otago"
+		},
+		{
+		  "label": "Southland"
+		},
+		{
+		  "label": "Taranaki"
+		},
+		{
+		  "label": "Tasman"
+		},
+		{
+		  "label": "Waikato"
+		},
+		{
+		  "label": "Wellington"
+		},
+		{
+		  "label": "West Coast"
+		}
+	  ]
+	},
+	{
+	  "num": "512",
+	  "label": "Oman",
+	  "c2": "OM",
+	  "name": "阿曼",
+	  "c3": "OMN",
+	  "cp": [
+		58.36,
+		23.37
+	  ],
+	  "area": [
+		{
+		  "label": "Ad Dakhiliyah"
+		},
+		{
+		  "label": "Ad Dhahirah"
+		},
+		{
+		  "label": "Al Batinah North"
+		},
+		{
+		  "label": "Al Batinah South"
+		},
+		{
+		  "label": "Al Buraymi"
+		},
+		{
+		  "label": "Al Wusta"
+		},
+		{
+		  "label": "Ash Sharqiyah South"
+		},
+		{
+		  "label": "Dhofar"
+		},
+		{
+		  "label": "Musandam"
+		},
+		{
+		  "label": "Muscat"
+		}
+	  ]
+	},
+	{
+	  "num": "586",
+	  "label": "Pakistan",
+	  "c2": "PK",
+	  "name": "巴基斯坦",
+	  "c3": "PAK",
+	  "cp": [
+		73.1,
+		33.4
+	  ],
+	  "area": [
+		{
+		  "label": "Azad Kashmir"
+		},
+		{
+		  "label": "Balochistan"
+		},
+		{
+		  "label": "Federally Administered Tribal Areas"
+		},
+		{
+		  "label": "Gilgit-Baltistan"
+		},
+		{
+		  "label": "Islamabad Capital Territory"
+		},
+		{
+		  "label": "Khyber Pakhtunkhwa"
+		},
+		{
+		  "label": "Punjab"
+		},
+		{
+		  "label": "Sindh"
+		}
+	  ]
+	},
+	{
+	  "num": "591",
+	  "label": "Panama",
+	  "c2": "PA",
+	  "name": "巴拿马",
+	  "c3": "PAN",
+	  "cp": [
+		-79.25,
+		9
+	  ],
+	  "area": [
+		{
+		  "label": "Bocas del Toro"
+		},
+		{
+		  "label": "Chiriquí"
+		},
+		{
+		  "label": "Coclé"
+		},
+		{
+		  "label": "Colón Province"
+		},
+		{
+		  "label": "Darién"
+		},
+		{
+		  "label": "Emberá-Wounaan"
+		},
+		{
+		  "label": "Guna Yala"
+		},
+		{
+		  "label": "Herrera"
+		},
+		{
+		  "label": "Kuna de Madugandí"
+		},
+		{
+		  "label": "Kuna de Wargandí"
+		},
+		{
+		  "label": "Los Santos"
+		},
+		{
+		  "label": "Ngäbe-Buglé"
+		},
+		{
+		  "label": "Panamá"
+		},
+		{
+		  "label": "Panamá Oeste"
+		},
+		{
+		  "label": "Veraguas"
+		}
+	  ]
+	},
+	{
+	  "num": "604",
+	  "label": "Peru",
+	  "c2": "PE",
+	  "name": "秘鲁",
+	  "c3": "PER",
+	  "cp": [
+		-77,
+		-12
+	  ],
+	  "area": [
+		{
+		  "label": "Amazonas"
+		},
+		{
+		  "label": "Ancash"
+		},
+		{
+		  "label": "Apurímac"
+		},
+		{
+		  "label": "Arequipa"
+		},
+		{
+		  "label": "Ayacucho"
+		},
+		{
+		  "label": "Cajamarca"
+		},
+		{
+		  "label": "Callao"
+		},
+		{
+		  "label": "Cusco"
+		},
+		{
+		  "label": "Huancavelica"
+		},
+		{
+		  "label": "Huánuco"
+		},
+		{
+		  "label": "Ica"
+		},
+		{
+		  "label": "Junín"
+		},
+		{
+		  "label": "La Libertad"
+		},
+		{
+		  "label": "Lambayeque"
+		},
+		{
+		  "label": "Lima"
+		},
+		{
+		  "label": "Loreto"
+		},
+		{
+		  "label": "Madre de Dios"
+		},
+		{
+		  "label": "Moquegua"
+		},
+		{
+		  "label": "Pasco"
+		},
+		{
+		  "label": "Piura"
+		},
+		{
+		  "label": "Puno"
+		},
+		{
+		  "label": "San Martín"
+		},
+		{
+		  "label": "Tacna"
+		},
+		{
+		  "label": "Tumbes"
+		},
+		{
+		  "label": "Ucayali"
+		}
+	  ]
+	},
+	{
+	  "num": "608",
+	  "label": "Philippines",
+	  "c2": "PH",
+	  "name": "菲律宾",
+	  "c3": "PHL",
+	  "cp": [
+		121.03,
+		14.4
+	  ],
+	  "area": [
+		{
+		  "label": "Autonomous Region in Muslim Mindanao"
+		},
+		{
+		  "label": "Bicol Region"
+		},
+		{
+		  "label": "Cagayan Valley"
+		},
+		{
+		  "label": "Calabarzon"
+		},
+		{
+		  "label": "Caraga"
+		},
+		{
+		  "label": "Central Luzon"
+		},
+		{
+		  "label": "Central Visayas"
+		},
+		{
+		  "label": "Cordillera Administrative Region"
+		},
+		{
+		  "label": "Davao"
+		},
+		{
+		  "label": "Eastern Visayas"
+		},
+		{
+		  "label": "Ilocos Region"
+		},
+		{
+		  "label": "Metro Manila"
+		},
+		{
+		  "label": "Mimaropa"
+		},
+		{
+		  "label": "Negros Island Region"
+		},
+		{
+		  "label": "Northern Mindanao"
+		},
+		{
+		  "label": "Soccsksargen"
+		},
+		{
+		  "label": "Western Visayas"
+		},
+		{
+		  "label": "Zamboanga Peninsula"
+		}
+	  ]
+	},
+	{
+	  "num": "598",
+	  "label": "Papua New Guinea",
+	  "c2": "PG",
+	  "name": "巴布亚新几内亚",
+	  "c3": "PNG",
+	  "cp": [
+		147.08,
+		-9.24
+	  ],
+	  "area": [
+		{
+		  "label": "Highlands Region"
+		},
+		{
+		  "label": "Islands Region"
+		},
+		{
+		  "label": "Momase Region"
+		},
+		{
+		  "label": "Papua Region"
+		}
+	  ]
+	},
+	{
+	  "num": "616",
+	  "label": "Poland",
+	  "c2": "PL",
+	  "name": "波兰",
+	  "c3": "POL",
+	  "cp": [
+		21,
+		52.13
+	  ],
+	  "area": [
+		{
+		  "label": "Greater Poland Voivodeship"
+		},
+		{
+		  "label": "Kuyavian-Pomeranian Voivodeship"
+		},
+		{
+		  "label": "Lesser Poland Voivodeship"
+		},
+		{
+		  "label": "Łódź Voivodeship"
+		},
+		{
+		  "label": "Lower Silesian Voivodeship"
+		},
+		{
+		  "label": "Lublin Voivodeship"
+		},
+		{
+		  "label": "Lubusz Voivodeship"
+		},
+		{
+		  "label": "Masovian Voivodeship"
+		},
+		{
+		  "label": "Opole Voivodeship"
+		},
+		{
+		  "label": "Podlaskie Voivodeship"
+		},
+		{
+		  "label": "Pomeranian Voivodeship"
+		},
+		{
+		  "label": "Silesian Voivodeship"
+		},
+		{
+		  "label": "Subcarpathian Voivodeship"
+		},
+		{
+		  "label": "Świętokrzyskie Voivodeship"
+		},
+		{
+		  "label": "Warmian-Masurian Voivodeship"
+		},
+		{
+		  "label": "West Pomeranian Voivodeship"
+		}
+	  ]
+	},
+	{
+	  "num": "840",
+	  "label": "United States of America",
+	  "c2": "US",
+	  "name": "美国",
+	  "c3": "USA",
+	  "cp": [
+		-77.02,
+		39.91
+	  ],
+	  "area": []
+	},
+	{
+	  "num": "408",
+	  "label": "North Korea",
+	  "c2": "KP",
+	  "name": "朝鲜;北朝鲜",
+	  "c3": "PRK",
+	  "cp": [
+		125.3,
+		39.09
+	  ],
+	  "area": [
+		{
+		  "label": "Chagang"
+		},
+		{
+		  "label": "Hamgyongnam-do"
+		},
+		{
+		  "label": "Hwanghaebuk-do"
+		},
+		{
+		  "label": "Hwanghaenam-do"
+		},
+		{
+		  "label": "Kangwon-do"
+		},
+		{
+		  "label": "Kumgang-gun/Kumgangsan Tourist Region"
+		},
+		{
+		  "label": "North Hamgyong"
+		},
+		{
+		  "label": "North Pyongan"
+		},
+		{
+		  "label": "Pyongannam-do"
+		},
+		{
+		  "label": "Pyongyang"
+		},
+		{
+		  "label": "Ryanggang"
+		}
+	  ]
+	},
+	{
+	  "num": "620",
+	  "label": "Portugal",
+	  "c2": "PT",
+	  "name": "葡萄牙",
+	  "c3": "PRT",
+	  "cp": [
+		-9.1,
+		38.42
+	  ],
+	  "area": [
+		{
+		  "label": "Alentejo"
+		},
+		{
+		  "label": "Algarve"
+		},
+		{
+		  "label": "Azores"
+		},
+		{
+		  "label": "Centro"
+		},
+		{
+		  "label": "Lisboa"
+		},
+		{
+		  "label": "Madeira"
+		},
+		{
+		  "label": "North"
+		}
+	  ]
+	},
+	{
+	  "num": "600",
+	  "label": "Paraguay",
+	  "c2": "PY",
+	  "name": "巴拉圭",
+	  "c3": "PRY",
+	  "cp": [
+		-57.3,
+		-25.1
+	  ],
+	  "area": [
+		{
+		  "label": "Región Occidental"
+		},
+		{
+		  "label": "Región Oriental"
+		}
+	  ]
+	},
+	{
+	  "num": "376",
+	  "label": "Israel",
+	  "c2": "IL",
+	  "name": "以色列",
+	  "c3": "ISR",
+	  "cp": [
+		35.12,
+		31.47
+	  ],
+	  "area": [
+		{
+		  "label": "Center District"
+		},
+		{
+		  "label": "Haifa District"
+		},
+		{
+		  "label": "Jerusalem District"
+		},
+		{
+		  "label": "North District"
+		},
+		{
+		  "label": "South District"
+		},
+		{
+		  "label": "Tel Aviv District"
+		}
+	  ]
+	},
+	{
+	  "num": "634",
+	  "label": "Qatar",
+	  "c2": "QA",
+	  "name": "卡塔尔",
+	  "c3": "QAT",
+	  "cp": [
+		51.35,
+		25.15
+	  ],
+	  "area": [
+		{
+		  "label": "Al Ghuwariyah"
+		},
+		{
+		  "label": "Al Jumaliyah"
+		},
+		{
+		  "label": "Al Khawr"
+		},
+		{
+		  "label": "Al Wakrah"
+		},
+		{
+		  "label": "Ar Rayyan"
+		},
+		{
+		  "label": "Ash Shamal"
+		},
+		{
+		  "label": "Doha"
+		},
+		{
+		  "label": "Jariyan Al Batnah"
+		},
+		{
+		  "label": "Umm Salal"
+		}
+	  ]
+	},
+	{
+	  "num": "642",
+	  "label": "Romania",
+	  "c2": "RO",
+	  "name": "罗马尼亚",
+	  "c3": "ROU",
+	  "cp": [
+		26.1,
+		44.27
+	  ],
+	  "area": [
+		{
+		  "label": "Alba"
+		},
+		{
+		  "label": "Arad"
+		},
+		{
+		  "label": "Argeș"
+		},
+		{
+		  "label": "Bacău"
+		},
+		{
+		  "label": "Bihor"
+		},
+		{
+		  "label": "Bistrița-Năsăud"
+		},
+		{
+		  "label": "Botoșani"
+		},
+		{
+		  "label": "Brăila"
+		},
+		{
+		  "label": "Brașov"
+		},
+		{
+		  "label": "Buzău"
+		},
+		{
+		  "label": "Călărași"
+		},
+		{
+		  "label": "Caraș Severin"
+		},
+		{
+		  "label": "Cluj"
+		},
+		{
+		  "label": "Constanța"
+		},
+		{
+		  "label": "Covasna"
+		},
+		{
+		  "label": "Dâmbovița"
+		},
+		{
+		  "label": "Dolj"
+		},
+		{
+		  "label": "Galati"
+		},
+		{
+		  "label": "Giurgiu"
+		},
+		{
+		  "label": "Gorj"
+		},
+		{
+		  "label": "Harghita"
+		},
+		{
+		  "label": "Hunedoara"
+		},
+		{
+		  "label": "Ialomița"
+		},
+		{
+		  "label": "Iași"
+		},
+		{
+		  "label": "Ilfov"
+		},
+		{
+		  "label": "Maramureș"
+		},
+		{
+		  "label": "Mehedinți"
+		},
+		{
+		  "label": "Municipiul București"
+		},
+		{
+		  "label": "Mureș"
+		},
+		{
+		  "label": "Neamț"
+		},
+		{
+		  "label": "Olt"
+		},
+		{
+		  "label": "Prahova"
+		},
+		{
+		  "label": "Sălaj"
+		},
+		{
+		  "label": "Satu Mare"
+		},
+		{
+		  "label": "Sibiu"
+		},
+		{
+		  "label": "Suceava"
+		},
+		{
+		  "label": "Teleorman"
+		},
+		{
+		  "label": "Timiș"
+		},
+		{
+		  "label": "Tulcea"
+		},
+		{
+		  "label": "Vâlcea"
+		},
+		{
+		  "label": "Vaslui"
+		},
+		{
+		  "label": "Vrancea"
+		}
+	  ]
+	},
+	{
+	  "num": "643",
+	  "label": "Russia",
+	  "c2": "RU",
+	  "name": "俄罗斯",
+	  "c3": "RUS",
+	  "cp": [
+		37.35,
+		55.45
+	  ],
+	  "area": [
+		{
+		  "label": "Central Federal District"
+		},
+		{
+		  "label": "Far Eastern Federal District"
+		},
+		{
+		  "label": "North Caucasus federal district"
+		},
+		{
+		  "label": "Northwestern Federal District"
+		},
+		{
+		  "label": "Siberian Federal District"
+		},
+		{
+		  "label": "South federal district"
+		},
+		{
+		  "label": "Ural Federal District"
+		},
+		{
+		  "label": "Volga Federal District"
+		}
+	  ]
+	},
+	{
+	  "num": "646",
+	  "label": "Rwanda",
+	  "c2": "RW",
+	  "name": "卢旺达",
+	  "c3": "RWA",
+	  "cp": [
+		30.04,
+		-1.59
+	  ],
+	  "area": [
+		{
+		  "label": "Amajvepfo"
+		},
+		{
+		  "label": "East Province"
+		},
+		{
+		  "label": "Iburengerazuba"
+		},
+		{
+		  "label": "Kigali City"
+		},
+		{
+		  "label": "Majyaruguru"
+		}
+	  ]
+	},
+	{
+	  "num": "732",
+	  "label": "Western Sahara",
+	  "c2": "EH",
+	  "name": "西撒哈拉",
+	  "c3": "ESH",
+	  "area": []
+	},
+	{
+	  "num": "682",
+	  "label": "Saudi Arabia",
+	  "c2": "SA",
+	  "name": "沙特阿拉伯",
+	  "c3": "SAU",
+	  "cp": [
+		46.42,
+		24.41
+	  ],
+	  "area": [
+		{
+		  "label": "Al Bahah Region"
+		},
+		{
+		  "label": "Al Jawf Region"
+		},
+		{
+		  "label": "Al Madinah Region"
+		},
+		{
+		  "label": "Al-Qassim Region"
+		},
+		{
+		  "label": "'Asir Region"
+		},
+		{
+		  "label": "Eastern Province"
+		},
+		{
+		  "label": "Ha'il Region"
+		},
+		{
+		  "label": "Jazan Region"
+		},
+		{
+		  "label": "Makkah Region"
+		},
+		{
+		  "label": "Najran Region"
+		},
+		{
+		  "label": "Northern Borders Region"
+		},
+		{
+		  "label": "Riyadh Region"
+		},
+		{
+		  "label": "Tabuk Region"
+		}
+	  ]
+	},
+	{
+	  "num": "729",
+	  "label": "Sudan",
+	  "c2": "SD",
+	  "name": "苏丹",
+	  "c3": "SDN",
+	  "cp": [
+		32.35,
+		15.31
+	  ],
+	  "area": [
+		{
+		  "label": "al-Jazeera"
+		},
+		{
+		  "label": "al-Khartum"
+		},
+		{
+		  "label": "al-Qadarif"
+		},
+		{
+		  "label": "an-Nil al-Abyad"
+		},
+		{
+		  "label": "An-Nil al-azraq"
+		},
+		{
+		  "label": "Central Darfur"
+		},
+		{
+		  "label": "East Darfur State"
+		},
+		{
+		  "label": "Kassala"
+		},
+		{
+		  "label": "North Darfur State"
+		},
+		{
+		  "label": "Northern State"
+		},
+		{
+		  "label": "Red Sea"
+		},
+		{
+		  "label": "River Nile"
+		},
+		{
+		  "label": "Sennar"
+		},
+		{
+		  "label": "Shamal Kurdufan"
+		},
+		{
+		  "label": "South Darfur State"
+		},
+		{
+		  "label": "South Kordofan"
+		},
+		{
+		  "label": "West Darfur State"
+		}
+	  ]
+	},
+	{
+	  "num": "728",
+	  "label": "South Sudan",
+	  "c2": "SS",
+	  "name": "南苏丹",
+	  "c3": "SSD",
+	  "cp": [
+		32.35,
+		15.31
+	  ],
+	  "area": [
+		{
+		  "label": "Central Equatoria"
+		},
+		{
+		  "label": "Eastern Equatoria"
+		},
+		{
+		  "label": "Jonglei"
+		},
+		{
+		  "label": "Lakes"
+		},
+		{
+		  "label": "Northern Bahr el Ghazal State"
+		},
+		{
+		  "label": "Unity State"
+		},
+		{
+		  "label": "Upper Nile State"
+		},
+		{
+		  "label": "Warrap"
+		},
+		{
+		  "label": "Western Bahr el Ghazal State"
+		},
+		{
+		  "label": "Western Equatoria"
+		}
+	  ]
+	},
+	{
+	  "num": "686",
+	  "label": "Senegal",
+	  "c2": "SN",
+	  "name": "塞内加尔",
+	  "c3": "SEN",
+	  "cp": [
+		-17.29,
+		14.34
+	  ],
+	  "area": [
+		{
+		  "label": "Dakar Region"
+		},
+		{
+		  "label": "Diourbel Region"
+		},
+		{
+		  "label": "Fatick Region"
+		},
+		{
+		  "label": "Kaffrine Region"
+		},
+		{
+		  "label": "Kaolack Region"
+		},
+		{
+		  "label": "Kédougou Region"
+		},
+		{
+		  "label": "Kolda Region"
+		},
+		{
+		  "label": "Louga Region"
+		},
+		{
+		  "label": "Matam Region"
+		},
+		{
+		  "label": "Saint-Louis Region"
+		},
+		{
+		  "label": "Sédhiou Region"
+		},
+		{
+		  "label": "Tambacounda Region"
+		},
+		{
+		  "label": "Thiès Region"
+		},
+		{
+		  "label": "Ziguinchor Region"
+		}
+	  ]
+	},
+	{
+	  "num": "826",
+	  "label": "United Kingdom",
+	  "c2": "GB",
+	  "name": "英国",
+	  "c3": "GBR",
+	  "cp": [
+		-0.05,
+		51.36
+	  ],
+	  "area": [
+		{
+		  "label": "England"
+		},
+		{
+		  "label": "Northern Ireland"
+		},
+		{
+		  "label": "Scotland"
+		},
+		{
+		  "label": "Wales"
+		}
+	  ]
+	},
+	{
+	  "num": "090",
+	  "label": "Solomon Islands",
+	  "c2": "SB",
+	  "name": "所罗门群岛",
+	  "c3": "SLB",
+	  "cp": [
+		159.57,
+		-9.27
+	  ],
+	  "area": [
+		{
+		  "label": "Capital Territory"
+		},
+		{
+		  "label": "Central Province"
+		},
+		{
+		  "label": "Choiseul Province"
+		},
+		{
+		  "label": "Guadalcanal Province"
+		},
+		{
+		  "label": "Isabel Province"
+		},
+		{
+		  "label": "Makira-Ulawa Province"
+		},
+		{
+		  "label": "Malaita Province"
+		},
+		{
+		  "label": "Rennell and Bellona Province"
+		},
+		{
+		  "label": "Temotu Province"
+		},
+		{
+		  "label": "Western Province"
+		}
+	  ]
+	},
+	{
+	  "num": "694",
+	  "label": "Sierra Leone",
+	  "c2": "SL",
+	  "name": "塞拉利昂",
+	  "c3": "SLE",
+	  "cp": [
+		-13.17,
+		8.3
+	  ],
+	  "area": [
+		{
+		  "label": "Eastern Province"
+		},
+		{
+		  "label": "Northern Province"
+		},
+		{
+		  "label": "Southern Province"
+		},
+		{
+		  "label": "Western Area"
+		}
+	  ]
+	},
+	{
+	  "num": "222",
+	  "label": "El Salvador",
+	  "c2": "SV",
+	  "name": "萨尔瓦多",
+	  "c3": "SLV",
+	  "cp": [
+		-89.1,
+		13.4
+	  ],
+	  "area": [
+		{
+		  "label": "Departamento de Ahuachapán"
+		},
+		{
+		  "label": "Departamento de Cabañas"
+		},
+		{
+		  "label": "Departamento de Cuscatlán"
+		},
+		{
+		  "label": "Departamento de La Libertad"
+		},
+		{
+		  "label": "Departamento de La Paz"
+		},
+		{
+		  "label": "Departamento de La Unión"
+		},
+		{
+		  "label": "Departamento de Morazán"
+		},
+		{
+		  "label": "Departamento de San Miguel"
+		},
+		{
+		  "label": "Departamento de San Salvador"
+		},
+		{
+		  "label": "Departamento de Santa Ana"
+		},
+		{
+		  "label": "Departamento de San Vicente"
+		},
+		{
+		  "label": "Departamento de Sonsonate"
+		},
+		{
+		  "label": "Departamento de Usulután"
+		},
+		{
+		  "label": "Departemento de Chalatenango"
+		}
+	  ]
+	},
+	{
+	  "num": "-97",
+	  "label": "Somaliland",
+	  "c2": "SML",
+	  "name": "索马里兰",
+	  "c3": "SML",
+	  "area": []
+	},
+	{
+	  "num": "706",
+	  "label": "Somalia",
+	  "c2": "SO",
+	  "name": "索马里",
+	  "c3": "SOM",
+	  "cp": [
+		45.25,
+		2.02
+	  ],
+	  "area": [
+		{
+		  "label": "Somalia"
+		}
+	  ]
+	},
+	{
+	  "num": "688",
+	  "label": "Republic of Serbia",
+	  "c2": "RS",
+	  "name": "塞尔维亚",
+	  "c3": "SRB",
+	  "area": []
+	},
+	{
+	  "num": "740",
+	  "label": "Suriname",
+	  "c2": "SR",
+	  "name": "苏里南",
+	  "c3": "SUR",
+	  "cp": [
+		-55.1,
+		5.5
+	  ],
+	  "area": [
+		{
+		  "label": "Brokopondo"
+		},
+		{
+		  "label": "Commewijne"
+		},
+		{
+		  "label": "Coronie"
+		},
+		{
+		  "label": "Marowijne"
+		},
+		{
+		  "label": "Nickerie"
+		},
+		{
+		  "label": "Para"
+		},
+		{
+		  "label": "Paramaribo"
+		},
+		{
+		  "label": "Saramacca"
+		},
+		{
+		  "label": "Sipaliwini"
+		}
+	  ]
+	},
+	{
+	  "num": "703",
+	  "label": "Slovakia",
+	  "c2": "SK",
+	  "name": "斯洛伐克",
+	  "c3": "SVK",
+	  "cp": [
+		17.07,
+		48.1
+	  ],
+	  "area": [
+		{
+		  "label": "Central Slovakia"
+		},
+		{
+		  "label": "Eastern Slovakia"
+		},
+		{
+		  "label": "Western Slovakia"
+		}
+	  ]
+	},
+	{
+	  "num": "705",
+	  "label": "Slovenia",
+	  "c2": "SI",
+	  "name": "斯洛文尼亚",
+	  "c3": "SVN",
+	  "cp": [
+		14.33,
+		46.04
+	  ],
+	  "area": [
+		{
+		  "label": "Goriška"
+		},
+		{
+		  "label": "Jugovzhodna Slovenija"
+		},
+		{
+		  "label": "Koroška"
+		},
+		{
+		  "label": "Notranjsko-kraška"
+		},
+		{
+		  "label": "Obalno-kraška"
+		},
+		{
+		  "label": "Osrednjeslovenska"
+		},
+		{
+		  "label": "Podravska"
+		},
+		{
+		  "label": "Pomurska"
+		},
+		{
+		  "label": "Savinjska"
+		},
+		{
+		  "label": "Spodnjeposavska"
+		},
+		{
+		  "label": "Upper Carniola"
+		},
+		{
+		  "label": "Zasavska"
+		}
+	  ]
+	},
+	{
+	  "num": "752",
+	  "label": "Sweden",
+	  "c2": "SE",
+	  "name": "瑞典",
+	  "c3": "SWE",
+	  "cp": [
+		18.03,
+		59.2
+	  ],
+	  "area": [
+		{
+		  "label": "Götaland"
+		},
+		{
+		  "label": "Norrland"
+		},
+		{
+		  "label": "Svealand"
+		}
+	  ]
+	},
+	{
+	  "num": "748",
+	  "label": "Swaziland",
+	  "c2": "SZ",
+	  "name": "斯威士兰",
+	  "c3": "SWZ",
+	  "cp": [
+		31.06,
+		-26.18
+	  ],
+	  "area": []
+	},
+	{
+	  "num": "760",
+	  "label": "Syria",
+	  "c2": "SY",
+	  "name": "叙利亚",
+	  "c3": "SYR",
+	  "cp": [
+		36.18,
+		33.3
+	  ],
+	  "area": [
+		{
+		  "label": "Aleppo"
+		},
+		{
+		  "label": "Al-Hasakah"
+		},
+		{
+		  "label": "Ar-Raqqah"
+		},
+		{
+		  "label": "As-Suwayda"
+		},
+		{
+		  "label": "Daraa"
+		},
+		{
+		  "label": "Deir ez-Zor"
+		},
+		{
+		  "label": "Hama"
+		},
+		{
+		  "label": "Homs"
+		},
+		{
+		  "label": "Idlib"
+		},
+		{
+		  "label": "Latakia"
+		},
+		{
+		  "label": "Quneitra"
+		},
+		{
+		  "label": "Rif Dimashq"
+		},
+		{
+		  "label": "Tartus"
+		},
+		{
+		  "label": "United Nations Disengagement Observer Force"
+		}
+	  ]
+	},
+	{
+	  "num": "148",
+	  "label": "Chad",
+	  "c2": "TD",
+	  "name": "乍得",
+	  "c3": "TCD",
+	  "cp": [
+		14.59,
+		12.1
+	  ],
+	  "area": [
+		{
+		  "label": "Bahr el Gazel Region"
+		},
+		{
+		  "label": "Batha Region"
+		},
+		{
+		  "label": "Borkou Region"
+		},
+		{
+		  "label": "Chari-Baguirmi Region"
+		},
+		{
+		  "label": "Ennedi Region"
+		},
+		{
+		  "label": "Guéra Region"
+		},
+		{
+		  "label": "Hadjer-Lamis Region"
+		},
+		{
+		  "label": "Kanem Region"
+		},
+		{
+		  "label": "Lac Region"
+		},
+		{
+		  "label": "Logone Occidental"
+		},
+		{
+		  "label": "Logone Oriental"
+		},
+		{
+		  "label": "Mandoul"
+		},
+		{
+		  "label": "Mayo-Kebbi Est"
+		},
+		{
+		  "label": "Mayo-Kebbi Ouest"
+		},
+		{
+		  "label": "Moyen-Chari Region"
+		},
+		{
+		  "label": "N'Djamena Region"
+		},
+		{
+		  "label": "Ouaddaï Region"
+		},
+		{
+		  "label": "Salamat Region"
+		},
+		{
+		  "label": "Sila Region"
+		},
+		{
+		  "label": "Tandjilé"
+		},
+		{
+		  "label": "Tibesti Region"
+		},
+		{
+		  "label": "Wadi Fira Region"
+		}
+	  ]
+	},
+	{
+	  "num": "768",
+	  "label": "Togo",
+	  "c2": "TG",
+	  "name": "多哥",
+	  "c3": "TGO",
+	  "cp": [
+		1.2,
+		6.09
+	  ],
+	  "area": [
+		{
+		  "label": "Centrale Region"
+		},
+		{
+		  "label": "Kara Region"
+		},
+		{
+		  "label": "Maritime Region"
+		},
+		{
+		  "label": "Plateaux Region"
+		},
+		{
+		  "label": "Savanes Region"
+		}
+	  ]
+	},
+	{
+	  "num": "764",
+	  "label": "Thailand",
+	  "c2": "TH",
+	  "name": "泰国",
+	  "c3": "THA",
+	  "cp": [
+		100.35,
+		13.45
+	  ],
+	  "area": [
+		{
+		  "label": "กรุงเทพมหานคร"
+		},
+		{
+		  "label": "Amnat Charoen Province"
+		},
+		{
+		  "label": "Ang Thong Province"
+		},
+		{
+		  "label": "Bueng Kan Province"
+		},
+		{
+		  "label": "Buri Ram Province"
+		},
+		{
+		  "label": "Chachoengsao Province"
+		},
+		{
+		  "label": "Chai Nat Province"
+		},
+		{
+		  "label": "Chaiyaphum Province"
+		},
+		{
+		  "label": "Chanthaburi Province"
+		},
+		{
+		  "label": "Chiang Mai Province"
+		},
+		{
+		  "label": "Chiang Rai Province"
+		},
+		{
+		  "label": "Chon Buri Province"
+		},
+		{
+		  "label": "Chumphon Province"
+		},
+		{
+		  "label": "Kalasin"
+		},
+		{
+		  "label": "Kamphaeng Phet Province"
+		},
+		{
+		  "label": "Kanchanaburi Province"
+		},
+		{
+		  "label": "Khon Kaen Province"
+		},
+		{
+		  "label": "Krabi Province"
+		},
+		{
+		  "label": "Lampang Province"
+		},
+		{
+		  "label": "Lamphun Province"
+		},
+		{
+		  "label": "Loei Province"
+		},
+		{
+		  "label": "Lopburi Province"
+		},
+		{
+		  "label": "Mae Hong Son Province"
+		},
+		{
+		  "label": "Maha Sarakham Province"
+		},
+		{
+		  "label": "Mukdahan Province"
+		},
+		{
+		  "label": "Nakhon Nayok Province"
+		},
+		{
+		  "label": "Nakhon Pathom Province"
+		},
+		{
+		  "label": "Nakhon Phanom Province"
+		},
+		{
+		  "label": "Nakhon Ratchasima Province"
+		},
+		{
+		  "label": "Nakhon Sawan Province"
+		},
+		{
+		  "label": "Nakhon Si Thammarat Province"
+		},
+		{
+		  "label": "Nan Province"
+		},
+		{
+		  "label": "Narathiwat Province"
+		},
+		{
+		  "label": "Nong Bua Lam Phu Province"
+		},
+		{
+		  "label": "Nong Khai Province"
+		},
+		{
+		  "label": "Nonthaburi Province"
+		},
+		{
+		  "label": "Pathum Thani Province"
+		},
+		{
+		  "label": "Pattani Province"
+		},
+		{
+		  "label": "Phangnga Province"
+		},
+		{
+		  "label": "Phatthalung Province"
+		},
+		{
+		  "label": "Phayao Province"
+		},
+		{
+		  "label": "Phetchabun Province"
+		},
+		{
+		  "label": "Phetchaburi Province"
+		},
+		{
+		  "label": "Phichit Province"
+		},
+		{
+		  "label": "Phitsanulok Province"
+		},
+		{
+		  "label": "Phrae Province"
+		},
+		{
+		  "label": "Phra Nakhon Si Ayutthaya Province"
+		},
+		{
+		  "label": "Phuket Province"
+		},
+		{
+		  "label": "Prachin Buri Province"
+		},
+		{
+		  "label": "Prachuap Khiri Khan Province"
+		},
+		{
+		  "label": "Ranong Province"
+		},
+		{
+		  "label": "Ratchaburi Province"
+		},
+		{
+		  "label": "Rayong Province"
+		},
+		{
+		  "label": "Roi Et Province"
+		},
+		{
+		  "label": "Sa Kaeo Province"
+		},
+		{
+		  "label": "Sakon Nakhon Province"
+		},
+		{
+		  "label": "Samut Prakan Province"
+		},
+		{
+		  "label": "Samut Sakhon Province"
+		},
+		{
+		  "label": "Samut Songkhram Province"
+		},
+		{
+		  "label": "Saraburi Province"
+		},
+		{
+		  "label": "Satun Province"
+		},
+		{
+		  "label": "Sing Buri Province"
+		},
+		{
+		  "label": "Si Sa Ket Province"
+		},
+		{
+		  "label": "Songkhla Province"
+		},
+		{
+		  "label": "Sukhothai Province"
+		},
+		{
+		  "label": "Suphan Buri Province"
+		},
+		{
+		  "label": "Surat Thani Province"
+		},
+		{
+		  "label": "Surin Province"
+		},
+		{
+		  "label": "Tak Province"
+		},
+		{
+		  "label": "Trang Province"
+		},
+		{
+		  "label": "Trat Province"
+		},
+		{
+		  "label": "Ubon Ratchathani Province"
+		},
+		{
+		  "label": "Udon Thani Province"
+		},
+		{
+		  "label": "Uthai Thani Province"
+		},
+		{
+		  "label": "Uttaradit Province"
+		},
+		{
+		  "label": "Yala Province"
+		},
+		{
+		  "label": "Yasothon Province"
+		}
+	  ]
+	},
+	{
+	  "num": "762",
+	  "label": "Tajikistan",
+	  "c2": "TJ",
+	  "name": "塔吉克斯坦",
+	  "c3": "TJK",
+	  "cp": [
+		68.48,
+		38.33
+	  ],
+	  "area": [
+		{
+		  "label": "Districts of Republican Subordination"
+		},
+		{
+		  "label": "Gorno-Badakhshan Autonomous Province"
+		},
+		{
+		  "label": "Khatlon Province"
+		},
+		{
+		  "label": "Sughd Province"
+		}
+	  ]
+	},
+	{
+	  "num": "795",
+	  "label": "Turkmenistan",
+	  "c2": "TM",
+	  "name": "土库曼斯坦",
+	  "c3": "TKM",
+	  "cp": [
+		57.5,
+		38
+	  ],
+	  "area": [
+		{
+		  "label": "Ahal"
+		},
+		{
+		  "label": "Balkan"
+		},
+		{
+		  "label": "Daşoguz"
+		},
+		{
+		  "label": "Lebap province"
+		},
+		{
+		  "label": "Mary"
+		}
+	  ]
+	},
+	{
+	  "num": "626",
+	  "label": "East Timor",
+	  "c2": "TL",
+	  "name": "东帝汶",
+	  "c3": "TLS",
+	  "cp": [
+		125.34,
+		-8.29
+	  ],
+	  "area": [
+		{
+		  "label": "Aileu"
+		},
+		{
+		  "label": "Ainaro"
+		},
+		{
+		  "label": "Baucau"
+		},
+		{
+		  "label": "Bobonaro"
+		},
+		{
+		  "label": "Cova Lima"
+		},
+		{
+		  "label": "Dili"
+		},
+		{
+		  "label": "Ermera"
+		},
+		{
+		  "label": "Lautém"
+		},
+		{
+		  "label": "Liquiçá"
+		},
+		{
+		  "label": "Manatuto"
+		},
+		{
+		  "label": "Manufahi"
+		},
+		{
+		  "label": "Oecusse"
+		},
+		{
+		  "label": "Viqueque"
+		}
+	  ]
+	},
+	{
+	  "num": "780",
+	  "label": "Trinidad and Tobago",
+	  "c2": "TT",
+	  "name": "特立尼达和多巴哥",
+	  "c3": "TTO",
+	  "area": [
+		{
+		  "label": "Trinidad and Tobago"
+		}
+	  ]
+	},
+	{
+	  "num": "788",
+	  "label": "Tunisia",
+	  "c2": "TN",
+	  "name": "突尼斯",
+	  "c3": "TUN",
+	  "cp": [
+		10.11,
+		36.5
+	  ],
+	  "area": [
+		{
+		  "label": "Ariana"
+		},
+		{
+		  "label": "Béja"
+		},
+		{
+		  "label": "Ben Arous"
+		},
+		{
+		  "label": "Bizerte"
+		},
+		{
+		  "label": "El Kef"
+		},
+		{
+		  "label": "Gabès"
+		},
+		{
+		  "label": "Gafsa"
+		},
+		{
+		  "label": "Jendouba"
+		},
+		{
+		  "label": "Kairouan"
+		},
+		{
+		  "label": "Kasserine"
+		},
+		{
+		  "label": "Kébili"
+		},
+		{
+		  "label": "Mahdia"
+		},
+		{
+		  "label": "Manouba"
+		},
+		{
+		  "label": "Médenine"
+		},
+		{
+		  "label": "Monastir"
+		},
+		{
+		  "label": "Nabeul"
+		},
+		{
+		  "label": "Sfax"
+		},
+		{
+		  "label": "Sidi Bouzid"
+		},
+		{
+		  "label": "Siliana"
+		},
+		{
+		  "label": "Sousse"
+		},
+		{
+		  "label": "Tataouine"
+		},
+		{
+		  "label": "Tozeur"
+		},
+		{
+		  "label": "Tunis"
+		},
+		{
+		  "label": "Zaghouan"
+		}
+	  ]
+	},
+	{
+	  "num": "792",
+	  "label": "Turkey",
+	  "c2": "TR",
+	  "name": "土耳其",
+	  "c3": "TUR",
+	  "cp": [
+		32.54,
+		39.57
+	  ],
+	  "area": [
+		{
+		  "label": "Aegean Region"
+		},
+		{
+		  "label": "Black Sea Region"
+		},
+		{
+		  "label": "Central Anatolia Region"
+		},
+		{
+		  "label": "Eastern Anatolia Region"
+		},
+		{
+		  "label": "Marmara Region"
+		},
+		{
+		  "label": "Mediterranean Region"
+		},
+		{
+		  "label": "Southeastern Anatolia Region"
+		}
+	  ]
+	},
+	{
+	  "num": "834",
+	  "label": "United Republic of Tanzania",
+	  "c2": "TZ",
+	  "name": "坦桑尼亚",
+	  "c3": "TZA",
+	  "cp": [
+		35.45,
+		-6.08
+	  ],
+	  "area": []
+	},
+	{
+	  "num": "800",
+	  "label": "Uganda",
+	  "c2": "UG",
+	  "name": "乌干达",
+	  "c3": "UGA",
+	  "cp": [
+		32.3,
+		0.2
+	  ],
+	  "area": [
+		{
+		  "label": "Central Region"
+		},
+		{
+		  "label": "Eastern Region"
+		},
+		{
+		  "label": "Western Region"
+		}
+	  ]
+	},
+	{
+	  "num": "804",
+	  "label": "Ukraine",
+	  "c2": "UA",
+	  "name": "乌克兰",
+	  "c3": "UKR",
+	  "cp": [
+		30.28,
+		50.3
+	  ],
+	  "area": [
+		{
+		  "label": "Autonomous Republic of Crimea"
+		},
+		{
+		  "label": "Cherkasy Oblast"
+		},
+		{
+		  "label": "Chernihiv Oblast"
+		},
+		{
+		  "label": "Chernivtsi Oblast"
+		},
+		{
+		  "label": "Dnipropetrovsk Oblast"
+		},
+		{
+		  "label": "Donetsk Oblast"
+		},
+		{
+		  "label": "Ivano-Frankivsk Oblast"
+		},
+		{
+		  "label": "Kharkiv Oblast"
+		},
+		{
+		  "label": "Kherson Oblast"
+		},
+		{
+		  "label": "Khmelnytskyi Oblast"
+		},
+		{
+		  "label": "Kirovohrad Oblast"
+		},
+		{
+		  "label": "Kyiv"
+		},
+		{
+		  "label": "Kyiv Oblast"
+		},
+		{
+		  "label": "Luhansk Oblast"
+		},
+		{
+		  "label": "Lviv Oblast"
+		},
+		{
+		  "label": "Mykolaiv Oblast"
+		},
+		{
+		  "label": "Odessa Oblast"
+		},
+		{
+		  "label": "Poltava Oblast"
+		},
+		{
+		  "label": "Rivne Oblast"
+		},
+		{
+		  "label": "Sevastopol"
+		},
+		{
+		  "label": "Sumy Oblast"
+		},
+		{
+		  "label": "Ternopil Oblast"
+		},
+		{
+		  "label": "Vinnytsia Oblast"
+		},
+		{
+		  "label": "Volyn Oblast"
+		},
+		{
+		  "label": "Zakarpattia Oblast"
+		},
+		{
+		  "label": "Zaporizhia Oblast"
+		},
+		{
+		  "label": "Zhytomyr Oblast"
+		}
+	  ]
+	},
+	{
+	  "num": "858",
+	  "label": "Uruguay",
+	  "c2": "UY",
+	  "name": "乌拉圭",
+	  "c3": "URY",
+	  "cp": [
+		-56.11,
+		-34.5
+	  ],
+	  "area": [
+		{
+		  "label": "Artigas"
+		},
+		{
+		  "label": "Canelones"
+		},
+		{
+		  "label": "Cerro Largo"
+		},
+		{
+		  "label": "Colonia"
+		},
+		{
+		  "label": "Durazno"
+		},
+		{
+		  "label": "Flores"
+		},
+		{
+		  "label": "Florida"
+		},
+		{
+		  "label": "Lavalleja"
+		},
+		{
+		  "label": "Maldonado"
+		},
+		{
+		  "label": "Montevideo"
+		},
+		{
+		  "label": "Paysandú"
+		},
+		{
+		  "label": "Río Negro"
+		},
+		{
+		  "label": "Rivera"
+		},
+		{
+		  "label": "Rocha"
+		},
+		{
+		  "label": "Salto"
+		},
+		{
+		  "label": "San José"
+		},
+		{
+		  "label": "Soriano"
+		},
+		{
+		  "label": "Tacuarembó"
+		},
+		{
+		  "label": "Treinta y Tres"
+		}
+	  ]
+	},
+	{
+	  "num": "840",
+	  "label": "United States of America",
+	  "c2": "US",
+	  "name": "美国",
+	  "c3": "USA",
+	  "cp": [
+		-77.02,
+		39.91
+	  ],
+	  "area": []
+	},
+	{
+	  "num": "860",
+	  "label": "Uzbekistan",
+	  "c2": "UZ",
+	  "name": "乌兹别克斯坦",
+	  "c3": "UZB",
+	  "cp": [
+		69.1,
+		41.2
+	  ],
+	  "area": [
+		{
+		  "label": "Andijan Province"
+		},
+		{
+		  "label": "Bukhara Province"
+		},
+		{
+		  "label": "Fergana Province"
+		},
+		{
+		  "label": "Jizzakh Province"
+		},
+		{
+		  "label": "Khorezm Province"
+		},
+		{
+		  "label": "Namangan Province"
+		},
+		{
+		  "label": "Navoiy province"
+		},
+		{
+		  "label": "Qashqadaryo Province"
+		},
+		{
+		  "label": "Republic of Karakalpakstan"
+		},
+		{
+		  "label": "Samarkand Province"
+		},
+		{
+		  "label": "Sirdarya Province"
+		},
+		{
+		  "label": "Surxondaryo Province"
+		},
+		{
+		  "label": "Tashkent"
+		},
+		{
+		  "label": "Tashkent Province"
+		}
+	  ]
+	},
+	{
+	  "num": "862",
+	  "label": "Venezuela",
+	  "c2": "VE",
+	  "name": "委内瑞拉",
+	  "c3": "VEN",
+	  "cp": [
+		-66.55,
+		10.3
+	  ],
+	  "area": [
+		{
+		  "label": "Región Capital"
+		},
+		{
+		  "label": "Región Central"
+		},
+		{
+		  "label": "Región Centro-Occidental"
+		},
+		{
+		  "label": "Región de Los Andes"
+		},
+		{
+		  "label": "Región de Los Llanos"
+		},
+		{
+		  "label": "Región Guayana"
+		},
+		{
+		  "label": "Región Insular"
+		},
+		{
+		  "label": "Región Nor-Oriental"
+		},
+		{
+		  "label": "Región Zuliana"
+		}
+	  ]
+	},
+	{
+	  "num": "704",
+	  "label": "Vietnam",
+	  "c2": "VN",
+	  "name": "越南",
+	  "c3": "VNM",
+	  "cp": [
+		105.55,
+		21.05
+	  ],
+	  "area": [
+		{
+		  "label": "An Giang province"
+		},
+		{
+		  "label": "Bac Giang province"
+		},
+		{
+		  "label": "Bac Kan province"
+		},
+		{
+		  "label": "Bac Lieu province"
+		},
+		{
+		  "label": "Bac Ninh province"
+		},
+		{
+		  "label": "Ba Ria–Vung Tau province"
+		},
+		{
+		  "label": "Ben Tre province"
+		},
+		{
+		  "label": "Binh Dinh province"
+		},
+		{
+		  "label": "Binh Duong province"
+		},
+		{
+		  "label": "Binh Phuoc province"
+		},
+		{
+		  "label": "Binh Thuan province"
+		},
+		{
+		  "label": "Ca Mau province"
+		},
+		{
+		  "label": "Can Tho City"
+		},
+		{
+		  "label": "Cao Bang province"
+		},
+		{
+		  "label": "Dak Lak province"
+		},
+		{
+		  "label": "Dak Nong province"
+		},
+		{
+		  "label": "Da Nang City"
+		},
+		{
+		  "label": "Dien Bien province"
+		},
+		{
+		  "label": "Dong Nai province"
+		},
+		{
+		  "label": "Dong Thap province"
+		},
+		{
+		  "label": "Gia Lai Province"
+		},
+		{
+		  "label": "Ha Giang province"
+		},
+		{
+		  "label": "Hai Phong"
+		},
+		{
+		  "label": "Ha Nam province"
+		},
+		{
+		  "label": "Hanoi"
+		},
+		{
+		  "label": "Ha Tinh province"
+		},
+		{
+		  "label": "Hau Giang province"
+		},
+		{
+		  "label": "Hoa Binh province"
+		},
+		{
+		  "label": "Ho Chi Minh City"
+		},
+		{
+		  "label": "Hung Yen province"
+		},
+		{
+		  "label": "Khanh Hoa province"
+		},
+		{
+		  "label": "Kien Giang province"
+		},
+		{
+		  "label": "Kon Tum province"
+		},
+		{
+		  "label": "Lai Chau province"
+		},
+		{
+		  "label": "Lam Dong province"
+		},
+		{
+		  "label": "Lang Son province"
+		},
+		{
+		  "label": "Lao Cai province"
+		},
+		{
+		  "label": "Long An province"
+		},
+		{
+		  "label": "Nam Dinh province"
+		},
+		{
+		  "label": "Nghe An province"
+		},
+		{
+		  "label": "Ninh Binh province"
+		},
+		{
+		  "label": "Ninh Thuan province"
+		},
+		{
+		  "label": "Phu Tho province"
+		},
+		{
+		  "label": "Phu Yen province"
+		},
+		{
+		  "label": "Quang Binh province"
+		},
+		{
+		  "label": "Quang Nam province"
+		},
+		{
+		  "label": "Quang Ngai province"
+		},
+		{
+		  "label": "Quang Ninh province"
+		},
+		{
+		  "label": "Quang Tri province"
+		},
+		{
+		  "label": "Soc Trang province"
+		},
+		{
+		  "label": "Son La province"
+		},
+		{
+		  "label": "Tay Ninh province"
+		},
+		{
+		  "label": "Thai Binh province"
+		},
+		{
+		  "label": "Thai Nguyen province"
+		},
+		{
+		  "label": "Thanh Hoa province"
+		},
+		{
+		  "label": "Thua Thien–Hue province"
+		},
+		{
+		  "label": "Tien Giang province"
+		},
+		{
+		  "label": "Tỉnh Hải Dương"
+		},
+		{
+		  "label": "Tra Vinh province"
+		},
+		{
+		  "label": "Tuyen Quang province"
+		},
+		{
+		  "label": "Vinh Long province"
+		},
+		{
+		  "label": "Vinh Phuc province"
+		},
+		{
+		  "label": "Yen Bai province"
+		}
+	  ]
+	},
+	{
+	  "num": "548",
+	  "label": "Vanuatu",
+	  "c2": "VU",
+	  "name": "瓦努阿图",
+	  "c3": "VUT",
+	  "cp": [
+		168.18,
+		-17.45
+	  ],
+	  "area": [
+		{
+		  "label": "Malampa"
+		},
+		{
+		  "label": "Penama"
+		},
+		{
+		  "label": "Sanma"
+		},
+		{
+		  "label": "Shefa Province"
+		},
+		{
+		  "label": "Tafea"
+		},
+		{
+		  "label": "Torba"
+		}
+	  ]
+	},
+	{
+	  "num": "887",
+	  "label": "Yemen",
+	  "c2": "YE",
+	  "name": "也门",
+	  "c3": "YEM",
+	  "area": [
+		{
+		  "label": "Abyan Governorate"
+		},
+		{
+		  "label": "‘Adan Governorate"
+		},
+		{
+		  "label": "Ad Dali' Governorate"
+		},
+		{
+		  "label": "Al Bayda' Governorate"
+		},
+		{
+		  "label": "Al Hudaydah Governorate"
+		},
+		{
+		  "label": "Al Jawf Governorate"
+		},
+		{
+		  "label": "Al Mahrah Governorate"
+		},
+		{
+		  "label": "Al Mahwit Governorate"
+		},
+		{
+		  "label": "'Amran Governorate"
+		},
+		{
+		  "label": "Dhamar Governorate"
+		},
+		{
+		  "label": "Hadhramaut"
+		},
+		{
+		  "label": "Hajjah Governorate"
+		},
+		{
+		  "label": "Ibb Governorate"
+		},
+		{
+		  "label": "Lahij Governorate"
+		},
+		{
+		  "label": "Ma'rib Governorate"
+		},
+		{
+		  "label": "Raymah Governorate"
+		},
+		{
+		  "label": "Sa'dah Governorate"
+		},
+		{
+		  "label": "Sanʿaʾ"
+		},
+		{
+		  "label": "Sanʿaʾ Governorate"
+		},
+		{
+		  "label": "Shabwah Governorate"
+		},
+		{
+		  "label": "Socotra"
+		},
+		{
+		  "label": "Ta'izz Governorate"
+		}
+	  ]
+	},
+	{
+	  "num": "710",
+	  "label": "South Africa",
+	  "c2": "ZA",
+	  "name": "南非",
+	  "c3": "ZAF",
+	  "area": [
+		{
+		  "label": "South Africa"
+		}
+	  ]
+	},
+	{
+	  "num": "894",
+	  "label": "Zambia",
+	  "c2": "ZM",
+	  "name": "赞比亚",
+	  "c3": "ZMB",
+	  "cp": [
+		28.16,
+		-15.28
+	  ],
+	  "area": [
+		{
+		  "label": "Central Province"
+		},
+		{
+		  "label": "Copperbelt Province"
+		},
+		{
+		  "label": "Eastern Province"
+		},
+		{
+		  "label": "Luapula Province"
+		},
+		{
+		  "label": "Lusaka Province"
+		},
+		{
+		  "label": "Muchinga"
+		},
+		{
+		  "label": "Northern Province"
+		},
+		{
+		  "label": "North-Western Province"
+		},
+		{
+		  "label": "Southern Province"
+		},
+		{
+		  "label": "Western Province"
+		}
+	  ]
+	},
+	{
+	  "num": "716",
+	  "label": "Zimbabwe",
+	  "c2": "ZW",
+	  "name": "津巴布韦",
+	  "c3": "ZWE",
+	  "cp": [
+		31.02,
+		-17.43
+	  ],
+	  "area": [
+		{
+		  "label": "Bulawayo Province"
+		},
+		{
+		  "label": "Harare Province"
+		},
+		{
+		  "label": "Manicaland"
+		},
+		{
+		  "label": "Mashonaland Central"
+		},
+		{
+		  "label": "Mashonaland East"
+		},
+		{
+		  "label": "Mashonaland West"
+		},
+		{
+		  "label": "Masvingo Province"
+		},
+		{
+		  "label": "Matabeleland North"
+		},
+		{
+		  "label": "Matabeleland South"
+		},
+		{
+		  "label": "Midlands Province"
+		}
+	  ]
+	}
+  ]
+}
