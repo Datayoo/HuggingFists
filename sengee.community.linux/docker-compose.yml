@@ -52,7 +52,6 @@ services:
       - ./app/lib:/home/datayoo/app/sengee/lib
       - ./app/sengee/scripts:/home/datayoo/scripts
       - ./operators:/home/datayoo/app/sengee/operators/
-      - ./upload:/home/datayoo/app/sengee/upload
       - ./dfs:/home/datayoo/dfs
     hostname: datayoo.sengee
   brackets:
