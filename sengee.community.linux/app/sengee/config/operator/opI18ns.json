@@ -1,5 +1,12 @@
 [
   {
+    "id": "AliDashScopeTextGenerator",
+    "i18ns": {
+      "en_US": "AliDashScopeTextGenerator",
+      "zh_CN": "阿里大语言模型"
+    }
+  },
+  {
     "id": "ImageOilPainting",
     "i18ns": {
       "en_US": "ImageOilPainting",
@@ -91,6 +98,13 @@
     }
   },
   {
+    "id": "OpenAITextGenerator",
+    "i18ns": {
+      "en_US": "OpenAITextGenerator",
+      "zh_CN": "OpenAI大语言模型"
+    }
+  },
+  {
     "id": "CephOutput",
     "i18ns": {
       "en_US": "CephOutput",
@@ -116,13 +130,6 @@
     "i18ns": {
       "en_US": "DBSCAN",
       "zh_CN": "DBSCAN聚类"
-    }
-  },
-  {
-    "id": "PaddleOCRExtractor",
-    "i18ns": {
-      "en_US": "PaddleOCRExtractor",
-      "zh_CN": "飞浆OCR识别"
     }
   },
   {
@@ -168,13 +175,6 @@
     }
   },
   {
-    "id": "TushareReader",
-    "i18ns": {
-      "en_US": "TushareReader",
-      "zh_CN": "Tushare应用读取"
-    }
-  },
-  {
     "id": "ProtoBufReader",
     "i18ns": {
       "en_US": "ProtoBufReader",
@@ -189,10 +189,10 @@
     }
   },
   {
-    "id": "PrivacyAggregate",
+    "id": "TushareReader",
     "i18ns": {
-      "en_US": "PrivacyAggregate",
-      "zh_CN": "差分隐私聚合"
+      "en_US": "TushareReader",
+      "zh_CN": "Tushare应用读取"
     }
   },
   {
@@ -200,6 +200,13 @@
     "i18ns": {
       "en_US": "MySQLReader",
       "zh_CN": "MySQL读取"
+    }
+  },
+  {
+    "id": "PrivacyAggregate",
+    "i18ns": {
+      "en_US": "PrivacyAggregate",
+      "zh_CN": "差分隐私聚合"
     }
   },
   {
@@ -214,6 +221,13 @@
     "i18ns": {
       "en_US": "PostgreSQLReader",
       "zh_CN": "PostgreSQL读取"
+    }
+  },
+  {
+    "id": "ThoughtAction",
+    "i18ns": {
+      "en_US": "ThoughtAction",
+      "zh_CN": "思维指令执行"
     }
   },
   {
@@ -252,10 +266,10 @@
     }
   },
   {
-    "id": "StreamCopyer",
+    "id": "Union",
     "i18ns": {
-      "en_US": "StreamCopyer",
-      "zh_CN": "流复制"
+      "en_US": "Union",
+      "zh_CN": "并集"
     }
   },
   {
@@ -266,10 +280,10 @@
     }
   },
   {
-    "id": "Union",
+    "id": "StreamCopyer",
     "i18ns": {
-      "en_US": "Union",
-      "zh_CN": "并集"
+      "en_US": "StreamCopyer",
+      "zh_CN": "流复制"
     }
   },
   {
@@ -287,6 +301,20 @@
     }
   },
   {
+    "id": "OpenAISpeechToText",
+    "i18ns": {
+      "en_US": "OpenAISpeechToText",
+      "zh_CN": "OpenAI语音转文本"
+    }
+  },
+  {
+    "id": "HuggingFaceTextTranslation",
+    "i18ns": {
+      "en_US": "HuggingFaceTextTranslation",
+      "zh_CN": "HuggingFace文本翻译"
+    }
+  },
+  {
     "id": "StructureBlockParser",
     "i18ns": {
       "en_US": "StructureBlockParser",
@@ -298,13 +326,6 @@
     "i18ns": {
       "en_US": "PostgreSQLWriter",
       "zh_CN": "PostgreSQL写出"
-    }
-  },
-  {
-    "id": "HuggingFaceTextTranslation",
-    "i18ns": {
-      "en_US": "HuggingFaceTextTranslation",
-      "zh_CN": "HuggingFace文本翻译"
     }
   },
   {
@@ -322,17 +343,17 @@
     }
   },
   {
-    "id": "MongoDBWriter",
-    "i18ns": {
-      "en_US": "MongoDBWriter",
-      "zh_CN": "Mongo数据库写出"
-    }
-  },
-  {
     "id": "AzureOutputs",
     "i18ns": {
       "en_US": "AzureOutputs",
       "zh_CN": "Azure批量输出"
+    }
+  },
+  {
+    "id": "MongoDBWriter",
+    "i18ns": {
+      "en_US": "MongoDBWriter",
+      "zh_CN": "Mongo数据库写出"
     }
   },
   {
@@ -371,13 +392,6 @@
     }
   },
   {
-    "id": "PaddleRelationExtractor",
-    "i18ns": {
-      "en_US": "PaddleRelationExtractor",
-      "zh_CN": "Paddle关系抽取"
-    }
-  },
-  {
     "id": "DB2Conn",
     "i18ns": {
       "en_US": "DB2Conn",
@@ -399,10 +413,24 @@
     }
   },
   {
+    "id": "ValuesSplitter",
+    "i18ns": {
+      "en_US": "ValuesSplitter",
+      "zh_CN": "值拆分"
+    }
+  },
+  {
     "id": "RdbConn",
     "i18ns": {
       "en_US": "RdbConn",
       "zh_CN": "关系数据库连接"
+    }
+  },
+  {
+    "id": "AliDashScopeTextEmbedding",
+    "i18ns": {
+      "en_US": "AliDashScopeTextEmbedding",
+      "zh_CN": "阿里文本Embedding"
     }
   },
   {
@@ -420,17 +448,17 @@
     }
   },
   {
-    "id": "ImplictSampling",
-    "i18ns": {
-      "en_US": "ImplictSampling",
-      "zh_CN": "ignore"
-    }
-  },
-  {
     "id": "MongoDBReader",
     "i18ns": {
       "en_US": "MongoDBReader",
       "zh_CN": "MongoDB读取"
+    }
+  },
+  {
+    "id": "ImplictSampling",
+    "i18ns": {
+      "en_US": "ImplictSampling",
+      "zh_CN": "ignore"
     }
   },
   {
@@ -458,7 +486,7 @@
     "id": "HuggingFacePteImageSegmentation",
     "i18ns": {
       "en_US": "HuggingFacePteImageSegmentation",
-      "zh_CN": "HuggingFace本地化图像切分"
+      "zh_CN": "HuggingFace本地哈图像切分"
     }
   },
   {
@@ -518,13 +546,6 @@
     }
   },
   {
-    "id": "JavaCRC",
-    "i18ns": {
-      "en_US": "JavaCRC",
-      "zh_CN": "Java循环校验码"
-    }
-  },
-  {
     "id": "LogicNotGate",
     "i18ns": {
       "en_US": "LogicNotGate",
@@ -539,10 +560,31 @@
     }
   },
   {
+    "id": "JavaCRC",
+    "i18ns": {
+      "en_US": "JavaCRC",
+      "zh_CN": "Java循环校验码"
+    }
+  },
+  {
     "id": "S3Input",
     "i18ns": {
       "en_US": "S3Input",
       "zh_CN": "Amazon输入"
+    }
+  },
+  {
+    "id": "ChaptersCommonSplitter",
+    "i18ns": {
+      "en_US": "ChaptersCommonSplitter",
+      "zh_CN": "按章节拆分文本"
+    }
+  },
+  {
+    "id": "ReActLLMAgent",
+    "i18ns": {
+      "en_US": "ReActLLMAgent",
+      "zh_CN": "ReAct智能体"
     }
   },
   {
@@ -602,17 +644,17 @@
     }
   },
   {
-    "id": "DM8Reader",
-    "i18ns": {
-      "en_US": "DM8Reader",
-      "zh_CN": "达梦8数据库读取"
-    }
-  },
-  {
     "id": "HuggingFaceConversation",
     "i18ns": {
       "en_US": "HuggingFaceConversation",
       "zh_CN": "HuggingFace对话"
+    }
+  },
+  {
+    "id": "DM8Reader",
+    "i18ns": {
+      "en_US": "DM8Reader",
+      "zh_CN": "达梦8数据库读取"
     }
   },
   {
@@ -634,13 +676,6 @@
     "i18ns": {
       "en_US": "ImageGrayScale",
       "zh_CN": "图像灰度处理"
-    }
-  },
-  {
-    "id": "ParagraphsExtractor",
-    "i18ns": {
-      "en_US": "ParagraphsExtractor",
-      "zh_CN": "按段落分割文本"
     }
   },
   {
@@ -745,7 +780,7 @@
     "id": "TikTokenTextSplitter",
     "i18ns": {
       "en_US": "TikTokenTextSplitter",
-      "zh_CN": "基于TikToken的文本分割"
+      "zh_CN": "基于TikToken的文本拆分"
     }
   },
   {
@@ -777,17 +812,17 @@
     }
   },
   {
-    "id": "ObjectFlatter",
-    "i18ns": {
-      "en_US": "ObjectFlatter",
-      "zh_CN": "对象结构映射"
-    }
-  },
-  {
     "id": "ColumnsMapper",
     "i18ns": {
       "en_US": "ColumnsMapper",
       "zh_CN": "列映射"
+    }
+  },
+  {
+    "id": "ObjectFlatter",
+    "i18ns": {
+      "en_US": "ObjectFlatter",
+      "zh_CN": "对象结构映射"
     }
   },
   {
@@ -833,17 +868,17 @@
     }
   },
   {
-    "id": "LogicOrGate",
-    "i18ns": {
-      "en_US": "LogicOrGate",
-      "zh_CN": "逻辑或"
-    }
-  },
-  {
     "id": "FileOutput",
     "i18ns": {
       "en_US": "FileOutput",
       "zh_CN": "文件输出"
+    }
+  },
+  {
+    "id": "LogicOrGate",
+    "i18ns": {
+      "en_US": "LogicOrGate",
+      "zh_CN": "逻辑或"
     }
   },
   {
@@ -875,17 +910,17 @@
     }
   },
   {
-    "id": "ModelTransformer",
-    "i18ns": {
-      "en_US": "ModelTransformer",
-      "zh_CN": "基于模型预处理"
-    }
-  },
-  {
     "id": "GMeans",
     "i18ns": {
       "en_US": "GMeans",
       "zh_CN": "G均值聚类"
+    }
+  },
+  {
+    "id": "ModelTransformer",
+    "i18ns": {
+      "en_US": "ModelTransformer",
+      "zh_CN": "基于模型预处理"
     }
   },
   {
@@ -1043,10 +1078,10 @@
     }
   },
   {
-    "id": "HdfsInput",
+    "id": "HuggingFaceTextEmbedding",
     "i18ns": {
-      "en_US": "HdfsInput",
-      "zh_CN": "HDFS输入"
+      "en_US": "HuggingFaceTextEmbedding",
+      "zh_CN": "HuggingFace文本嵌入"
     }
   },
   {
@@ -1054,6 +1089,13 @@
     "i18ns": {
       "en_US": "OracleWriter",
       "zh_CN": "Oracle写出"
+    }
+  },
+  {
+    "id": "HdfsInput",
+    "i18ns": {
+      "en_US": "HdfsInput",
+      "zh_CN": "HDFS输入"
     }
   },
   {
@@ -1071,10 +1113,10 @@
     }
   },
   {
-    "id": "OpenAIEntityExtractor",
+    "id": "HuggingFacePteImageEmbedding",
     "i18ns": {
-      "en_US": "OpenAIEntityExtractor",
-      "zh_CN": "OpenAI实体抽取器"
+      "en_US": "HuggingFacePteImageEmbedding",
+      "zh_CN": "HuggingFace图像Embedding"
     }
   },
   {
@@ -1085,24 +1127,10 @@
     }
   },
   {
-    "id": "HuggingFacePteImageEmbedding",
-    "i18ns": {
-      "en_US": "HuggingFacePteImageEmbedding",
-      "zh_CN": "HuggingFace图像Embedding"
-    }
-  },
-  {
     "id": "MySQLDataCleaner",
     "i18ns": {
       "en_US": "MySQLDataCleaner",
       "zh_CN": "MySQL表数据清除"
-    }
-  },
-  {
-    "id": "SdApiImageGenerator",
-    "i18ns": {
-      "en_US": "SdApiImageGenerator",
-      "zh_CN": "StableDiffusion图生成"
     }
   },
   {
@@ -1127,17 +1155,24 @@
     }
   },
   {
-    "id": "FeatureHasher",
-    "i18ns": {
-      "en_US": "FeatureHasher",
-      "zh_CN": "特征哈希"
-    }
-  },
-  {
     "id": "FtpOutputs",
     "i18ns": {
       "en_US": "FtpOutputs",
       "zh_CN": "FTP批量输出"
+    }
+  },
+  {
+    "id": "OpenAITextToImage",
+    "i18ns": {
+      "en_US": "OpenAITextToImage",
+      "zh_CN": "OpenAI文本生图"
+    }
+  },
+  {
+    "id": "FeatureHasher",
+    "i18ns": {
+      "en_US": "FeatureHasher",
+      "zh_CN": "特征哈希"
     }
   },
   {
@@ -1190,13 +1225,6 @@
     }
   },
   {
-    "id": "TextSplit",
-    "i18ns": {
-      "en_US": "TextSplit",
-      "zh_CN": "按块尺寸分割文本"
-    }
-  },
-  {
     "id": "OpenCVExtractWatermark",
     "i18ns": {
       "en_US": "OpenCVExtractWatermark",
@@ -1211,17 +1239,17 @@
     }
   },
   {
-    "id": "GridFsOutputs",
-    "i18ns": {
-      "en_US": "GridFsOutputs",
-      "zh_CN": "批量GridFs输出"
-    }
-  },
-  {
     "id": "DB2Writer",
     "i18ns": {
       "en_US": "DB2Writer",
       "zh_CN": "DB2写出"
+    }
+  },
+  {
+    "id": "GridFsOutputs",
+    "i18ns": {
+      "en_US": "GridFsOutputs",
+      "zh_CN": "批量GridFs输出"
     }
   },
   {
@@ -1239,13 +1267,6 @@
     }
   },
   {
-    "id": "OpenAIWhisper",
-    "i18ns": {
-      "en_US": "OpenAIWhisper",
-      "zh_CN": "OpenAI语音识别"
-    }
-  },
-  {
     "id": "BaiduOASRecognizer",
     "i18ns": {
       "en_US": "BaiduOASRecognizer",
@@ -1260,17 +1281,17 @@
     }
   },
   {
-    "id": "ValuesTrim",
-    "i18ns": {
-      "en_US": "ValuesTrim",
-      "zh_CN": "值修剪"
-    }
-  },
-  {
     "id": "AcdaSegmenter",
     "i18ns": {
       "en_US": "AcdaSegmenter",
       "zh_CN": "基于AC自动机的分词器"
+    }
+  },
+  {
+    "id": "ValuesTrim",
+    "i18ns": {
+      "en_US": "ValuesTrim",
+      "zh_CN": "值修剪"
     }
   },
   {
@@ -1295,13 +1316,6 @@
     }
   },
   {
-    "id": "HuggingFacePteImageTransClassification",
-    "i18ns": {
-      "en_US": "HuggingFacePteImageTransClassification",
-      "zh_CN": "HuggingFace图像分类"
-    }
-  },
-  {
     "id": "AddWaterMarkVariable",
     "i18ns": {
       "en_US": "AddWaterMarkVariable",
@@ -1309,10 +1323,10 @@
     }
   },
   {
-    "id": "PostgreSQLConn",
+    "id": "AnsjSegmenter",
     "i18ns": {
-      "en_US": "PostgreSQLConn",
-      "zh_CN": "PostgreSQL连接"
+      "en_US": "AnsjSegmenter",
+      "zh_CN": "Ansj分词"
     }
   },
   {
@@ -1323,10 +1337,17 @@
     }
   },
   {
-    "id": "AnsjSegmenter",
+    "id": "PostgreSQLConn",
     "i18ns": {
-      "en_US": "AnsjSegmenter",
-      "zh_CN": "Ansj分词"
+      "en_US": "PostgreSQLConn",
+      "zh_CN": "PostgreSQL连接"
+    }
+  },
+  {
+    "id": "FilterByLineNo",
+    "i18ns": {
+      "en_US": "FilterByLineNo",
+      "zh_CN": "基于行号过滤"
     }
   },
   {
@@ -1341,13 +1362,6 @@
     "i18ns": {
       "en_US": "DorisReader",
       "zh_CN": "Doris读取"
-    }
-  },
-  {
-    "id": "FilterByLineNo",
-    "i18ns": {
-      "en_US": "FilterByLineNo",
-      "zh_CN": "基于行号过滤"
     }
   },
   {
@@ -1376,6 +1390,13 @@
     "i18ns": {
       "en_US": "BotuScript",
       "zh_CN": "Botu脚本"
+    }
+  },
+  {
+    "id": "HuggingFaceImageEmbedding",
+    "i18ns": {
+      "en_US": "HuggingFaceImageEmbedding",
+      "zh_CN": "HuggingFace图像嵌入"
     }
   },
   {
@@ -1421,6 +1442,13 @@
     }
   },
   {
+    "id": "SemiStructuredUpdate",
+    "i18ns": {
+      "en_US": "SemiStructuredUpdate",
+      "zh_CN": "版结构化数据修改"
+    }
+  },
+  {
     "id": "WordImageExtractor",
     "i18ns": {
       "en_US": "WordImageExtractor",
@@ -1435,13 +1463,6 @@
     }
   },
   {
-    "id": "EstimatorPipeline",
-    "i18ns": {
-      "en_US": "EstimatorPipeline",
-      "zh_CN": "评估器管道"
-    }
-  },
-  {
     "id": "SFtpOutput",
     "i18ns": {
       "en_US": "SFtpOutput",
@@ -1449,17 +1470,17 @@
     }
   },
   {
+    "id": "EstimatorPipeline",
+    "i18ns": {
+      "en_US": "EstimatorPipeline",
+      "zh_CN": "评估器管道"
+    }
+  },
+  {
     "id": "BinningDiscretizer",
     "i18ns": {
       "en_US": "BinningDiscretizer",
       "zh_CN": "特征分桶"
-    }
-  },
-  {
-    "id": "OpenAIAudioTranscription",
-    "i18ns": {
-      "en_US": "OpenAIAudioTranscription",
-      "zh_CN": "OpenAI语音识别"
     }
   },
   {
@@ -1505,6 +1526,20 @@
     }
   },
   {
+    "id": "ParagraphsSplitter",
+    "i18ns": {
+      "en_US": "ParagraphsSplitter",
+      "zh_CN": "按段落拆分文本"
+    }
+  },
+  {
+    "id": "DictMapper",
+    "i18ns": {
+      "en_US": "DictMapper",
+      "zh_CN": "字典映射"
+    }
+  },
+  {
     "id": "LargeTextPrompt",
     "i18ns": {
       "en_US": "LargeTextPrompt",
@@ -1526,17 +1561,17 @@
     }
   },
   {
-    "id": "VisioRelationExtractor",
-    "i18ns": {
-      "en_US": "VisioRelationExtractor",
-      "zh_CN": "Visio关系抽取"
-    }
-  },
-  {
     "id": "LocalFileInput",
     "i18ns": {
       "en_US": "LocalFileInput",
       "zh_CN": "本地文件输入"
+    }
+  },
+  {
+    "id": "VisioRelationExtractor",
+    "i18ns": {
+      "en_US": "VisioRelationExtractor",
+      "zh_CN": "Visio关系抽取"
     }
   },
   {
@@ -1561,17 +1596,17 @@
     }
   },
   {
-    "id": "RowSetDuplicateController",
-    "i18ns": {
-      "en_US": "RowSetDuplicateController",
-      "zh_CN": "数据集复制"
-    }
-  },
-  {
     "id": "ImageWatermark",
     "i18ns": {
       "en_US": "ImageWatermark",
       "zh_CN": "图片加水印"
+    }
+  },
+  {
+    "id": "RowSetDuplicateController",
+    "i18ns": {
+      "en_US": "RowSetDuplicateController",
+      "zh_CN": "数据集复制"
     }
   },
   {
@@ -1603,17 +1638,17 @@
     }
   },
   {
-    "id": "FastDFSInput",
-    "i18ns": {
-      "en_US": "FastDFSInput",
-      "zh_CN": "FastDFS文件输入"
-    }
-  },
-  {
     "id": "PythonScript",
     "i18ns": {
       "en_US": "PythonScript",
       "zh_CN": "Python脚本"
+    }
+  },
+  {
+    "id": "FastDFSInput",
+    "i18ns": {
+      "en_US": "FastDFSInput",
+      "zh_CN": "FastDFS文件输入"
     }
   },
   {
@@ -1624,17 +1659,17 @@
     }
   },
   {
-    "id": "HiveReader",
-    "i18ns": {
-      "en_US": "HiveReader",
-      "zh_CN": "Hive读取"
-    }
-  },
-  {
     "id": "StringIndexer",
     "i18ns": {
       "en_US": "StringIndexer",
       "zh_CN": "字符串索引转换"
+    }
+  },
+  {
+    "id": "HiveReader",
+    "i18ns": {
+      "en_US": "HiveReader",
+      "zh_CN": "Hive读取"
     }
   },
   {
@@ -1673,6 +1708,13 @@
     }
   },
   {
+    "id": "HuggingFacePteAudioClassification",
+    "i18ns": {
+      "en_US": "HuggingFacePteAudioClassification",
+      "zh_CN": "HuggingFace本地化语音分类"
+    }
+  },
+  {
     "id": "FastDFSOutput",
     "i18ns": {
       "en_US": "FastDFSOutput",
@@ -1691,13 +1733,6 @@
     "i18ns": {
       "en_US": "HuggingFacePteTextSummarization",
       "zh_CN": "HuggingFace本地化文本摘要"
-    }
-  },
-  {
-    "id": "HuggingFacePteAudioClassification",
-    "i18ns": {
-      "en_US": "HuggingFacePteAudioClassification",
-      "zh_CN": "HuggingFace本地化语音分类"
     }
   },
   {
@@ -1806,13 +1841,6 @@
     }
   },
   {
-    "id": "OracleConn",
-    "i18ns": {
-      "en_US": "OracleConn",
-      "zh_CN": "Oracle连接"
-    }
-  },
-  {
     "id": "ModelForecaster",
     "i18ns": {
       "en_US": "ModelForecaster",
@@ -1820,10 +1848,24 @@
     }
   },
   {
+    "id": "OracleConn",
+    "i18ns": {
+      "en_US": "OracleConn",
+      "zh_CN": "Oracle连接"
+    }
+  },
+  {
     "id": "AlluxioInput",
     "i18ns": {
       "en_US": "AlluxioInput",
       "zh_CN": "Alluxio输入"
+    }
+  },
+  {
+    "id": "ArrayDictMapper",
+    "i18ns": {
+      "en_US": "ArrayDictMapper",
+      "zh_CN": "数组字段字典映射"
     }
   },
   {
@@ -1841,17 +1883,17 @@
     }
   },
   {
-    "id": "ConCrossValidator",
-    "i18ns": {
-      "en_US": "ConCrossValidator",
-      "zh_CN": "容器型交叉验证"
-    }
-  },
-  {
     "id": "Sort",
     "i18ns": {
       "en_US": "Sort",
       "zh_CN": "排序"
+    }
+  },
+  {
+    "id": "ConCrossValidator",
+    "i18ns": {
+      "en_US": "ConCrossValidator",
+      "zh_CN": "容器型交叉验证"
     }
   },
   {
@@ -1876,20 +1918,6 @@
     }
   },
   {
-    "id": "LogisticRegression",
-    "i18ns": {
-      "en_US": "LogisticRegression",
-      "zh_CN": "逻辑回归"
-    }
-  },
-  {
-    "id": "OpenAITranslator",
-    "i18ns": {
-      "en_US": "OpenAITranslator",
-      "zh_CN": "OpenAI翻译器"
-    }
-  },
-  {
     "id": "Sampling",
     "i18ns": {
       "en_US": "Sampling",
@@ -1897,10 +1925,10 @@
     }
   },
   {
-    "id": "BaseDecode",
+    "id": "LogisticRegression",
     "i18ns": {
-      "en_US": "BaseDecode",
-      "zh_CN": "基础解码"
+      "en_US": "LogisticRegression",
+      "zh_CN": "逻辑回归"
     }
   },
   {
@@ -1911,10 +1939,24 @@
     }
   },
   {
+    "id": "BaseDecode",
+    "i18ns": {
+      "en_US": "BaseDecode",
+      "zh_CN": "基础解码"
+    }
+  },
+  {
     "id": "DecisionTree",
     "i18ns": {
       "en_US": "DecisionTree",
       "zh_CN": "决策树"
+    }
+  },
+  {
+    "id": "OpenAITextEmbedding",
+    "i18ns": {
+      "en_US": "OpenAITextEmbedding",
+      "zh_CN": "OpenAI文本Embedding"
     }
   },
   {
@@ -1939,17 +1981,17 @@
     }
   },
   {
-    "id": "EstimatorModelInput",
-    "i18ns": {
-      "en_US": "EstimatorModelInput",
-      "zh_CN": "估计模型输入"
-    }
-  },
-  {
     "id": "SybaseConn",
     "i18ns": {
       "en_US": "SybaseConn",
       "zh_CN": "Sybase连接"
+    }
+  },
+  {
+    "id": "EstimatorModelInput",
+    "i18ns": {
+      "en_US": "EstimatorModelInput",
+      "zh_CN": "估计模型输入"
     }
   },
   {
@@ -1967,17 +2009,17 @@
     }
   },
   {
-    "id": "ValuesSplit",
-    "i18ns": {
-      "en_US": "ValuesSplit",
-      "zh_CN": "值分割"
-    }
-  },
-  {
     "id": "CephOutputs",
     "i18ns": {
       "en_US": "CephOutputs",
       "zh_CN": "Ceph批量输出"
+    }
+  },
+  {
+    "id": "EsDataCleaner",
+    "i18ns": {
+      "en_US": "EsDataCleaner",
+      "zh_CN": "ElasticSearch数据清除"
     }
   },
   {
@@ -1995,17 +2037,17 @@
     }
   },
   {
-    "id": "JsonFlatter",
-    "i18ns": {
-      "en_US": "JsonFlatter",
-      "zh_CN": "Json扁平化"
-    }
-  },
-  {
     "id": "HuggingFaceTextSummarization",
     "i18ns": {
       "en_US": "HuggingFaceTextSummarization",
       "zh_CN": "HuggingFace文本摘要"
+    }
+  },
+  {
+    "id": "JsonFlatter",
+    "i18ns": {
+      "en_US": "JsonFlatter",
+      "zh_CN": "Json扁平化"
     }
   },
   {
@@ -2044,10 +2086,10 @@
     }
   },
   {
-    "id": "ClickHouseConn",
+    "id": "HuggingFacePteTextTranslation",
     "i18ns": {
-      "en_US": "ClickHouseConn",
-      "zh_CN": "ClickHouse连接"
+      "en_US": "HuggingFacePteTextTranslation",
+      "zh_CN": "HuggingFace本地化文本翻译"
     }
   },
   {
@@ -2058,10 +2100,10 @@
     }
   },
   {
-    "id": "HuggingFacePteTextTranslation",
+    "id": "ClickHouseConn",
     "i18ns": {
-      "en_US": "HuggingFacePteTextTranslation",
-      "zh_CN": "HuggingFace本地化文本翻译"
+      "en_US": "ClickHouseConn",
+      "zh_CN": "ClickHouse连接"
     }
   },
   {
@@ -2100,6 +2142,13 @@
     }
   },
   {
+    "id": "COSOutput",
+    "i18ns": {
+      "en_US": "COSOutput",
+      "zh_CN": "腾讯云输出"
+    }
+  },
+  {
     "id": "KModes",
     "i18ns": {
       "en_US": "KModes",
@@ -2107,10 +2156,10 @@
     }
   },
   {
-    "id": "COSOutput",
+    "id": "TextSplitter",
     "i18ns": {
-      "en_US": "COSOutput",
-      "zh_CN": "腾讯云输出"
+      "en_US": "TextSplitter",
+      "zh_CN": "按大小拆分文本"
     }
   },
   {
@@ -2142,13 +2191,6 @@
     }
   },
   {
-    "id": "PaddleEntityExtractor",
-    "i18ns": {
-      "en_US": "PaddleEntityExtractor",
-      "zh_CN": "Paddle实体抽取"
-    }
-  },
-  {
     "id": "ImageConvert",
     "i18ns": {
       "en_US": "ImageConvert",
@@ -2160,6 +2202,13 @@
     "i18ns": {
       "en_US": "HuggingFacePteSpeechToText",
       "zh_CN": "HuggingFace本地化语音识别"
+    }
+  },
+  {
+    "id": "OldGridFsOutputs",
+    "i18ns": {
+      "en_US": "OldGridFsOutputs",
+      "zh_CN": "ignore"
     }
   },
   {
@@ -2177,27 +2226,6 @@
     }
   },
   {
-    "id": "OldGridFsOutputs",
-    "i18ns": {
-      "en_US": "OldGridFsOutputs",
-      "zh_CN": "ignore"
-    }
-  },
-  {
-    "id": "ObjectReader",
-    "i18ns": {
-      "en_US": "ObjectReader",
-      "zh_CN": "对象读取"
-    }
-  },
-  {
-    "id": "OldGridFsOutput",
-    "i18ns": {
-      "en_US": "OldGridFsOutput",
-      "zh_CN": "ignore"
-    }
-  },
-  {
     "id": "WordContentExtractor",
     "i18ns": {
       "en_US": "WordContentExtractor",
@@ -2209,6 +2237,20 @@
     "i18ns": {
       "en_US": "CephInput",
       "zh_CN": "Ceph输入"
+    }
+  },
+  {
+    "id": "OldGridFsOutput",
+    "i18ns": {
+      "en_US": "OldGridFsOutput",
+      "zh_CN": "ignore"
+    }
+  },
+  {
+    "id": "ObjectReader",
+    "i18ns": {
+      "en_US": "ObjectReader",
+      "zh_CN": "对象读取"
     }
   },
   {
@@ -2247,13 +2289,6 @@
     }
   },
   {
-    "id": "OSSOutput",
-    "i18ns": {
-      "en_US": "OSSOutput",
-      "zh_CN": "阿里云输出"
-    }
-  },
-  {
     "id": "Json2KVTable",
     "i18ns": {
       "en_US": "Json2KVTable",
@@ -2261,17 +2296,17 @@
     }
   },
   {
+    "id": "OSSOutput",
+    "i18ns": {
+      "en_US": "OSSOutput",
+      "zh_CN": "阿里云输出"
+    }
+  },
+  {
     "id": "HuggingFaceZeroShotTextClassification",
     "i18ns": {
       "en_US": "HuggingFaceZeroShotTextClassification",
       "zh_CN": "HuggingFace本地化零样本文本分类"
-    }
-  },
-  {
-    "id": "AlienVaultReader",
-    "i18ns": {
-      "en_US": "AlienVaultReader",
-      "zh_CN": "AlienVault应用读取"
     }
   },
   {
@@ -2289,10 +2324,10 @@
     }
   },
   {
-    "id": "OpenAIImageGenerator",
+    "id": "AlienVaultReader",
     "i18ns": {
-      "en_US": "OpenAIImageGenerator",
-      "zh_CN": "OpenAI图像生成"
+      "en_US": "AlienVaultReader",
+      "zh_CN": "AlienVault应用读取"
     }
   },
   {

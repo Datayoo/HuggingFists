@@ -211,6 +211,21 @@
                 <i18ns en_US="video" zh_CN="视频"/>
             </group>
         </group>
+        <group name="generator" opCats="generator">
+            <i18ns en_US="generator" zh_CN="生成"/>
+            <group name="stream" opCats="generator,stream">
+                <i18ns en_US="stream" zh_CN="文件"/>
+            </group>
+            <group name="img" opCats="generator,img">
+                <i18ns en_US="img" zh_CN="图像"/>
+            </group>
+            <group name="audio" opCats="generator,audio">
+                <i18ns en_US="audio" zh_CN="音频"/>
+            </group>
+            <group name="video" opCats="generator,video">
+                <i18ns en_US="video" zh_CN="视频"/>
+            </group>
+        </group>
     </group>
     <group name="resMan" opType="ResMan">
         <i18ns en_US="resMan" zh_CN="资源池"/>
@@ -306,6 +321,15 @@
         </group>
         <group name="domain" opCats="domain">
             <i18ns en_US="domain" zh_CN="领域处理"/>
+            <group name="llm" opCats="domain,llm">
+                <i18ns en_US="llm" zh_CN="大语言模型"/>
+                <group name="prompt" opCats="domain,llm,prompt">
+                    <i18ns en_US="prompt" zh_CN="提示"/>
+                </group>
+                <group name="thoughtAction" opCats="domain,llm,thoughtAction">
+                    <i18ns en_US="thoughtAction" zh_CN="思维行为"/>
+                </group>
+            </group>
             <group name="nlp" opCats="domain,nlp">
                 <i18ns en_US="nlp" zh_CN="自然语言处理"/>
                 <group name="langRecognizer" opCats="domain,nlp,langRecognizer">
@@ -333,22 +357,13 @@
                     <i18ns en_US="summarize" zh_CN="摘要"/>
                 </group>
                 <group name="generator" opCats="domain,nlp,generator">
-                    <i18ns en_US="generator" zh_CN="生成器"/>
+                    <i18ns en_US="generator" zh_CN="生成"/>
                 </group>
                 <group name="fillMask" opCats="domain,nlp,fillMask">
                     <i18ns en_US="fillMask" zh_CN="填充"/>
                 </group>
                 <group name="similarity" opCats="domain,nlp,similarity">
                     <i18ns en_US="similarity" zh_CN="相似"/>
-                </group>
-            </group>
-            <group name="aicg" opCats="domain,aicg">
-                <i18ns en_US="aicg" zh_CN="生成"/>
-                <group name="txt" opCats="domain,aicg,txt">
-                    <i18ns en_US="txt" zh_CN="文本"/>
-                </group>
-                <group name="img" opCats="domain,aicg,img">
-                    <i18ns en_US="img" zh_CN="图像"/>
                 </group>
             </group>
             <group name="privacy" opCats="domain,privacy">

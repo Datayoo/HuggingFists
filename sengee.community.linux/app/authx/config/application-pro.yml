@@ -79,24 +79,39 @@ auth:
       uri: DhybVMcv53r3lfc226s/wREXLs3bTyl/f1xEhrB+F+U=
     - name: r5UwB/688Cm6R87V5EOliOdNLZw61DqJbOvXT/tttK4=
     - name: r5UwB/688Cm6R87V5EOliMnT+5rDZFqdqBjlBIYd3Wc=
+    - name: BkpFAN1x60mF4Fb2CvpmXsgiDncXxMkaUMPHnsBQYgk=
+      uri: dW3bpHhNMNLnGUST9V5wyHMaKE9zw/ybFOmJNQsQBTc=
+    - name: BkpFAN1x60mF4Fb2CvpmXjXKkkAeL59C5GmrFfy39LQ=
+    - name: BkpFAN1x60mF4Fb2CvpmXuzFfxtzeE1PEjqrIHpaVAo=
     - name: 6soqZou1LP0btFw0VkNA9erlA/tFxHsAgS4YMrqkjrY=
       uri: RvOkWYyofWvoNIDbzxO7bS47m3iuNW3Z+AvI1PZWoZE=
     - name: 6soqZou1LP0btFw0VkNA9SLsfHKQGSQsTAS6HRP+QjQ=
     - name: 6soqZou1LP0btFw0VkNA9ZX2s3OinLLMZ+O/+XTQUDs=
     - name: FBZsZie+EM/D9IZ+LOCkMw==
       uri: hoGdMDlDdCtJ2ZDDfmJuJA==
+    - name: Y50i/raHquK2oNvgubjLvQ==
+      uri: nZ8FPSViDxip2ymoOaLvsQ==
+    - name: khKdsvxkhykeC5Tssp3/XqGOyzU/AVnPbHmGsV977SY=
+      uri: VzxI16RatePtw3hgwL4Wvaq+7svqWFt1yOMQEnVgttE=
     - name: STJpGWU+ORjsFp7YSWKxbw==
       uri: 6QIuVHaqwQ63YEdGut4b/w==
     - name: AauQehSTP9byOqUtoTuhIQ==
       uri: Im8DQ08z5xgrwrTFpcB6Rg==
     - name: Jmlz5thSxXt5D9BgH08SS0Zz2dXYgEKRRPM/XrHhQks=
     - name: 5ATkF4iyAmzmU6T8w+8UvKRWoUb4u7t9DjYGtO85ilI=
+    - name: C5EuQrZd4bwxJEcC3mzppQ==
     - name: lj3BYuztyBhxKiQcg+l4VA==
       uri: 8As5ndg38iMpkBEuVb1CTw==
     - name: 5EwQQKvEk/33zirJ2fHjbg==
       uri: 1SFqemkeVChON/aNC1e26A==
+    - name: Rdx5nPB7Ej6F1E1wlSP7dg==
+      uri: GbBWogqr8D+a1DIGSn1wSw==
     - name: vjhz4U5h6cOddJNQxnmCQQ==
       uri: BGgvHgXLVJe3m/JOQhka6A==
+    - name: TLL2AlSacO7NhNjRYcGWvFK2Kz+iwSguEjhhw9U9WfU=
+      uri: 9nqg8qvsCA2hPXlQWTs33g+4jdjFvJw6ALWk/ggr02Q=
+    - name: TLL2AlSacO7NhNjRYcGWvDpeeg7WUGCuG2tJZG/jAzw=
+    - name: TLL2AlSacO7NhNjRYcGWvOPG0vl1WluERBCEoWQ1mhA=
     - name: mjWleMRLJ5wwO4Zm/8+QFwQW09g2/Yb7BvEv/fPB8C4=
       uri: tMKjCUVTZe4tsD5Z7gMROt/N1+9xez/9x6mfc5jjHNE=
     - name: pSGvXFAEx50A2waJmtooILNJHDt9NM8Psxg28DxfT5w=
@@ -111,17 +126,38 @@ auth:
       uri: niPDVf/KJLWqbgYW+ChtBF3hPx13UT+YPUbm5iAmE74=
     - name: +9et1/J5NcwaHO4Shj2xD1NzCm6ZkD0AViko+32rgNs=
       uri: niPDVf/KJLWqbgYW+ChtBKT0mWVoBn3Nf0wj4z0FGnc=
+    - name: +9et1/J5NcwaHO4Shj2xD0yMUb8Ke9lwHR+nUJLAyj8=
+      uri: niPDVf/KJLWqbgYW+ChtBKv1HP9CpEMKYHo2q7CLR5Q=
+    - name: +9et1/J5NcwaHO4Shj2xD4G54AeNDkHTjbiwAYdzwOA=
+      uri: niPDVf/KJLWqbgYW+ChtBNOo9qQbZJhzoh8XiHNoJh4=
+    - name: idculi8V1yIq1sju//GDmA==
+      uri: 4h72JTjJEWIgE2eCxKyTFJOEfdfnYlHAjjs3GgF343s=
+    - name: IgNNvcTy9KGZ3o8j/RLRrzHS0eQAjgjlrJn0CtoNgHc=
+      uri: 4h72JTjJEWIgE2eCxKyTFD8h06LVQTFYJ3DvqYTtf0c=
+    - name: IgNNvcTy9KGZ3o8j/RLRr5PTh0tGwTzvm57tKCNEblw=
+      uri: 4h72JTjJEWIgE2eCxKyTFFijpo27QpPlitA7n707o3o=
     - name: LeKtbZDH32JNO73kNsLDNsEC6DlJAhMfSrzcOpL3O4Y=
       uri: bkQ8A4DwJZXnnBQkIaqhzhwY+kgO06uHLDrz/UoTyOc=
     - name: I2SKByozrxJzvNqzUlTV3A==
       uri: 3RB1OalGAMsuXDsZxmxQQ5OEfdfnYlHAjjs3GgF343s=
     - name: lqENAryztVkc2dL3r7V/zD0OpiP4rgEbjrKCZMsVYsE=
       uri: hb/r68Uv8rw+CgCVxtxd48kn8wmj9UkyhcCY4ce+InE=
+    - name: k9OHS0bBPO+bnu0oI0RuXA==
+      uri: WKOmjbtCk+WK0DufvTujeg==
+    - name: 8/RFezmFGQzN1LyjhIUUjA==
+      uri: lIL+70efWzYPiOPb5ATqEpOEfdfnYlHAjjs3GgF343s=
     - name: 88R8/fXVQ5X2KrlKQ+uOI5OEfdfnYlHAjjs3GgF343s=
       uri: 1a+lVCgJ7yjv+fgw3h1GcZo/B1U4zIs1jQm6GNLi4Es=
+    - name: 88R8/fXVQ5X2KrlKQ+uOI1wN/+lfvGZzruwyaYRoJ6I=
+      uri: 1a+lVCgJ7yjv+fgw3h1Gcb1htJaNHjslaP1mFGyAyOc=
+    - name: 88R8/fXVQ5X2KrlKQ+uOI2GLgt+pc6vsfbCl9T1JkG8=
+      uri: 1a+lVCgJ7yjv+fgw3h1GcdtWBe9n9wM3SlE0DE1xR/s=
     - name: 88R8/fXVQ5X2KrlKQ+uOIzzDzFM4sdUfkuhBVFcKr5Q=
       uri: 1a+lVCgJ7yjv+fgw3h1GcdYal4Hfh2qPK/sc2/s6aLo=
     - name: 88R8/fXVQ5X2KrlKQ+uOI5WeTyf3+p5EHDrV/R4NXrgowN35As82pxrnykEVSyyf
+    - name: 88R8/fXVQ5X2KrlKQ+uOI7IdjVAPsPS2mkLvc2E8fJI=
+      uri: 1a+lVCgJ7yjv+fgw3h1GcWRc6CzBi0G+ZP79IocyR+Y=
+    - name: QMm+VMgeQhNZ2zX/HsBdng==
     - name: Mpj636FEnbjQtYM82G/wRw==
       uri: nKDJ4peAFGOJtiHaI+rs/Q==
     - name: c4LkptV3Q4U//wjLd2tX9w==
@@ -135,6 +171,9 @@ auth:
     - name: Xudv8a2oCRTMDauQhUpyHg==
       uri: zBz0tZ5NYcPftKiJKaZZkpOEfdfnYlHAjjs3GgF343s=
     - name: Ocr4ihOuIWjoZBBuxWGzvNTDNeDqArJ9Jy6bO4s7KCY=
+    - name: Zlntc7btZZSqemCB9TL93A==
+    - name: idculi8V1yIq1sju//GDmA==
+      uri: 4h72JTjJEWIgE2eCxKyTFJOEfdfnYlHAjjs3GgF343s=
   entityTypes:
     - name: AuthSetting
       client: authx
@@ -164,3 +203,7 @@ auth:
       alias: App
       client: brackets
       behaviors: get,update,delete
+    - name: PromptGrp
+      alias: PromptGrp
+      client: sengee
+      behaviors: prompt.import,create,update,delete
