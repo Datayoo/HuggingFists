@@ -20,7 +20,7 @@
 - 进入sengee.community.linux,执行安装脚本 bash install.sh。
 
 ​	脚本执行结束后，可通过curl http://localhost:38172 测试系统是否正确安装。安装结束后，可通过访问url地址：“http://服务器IP:38172” 打开工具使用界面。
- 如果外部无法访问到页面，可以将服务器重启一次再试,算子平台会开机自启! 中国国内访问github较慢的朋友，可以移步到[https://pan.quark.cn/s/cc59da2f9b67](https://pan.quark.cn/s/45962b0ac1a5) 进行下载。
+ 如果外部无法访问到页面，可以将服务器重启一次再试,算子平台会开机自启! 中国国内访问github较慢的朋友，可以移步到[https://pan.quark.cn/s/cc59da2f9b67](https://pan.quark.cn/s/f4c23788b4c3)进行下载。
 
 
 ![](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/5.png)
