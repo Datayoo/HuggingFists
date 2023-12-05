@@ -16,7 +16,7 @@
 
 ### 安装步骤
 
-- 从git上拉取工程文件 git clone https://github.com/Datayoo/HuggingFists.git,或者直接使用download zip下载。需要注意的是，当使用Windows操作系统克隆项目时，Linux脚本文件中的'\n'会被替换为'\r\n'。当拷贝项目到Linux系统下时，由于'\n'的不同，脚本会无法执行。使用IDEA的开发者可以参考[配置 Git 处理行结束符](https://docs.github.com/zh/get-started/getting-started-with-git/configuring-git-to-handle-line-endings?platform=windows)解决问题。
+- 从git上拉取工程文件 git clone https://github.com/Datayoo/HuggingFists.git, 或者直接使用download zip下载。需要注意的是，当使用Windows操作系统克隆项目时，Linux脚本文件中的'\n'会被替换为'\r\n'。当拷贝项目到Linux系统下时，由于'\n'的不同，脚本会无法执行。使用IDEA的开发者可以参考[配置 Git 处理行结束符](https://docs.github.com/zh/get-started/getting-started-with-git/configuring-git-to-handle-line-endings?platform=windows)解决问题。
 - 进入sengee.community.linux,执行安装脚本 bash install.sh。
 
 ​	脚本执行结束后，可通过curl http://localhost:38172 测试系统是否正确安装。安装结束后，可通过访问url地址：“http://服务器IP:38172” 打开工具使用界面。
