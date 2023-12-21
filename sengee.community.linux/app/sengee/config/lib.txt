@@ -55,6 +55,7 @@ dec-0.1.2.jar
 descriptor-operators-common-1.0-SNAPSHOT.jar
 dom4j-2.1.3.jar
 failsafe-3.3.0.jar
+failureaccess-1.0.1.jar
 feign-core-10.10.1.jar
 feign-form-3.8.0.jar
 feign-form-spring-3.8.0.jar
@@ -142,7 +143,7 @@ gosooz-common-spark3-1.0-SNAPSHOT.jar
 gosooz-engine-spark3-1.0-SNAPSHOT.jar
 graphics2d-0.24.jar
 gson-2.9.0.jar
-guava-16.0.1.jar
+guava-31.1-jre.jar
 guice-4.0.jar
 guice-servlet-4.0.jar
 hadoop-annotations-3.3.4.jar
@@ -188,7 +189,7 @@ jakarta.transaction-api-1.3.3.jar
 jakarta.xml.bind-api-2.3.2.jar
 jandex-2.2.3.Final.jar
 javassist-3.23.2-GA.jar
-javax.inject-1.jar
+javax.inject-1:compile.jar
 javax.servlet-api-3.1.0.jar
 jaxb-api-2.2.11.jar
 jaxb-impl-2.2.3-1.jar
@@ -345,10 +346,12 @@ sengee-devpkg-1.0-SNAPSHOT.jar
 sengee-hman-1.0-SNAPSHOT.jar
 sengee-manager-1.0-SNAPSHOT.jar
 sengee-opd-1.0-SNAPSHOT.jar
+sengee-server-linux-1.0-SNAPSHOT.jar
 sengee-service-1.0-SNAPSHOT.jar
 sengee-web-1.0-SNAPSHOT.jar
 sigar-1.6.5.132-7.jar
 slf4j-api-1.7.30.jar
+slf4j-reload4j-2.0.0-alpha7.jar
 smile-master-1.0.0.jar
 snakeyaml-1.27.jar
 snappy-java-1.1.8.4.jar

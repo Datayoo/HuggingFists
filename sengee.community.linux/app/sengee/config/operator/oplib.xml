@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opprofiles>
+  <opprofile name="ModelOutput" type="Output" clazz="org.datayoo.sengee.op.output.repo.ModelOutputDescriptor" portrait="" version="1.0" computionFramework="sengee">
+    <tags>
+      <tag name="opCats" value="resource"/>
+    </tags>
+    <parameters>
+      <parametergroup name="general" c_Compox="sightx-tab" c_Alias="一般"/>
+    </parameters>
+    <inport name="modelIn" dataType="/model" option="false"/>
+    <provider>DataYoo</provider>
+    <dependencies/>
+    <opimplementers/>
+  </opprofile>
+  <opprofile name="ProcessOperator" type="Control" clazz="org.datayoo.sengee.op.container.ProcessDescriptor" portrait="" version="1.0" computionFramework="sengee" atom="false">
+    <inport name="inport1" dataType="/" extendable="true"/>
+    <outport name="result1" dataType="/" extendable="true" connectionLimit="1"/>
+    <outport name="outport1" dataType="/" extendable="true"/>
+    <provider>DataYoo</provider>
+    <debugCacheable>true</debugCacheable>
+    <dependencies/>
+    <opimplementers>
+      <opimplementer clazz="org.datayoo.gosooz.op.ProcessOperator" computionFramework="sparkBatch" version="1.0">
+        <inport name="inport1" dataType="/" extendable="true"/>
+        <outport name="result1" dataType="/" extendable="true"/>
+        <outport name="outport1" dataType="/" extendable="true"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+      <opimplementer clazz="org.datayoo.moz.op.MozProcessOperator" computionFramework="flinkStream" version="1.0">
+        <inport name="inport1" dataType="/" extendable="true"/>
+        <outport name="outport1" dataType="/" extendable="true"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+      <opimplementer clazz="org.datayoo.moz.op.MozBatchProcessOperator" computionFramework="flinkBatch" version="1.0">
+        <inport name="inport1" dataType="/" extendable="true"/>
+        <outport name="outport1" dataType="/" extendable="true"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+      <opimplementer clazz="org.datayoo.oyez.op.ProcessOperator" computionFramework="oyez" version="1.0">
+        <inport name="inport1" dataType="/" extendable="true"/>
+        <outport name="result1" dataType="/" extendable="true"/>
+        <outport name="outport1" dataType="/" extendable="true"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+    </opimplementers>
+  </opprofile>
+  <opprofile name="ProcessReference" type="Control" clazz="org.datayoo.sengee.op.ref.ProcessReferenceDescriptor" portrait="" version="1.0" computionFramework="sengee" atom="false">
+    <provider>DataYoo</provider>
+    <dependencies/>
+    <opimplementers/>
+  </opprofile>
+  <opprofile name="JobReference" type="Control" clazz="org.datayoo.sengee.op.ref.JobReferenceDescriptor" portrait="" version="1.0" computionFramework="sengee" atom="false">
+    <provider>DataYoo</provider>
+    <dependencies/>
+    <opimplementers>
+      <opimplementer clazz="org.datayoo.oyez.op.JobReferenceOperator" computionFramework="oyez" version="1.0">
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+    </opimplementers>
+  </opprofile>
+  <opprofile name="CsvWriter" type="Writer" clazz="org.datayoo.sengee.op.writer.stream.CsvWriterDescriptor" portrait="" version="1.0" computionFramework="sengee">
+    <tags>
+      <tag name="opCats" value="stream"/>
+    </tags>
+    <parameters>
+      <parametergroup name="general" c_Compox="sightx-tab" c_Alias="一般">
+        <parameter name="filePath" c_Option="true" c_Compox="sengee-lwfile-selector" c_Alias="文件路径"></parameter>
+        <parameter name="separator" c_Alias="分隔符">,</parameter>
+        <parameter name="bEnclosure" c_Compox="sightx-char" c_Alias="起始包围符">"</parameter>
+        <parameter name="eEnclosure" c_Compox="sightx-char" c_Alias="结束包围符">"</parameter>
+        <parameter name="hasHead" c_Compox="sightx-switch" c_Alias="是否写列头">true</parameter>
+        <parameter name="modifiable" c_Compox="sightx-switch" c_Alias="是否修改已存在文件">true</parameter>
+        <parameter name="appendMode" c_Compox="appendSwitch" c_Alias="是否追加写入">false</parameter>
+      </parametergroup>
+    </parameters>
+    <inport name="dataIn" dataType="/"/>
+    <outport name="bytesOut" dataType="/dataBytes"/>
+    <provider>DataYoo</provider>
+    <debugCacheable>true</debugCacheable>
+    <dependencies/>
+    <compoxes>
+      <compox id="appendSwitch" parentId="sightx-switch" type="CONTROLER">
+        <attributes/>
+        <configuration/>
+        <visibleDescriptors>
+          <visibleDescriptor type="VISIBLE">
+            <condition><![CDATA[modifiable]]></condition>
+          </visibleDescriptor>
+        </visibleDescriptors>
+        <actionDescriptors/>
+        <components/>
+      </compox>
+    </compoxes>
+    <opimplementers/>
+  </opprofile>
+  <opprofile name="TimeSeriesModelInput" type="Input" clazz="org.datayoo.sengee.op.input.repo.TimeSeriesModelInputDescriptor" portrait="" version="1.0" computionFramework="sengee">
+    <tags>
+      <tag name="opCats" value="resource"/>
+    </tags>
+    <parameters>
+      <parametergroup name="general" c_Compox="sightx-tab" c_Alias="一般">
+        <parametergroup name="modelService" c_Option="true" c_Compox="sengee-timeseries-standard-modelbase" c_Alias="模型库">
+          <parameter name="modelName" c_Alias="模型名"></parameter>
+          <parameter name="modelId" c_Alias="模型ID"></parameter>
+          <parameter name="modelVersion" c_Alias="模型版本"></parameter>
+        </parametergroup>
+      </parametergroup>
+    </parameters>
+    <outport name="modelOut" dataType="/model/timeSeries"/>
+    <provider>DataYoo</provider>
+    <dependencies/>
+    <opimplementers/>
+  </opprofile>
+  <opprofile name="EstimatorModelInput" type="Input" clazz="org.datayoo.sengee.op.input.repo.EstimatorModelInputDescriptor" portrait="" version="1.0" computionFramework="sengee">
+    <tags>
+      <tag name="opCats" value="resource"/>
+    </tags>
+    <parameters>
+      <parametergroup name="general" c_Compox="sightx-tab" c_Alias="一般">
+        <parametergroup name="modelService" c_Option="true" c_Compox="sengee-estimator-standard-modelbase" c_Alias="模型库">
+          <parameter name="modelName" c_Alias="模型名"></parameter>
+          <parameter name="modelId" c_Alias="模型ID"></parameter>
+          <parameter name="modelVersion" c_Alias="模型版本"></parameter>
+        </parametergroup>
+      </parametergroup>
+    </parameters>
+    <outport name="modelOut" dataType="/model/estimator"/>
+    <provider>DataYoo</provider>
+    <dependencies/>
+    <opimplementers/>
+  </opprofile>
+  <opprofile name="TransformerModelInput" type="Input" clazz="org.datayoo.sengee.op.input.repo.TransformerModelInputDescriptor" portrait="" version="1.0" computionFramework="sengee">
+    <tags>
+      <tag name="opCats" value="resource"/>
+    </tags>
+    <parameters>
+      <parametergroup name="general" c_Compox="sightx-tab" c_Alias="一般">
+        <parametergroup name="modelService" c_Option="true" c_Compox="sengee-transformer-standard-modelbase" c_Alias="模型库">
+          <parameter name="modelName" c_Alias="模型名"></parameter>
+          <parameter name="modelId" c_Alias="模型ID"></parameter>
+          <parameter name="modelVersion" c_Alias="模型版本"></parameter>
+        </parametergroup>
+      </parametergroup>
+    </parameters>
+    <outport name="modelOut" dataType="/model/transformer"/>
+    <provider>DataYoo</provider>
+    <dependencies/>
+    <opimplementers/>
+  </opprofile>
+  <opprofile name="ChainOperator" type="Control" clazz="org.datayoo.sengee.op.container.ChainDescriptor" portrait="" version="1.0" computionFramework="sengee" atom="false">
+    <inport name="inport1" dataType="/" extendable="true"/>
+    <outport name="outport1" dataType="/" extendable="true"/>
+    <provider>DataYoo</provider>
+    <debugCacheable>true</debugCacheable>
+    <dependencies/>
+    <opimplementers>
+      <opimplementer clazz="org.datayoo.oyez.op.ChainOperator" computionFramework="oyez" version="1.0">
+        <inport name="inport1" dataType="/" extendable="true"/>
+        <outport name="outport1" dataType="/" extendable="true"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+    </opimplementers>
+  </opprofile>
+  <opprofile name="CsvReader" type="Reader" clazz="org.datayoo.sengee.op.reader.stream.CsvReaderDescriptor" portrait="" version="1.0" computionFramework="sengee">
+    <tags>
+      <tag name="opCats" value="stream"/>
+    </tags>
+    <parameters>
+      <parametergroup name="general" c_Compox="sightx-tab" c_Alias="一般">
+        <parameter name="filePath" c_Option="true" c_Compox="sengee-lfile-selector" c_Alias="文件名"></parameter>
+        <parameter name="charset" c_Compox="sightx-file-charset" c_Alias="字符集">UTF-8</parameter>
+        <parameter name="nameAsData" c_Compox="sightx-switch" c_Alias="文件名添加入结果">false</parameter>
+        <parameter name="separator" c_Alias="分隔符">,</parameter>
+        <parameter name="bEnclosure" c_Compox="sightx-char" c_Alias="起始包围符">"</parameter>
+        <parameter name="eEnclosure" c_Compox="sightx-char" c_Alias="结束包围符">"</parameter>
+        <parameter name="hasHead" c_Compox="sightx-switch" c_Alias="是否有列头">true</parameter>
+      </parametergroup>
+      <parametergroup name="columnSet" c_Compox="sightx-tab" c_Alias="列集">
+        <parametertable name="columnSet" c_Compox="sengee-output-columns" c_Alias="输出列集">
+          <head>
+            <parameter name="columnName" c_Alias="列名"></parameter>
+            <parameter name="dataColumnIndex" c_Compox="sightx-label" c_Alias="对应数据列的序号"></parameter>
+            <parameter name="columnType" c_Compox="sightx-datatype" c_Alias="数据类型">String</parameter>
+            <parameter name="formatFunc" c_Option="true" c_Alias="数据转换函数"></parameter>
+          </head>
+        </parametertable>
+      </parametergroup>
+    </parameters>
+    <inport name="streamIn" dataType="/dataStream"/>
+    <outport name="dataOut" dataType="/"/>
+    <provider>DataYoo</provider>
+    <dependencies/>
+    <opimplementers/>
+  </opprofile>
+  <opprofile name="RdbWriter" type="Output" clazz="org.datayoo.sengee.op.writer.db.RdbWriterDescriptor" portrait="" version="1.0" computionFramework="sengee">
+    <parameters>
+      <parametergroup name="general" c_Compox="sightx-tab" c_Alias="一般">
+        <parametergroup name="settingService" c_Option="true" c_Compox="sengee-rdb-settings" c_Alias="数据库">
+          <parameter name="serviceName"></parameter>
+          <parameter name="serviceId"></parameter>
+        </parametergroup>
+        <parameter name="tableName" c_Compox="sengee-table-selector" c_Alias="表名字"></parameter>
+        <parametergroup name="colMappings" c_Compox="sengee-rdb-colMappings" c_Alias="输出结构映射">
+          <parametergroup name="mappingEntry">
+            <parameter name="colName" c_Alias="输出列名称"></parameter>
+            <parameter name="colType" c_Alias="输出列类型"></parameter>
+            <parameter name="colExpr" c_Alias="输出数据表达式"></parameter>
+          </parametergroup>
+        </parametergroup>
+      </parametergroup>
+    </parameters>
+    <inport name="connIn" dataType="/res/rdbconn"/>
+    <inport name="dataIn" dataType="/"/>
+    <provider>DataYoo</provider>
+    <dependencies/>
+    <opimplementers/>
+  </opprofile>
+  <opprofile name="ConsoleOutput" type="Debug" clazz="org.datayoo.sengee.op.debug.ConsoleOutputDescriptor" portrait="" version="1.0" computionFramework="sengee">
+    <inport name="inport" dataType="/" option="false"/>
+    <provider>DataYoo</provider>
+    <dependencies/>
+    <opimplementers>
+      <opimplementer clazz="org.datayoo.gosooz.op.ConsoleOutputOperator" computionFramework="sparkBatch" version="1.0">
+        <inport name="inport" dataType="/" option="false"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+      <opimplementer clazz="org.datayoo.moz.op.MozConsoleOutputOperator" computionFramework="flinkStream" version="1.0">
+        <inport name="inport" dataType="/" option="false"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+      <opimplementer clazz="org.datayoo.oyez.op.debug.ConsoleOutputOperator" computionFramework="oyez" version="1.0">
+        <inport name="inport" dataType="/" option="false"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+      <opimplementer clazz="org.datayoo.moz.op.MozBatchConsoleOutputOperator" computionFramework="flinkBatch" version="1.0">
+        <inport name="inport" dataType="/" option="false"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+    </opimplementers>
+  </opprofile>
+  <opprofile name="RdbConn" type="ResMan" clazz="org.datayoo.sengee.op.res.db.RdbConnDescriptor" portrait="" version="1.0" computionFramework="sengee">
+    <parameters>
+      <parametergroup name="general" c_Compox="sightx-tab" c_Alias="一般">
+        <parametergroup name="settingService" c_Compox="sengee-rdb-settings" c_Alias="数据库">
+          <parameter name="serviceName"></parameter>
+          <parameter name="serviceId"></parameter>
+        </parametergroup>
+      </parametergroup>
+    </parameters>
+    <outport name="connOut" dataType="/res/rdbconn"/>
+    <provider>DataYoo</provider>
+    <dependencies/>
+    <opimplementers/>
+  </opprofile>
+  <opprofile name="DataGenerator" type="Debug" clazz="org.datayoo.sengee.op.debug.DataGenerationDescriptor" portrait="" version="1.0" computionFramework="sengee">
+    <parameters>
+      <parameter name="size">10000</parameter>
+      <parameter name="interval">500</parameter>
+      <parameter name="generator"></parameter>
+    </parameters>
+    <outport name="outport" dataType="/"/>
+    <provider>DataYoo</provider>
+    <dependencies/>
+    <opimplementers>
+      <opimplementer clazz="org.datayoo.gosooz.op.DataGenerationOperator" computionFramework="sparkBatch" version="1.0">
+        <outport name="outport" dataType="/"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+      <opimplementer clazz="org.datayoo.moz.op.MozDataGenerationOperator" computionFramework="flinkStream" version="1.0">
+        <outport name="outport" dataType="/"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+      <opimplementer clazz="org.datayoo.moz.op.MozBatchDataGenerationOperator" computionFramework="flinkBatch" version="1.0">
+        <outport name="outport" dataType="/"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+      <opimplementer clazz="org.datayoo.oyez.op.debug.DataGenerationOperator" computionFramework="oyez" version="1.0">
+        <outport name="outport" dataType="/"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+    </opimplementers>
+  </opprofile>
+  <opprofile name="ImplictSampling" type="Control" clazz="org.datayoo.sengee.op.ctrl.ImplictSamplingDescriptor" portrait="" version="1.0" computionFramework="sengee">
+    <parameters>
+      <parametergroup name="general" c_Compox="sightx-tab" c_Alias="一般">
+        <parameter name="samplingCount">10</parameter>
+      </parametergroup>
+    </parameters>
+    <outport name="dataOut" dataType="/"/>
+    <provider>DataYoo</provider>
+    <dependencies/>
+    <opimplementers>
+      <opimplementer clazz="org.datayoo.oyez.op.ImplictSampling" computionFramework="oyez" version="1.0">
+        <parameters/>
+        <outport name="dataOut" dataType="/"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+    </opimplementers>
+  </opprofile>
+  <opprofile name="ConsoleInput" type="Debug" clazz="org.datayoo.sengee.op.debug.ConsoleInputDescriptor" portrait="" version="1.0" computionFramework="sengee">
+    <parameters>
+      <parameter name="success">true</parameter>
+      <parameter name="blockTime">3000</parameter>
+    </parameters>
+    <provider>DataYoo</provider>
+    <dependencies/>
+    <opimplementers>
+      <opimplementer clazz="org.datayoo.oyez.op.debug.ConsoleInputAction" computionFramework="oyez" version="1.0">
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+    </opimplementers>
+  </opprofile>
+  <opprofile name="RdbReader" type="Input" clazz="org.datayoo.sengee.op.reader.db.RdbReaderDescriptor" portrait="" version="1.0" computionFramework="sengee">
+    <parameters>
+      <parametergroup name="general" c_Compox="sightx-tab" c_Alias="一般">
+        <parametergroup name="settingService" c_Option="true" c_Compox="sengee-rdb-settings" c_Alias="数据库">
+          <parameter name="serviceName"></parameter>
+          <parameter name="serviceId"></parameter>
+        </parametergroup>
+        <parameter name="sql" c_Compox="sengee-sql" c_Alias="查询语句"></parameter>
+        <parametertable name="ctxVarMappings" c_Compox="sengee-sql-ctxVar" c_Alias="上下文变量映射">
+          <head>
+            <parameter name="ctxVar" c_Option="false" c_Compox="sightx-label" c_Alias="上下文变量"></parameter>
+            <parameter name="column" c_Option="false" c_Compox="sengee-column-selector" c_Alias="对应列"></parameter>
+            <parameter name="defaultValue" c_Option="true" c_Compox="sightx-input" c_Alias="缺省值"></parameter>
+          </head>
+        </parametertable>
+      </parametergroup>
+    </parameters>
+    <inport name="connIn" dataType="/res/rdbconn"/>
+    <inport name="ctxIn" dataType="/"/>
+    <outport name="dataOut" dataType="/"/>
+    <provider>DataYoo</provider>
+    <dependencies/>
+    <opimplementers/>
+  </opprofile>
+</opprofiles>
