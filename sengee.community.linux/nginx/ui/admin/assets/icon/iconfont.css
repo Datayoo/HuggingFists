@@ -1,19 +1,36 @@
 @font-face {
-  font-family: "sg"; /* Project id 2678125 */
-  src: url('iconfont.eot?t=1693835613214'); /* IE9 */
-  src: url('iconfont.eot?t=1693835613214#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('iconfont.woff2?t=1693835613214') format('woff2'),
-       url('iconfont.woff?t=1693835613214') format('woff'),
-       url('iconfont.ttf?t=1693835613214') format('truetype'),
-       url('iconfont.svg?t=1693835613214#sg') format('svg');
+  font-family: "dy"; /* Project id 2678125 */
+  src: url('iconfont.woff2?t=1699091185521') format('woff2'),
+       url('iconfont.woff?t=1699091185521') format('woff'),
+       url('iconfont.ttf?t=1699091185521') format('truetype'),
+       url('iconfont.svg?t=1699091185521#dy') format('svg');
 }
 
-.sg {
-  font-family: "sg" !important;
-  font-size: 16px;
+.dy {
+  font-family: "dy" !important;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.ic-loading1:before {
+  content: "\e667";
+}
+
+.ic-check:before {
+  content: "\e81a";
+}
+
+.ic-close:before {
+  content: "\e668";
+}
+
+.ic-Eye-Normal:before {
+  content: "\e685";
+}
+
+.ic-Eye-Slash:before {
+  content: "\e6a3";
 }
 
 .ic-tishi1:before {

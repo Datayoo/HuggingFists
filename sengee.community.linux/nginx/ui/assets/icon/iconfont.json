@@ -1,10 +1,45 @@
 {
   "id": "2678125",
   "name": "sengee",
-  "font_family": "sg",
+  "font_family": "dy",
   "css_prefix_text": "ic-",
   "description": "",
   "glyphs": [
+    {
+      "icon_id": "7197321",
+      "name": "icn_loading",
+      "font_class": "loading1",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "4767093",
+      "name": "check",
+      "font_class": "check",
+      "unicode": "e81a",
+      "unicode_decimal": 59418
+    },
+    {
+      "icon_id": "15838444",
+      "name": "close",
+      "font_class": "close",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "28661000",
+      "name": "Eye-Normal",
+      "font_class": "Eye-Normal",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "28661031",
+      "name": "Eye-Slash",
+      "font_class": "Eye-Slash",
+      "unicode": "e6a3",
+      "unicode_decimal": 59043
+    },
     {
       "icon_id": "37229901",
       "name": "提示",
