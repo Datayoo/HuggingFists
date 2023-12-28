@@ -67,7 +67,7 @@ function start {
     JAVA_OPTS="$JAVA_OPTS -Dwebdriver.chrome.driver=${BASE_DIR}/utils/drivers/chromedriver"
 
     nohup java $JAVA_OPTS -Dpwd=$NODE_HOME -DAPP_LOG_DIR=${APP_LOG_DIR} -cp $CP  ${MAIN_CLASS} \
-           1>> ${APP_LOG_FILE} 2>> ${APP_LOG_FILE}  &
+           1>/dev/null 2>/dev/null  &
           #./resources/node.properties 1>> ${APP_LOG_DIR}/stdout.log 2>> ${APP_LOG_DIR}/stderr.log &
     if [ "$LOG_TYPE" == "log" ];then
         log;
