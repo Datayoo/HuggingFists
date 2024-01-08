@@ -26,7 +26,7 @@
  如果外部无法访问到页面，可以将服务器重启一次再试,算子平台会开机自启! 中国国内访问github较慢的朋友，可以移步到[https://pan.quark.cn/s/04722e71b79c](https://pan.quark.cn/s/6ee521d40ec0) 进行下载。
 #### Windows
 - Windows版的下载地址：https://pan.quark.cn/s/f1f8e4e1a5d9
-- 按照安装向导安装Windows软件
+- 按照安装向导安装Windows版软件
 - 安装结束后，点击快捷方式启动HuggingFists。启动需要几分钟，启动完成后，自动弹出浏览器窗口。
 
 ![](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/5.png)
