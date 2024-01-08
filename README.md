@@ -7,21 +7,27 @@
 ## 安装说明
 
 ### 环境要求
-
-​	Linux系统3.10.0-957.21.3.el7.x86_64
+#### Linux
+​	Linux系统3.10.0-957.21.3.el7.x86_64 
 
 ​	至少4核8G，系统使用Containerd容器，容器以及镜像会固定存放到/data目录下
 
 ![](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/1.png)
+#### Windows
+ 推荐Windows 11
 
 ### 安装步骤
+#### Linux
 
 - 从git上拉取工程文件 git clone https://github.com/Datayoo/HuggingFists.git, 或者直接使用download zip下载。需要注意的是，当使用Windows操作系统克隆项目时，Linux脚本文件中的'\n'会被替换为'\r\n'。当拷贝项目到Linux系统下时，由于'\n'的不同，脚本会无法执行。使用IDEA的开发者可以参考[配置 Git 处理行结束符](https://docs.github.com/zh/get-started/getting-started-with-git/configuring-git-to-handle-line-endings?platform=windows)解决问题。
 - 进入sengee.community.linux,执行安装脚本 bash install.sh。
 
 ​	脚本执行结束后，可通过curl http://localhost:38172 测试系统是否正确安装。安装结束后，可通过访问url地址：“http://服务器IP:38172” 打开工具使用界面。
- 如果外部无法访问到页面，可以将服务器重启一次再试,算子平台会开机自启! 中国国内访问github较慢的朋友，可以移步到https://pan.quark.cn/s/04722e71b79c 进行下载。
-
+ 如果外部无法访问到页面，可以将服务器重启一次再试,算子平台会开机自启! 中国国内访问github较慢的朋友，可以移步到[https://pan.quark.cn/s/04722e71b79c](https://pan.quark.cn/s/6ee521d40ec0) 进行下载。
+#### Windows
+- Windows版的下载地址：https://pan.quark.cn/s/f1f8e4e1a5d9
+- 按照安装向导安装Windows软件
+- 安装结束后，点击快捷方式启动HuggingFists。启动需要几分钟，启动完成后，自动弹出浏览器窗口。
 
 ![](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/5.png)
 
