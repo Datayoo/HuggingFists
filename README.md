@@ -122,6 +122,9 @@
 
 ![image-20231004092415115](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/huggingfacereader.png)
 
+## 微信交流群
+![image-20231004092415115](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/code.png)
+
 ## 学习资料
 
 | 视频链接                                                     | 内容描述                                                     |
