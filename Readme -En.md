@@ -10,7 +10,7 @@ HuggingFists is a low-code data flow tool that enables convenient use of LLM and
 **System Requirements**
 ------------------------------------------------------
 **Linux：**Linux system 3.10.0-957.21.3.el7.x86_64 At least 4 cores and 8GB of RAM; the system uses Containerd containers, and containers and images will be stored in the /data directory.
-(https://github.com/Datayoo/HuggingFists/raw/main/docs/imgs/1.png)
+![](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/1.png)
 **Windows：**Windows 11 is recommended.
 
 **Installation Steps**
@@ -22,7 +22,7 @@ After the script execution is complete, you can test if the system is correctly 
 
 **Windows**
 For Windows users, you can download the Windows version from the following link: *https://pan.quark.cn/s/f1f8e4e1a5d9*. Follow the installation guide to install the Windows version of the software. After the installation is complete, click on the shortcut to launch HuggingFists. It may take a few minutes to start up, and once the startup is complete, a browser window will automatically pop up.
-
+![](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/5.png)
 **System Overview**
 ===================
 **Homepage**
