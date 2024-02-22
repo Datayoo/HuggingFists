@@ -1,4 +1,4 @@
-[English](https://github.com/Datayoo/HuggingFists/blob/main/Readme%20-En.md) | [中文](https://github.com/Datayoo/HuggingFists/blob/main/README.md)
+[中文](https://github.com/Datayoo/HuggingFists/blob/main/README.md) | [English](https://github.com/Datayoo/HuggingFists/blob/main/Readme%20-En.md) 
 # HuggingFists
 
 ​	
