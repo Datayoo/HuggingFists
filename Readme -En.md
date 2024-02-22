@@ -1,3 +1,4 @@
+**切换语言:  [中文](https://github.com/Datayoo/HuggingFists/blob/main/README.md),[English](https://github.com/Datayoo/HuggingFists/blob/main/Readme%20-En.md)**
 **HuggingFists**
 ================
 
@@ -8,6 +9,7 @@ HuggingFists is a low-code data flow tool that enables convenient use of LLM and
 **System Requirements**
 ------------------------------------------------------
 **Linux：**Linux system 3.10.0-957.21.3.el7.x86_64 At least 4 cores and 8GB of RAM; the system uses Containerd containers, and containers and images will be stored in the /data directory.
+(https://github.com/Datayoo/HuggingFists/raw/main/docs/imgs/1.png)
 **Windows：**Windows 11 is recommended.
 
 **Installation Steps**
