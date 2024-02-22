@@ -11,6 +11,7 @@ HuggingFists is a low-code data flow tool that enables convenient use of LLM and
 ------------------------------------------------------
 **Linux：**Linux system 3.10.0-957.21.3.el7.x86_64 At least 4 cores and 8GB of RAM; the system uses Containerd containers, and containers and images will be stored in the /data directory.
 ![](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/1.png)
+
 **Windows：**Windows 11 is recommended.
 
 **Installation Steps**
@@ -23,6 +24,7 @@ After the script execution is complete, you can test if the system is correctly 
 **Windows**
 For Windows users, you can download the Windows version from the following link: *https://pan.quark.cn/s/f1f8e4e1a5d9*. Follow the installation guide to install the Windows version of the software. After the installation is complete, click on the shortcut to launch HuggingFists. It may take a few minutes to start up, and once the startup is complete, a browser window will automatically pop up.
 ![](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/5.png)
+
 **System Overview**
 ===================
 **Homepage**
@@ -61,25 +63,19 @@ Used to manage various accounts for users, such as data source accounts and API 
 ---------------------------------------------------------- 
 To access Hugging Face models through the Inference API, you first need to register an account on the Hugging Face website. You can register an account by following this link: *https://huggingface.co/join*. Once registered successfully, apply for a dedicated access token by navigating to your profile -> Settings -> Access Tokens in the top right corner of the interface. 
 Next, in the Hugging Face system (not HuggingFists), go to your profile -> Personal Settings -> Resource Accounts and add a Hugging Face access account.After entering the resource account interface, select to add a resource account, which will bring up the following *screen:* 
-需要替换英文图
-
+<img src="https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/res_account.png" alt="image-20230921001554650" style="zoom: 33%;" />
 
 Choose the Hugging Face type, and fill in the access token you obtained into the "Access token" input box. 
 After filling it in, submit the form to create the account successfully. Sometimes, if you are in an intranet environment and cannot directly access the Hugging Face website, you can configure an HTTP proxy to bypass the local network restrictions. 
 In the HuggingFists system, navigate to "Environment Management" -> "Service Configuration" module. Click on "Create Service Configuration," which will bring up the following *interface*:
-需要替换英文图
-
+<img src="https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/svc_settings.png" alt="svc_settings" style="zoom:33%;" />
 
 Select the "Network HTTP Proxy Service" type, fill in the proxy-related information, and submit to save the proxy configuration.
 The preparation work is ready, and we can now try using Hugging Face operators to access models to meet business requirements. Below, let's look at two related examples, one using natural language models and the other using image-related models. Let's start with an example using natural language models.
-需要替换英文图
-
-
+![image-20230921110737524](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/txt_flow.png)
 
 The diagram above illustrates a process example that reads internet news, extracts text content from the news, and then performs three tasks: text summarization, text sentiment classification, and named entity recognition. The red box-selected section in the diagram represents the operator tree that can be used in the process definition; the blue section is the process definition panel; and the green section is the operator's attribute configuration and help area. As shown in the diagram, when selecting a Hugging Face summarization extraction operator, the green box on the right displays its configurable attributes and documentation. The first two boxes in the attribute section input the previously prepared HTTP proxy and Hugging Face account. The subsequent parameter boxes can be set based on the operator's help documentation. Once all processes are dragged and defined in this way, you can click the debug or execute process button at the top of the blue area. Now, let's look at an example using an image-related model.
-需要替换英文图
-
-
+![image-20230921131732072](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/img_flow.png)
 
 This example can also be detailed in the video mentioned above. It mainly demonstrates three tasks: object recognition, image segmentation, and image classification performed on a single image, involving three different models.
 In the examples above, several models are demonstrated. However, which model works best in practice? Users will need to research and compare to determine the most effective model for their specific needs.
@@ -87,13 +83,10 @@ In the examples above, several models are demonstrated. However, which model wor
 **How to Access Locally Deployed Hugging Face Models **
 -------------------------------------------------------
 Compared to accessing Hugging Face models through the Inference API, deploying models locally requires a longer preparation time but offers more control over costs and security. Below, we briefly introduce how to access locally deployed Hugging Face models using HuggingFists. Firstly, select a model you wish to deploy locally, and then navigate to the model's "Files and versions" page, as shown below:
-需要替换英文图
-
+![image-20230921135329469](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/modelFiles.png)
 
 From the image, we can see that there are many files related to the model, typically required for model loading and execution, aside from documentation. Therefore, it's necessary to download all relevant files in advance and store them in the same folder. As Hugging Face does not currently provide a bulk download feature for files, manual downloading of each file is required (this is the most cumbersome aspect of local model deployment). Once the model is downloaded, create the application flow for the model. The process of creating the flow and building it is similar to using Inference API operators, with the only difference being that when selecting operators, you need to choose those with "Pte" in their names. These operators support local model invocation. The main differences between the two types of operators are as follows:
-需要替换英文图
-
-
+<img src="https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/op_pte.png" alt="image-20230921143501025" style="zoom: 50%;" />
 
 In the case of using locally deployed models, there is no longer a need for an HTTP proxy or a Hugging Face account. Instead, you select a local folder path. The downloaded model resides within this folder. Generally, the operator does not pull additional files during the call, but our team found that in some cases, additional model files needed to be downloaded at runtime, which can slow down the operator's startup speed. Additionally, two attributes worth noting are the Python script snippet and the computing device. 
 Due to the vast number of models on the Hugging Face website, some models may have subtle differences when called. If there are issues with starting the model, adjusting the Python script snippet to ensure the model loads and executes properly may be necessary. The computing device attribute specifies on which computing unit (CPU or GPU) the model runs on the local machine. This parameter can be set based on the local machine's configuration. Other relevant operator attributes can be configured following the operator's instructions. Once configured, the flow can be driven to use the model locally.
@@ -103,46 +96,40 @@ Due to the vast number of models on the Hugging Face website, some models may ha
 The Hugging Face website provides a platform where practitioners worldwide share various datasets for convenient use in model training or testing. HuggingFists offers a connector specifically for the Hugging Face website, allowing users to select suitable datasets and store them in a designated storage system for easy application of this data. To access datasets on Hugging Face, follow these steps:
 
 In the data source functional module, select the Application Tab page and create a Hugging Face data source by selecting the HuggingFace connector and configuring access accounts and access proxies as needed. See the image below:
-需要替换英文图
-
+<img src="https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/create_connector.png" alt="create_connector" style="zoom:33%;" />
 
 After clicking the "Submit" button, a Hugging Face data source will be created. You can browse the data source by clicking the "View Data" button and select the appropriate datasets.
-需要替换英文图
-
-
-
+![image-20231001162817148](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/dataset.png)
 Once you have selected the desired dataset, you can define a data processing flow to read the data from the dataset and store it in a database or file.
-需要替换英文图
-
-
+![image-20231004092415115](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/huggingfacereader.png)
 By following these steps, users can easily access datasets on Hugging Face and incorporate them into their data processing workflows for various applications.
 
 
 **Reference**
 =============
-Video Link	Content Description
-------------------------------
-https://www.bilibili.com/video/BV1Ku4y1r72H/	How to use various models from HuggingFace with low-code. Provides examples of using a natural language model and a computer vision model. The examples involve the process of creating accounts and HTTP proxies.
-https://www.bilibili.com/video/BV1G84y1m79m/	How to use various datasets from HuggingFace with low-code.
-https://www.bilibili.com/video/BV1oy4y1A7Bd/	How to desaturate, rotate, and crop images using low-code.
-https://www.bilibili.com/video/BV1SP411W7kv/	How to extract text information from HTML using low-code.
-https://www.bilibili.com/video/BV138411Q7ia/	How to read data from MySQL using low-code.
-https://www.bilibili.com/video/BV1qN4y1R7Pt/	How to read data from MySQL using flow variables with low-code.
-https://www.bilibili.com/video/BV1ok4y1A7ZM/	How to read data from MySQL using context variables with low-code.
-https://www.bilibili.com/video/BV19F411X7D1/	How to extract text from Visio files using low-code.
-https://www.bilibili.com/video/BV1RN41127vt/	How to extract relationships from Visio files using low-code.
-https://www.bilibili.com/video/BV1qV41157HH/	How to extract text and images from Word documents using low-code.
-https://www.bilibili.com/video/BV1X94y1C7Bh/	How to extract tables from Word documents using low-code.
-https://www.bilibili.com/video/BV1Tg4y1J7WV/	How to extract text from PDFs using low-code.
-https://www.bilibili.com/video/BV1jk4y1V7nK/	How to read data from Excel using low-code.
-https://www.bilibili.com/video/BV1Ks4y1c7bz/	How to write data to a MySQL table using low-code.
-https://www.bilibili.com/video/BV16u411b79b/	How to clear MySQL tables and perform multi-table writes simultaneously using low-code.
-https://www.bilibili.com/video/BV1Ps4y117pS/	How to read and write Avro files using low-code.
-https://www.bilibili.com/video/BV14u411Y7Z3/	How to read XML-formatted data.
-https://www.bilibili.com/video/BV1D8411o7x6/	How to read JSON-formatted data.
-https://www.bilibili.com/video/BV1yV4y1Q7uT/	How to debug processes using breakpoints on the platform.
-https://www.bilibili.com/video/BV17k4y1h79M/	How to extract entity names using low-code.
-https://www.bilibili.com/video/BV1vw411U7ZV/	How to extract time information from text using low-code.
-https://www.bilibili.com/video/BV1Vj411y7j4/	How to extract phone numbers from text using low-code.
+| Video Link	                                     | Content Description                                                  |
+|--------------------------------------------------|----------------------------------------------------------------------|
+|https://www.bilibili.com/video/BV1Ku4y1r72H/	     |How to use various models from HuggingFace with low-code. Provides examples of using a natural language model and a computer vision model. The examples involve the process of creating accounts and HTTP proxies.|
+|https://www.bilibili.com/video/BV1G84y1m79m/      |How to use various datasets from HuggingFace with low-code.           |
+|https://www.bilibili.com/video/BV1oy4y1A7Bd/      |How to desaturate, rotate, and crop images using low-code.            |
+|https://www.bilibili.com/video/BV1SP411W7kv/	     |How to extract text information from HTML using low-code.             |
+|https://www.bilibili.com/video/BV138411Q7ia/	     |How to read data from MySQL using low-code.                           |
+|https://www.bilibili.com/video/BV1qN4y1R7Pt/	     |How to read data from MySQL using flow variables with low-code.       |
+|https://www.bilibili.com/video/BV1ok4y1A7ZM/	     |How to read data from MySQL using context variables with low-code.    |
+|https://www.bilibili.com/video/BV19F411X7D1/	     |How to extract text from Visio files using low-code.                  |
+|https://www.bilibili.com/video/BV1RN41127vt/	     |How to extract relationships from Visio files using low-code.         |
+|https://www.bilibili.com/video/BV1qV41157HH/	     |How to extract text and images from Word documents using low-code.    |
+|https://www.bilibili.com/video/BV1X94y1C7Bh/	     |How to extract tables from Word documents using low-code.             |
+|https://www.bilibili.com/video/BV1Tg4y1J7WV/	     |How to extract text from PDFs using low-code.                         |
+|https://www.bilibili.com/video/BV1jk4y1V7nK/	     |How to read data from Excel using low-code.                           |
+|https://www.bilibili.com/video/BV1Ks4y1c7bz/	     |How to write data to a MySQL table using low-code.                    |
+|https://www.bilibili.com/video/BV16u411b79b/	     |How to clear MySQL tables and perform multi-table writes simultaneously using low-code.|
+|https://www.bilibili.com/video/BV1Ps4y117pS/	     |How to read and write Avro files using low-code.                      |
+|https://www.bilibili.com/video/BV14u411Y7Z3/	     |How to read XML-formatted data.                                       |
+|https://www.bilibili.com/video/BV1D8411o7x6/	     |How to read JSON-formatted data.                                      |
+|https://www.bilibili.com/video/BV1yV4y1Q7uT/	     |How to debug processes using breakpoints on the platform.             |
+|https://www.bilibili.com/video/BV17k4y1h79M/	     |How to extract entity names using low-code.                           |
+|https://www.bilibili.com/video/BV1vw411U7ZV/	     |How to extract time information from text using low-code.             |
+|https://www.bilibili.com/video/BV1Vj411y7j4/	     |How to extract phone numbers from text using low-code.                |
 
 
