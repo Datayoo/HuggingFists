@@ -3,7 +3,7 @@
 
 ​	
 
-​	HuggingFists一款能够便捷使用LLM及HuggingFace模型的的低代码数据流工具，部分功能可被视为低代码版的Langchain。目前还不支持模型的训练场景，后续将开发补充完全。
+​	HuggingFists一款能够便捷使用LLM及HuggingFace模型的低代码数据流工具，部分功能可被视为低代码版的Langchain。目前还不支持模型的训练场景，后续将开发补充完全。
 
 ## 安装说明
 
