@@ -22,7 +22,8 @@ fi
 
 
 function getpid {
-    pid=`ps -ef | grep "$MAIN_CLASS" | grep "${APP_BASE_DIR} " | grep -v 'grep'  | awk '{print $2}'| xargs`
+    pid=`ps -ef | grep java | grep "DAPP_NAME=$APP_NAME" | awk '{print $1}'`
+   # pid=`ps -ef | grep "$MAIN_CLASS" | grep "${APP_BASE_DIR} " | grep -v 'grep'  | awk '{print $2}'| xargs`
     echo $pid
 }
 
@@ -41,33 +42,25 @@ function start {
     [ ! -d  ${APP_LOG_DIR} ] && mkdir -p ${APP_LOG_DIR}
     NODE_HOME=${APP_BASE_DIR}
     cd $NODE_HOME
-
+    cd ${APP_BASE_DIR}
     CP=./conf
     for line in `cat ./conf/lib.txt`
     do
         CP=$CP:./lib/$line
     done
-
-#    for f in `ls ./lib/*.jar`;
-#    do
-#        CP=$CP:$f
+#     for line in `cat ./lib.txt`
+#     do
+#         CP=$CP:/home/app/lib/$line
 #    done
-    for f in `ls ./ld/*`;
-    do
-        CP=$CP:$f
-    done
-
     #CP="./resources:./lib/*"
     #-XX:MaxPermSize=256m
-    JAVA_OPTS="-Xms2G -Xmx8G \
-           -Djava.library.path=${BASE_DIR}/ld \
+    JAVA_OPTS="-Djava.library.path=${BASE_DIR}/utils/ld \
            -XX:+UseParNewGC  -XX:+UseConcMarkSweepGC \
            -XX:PretenureSizeThreshold=11457280  -XX:MaxTenuringThreshold=15 \
-           -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=${APP_LOG_DIR} -Dfile.encoding=UTF-8  $JAVA_OPTS"
+           -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=${APP_LOG_DIR} $JAVA_OPTS"
     JAVA_OPTS="$JAVA_OPTS -Dwebdriver.chrome.driver=${BASE_DIR}/utils/drivers/chromedriver"
 
-    nohup java $JAVA_OPTS -Dpwd=$NODE_HOME -DAPP_LOG_DIR=${APP_LOG_DIR} -cp $CP  ${MAIN_CLASS} \
-           1>/dev/null 2>/dev/null  &
+    java $JAVA_OPTS -Dpwd=$NODE_HOME -DAPP_LOG_DIR=${APP_LOG_DIR} -cp $CP  ${MAIN_CLASS}
           #./resources/node.properties 1>> ${APP_LOG_DIR}/stdout.log 2>> ${APP_LOG_DIR}/stderr.log &
     if [ "$LOG_TYPE" == "log" ];then
         log;

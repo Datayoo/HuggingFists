@@ -71,6 +71,10 @@ sengee:
     portraitPath: ./config/operator/portraits
   descriptor:
     path: ./config/descriptor
+  process:
+    computionframework: oyez
+    type: JOBCTRL,PROGRAM,APIFLOW,ACTFLOW
+
 
 brackets:
   remote:
@@ -197,6 +201,10 @@ authx:
        alias: 模型组
        client: sengee
        behaviors: create,update,delete,model.import,model.batchDelete
+     - name: PromptGrp
+       alias: PromptGrp
+       client: sengee
+       behaviors: prompt.import,create,update,delete
 program:
   package:
     path: ./data/program/temp

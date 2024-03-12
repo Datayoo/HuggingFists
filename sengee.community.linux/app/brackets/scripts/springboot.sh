@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 export DIR=`dirname $0`
 . $DIR/functions
@@ -43,9 +43,9 @@ function start {
     #done
     [ ! -d  ${APP_LOG_DIR} ] && mkdir -p ${APP_LOG_DIR}
     JAVA_OPTS="-Xms1G -Xmx2G -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=${APP_LOG_DIR} -Dfile.encoding=UTF-8  $JAVA_OPTS"
-    nohup java ${JAVA_OPTS}  -Dconsole.log.level=ERROR \
+    java ${JAVA_OPTS}  -Dconsole.log.level=ERROR \
          -DAPP_NAME=${APP_NAME} -DAPP_LOG_DIR=${APP_LOG_DIR}  -cp $CP  \
-         $MAIN_CLASS  1>/dev/null 2>/dev/null  &
+         $MAIN_CLASS
          #$MAIN_CLASS  1>> ${APP_LOG_DIR}/stdout.log 2>> ${APP_LOG_DIR}/stderr.log &
     if [ "$LOG_TYPE" == "log" ];then
         log;

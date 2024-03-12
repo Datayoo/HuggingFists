@@ -16,6 +16,6 @@ fi
 
 #export JAVA_OPTS="$DEBUG $JMX ${JAVA_OPTS}"
 
-export JAVA_OPTS="-Xms1G -Xmx6G"
+export JAVA_OPTS="-Xms1G -Xmx1G"
 
 $DIR/node.sh $PRO $1  $2 

@@ -1,7 +1,7 @@
 version: '3'
 services:
   oyez:
-    image: cal:base
+    image: sengee:base
     privileged: true
     restart: always
     container_name: oyez
@@ -10,17 +10,22 @@ services:
     environment:
       - LC_ALL=zh_CN.UTF-8
       - LANGUAGE=zh_CN.UTF-8
+      - TZ=Asia/Shanghai
     ulimits:
       nproc: 65535
       nofile:
         soft: 20000
         hard: 40000
+    ports:
+      - 38505:38505
     volumes:
       - ./app/oyez:/home/datayoo/app/oyez
       - ./app/lib:/home/datayoo/app/oyez/lib
       - ./app/oyez/scripts:/home/datayoo/scripts
+      - ./app/oyez/logs:/home/datayoo/logs
       - ./operators:/home/datayoo/app/oyez/oyezlet/operators
       - ./dfs:/home/datayoo/dfs
+      - ./app/oyez/dist-packages:/usr/local/lib/python3.10/dist-packages
   nginx:
     image: nginx:alpine
     privileged: true
@@ -36,7 +41,7 @@ services:
       - ./nginx/conf/all_http_38172.conf:/etc/nginx/conf.d/sengee.conf
       - ./nginx/ui:/home/datayoo/ui
   sengee:
-    image: server:base
+    image: sengee:base
     privileged: true
     restart: always
     container_name: sengee
@@ -47,15 +52,21 @@ services:
       - 38502:38502
     depends_on:
       - mysql
+    environment:
+      - LC_ALL=zh_CN.UTF-8
+      - LANGUAGE=zh_CN.UTF-8
+      - TZ=Asia/Shanghai
     volumes:
       - ./app/sengee:/home/datayoo/app/sengee
       - ./app/lib:/home/datayoo/app/sengee/lib
       - ./app/sengee/scripts:/home/datayoo/scripts
+      - ./app/sengee/logs:/home/datayoo/logs
       - ./operators:/home/datayoo/app/sengee/operators/
+      #- ./upload:/home/datayoo/app/sengee/upload
       - ./dfs:/home/datayoo/dfs
     hostname: datayoo.sengee
   brackets:
-    image: server:base
+    image: sengee:base
     privileged: true
     restart: always
     container_name: brackets
@@ -66,14 +77,19 @@ services:
     depends_on:
       - authx
       - mysql
+    environment:
+      - LC_ALL=zh_CN.UTF-8
+      - LANGUAGE=zh_CN.UTF-8
+      - TZ=Asia/Shanghai
     volumes:
       - ./app/brackets:/home/datayoo/app/brackets
       - ./app/lib:/home/datayoo/app/brackets/lib
       - ./app/brackets/scripts:/home/datayoo/scripts
       - ./dfs:/home/datayoo/dfs
+      - ./app/brackets/logs:/home/datayoo/logs
     hostname: datayoo.brackets
   authx:
-    image: server:base
+    image: sengee:base
     privileged: true
     restart: always
     container_name: authx
@@ -83,10 +99,15 @@ services:
       - 38702:38702
     depends_on:
       - mysql
+    environment:
+      - LC_ALL=zh_CN.UTF-8
+      - LANGUAGE=zh_CN.UTF-8
+      - TZ=Asia/Shanghai
     volumes:
       - ./app/authx:/home/datayoo/app/authx
       - ./app/lib:/home/datayoo/app/authx/lib
       - ./app/authx/scripts:/home/datayoo/scripts
+      - ./app/authx/logs/:/home/datayoo/logs
     hostname: datayoo.authx
   mysql:
     restart: always

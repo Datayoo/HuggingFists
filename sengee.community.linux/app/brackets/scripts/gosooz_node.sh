@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 export DIR=`dirname $0`
 . $DIR/functions
