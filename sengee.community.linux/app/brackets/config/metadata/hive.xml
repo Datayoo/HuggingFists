@@ -1,0 +1,247 @@
+<bracketsourcedescriptor>
+    <name>hive</name>
+    <alias>Hive</alias>
+    <dsVersion>*</dsVersion>
+    <group>关系型数据库</group>
+    <version>1.0</version>
+    <types>RDB</types>
+    <category>DATABASE</category>
+    <dataObjectType>STRUCTED</dataObjectType>
+    <provider>DataYoo</provider>
+    <factoryClass>org.datayoo.brackets.hive.HiveBracketSourceFactory
+    </factoryClass>
+
+    <elementDescriptor name="ConnectionSettings">
+        <parameters>
+            <parametergroup name="general" c_Alias="连接配置"
+                            c_Compox="sightx-tab">
+                <parametergroup name="connectionSettings">
+                    <parameter name="connType" c_Alias="连接类型"
+                               c_Option="false"
+                               c_Compox="connType" c_Index="0">DEFAULT
+                    </parameter>
+                    <parameter name="dbType" c_Alias="数据库类型"
+                               c_Compox="sightx-hidden" c_Index="1">hive
+                    </parameter>
+                    <parameter name="address" c_Alias="数据库地址"
+                               c_Option="false"
+                               c_Compox="address" c_Index="2"></parameter>
+                    <parameter name="port" c_Alias="数据库端口" c_Option="false"
+                               c_Compox="port" c_Index="3">10000
+                    </parameter>
+                    <parameter name="dbName" c_Alias="数据库名" c_Option="false"
+                               c_Compox="dbName" c_Index="4">
+                    </parameter>
+                    <parametergroup name="authSettingsService"
+                                    c_Option="true"
+                                    c_Compox="datayoo-hive-auth"
+                                    c_Alias="访问帐号" c_Index="5">
+                        <parameter name="serviceName"></parameter>
+                        <parameter name="serviceId"></parameter>
+                    </parametergroup>
+                    <parameter name="url" c_Alias="URL" c_Option="false"
+                               c_Compox="url" c_Index="6">
+                        jdbc:hive2://%s:%p/%d
+                    </parameter>
+                    <parameter name="driver" c_Compox="sightx-hidden" c_Index="7">
+                        org.apache.hive.jdbc.HiveDriver
+                    </parameter>
+                    <parametertable name="props" c_Option="true"
+                                    c_Compox="sightx-tablelist" c_Index="8">
+                        <head>
+                            <parameter name="key" c_Alias="字段名"
+                                       c_Compox="sightx-input">
+                            </parameter>
+                            <parameter name="value" c_Alias="字段值"
+                                       c_Compox="sightx-input">
+                            </parameter>
+                        </head>
+                    </parametertable>
+                </parametergroup>
+            </parametergroup>
+        </parameters>
+        <compoxes>
+            <compox id="connType" parentId="sightx-combox" type="CONTROLER">
+                <attributes/>
+                <dataDescriptor>
+                    <defaultValue><![CDATA[DEFAULT]]></defaultValue>
+                    <data>
+                        <![CDATA[[{"label": "缺省", "value": "DEFAULT"}, {"label": "URL", "value": "URL"}]]]></data>
+                    <actionScript><![CDATA[]]></actionScript>
+                </dataDescriptor>
+                <visibleDescriptors/>
+                <components/>
+            </compox>
+            <compox id="address" parentId="sightx-input" type="CONTROLER">
+                <attributes/>
+                <dataDescriptor/>
+                <visibleDescriptors>
+                    <visibleDescriptor type="VISIBLE">
+                        <condition>
+                            <![CDATA[connType == "DEFAULT"]]></condition>
+                    </visibleDescriptor>
+                </visibleDescriptors>
+                <components/>
+            </compox>
+            <compox id="port" parentId="sightx-integer" type="CONTROLER">
+                <attributes/>
+                <dataDescriptor/>
+                <visibleDescriptors>
+                    <visibleDescriptor type="VISIBLE">
+                        <condition>
+                            <![CDATA[connType == "DEFAULT"]]></condition>
+                    </visibleDescriptor>
+                </visibleDescriptors>
+                <components/>
+            </compox>
+            <compox id="dbName" parentId="sightx-input" type="CONTROLER">
+                <attributes/>
+                <dataDescriptor/>
+                <visibleDescriptors>
+                    <visibleDescriptor type="VISIBLE">
+                        <condition>
+                            <![CDATA[connType == "DEFAULT"]]></condition>
+                    </visibleDescriptor>
+                </visibleDescriptors>
+                <components/>
+            </compox>
+            <compox id="url" parentId="sightx-input" type="CONTROLER">
+                <attributes/>
+                <actionDescriptors>
+                    <actionDescriptor>
+                        <event eventType="VCHANGE"
+                               handler="connectionTypes">
+                        </event>
+                        <actionScript>
+                            <![CDATA[
+                            if (handlerParameter.value === "URL") {
+                                selfParameter.value = "jdbc:hive2://localhost:9083/test";
+                            } else {
+                                selfParameter.value = "jdbc:hive2://%s:%p/%d";
+                            }
+                        ]]>
+                        </actionScript>
+                    </actionDescriptor>
+                </actionDescriptors>
+                <dataDescriptor>
+                    <defaultValue><![CDATA[]]></defaultValue>
+                    <data/>
+                    <actionScript>
+                    </actionScript>
+                </dataDescriptor>
+                <visibleDescriptors>
+                    <visibleDescriptor type="VISIBLE">
+                        <condition><![CDATA[connType == "URL"]]></condition>
+                    </visibleDescriptor>
+                </visibleDescriptors>
+                <components/>
+            </compox>
+        </compoxes>
+    </elementDescriptor>
+
+    <elementDescriptor name="DataTypes">
+        <parameters>
+            <parametergroup name="bit">
+            </parametergroup>
+            <parametergroup name="tinyint">
+            </parametergroup>
+            <parametergroup name="smallint">
+            </parametergroup>
+            <parametergroup name="mediumint">
+            </parametergroup>
+            <parametergroup name="int">
+            </parametergroup>
+            <parametergroup name="integer">
+            </parametergroup>
+            <parametergroup name="double">
+            </parametergroup>
+            <parametergroup name="float">
+            </parametergroup>
+            <parametergroup name="decimal">
+            </parametergroup>
+            <parametergroup name="char">
+            </parametergroup>
+            <parametergroup name="varchar">
+            </parametergroup>
+            <parametergroup name="tinytext">
+            </parametergroup>
+            <parametergroup name="text">
+            </parametergroup>
+            <parametergroup name="string">
+            </parametergroup>
+            <parametergroup name="mediumtext">
+            </parametergroup>
+            <parametergroup name="longtext">
+            </parametergroup>
+            <parametergroup name="tinyblob">
+            </parametergroup>
+            <parametergroup name="blob">
+            </parametergroup>
+            <parametergroup name="mediumblob">
+            </parametergroup>
+            <parametergroup name="longblob">
+            </parametergroup>
+            <parametergroup name="date">
+            </parametergroup>
+            <parametergroup name="datetime">
+            </parametergroup>
+            <parametergroup name="timestamp">
+            </parametergroup>
+            <parametergroup name="varbinary">
+            </parametergroup>
+            <parametergroup name="enum">
+            </parametergroup>
+            <parametergroup name="set">
+            </parametergroup>
+            <parametergroup name="geometry">
+            </parametergroup>
+            <parametergroup name="point">
+            </parametergroup>
+            <parametergroup name="multipoint">
+            </parametergroup>
+            <parametergroup name="linestring">
+            </parametergroup>
+            <parametergroup name="multilinestring">
+            </parametergroup>
+            <parametergroup name="polygon">
+            </parametergroup>
+            <parametergroup name="geometrycollection">
+            </parametergroup>
+        </parameters>
+    </elementDescriptor>
+
+    <elementDescriptor name="Table">
+        <parameters>
+            <parametergroup name="Field"> <!-- 字段 -->
+                <parameter name="name"></parameter> <!-- 字段名称 -->
+                <parameter name="type"></parameter><!-- 字段类型 -->
+                <parameter name="key"></parameter><!-- 是否为主键 -->
+                <parameter name="nullable"></parameter> <!-- 字段名称 -->
+            </parametergroup>
+            <parametergroup name="Index"> <!-- 索引 -->
+                <parameter name="name"></parameter><!-- 索引名称 -->
+                <parameter name="field"></parameter><!-- 索引关联列表 -->
+            </parametergroup>
+            <parametergroup name="Attribute"> <!-- 属性 -->
+                <parametertable name="tags" c_Option="true"
+                                c_Compox="sightx-tablelist">
+                    <head>
+                        <parameter name="key" c_Alias="字段名"
+                                   c_Compox="sightx-input">
+                        </parameter>
+                        <parameter name="value" c_Alias="字段值"
+                                   c_Compox="sightx-input">
+                        </parameter>
+                    </head>
+                </parametertable>
+            </parametergroup>
+        </parameters>
+        <compoxes>
+        </compoxes>
+    </elementDescriptor>
+
+    <elementDescriptor name="Query">
+    </elementDescriptor>
+
+</bracketsourcedescriptor>
+

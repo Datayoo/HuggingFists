@@ -1,0 +1,50 @@
+<computionCluster name="SPARK">
+    <resourceCluster name="YARN">
+        <parameters>
+            <parametergroup name="general" c_Alias="集群配置" c_Compox="sightx-tab">
+                <parameter name="spark.driver.cores" c_Alias="Driver的CPU核数"
+                           c_Option="false"
+                           c_Compox="sightx-uinteger">1
+                </parameter>
+                <parameter name="spark.driver.memory" c_Alias="Driver的内存大小"
+                           c_Option="false"
+                           c_Compox="sightx-input">512M
+                </parameter>
+                <parameter name="spark.num.executors" c_Alias="Executor数量"
+                           c_Option="false"
+                           c_Compox="sightx-uinteger">2
+                </parameter>
+                <parameter name="spark.executor.cores" c_Alias="每个Executor的CPU核数"
+                           c_Option="false"
+                           c_Compox="sightx-uinteger">2
+                </parameter>
+                <parameter name="spark.executor.memory" c_Alias="每个Executor的内存大小"
+                           c_Option="false"
+                           c_Compox="sightx-input">2G
+                </parameter>
+                <parametertable name="confProps" c_Alias="扩展参数">
+                    <head>
+                        <parameter name="name" c_Alias="参数名"
+                                   c_Compox="sengee-cc-spark"></parameter>
+                        <parameter name="value" c_Alias="参数值"></parameter>
+                    </head>
+                </parametertable>
+            </parametergroup>
+        </parameters>
+        <compoxes>
+            <compox id="sengee-cc-spark" parentId="sightx-select"
+                    type="CONTROLER">
+                <attributes/>
+                <dataDescriptor>
+                    <defaultValue><![CDATA[]]></defaultValue>
+                    <data>
+                        <![CDATA[[{"label": "资源队列", "value": "spark.yarn.queue"}]]]></data>:wq
+                    <actionScript><![CDATA[]]></actionScript>
+                </dataDescriptor>
+                <visibleDescriptors/>
+                <actionDescriptors/>
+                <components/>
+            </compox>
+        </compoxes>
+    </resourceCluster>
+</computionCluster>

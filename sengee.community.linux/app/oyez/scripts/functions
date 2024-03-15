@@ -1,0 +1,48 @@
+function check_file_exist {
+  if [ ! -f $1 ];then
+    echo "File $1 does not exists..."
+    exit 1
+  fi
+}
+
+function check_file_exec {
+  check_file_exist $1;
+  if [ ! -e $1 ];then
+    echo "File $1 is not executable..."
+    exit 1
+  fi
+}
+
+function check_dir_exist {
+  if [ ! -d $1 ];then
+    echo "Directory $1 does not exists..."
+    exit 1
+  fi
+}
+
+function check_var_exist {
+  res=`eval echo '$'"$1"`
+  if [  "$res" == ""  ];then
+    echo "Environment variable "$1" does not exists..."
+    exit 1 
+  fi
+}
+
+function getpids {
+  for i in $@;do
+    for f in `ps --ppid $i| awk '{if($1~/[0-9]+/) print $1}'| xargs`;do
+	 echo "$f `getpid $f | xargs`" 
+    done
+  done
+}
+
+function getChildPids {
+  pid=$1
+  echo `ps --ppid $pid | awk '{if($1~/[0-9]+/) print $1}' | xargs`
+}
+
+function getParentPid {
+    pid=$1
+    echo `ps -p ${pid:-$$} -o ppid=`
+}
+

@@ -1,0 +1,216 @@
+application:
+  version: 1.0-SNAPSHOT
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    url: jdbc:mysql://datayoo.mysql:3306/sengee?characterEncoding=UTF8&useSSL=false
+    username: root
+    password: datayoo@123
+    driverClassName: com.mysql.cj.jdbc.Driver
+    initial-size: 5
+    min-idle: 5
+    max-idle: 100
+    max-wait: 10000
+    max-lifetime: 800000
+    validation-query: SELECT 1
+    test-while-idle: true
+    time-between-eviction-runs-millis: 27800
+    test-on-borrow: true
+    hikari:
+      connection-timeout: 10000
+      validation-timeout: 3000
+      idle-timeout: 60000
+      login-timeout: 5        
+      max-lifetime: 60000
+      maximum-pool-size: 10
+      minimum-idle: 5
+      read-only: false
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    show-sql: false
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    database: mysql
+  servlet:
+    multipart:
+      max-file-size: 700MB
+      max-request-size: 700MB
+      enabled: true
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+server:
+  servlet:
+    context-path: /sengee
+  port: 38500
+
+feign:
+  hystrix:
+    enabled: false
+
+logging:
+  config: classpath:logback-pro.xml
+
+swagger:
+  enable: true
+
+sengee:
+  config:
+    file: classpath:sengee.yaml
+  operator:
+    operatorBaseDir: ./data/operators
+    uploadDir: upload
+    loadOperator: update
+    #loadOperator: create
+    operateTypesFile: classpath:operator/operatorGroups.xml
+    dbLoad: true
+    scanPackages: org.datayoo.sengee.op,org.datayoo.sengee.opd,org.datayoo.oyez.op,org.datayoo.moz.op,org.datayoo.moz.sop,org.datayoo.moz.bop,org.datayoo.gosooz.op,org.datayoo.gosooz.bop 
+    portraitPath: ./config/operator/portraits
+  descriptor:
+    path: ./config/descriptor
+  process:
+    computionframework: oyez
+    type: 
+
+
+brackets:
+  remote:
+    url: http://datayoo.brackets:38600/brackets
+
+authx:
+  service:
+    url: http://datayoo.authx:38700/authx
+  navigators:
+     - name: ServiceSetting.group.CREATE
+       alias: 创建服务配置组
+       uri: 
+       client: sengee
+     - name: Flow
+       alias: 流程
+       uri: /process
+       client: sengee
+     - name: Flow.View
+       alias: 浏览数据
+       uri:
+       client: sengee
+     - name: Job
+       alias: 作业
+       uri: /job
+       client: sengee
+     - name: Job.View
+       alias: 浏览数据
+       uri:
+       client: sengee
+     - name: Model
+       alias: 模型
+       uri: /model
+       client: sengee
+     - name: Model.View
+       alias: 浏览数据
+       uri:
+       client: sengee
+     - name: Environment
+       alias: 环境管理
+       uri: /environment
+       client: sengee
+     - name: Environment.Cluster
+       alias: 集群
+       uri:
+       client: sengee
+     - name: Environment.Cluster.Create
+       alias: 创建集群
+       uri:
+       client: sengee
+     - name: Environment.Cluster.Delete
+       alias: 批量删除
+       uri:
+       client: sengee
+     - name: Environment.Cluster.View
+       alias: 浏览数据
+       uri:
+       client: sengee
+     - name: Environment.Worknode
+       alias: 工作节点
+       uri:
+       client: sengee
+     - name: Resource
+       alias: 资源库
+       uri: /resource
+       client: sengee
+     - name: Resource.DataSource
+       alias: 数据源库
+       uri: /resource/datasource
+       client: sengee
+     - name: Resource.DataSource.Upload
+       alias: 上传数据源
+       uri:
+       client: sengee
+     - name: Resource.DataSource.Delete
+       alias: 删除数据源
+       uri:
+       client: sengee
+     - name: Resource.DataSource.View
+       alias: 浏览数据
+       uri:
+       client: sengee
+     - name: Resource.Operator
+       alias: 算子库
+       uri: /resource/operator
+       client: sengee
+     - name: Resource.Operator.View
+       alias: 浏览数据
+       uri:
+       client: sengee
+     - name: Resource.Function
+       alias: 函数库
+       uri: /resource/function
+       client: sengee
+     - name: Resource.Script
+       alias: 脚本库
+       uri: /resource/script
+       client: sengee
+     - name: Resource.Dictionary
+       alias: 字典库
+       uri: /resource/dictionary
+       client: sengee
+     - name: Retrieval
+       alias: 数据检索
+       uri: /retrieval
+       client: sengee
+  entityTypes:
+     - name: PrcGrp
+       alias: 流程组
+       client: sengee
+       behaviors: create,update,delete,flow.create,flow.batchDelete
+     - name: JobGrp
+       alias: 作业组
+       client: sengee
+       behaviors: create,update,delete,job.create,job.batchDelete
+     - name: OpGrp
+       alias: 算子组
+       client: sengee
+       behaviors: create,update,delete,operator.import,operator.batchDelete
+     - name: SettingsGrp
+       alias: 服务配置组
+       client: sengee
+       behaviors: create,update,delete,settings.create,settings.batchDelete
+     - name: ModelGrp
+       alias: 模型组
+       client: sengee
+       behaviors: create,update,delete,model.import,model.batchDelete
+     - name: PromptGrp
+       alias: PromptGrp
+       client: sengee
+       behaviors: prompt.import,create,update,delete
+program:
+  package:
+    path: ./data/program/temp
+
+mybatis:
+  mapperLocations: classpath:mybatis/*Mapper.xml
+
+running:
+  mode: local

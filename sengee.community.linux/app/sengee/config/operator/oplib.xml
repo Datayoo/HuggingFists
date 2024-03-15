@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opprofiles>
+  <opprofile name="ApiGraphOperator" type="Control" clazz="org.datayoo.sengee.op.container.ApiGraphDescriptor" portrait="" version="1.0" computionFramework="sengee" atom="false">
+    <outport name="result" dataType="/"/>
+    <provider>DataYoo</provider>
+    <dependencies/>
+    <opimplementers>
+      <opimplementer clazz="org.datayoo.oyez.op.ApiGraphOperator" computionFramework="oyez" version="1.0">
+        <outport name="result" dataType="/"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+    </opimplementers>
+  </opprofile>
+  <opprofile name="ProcessOperator" type="Control" clazz="org.datayoo.sengee.op.container.ProcessDescriptor" portrait="" version="1.0" computionFramework="sengee" atom="false">
+    <inport name="inport1" dataType="/" extendable="true"/>
+    <outport name="result1" dataType="/" extendable="true" connectionLimit="1"/>
+    <outport name="outport1" dataType="/" extendable="true"/>
+    <provider>DataYoo</provider>
+    <debugCacheable>true</debugCacheable>
+    <dependencies/>
+    <opimplementers>
+      <opimplementer clazz="org.datayoo.gosooz.op.ProcessOperator" computionFramework="sparkBatch" version="1.0">
+        <inport name="inport1" dataType="/" extendable="true"/>
+        <outport name="result1" dataType="/" extendable="true"/>
+        <outport name="outport1" dataType="/" extendable="true"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+      <opimplementer clazz="org.datayoo.moz.op.MozProcessOperator" computionFramework="flinkStream" version="1.0">
+        <inport name="inport1" dataType="/" extendable="true"/>
+        <outport name="outport1" dataType="/" extendable="true"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+      <opimplementer clazz="org.datayoo.moz.op.MozBatchProcessOperator" computionFramework="flinkBatch" version="1.0">
+        <inport name="inport1" dataType="/" extendable="true"/>
+        <outport name="outport1" dataType="/" extendable="true"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+      <opimplementer clazz="org.datayoo.oyez.op.ProcessOperator" computionFramework="oyez" version="1.0">
+        <inport name="inport1" dataType="/" extendable="true"/>
+        <outport name="result1" dataType="/" extendable="true"/>
+        <outport name="outport1" dataType="/" extendable="true"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+    </opimplementers>
+  </opprofile>
+  <opprofile name="ProcessReference" type="Control" clazz="org.datayoo.sengee.op.ref.ProcessReferenceDescriptor" portrait="" version="1.0" computionFramework="sengee" atom="true">
+    <provider>DataYoo</provider>
+    <dependencies/>
+    <opimplementers/>
+  </opprofile>
+  <opprofile name="JobReference" type="Control" clazz="org.datayoo.sengee.op.ref.JobReferenceDescriptor" portrait="" version="1.0" computionFramework="sengee" atom="true">
+    <provider>DataYoo</provider>
+    <dependencies/>
+    <opimplementers>
+      <opimplementer clazz="org.datayoo.oyez.op.JobReferenceOperator" computionFramework="oyez" version="1.0">
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+    </opimplementers>
+  </opprofile>
+  <opprofile name="ChainOperator" type="Control" clazz="org.datayoo.sengee.op.container.ChainDescriptor" portrait="" version="1.0" computionFramework="sengee" atom="false">
+    <inport name="inport1" dataType="/" extendable="true"/>
+    <outport name="outport1" dataType="/" extendable="true"/>
+    <provider>DataYoo</provider>
+    <debugCacheable>true</debugCacheable>
+    <dependencies/>
+    <opimplementers>
+      <opimplementer clazz="org.datayoo.oyez.op.ChainOperator" computionFramework="oyez" version="1.0">
+        <inport name="inport1" dataType="/" extendable="true"/>
+        <outport name="outport1" dataType="/" extendable="true"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+    </opimplementers>
+  </opprofile>
+  <opprofile name="ConsoleOutput" type="Debug" clazz="org.datayoo.sengee.op.debug.ConsoleOutputDescriptor" portrait="" version="1.0" computionFramework="sengee">
+    <inport name="inport" dataType="/" option="false"/>
+    <provider>DataYoo</provider>
+    <dependencies/>
+    <opimplementers>
+      <opimplementer clazz="org.datayoo.gosooz.op.ConsoleOutputOperator" computionFramework="sparkBatch" version="1.0">
+        <inport name="inport" dataType="/" option="false"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+      <opimplementer clazz="org.datayoo.moz.op.MozConsoleOutputOperator" computionFramework="flinkStream" version="1.0">
+        <inport name="inport" dataType="/" option="false"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+      <opimplementer clazz="org.datayoo.oyez.op.debug.ConsoleOutputOperator" computionFramework="oyez" version="1.0">
+        <inport name="inport" dataType="/" option="false"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+      <opimplementer clazz="org.datayoo.moz.op.MozBatchConsoleOutputOperator" computionFramework="flinkBatch" version="1.0">
+        <inport name="inport" dataType="/" option="false"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+    </opimplementers>
+  </opprofile>
+  <opprofile name="DataGenerator" type="Debug" clazz="org.datayoo.sengee.op.debug.DataGenerationDescriptor" portrait="" version="1.0" computionFramework="sengee">
+    <parameters>
+      <parameter name="size">10000</parameter>
+      <parameter name="interval">500</parameter>
+      <parameter name="generator"></parameter>
+    </parameters>
+    <outport name="outport" dataType="/"/>
+    <provider>DataYoo</provider>
+    <dependencies/>
+    <opimplementers>
+      <opimplementer clazz="org.datayoo.gosooz.op.DataGenerationOperator" computionFramework="sparkBatch" version="1.0">
+        <outport name="outport" dataType="/"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+      <opimplementer clazz="org.datayoo.moz.op.MozDataGenerationOperator" computionFramework="flinkStream" version="1.0">
+        <outport name="outport" dataType="/"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+      <opimplementer clazz="org.datayoo.moz.op.MozBatchDataGenerationOperator" computionFramework="flinkBatch" version="1.0">
+        <outport name="outport" dataType="/"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+      <opimplementer clazz="org.datayoo.oyez.op.debug.DataGenerationOperator" computionFramework="oyez" version="1.0">
+        <outport name="outport" dataType="/"/>
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+    </opimplementers>
+  </opprofile>
+  <opprofile name="ConsoleInput" type="Debug" clazz="org.datayoo.sengee.op.debug.ConsoleInputDescriptor" portrait="" version="1.0" computionFramework="sengee">
+    <parameters>
+      <parameter name="success">true</parameter>
+      <parameter name="blockTime">3000</parameter>
+    </parameters>
+    <provider>DataYoo</provider>
+    <dependencies/>
+    <opimplementers>
+      <opimplementer clazz="org.datayoo.oyez.op.debug.ConsoleInputAction" computionFramework="oyez" version="1.0">
+        <provider>DataYoo</provider>
+        <dependencies/>
+      </opimplementer>
+    </opimplementers>
+  </opprofile>
+</opprofiles>
