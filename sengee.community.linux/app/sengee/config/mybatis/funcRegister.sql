@@ -1,2 +1,0 @@
-CREATE ALIAS UNIX_TIMESTAMP FOR "org.datayoo.sengee.repository.mapper.function.H2UnixTimestamp.unixTimestamp";
-CREATE ALIAS FROM_UNIXTIME FOR "org.datayoo.sengee.repository.mapper.function.H2FromUnixtime.fromUnixtime";
