@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Sengee</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script type="text/javascript">
+    function isMac() {
+      return /macintosh|mac os x/i.test(navigator.userAgent);
+    }
+    function loadStyle(url) {
+      var link = document.createElement("link");
+      link.type = "text/css";
+      link.rel = "stylesheet";
+      link.href = url;
+      document.getElementsByTagName("head")[0].appendChild(link);
+    }
+    if (!isMac()) loadStyle('./assets/css/scrollbar.css');
+
+    window.ssoEnable = false;
+    window.ssoUrl = 'http://172.16.8.43:8010/#/login?redirect=';
+    window.ssoLogout = 'http://www.baidu.com';
+  </script>
+<style>html,body{min-width:1366px}html{--ant-primary-color:#2a8b92;--primary-color-highlight:#d9fbfd;--primary-color-2highlight:#00eeff;--body-background:#fbffff;--text-color:#396669;--layout-sider-background:#e2eeee;--border-color-base:#dbe9ea;--table-header-bg:#c8dde0;--table-selected-bg-parameters:#d1e9ed;--group-bg:#f7fdfd;--item-bg:#f1fdfd;--admin-sider-highlight:#44aaae;--td-icon1:#4da79d;--td-icon2:#50a617;--td-icon3:#b2c56f;--td-icon-delete:#aec5c7;--header-bg:var(--ant-primary-color);--selected-color:var(--layout-sider-background)}</style><link rel="stylesheet" href="styles.abc148ee2cf43901.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.abc148ee2cf43901.css"></noscript></head>
+<body>
+  <app-root></app-root>
+<script src="runtime.d6541d94f8d298ae.js" type="module"></script><script src="polyfills.d7ef8f898226f5b3.js" type="module"></script><script src="scripts.47f1c9748bc127e3.js" defer></script><script src="main.9fa387d42f7d26c2.js" type="module"></script>
+
+</body></html>

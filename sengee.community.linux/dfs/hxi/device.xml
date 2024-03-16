@@ -1,0 +1,35 @@
+<devs>
+	<dev>
+		<devid>1</devid>
+		<type>router</type>
+		<name>dev1</name>
+		<vendor>3com</vendor>
+		<ips>
+			<ip>192.168.10.201</ip>
+			<ip>192.168.10.202</ip>
+			<ip>192.168.10.203</ip>
+		</ips>		
+	</dev>
+	<dev>
+		<devid>2</devid>
+		<type>switch</type>
+		<name>dev2</name>
+		<vendor>akamai</vendor>
+		<ips>
+			<ip>192.168.15.201</ip>
+			<ip>192.168.15.202</ip>
+			<ip>192.168.15.203</ip>
+		</ips>		
+	</dev>
+	<dev>
+		<devid>3</devid>
+		<type>geteway</type>
+		<name>dev3</name>
+		<vendor>amazon</vendor>
+		<ips>
+			<ip>192.168.20.201</ip>
+			<ip>192.168.20.202</ip>
+			<ip>192.168.20.203</ip>
+		</ips>		
+	</dev>
+</devs>

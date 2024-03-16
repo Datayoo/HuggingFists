@@ -1,0 +1,16 @@
+device,type,vendor,count
+device1,router,360奇安信,3
+device2,switch,3com,5
+device3,firewall,akamai,120
+device4,router,amazon,22
+device5,switch,D盾,34
+device6,firewall,F5,35
+device5,firewall,D盾,34
+device6,router,F5,35
+device7,switch,fortinet,11
+device8,firewall,F5,35
+device9,router,fortinet,11
+device10,firewall,fortinet,11.1
+device10,firewall,fortinet,11.1
+device11,router,fortinet,15.6
+device12,switch,D盾,34
