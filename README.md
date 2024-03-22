@@ -22,7 +22,7 @@ Navigate to sengee.community.linux and run the installation script with bash ins
 After the script execution is complete, you can test if the system is correctly installed by using curl *http://localhost:38172*. Once the installation is finished, you can access the tool's interface by visiting the URL: *"http://serverIP:38172"*. If you are unable to access the page externally, you can try restarting the server once, as the operator platform will start automatically on boot! For friends in China who experience slow access to GitHub, you can download the files from *https://share.weiyun.com/mmmowpEX*.
 
 **Windows**
-For Windows users, you can download the Windows version from the following link: *https://pan.quark.cn/s/f1f8e4e1a5d9*. 
+For Windows users, you can download the Windows version from the following link: *https://share.weiyun.com/2eDVeN8Q*. 
 Follow the installation guide to install the Windows version. 
 After the installation, click on the shortcut to launch HuggingFists. It may take a few minutes to start up, and once the startup is complete, a browser window will automatically pop up.
 ![](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/5.png)
