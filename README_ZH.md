@@ -1,4 +1,4 @@
-[中文](https://github.com/Datayoo/HuggingFists/blob/main/README_ZH.md) | [English](https://github.com/Datayoo/HuggingFists/blob/main/README.md) 
+中文 | [English](https://github.com/Datayoo/HuggingFists/blob/main/README.md) 
 # HuggingFists
 
 ​	
@@ -26,9 +26,8 @@
 ​	脚本执行结束后，可通过curl http://localhost:38172 测试系统是否正确安装。安装结束后，可通过访问url地址：“http://服务器IP:38172” 打开工具使用界面。
  如果外部无法访问到页面，可以将服务器重启一次再试,算子平台会开机自启! 中国国内访问github较慢的朋友，可以移步到[https://share.weiyun.com/mmmowpEX](https://share.weiyun.com/mmmowpEX) 进行下载。
 #### Windows
-- Windows版的下载地址：https://share.weiyun.com/2eDVeN8Q
-- 按照安装向导安装Windows版软件
-- 安装结束后，点击快捷方式启动HuggingFists。启动需要几分钟，启动完成后，自动弹出浏览器窗口。
+- Windows版的下载地址：[https://share.weiyun.com/2eDVeN8Q](https://share.weiyun.com/2eDVeN8Q)
+- 参见[Windows安装说明](https://github.com/Datayoo/HuggingFists/blob/main/HuggingFists%20windows%E7%89%88%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E.docx) 
 
 ![](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/5.png)
 
