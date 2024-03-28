@@ -114,6 +114,8 @@ Once you have selected the desired dataset, you can define a data processing flo
 ![image-20231004092415115](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/huggingfacereader.png)
 By following these steps, users can easily access datasets on Hugging Face and incorporate them into their data processing workflows for various applications.
 
+## WeChat Group
+![image-20231004092415115](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/code.png)
 
 **Reference**
 =============
