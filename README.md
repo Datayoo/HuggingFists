@@ -1,4 +1,4 @@
-[中文](https://github.com/Datayoo/HuggingFists/blob/main/README_ZH.md) | [English](https://github.com/Datayoo/HuggingFists/blob/main/README.md)
+[中文](https://github.com/Datayoo/HuggingFists/blob/main/README_ZH.md) | English
 
 **HuggingFists**
 ================
@@ -23,8 +23,8 @@ After the script execution is complete, you can test if the system is correctly 
 
 **Windows**
 For Windows users, you can download the Windows version from the following link: *https://share.weiyun.com/2eDVeN8Q*. 
-Follow the installation guide to install the Windows version. 
-After the installation, click on the shortcut to launch HuggingFists. It may take a few minutes to start up, and once the startup is complete, a browser window will automatically pop up.
+See [Windows installation instructions](https://github.com/Datayoo/HuggingFists/blob/main/HuggingFists%20windows%E7%89%88%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E.docx)
+
 ![](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/5.png)
 
 **System Overview**
