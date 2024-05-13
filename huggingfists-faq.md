@@ -24,13 +24,13 @@ linux版本下可以查看install.sh文件，文件中的命令基于centos7编�
 
 #### 系统中找不到视频中相关的算子
 
-​	HuggingFists视频中的算子如果在系统中找不到，可以到https://github.com/Datayoo/Operators工程中寻找并下载安装。安装时，先安装descriptor结尾的zip包，再安装oyez结尾的zip包。如果这里也没有你需要的算子，可以加入技术支持群寻求支持。
+​	HuggingFists视频中的算子如果在系统中找不到，可以到https://github.com/Datayoo/Operators 工程中寻找并下载安装。安装时，先安装descriptor结尾的zip包，再安装oyez结尾的zip包。如果这里也没有你需要的算子，可以加入技术支持群寻求支持。
 
 ​	安装方法：HuggingFists系统的"资源库"->"算子库"，点击“上传”按钮，上传安装包。安装后系统会返回安装结束，相关算子会自动上传到对应的算子分组下，在当前的界面无法确认安装了多少个算子。可切换到“检索”界面检索相关算子，也可进入流程编辑界面搜索使用对应算子。
 
 #### 系统中找不到视频中相关的连接器
 
-​	HuggingFists视频中的连接器如果在系统中找不到，可以到https://github.com/Datayoo/Connectors工程中寻找并下载安装。如果这里也没有你需要的连接器，可以加入技术支持群寻求支持。
+​	HuggingFists视频中的连接器如果在系统中找不到，可以到https://github.com/Datayoo/Connectors 工程中寻找并下载安装。如果这里也没有你需要的连接器，可以加入技术支持群寻求支持。
 
 ​	安装方法：HuggingFists系统的"资源库"->"连接器库"，点击“上传”按钮，上传安装包。安装后系统会返回安装结束，当前页面可以看到安装成功的连接器。
 
