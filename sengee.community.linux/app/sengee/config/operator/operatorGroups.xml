@@ -196,6 +196,21 @@
                 <i18ns en_US="video" zh_CN="视频"/>
             </group>
         </group>
+        <group name="analyzation" opCats="analyzation">
+            <i18ns en_US="analyzation" zh_CN="分析"/>
+            <!--            <group name="stream" opCats="analyzation,stream">-->
+            <!--                <i18ns en_US="stream" zh_CN="文件"/>-->
+            <!--            </group>-->
+            <group name="img" opCats="analyzation,img">
+                <i18ns en_US="img" zh_CN="图像"/>
+            </group>
+            <!--            <group name="audio" opCats="analyzation,audio">-->
+            <!--                <i18ns en_US="audio" zh_CN="音频"/>-->
+            <!--            </group>-->
+            <!--            <group name="video" opCats="analyzation,video">-->
+            <!--                <i18ns en_US="video" zh_CN="视频"/>-->
+            <!--            </group>-->
+        </group>
         <group name="classification" opCats="classification">
             <i18ns en_US="classification" zh_CN="分类"/>
             <group name="stream" opCats="classification,stream">
@@ -213,9 +228,6 @@
         </group>
         <group name="generator" opCats="generator">
             <i18ns en_US="generator" zh_CN="生成"/>
-            <group name="stream" opCats="generator,stream">
-                <i18ns en_US="stream" zh_CN="文件"/>
-            </group>
             <group name="img" opCats="generator,img">
                 <i18ns en_US="img" zh_CN="图像"/>
             </group>
@@ -223,6 +235,18 @@
                 <i18ns en_US="audio" zh_CN="音频"/>
             </group>
             <group name="video" opCats="generator,video">
+                <i18ns en_US="video" zh_CN="视频"/>
+            </group>
+        </group>
+        <group name="similarity" opCats="similarity">
+            <i18ns en_US="similarity" zh_CN="相似"/>
+            <group name="img" opCats="similarity,img">
+                <i18ns en_US="img" zh_CN="图像"/>
+            </group>
+            <group name="audio" opCats="similarity,audio">
+                <i18ns en_US="audio" zh_CN="音频"/>
+            </group>
+            <group name="video" opCats="similarity,video">
                 <i18ns en_US="video" zh_CN="视频"/>
             </group>
         </group>
@@ -262,6 +286,9 @@
     </group>
     <group name="processing" opType="Processing">
         <i18ns en_US="processing" zh_CN="处理"/>
+        <group name="caller" opCats="caller">
+            <i18ns en_US="caller" zh_CN="服务调用"/>
+        </group>
         <group name="column" opCats="column">
             <i18ns en_US="column" zh_CN="列值处理"/>
             <group name="coding" opCats="column,coding">
@@ -387,6 +414,9 @@
         </group>
         <group name="script" opCats="script">
             <i18ns en_US="script" zh_CN="脚本"/>
+        </group>
+        <group name="aigc" opCats="aigc,generator">
+            <i18ns en_US="aigc" zh_CN="智能生成"/>
         </group>
         <group name="generator" opCats="generator">
             <i18ns en_US="generator" zh_CN="生成"/>
