@@ -66,11 +66,16 @@ sengee:
 
 tozoo:
   service:
-    url: http://172.31.179.129:38800/member
+    url: http://172.19.56.250:8080/member
 
 authx:
   service:
-    url: http://172.31.179.129:38700/authx
+    url: http://172.19.56.250:8080/authx
+
+upgrader:
+  upload:
+    path: ./upgrader
+
 auth:
   adapter:
   navigators:
@@ -108,12 +113,16 @@ auth:
       uri: 8As5ndg38iMpkBEuVb1CTw==
     - name: 5EwQQKvEk/33zirJ2fHjbg==
       uri: 1SFqemkeVChON/aNC1e26A==
+    - name: Rdx5nPB7Ej6F1E1wlSP7dg==
+      uri: GbBWogqr8D+a1DIGSn1wSw==
     - name: vjhz4U5h6cOddJNQxnmCQQ==
       uri: BGgvHgXLVJe3m/JOQhka6A==
     - name: TLL2AlSacO7NhNjRYcGWvDpeeg7WUGCuG2tJZG/jAzw=
     - name: TLL2AlSacO7NhNjRYcGWvOPG0vl1WluERBCEoWQ1mhA=
     - name: mjWleMRLJ5wwO4Zm/8+QFwQW09g2/Yb7BvEv/fPB8C4=
       uri: tMKjCUVTZe4tsD5Z7gMROt/N1+9xez/9x6mfc5jjHNE=
+    - name: pSGvXFAEx50A2waJmtooILNJHDt9NM8Psxg28DxfT5w=
+      uri: bcq4for3bXrL7a9XwumY/U1CeiX0upHxkP+HupsSYHM=
     - name: ZwL/32nI0PU3bFt6vl0aeQ==
       uri: cQmt++iUBq04gjRp1GMMgQ==
     - name: poJwk9MYPScwn/pMW1CcuF3hPx13UT+YPUbm5iAmE74=
@@ -124,6 +133,12 @@ auth:
       uri: niPDVf/KJLWqbgYW+ChtBF3hPx13UT+YPUbm5iAmE74=
     - name: +9et1/J5NcwaHO4Shj2xD1NzCm6ZkD0AViko+32rgNs=
       uri: niPDVf/KJLWqbgYW+ChtBKT0mWVoBn3Nf0wj4z0FGnc=
+    - name: +9et1/J5NcwaHO4Shj2xD0yMUb8Ke9lwHR+nUJLAyj8=
+      uri: niPDVf/KJLWqbgYW+ChtBKv1HP9CpEMKYHo2q7CLR5Q=
+    - name: +9et1/J5NcwaHO4Shj2xD4G54AeNDkHTjbiwAYdzwOA=
+      uri: niPDVf/KJLWqbgYW+ChtBNOo9qQbZJhzoh8XiHNoJh4=
+    - name: idculi8V1yIq1sju//GDmA==
+      uri: 4h72JTjJEWIgE2eCxKyTFJOEfdfnYlHAjjs3GgF343s=
     - name: IgNNvcTy9KGZ3o8j/RLRrzHS0eQAjgjlrJn0CtoNgHc=
       uri: 4h72JTjJEWIgE2eCxKyTFD8h06LVQTFYJ3DvqYTtf0c=
     - name: IgNNvcTy9KGZ3o8j/RLRr5PTh0tGwTzvm57tKCNEblw=
@@ -134,16 +149,8 @@ auth:
       uri: 3RB1OalGAMsuXDsZxmxQQ5OEfdfnYlHAjjs3GgF343s=
     - name: lqENAryztVkc2dL3r7V/zD0OpiP4rgEbjrKCZMsVYsE=
       uri: hb/r68Uv8rw+CgCVxtxd48kn8wmj9UkyhcCY4ce+InE=
-    - name: k9OHS0bBPO+bnu0oI0RuXA==
-      uri: WKOmjbtCk+WK0DufvTujeg==
     - name: 8/RFezmFGQzN1LyjhIUUjA==
       uri: lIL+70efWzYPiOPb5ATqEpOEfdfnYlHAjjs3GgF343s=
-    - name: 88R8/fXVQ5X2KrlKQ+uOI5OEfdfnYlHAjjs3GgF343s=
-      uri: 1a+lVCgJ7yjv+fgw3h1GcZo/B1U4zIs1jQm6GNLi4Es=
-    - name: 88R8/fXVQ5X2KrlKQ+uOI1wN/+lfvGZzruwyaYRoJ6I=
-      uri: 1a+lVCgJ7yjv+fgw3h1Gcb1htJaNHjslaP1mFGyAyOc=
-    - name: 88R8/fXVQ5X2KrlKQ+uOI2GLgt+pc6vsfbCl9T1JkG8=
-      uri: 1a+lVCgJ7yjv+fgw3h1GcdtWBe9n9wM3SlE0DE1xR/s=
     - name: 88R8/fXVQ5X2KrlKQ+uOIzzDzFM4sdUfkuhBVFcKr5Q=
       uri: 1a+lVCgJ7yjv+fgw3h1GcdYal4Hfh2qPK/sc2/s6aLo=
     - name: 88R8/fXVQ5X2KrlKQ+uOI5WeTyf3+p5EHDrV/R4NXrgowN35As82pxrnykEVSyyf
@@ -163,15 +170,17 @@ auth:
     - name: Xudv8a2oCRTMDauQhUpyHg==
       uri: zBz0tZ5NYcPftKiJKaZZkpOEfdfnYlHAjjs3GgF343s=
     - name: Ocr4ihOuIWjoZBBuxWGzvNTDNeDqArJ9Jy6bO4s7KCY=
+    - name: Zlntc7btZZSqemCB9TL93A==
     - name: idculi8V1yIq1sju//GDmA==
       uri: 4h72JTjJEWIgE2eCxKyTFJOEfdfnYlHAjjs3GgF343s=
-    - name: pSGvXFAEx50A2waJmtooILNJHDt9NM8Psxg28DxfT5w=
-      uri: bcq4for3bXrL7a9XwumY/U1CeiX0upHxkP+HupsSYHM=
-    - name: idculi8V1yIq1sju//GDmA==
-      uri: 4h72JTjJEWIgE2eCxKyTFJOEfdfnYlHAjjs3GgF343s
     - name: KIatH1vxyJ1ZYmYOHneSS6aoALgUQ7SKvFhVKy0cM2M=
     - name: KIatH1vxyJ1ZYmYOHneSS8vMksVxy60RTV2YAiZJ6Rk=
     - name: KIatH1vxyJ1ZYmYOHneSS5yNWsLVHCKcqhtwNadBA1I=
+    - name: 2dqbn/Z8KjlcVypRdHZVMQ==
+    - name: QdYkND2yzoyjmMe3aQKahQ==
+      uri: RH+oDbGDmUpkylwdRy7NuQ==
+    - name: 88R8/fXVQ5X2KrlKQ+uOI5OEfdfnYlHAjjs3GgF343s=
+      uri: 1a+lVCgJ7yjv+fgw3h1GcZo/B1U4zIs1jQm6GNLi4Es=
   entityTypes:
     - name: AuthSetting
       client: authx
@@ -205,6 +214,3 @@ auth:
       alias: PromptGrp
       client: sengee
       behaviors: prompt.import,create,update,delete
-
-default:
-  username: admin
