@@ -105,9 +105,13 @@ services:
       - TZ=Asia/Shanghai
     volumes:
       - ./app/authx:/home/datayoo/app/authx
+      - ./app/sengee:/home/datayoo/app/sengee
+      - ./app/brackets:/home/datayoo/app/brackets
+      - ./app/oyez:/home/datayoo/app/oyez
       - ./app/lib:/home/datayoo/app/authx/lib
       - ./app/authx/scripts:/home/datayoo/scripts
       - ./app/authx/logs/:/home/datayoo/logs
+
     hostname: datayoo.authx
   mysql:
     restart: always
