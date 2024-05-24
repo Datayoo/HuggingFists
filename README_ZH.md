@@ -21,7 +21,9 @@
 #### Linux
 
 - 从git上拉取工程文件 git clone https://github.com/Datayoo/HuggingFists.git, 或者直接使用download zip下载。需要注意的是，当使用Windows操作系统克隆项目时，Linux脚本文件中的'\n'会被替换为'\r\n'。当拷贝项目到Linux系统下时，由于'\n'的不同，脚本会无法执行。使用IDEA的开发者可以参考[配置 Git 处理行结束符](https://docs.github.com/zh/get-started/getting-started-with-git/configuring-git-to-handle-line-endings?platform=windows)解决问题。
-- 进入sengee.community.linux,执行安装脚本 bash install.sh。
+- 进入sengee.community.linux, 
+  未安装docker的，执行安装脚本 bash install.sh，会自动安装containerd。
+  已经安装docker的，可以执行bash install_for_docker.sh
 
 ​	脚本执行结束后，可通过curl http://localhost:38172 测试系统是否正确安装。安装结束后，可通过访问url地址：“http://服务器IP:38172” 打开工具使用界面。
  如果外部无法访问到页面，可以将服务器重启一次再试,算子平台会开机自启! 中国国内访问github较慢的朋友，可以移步到[https://share.weiyun.com/mmmowpEX](https://share.weiyun.com/mmmowpEX) 进行下载。
