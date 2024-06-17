@@ -70,6 +70,9 @@ linux版本下可以查看install.sh文件，文件中的命令基于centos7编�
 
 #### MySQL常见问题
   The server time zone value 'xxxxxxx' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver
+  
   该异常表示MySQL服务器时区与HuggingFist容器时区不一致，需调整MySQL时区或在连接时附加时区,可参考文章 https://stackoverflow.com/questions/50493398/mysql-connector-error-the-server-time-zone-value-central-european-time
+  
   若需要在HuggingFist连接时配置时区，可参考下图，其中UTC可按自己实际情况调整
+  
   ![](docs/imgs/mysql_timezone.jpg)
