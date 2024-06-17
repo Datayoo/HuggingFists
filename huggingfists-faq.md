@@ -67,3 +67,9 @@ linux版本下可以查看install.sh文件，文件中的命令基于centos7编�
 #### 使用localhost作为地址为什么无法创建本地数据库连接
 
 ​	由于HuggingFists采用的容器技术进行的安装，当使用者配置地址为localhost时，实际表示的是容器本身而并非我们习惯上认为的当前设备。所以，当客户需要连接当前设备上的数据库时，需要查看设备的IP地址，并配置该IP作为数据库地址，创建数据库连接。
+
+#### MySQL常见问题
+  The server time zone value 'xxxxxxx' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver
+  该异常表示MySQL服务器时区与HuggingFist容器时区不一致，需调整MySQL时区或在连接时附加时区,可参考文章 https://stackoverflow.com/questions/50493398/mysql-connector-error-the-server-time-zone-value-central-european-time
+  若需要在HuggingFist连接时配置时区，可参考下图，其中UTC可按自己实际情况调整
+  ![](../docs/imgs/mysql_timezone.jpg)
