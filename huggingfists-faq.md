@@ -88,7 +88,7 @@ linux版本下可以查看install.sh文件，文件中的命令基于centos7编�
 #### Neo4J常见问题
   
 ###### 配置问题
-  在HuggingFists这中Neo4J连接默认使用bolt协议,连接配置中[数据库地址]填写ip即可(注:不可使用localhost,[具体原因见](#localhost))
+  在HuggingFists这中Neo4J连接默认使用bolt协议,连接配置中[数据库地址]填写ip即可(注:不可使用localhost,具体原因见[使用localhost作为地址为什么无法创建本地数据库连接](#localhost))
   
 ###### 远程连接问题
   Windows中安装Neo4J默认bolt未开启远程连接,可以找到neo4j.conf配置文件,修改配置dbms.connector.bolt.listen_address=0.0.0.0:7687并重启Neo4J即可(注:7687未默认端口,可依据环境调整)
