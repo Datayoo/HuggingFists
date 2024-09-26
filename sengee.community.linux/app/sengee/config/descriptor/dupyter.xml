@@ -1,0 +1,10 @@
+<resourcedescriptor name="dupyter" alias="Dupyter"
+                    type="dupyter" category="dupyter">
+        <parameters>
+            <parametergroup name="general" c_Alias="访问配置" c_Compox="sightx-tab">
+                    <parameter name="url" c_Alias="地址" c_Option="false"
+                               c_Compox="sightx-input" c_Index="0" >
+                    </parameter>
+            </parametergroup>
+        </parameters>
+</resourcedescriptor>
