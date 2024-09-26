@@ -63,6 +63,7 @@
     "streamMetas": "StreamMetas",
     "variable": "Variable",
     "success": " Successed.",
+    "error": "Error.",
     "exist": " already exists, please modify.",
     "location": "Current Location",
     "basicInfo": "Basic Info",
@@ -76,7 +77,7 @@
     "items": "items",
     "forward": "Forward",
     "backoff": "Back Off",
-    "gobackDirectory": "Go Back",
+    "onReturn": "Go Back",
     "settings": "Batch Delete ServiceSetting",
     "setFilter": "Set Filter",
     "all": "All",
@@ -116,6 +117,7 @@
     "operator": "Operator",
     "port": "Port",
     "model": "Model",
+    "bundle": "Bundle",
     "retrieval": "Retrieval",
     "boot": "Boot",
     "start": "Start",
@@ -123,7 +125,9 @@
     "deploy": "Deploy",
     "renew": "Update",
     "format": "Format",
-    "selectGroup": "Select Group"
+    "selectGroup": "Select Group",
+    "onlyZip": "Only zip packages can be uploaded!",
+    "upgrade": "Upgrade"
   },
   "Authorization": "Role / User Group",
   "ResourceSpace": "Resource Space",
@@ -140,8 +144,10 @@
   "ApiGrp": "API Group",
   "OpGrp": "Operator Group",
   "ModelGrp": "Model Group",
+  "BundleGrp": "Bundle Group",
   "SettingsGrp": "ServiceSetting Group",
-  "PromptGrp": "Prompt Group",
+  "PromptGrp": "Prompt Template Group",
+  "LLAGrp": "LLM Agent Group",
   "AuthSetting": "AuthSetting",
   "AuthSettingsGrp": "Resource Auth Group",
   "menu": {
@@ -168,7 +174,8 @@
     "scriptLib": "Script Lib",
     "modelLib": "Model Lib",
     "dictionaryLib": "Dictionary Lib",
-    "promptLib": "Prompt",
+    "promptLib": "Prompt Template Lib",
+    "llaLib": "App Template Lib",
     "processType": "Process Type",
     "processTypeManage": "Process Type Manage",
     "datasourceLib": "Datasource Lib",
@@ -264,6 +271,7 @@
   },
   "process": {
     "preOperators": "Previous Operators",
+    "preOperatorsTip": "Please connect to the operator first.",
     "nextOperators": "Next Operators",
     "inputColumns": "Input Columns",
     "outputColumns": "Output Columns",
@@ -326,7 +334,18 @@
     "name": "API Name",
     "type": "API Type",
     "add": "Add API",
-    "edit": "Edit API"
+    "edit": "Edit API",
+    "request": "Request Setting",
+    "response": "Response Setting",
+    "requestHeaders": "Request Headers",
+    "requestBody": "Request Body",
+    "requestParams": "Request Params",
+    "requestMethod": "Request Method",
+    "requestUrl": "Request Url",
+    "description": "Description",
+    "paramsSetting": "Params Setting",
+    "responseColumns": "Response Columns",
+    "responseExample": "Response Example"
   },
   "prompt": {
     "import": "Import Prompt",
@@ -342,13 +361,21 @@
     "complex": "Complex",
     "agent": "Agent"
   },
+  "lla": {
+    "import": "",
+    "add": "",
+    "edit": "",
+    "template": ""
+  },
   "model": {
+    "name": "Model Name",
     "info": "Model Info",
     "category": "Model Category",
     "type": "Model Type",
     "import": "Import Model",
     "service": "Model Service",
-    "removeService": "Remove Model Service",
+    "serviceList": "Service List",
+    "deployService": "Deploy Service",
     "scriptFragment": "Script Fragment",
     "2Group": "Convert the model to a certain group",
     "2Model": "Convert the model to a certain model",
@@ -357,6 +384,12 @@
     "convertSuccess": "Convert Success",
     "restUrl": "Rest Url",
     "sourceType": "Source Type"
+  },
+  "bundle": {
+    "info": "Bundle Info",
+    "add": "Add Bundle",
+    "edit": "Edit Bundle",
+    "selectBundle": "Select Bundle"
   },
   "compox": {
     "columns": "Columns",

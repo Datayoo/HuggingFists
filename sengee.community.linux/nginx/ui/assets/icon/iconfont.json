@@ -6,6 +6,76 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "2589035",
+      "name": "系统升级",
+      "font_class": "upgrade",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "40040211",
+      "name": "prompt",
+      "font_class": "prompt",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "40040210",
+      "name": "app-prompt",
+      "font_class": "app-prompt",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "7707170",
+      "name": "unorderedlist",
+      "font_class": "unorderedlist",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "8094811",
+      "name": "rotate-left",
+      "font_class": "rotate-left",
+      "unicode": "e901",
+      "unicode_decimal": 59649
+    },
+    {
+      "icon_id": "8094812",
+      "name": "rotate-right",
+      "font_class": "rotate-right",
+      "unicode": "e902",
+      "unicode_decimal": 59650
+    },
+    {
+      "icon_id": "15838497",
+      "name": "lock",
+      "font_class": "lock",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "15838546",
+      "name": "unlock",
+      "font_class": "unlock",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "39180254",
+      "name": "zoom-out",
+      "font_class": "zoom-out",
+      "unicode": "e786",
+      "unicode_decimal": 59270
+    },
+    {
+      "icon_id": "39180346",
+      "name": "zoom-in",
+      "font_class": "zoom-in",
+      "unicode": "e792",
+      "unicode_decimal": 59282
+    },
+    {
       "icon_id": "39134158",
       "name": "数据服务",
       "font_class": "shujufuwu",

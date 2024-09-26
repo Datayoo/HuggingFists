@@ -1,9 +1,9 @@
 @font-face {
   font-family: "dy"; /* Project id 2678125 */
-  src: url('iconfont.woff2?t=1706337986448') format('woff2'),
-       url('iconfont.woff?t=1706337986448') format('woff'),
-       url('iconfont.ttf?t=1706337986448') format('truetype'),
-       url('iconfont.svg?t=1706337986448#dy') format('svg');
+  src: url('iconfont.woff2?t=1715497027373') format('woff2'),
+       url('iconfont.woff?t=1715497027373') format('woff'),
+       url('iconfont.ttf?t=1715497027373') format('truetype'),
+       url('iconfont.svg?t=1715497027373#dy') format('svg');
 }
 
 .dy {
@@ -11,6 +11,46 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.ic-upgrade:before {
+  content: "\e66d";
+}
+
+.ic-prompt:before {
+  content: "\e66a";
+}
+
+.ic-app-prompt:before {
+  content: "\e66b";
+}
+
+.ic-unorderedlist:before {
+  content: "\e669";
+}
+
+.ic-rotate-left:before {
+  content: "\e901";
+}
+
+.ic-rotate-right:before {
+  content: "\e902";
+}
+
+.ic-lock:before {
+  content: "\e676";
+}
+
+.ic-unlock:before {
+  content: "\e682";
+}
+
+.ic-zoom-out:before {
+  content: "\e786";
+}
+
+.ic-zoom-in:before {
+  content: "\e792";
 }
 
 .ic-shujufuwu:before {

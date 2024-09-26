@@ -63,6 +63,7 @@
     "streamMetas": "文件元信息",
     "variable": "变量",
     "success": "成功!",
+    "error": "失败!",
     "exist": "已存在，请修改。",
     "location": "当前位置",
     "basicInfo": "基本信息",
@@ -76,7 +77,7 @@
     "items": "条记录",
     "forward": "前进",
     "backoff": "后退",
-    "gobackDirectory": "返回上一级",
+    "onReturn": "返回上一级",
     "settings": "设置",
     "setFilter": "设置条件",
     "all": "全部",
@@ -116,6 +117,7 @@
     "operator": "算子",
     "port": "端口",
     "model": "模型",
+    "bundle": "Bundle",
     "retrieval": "检索",
     "boot": "启动",
     "start": "开始",
@@ -123,7 +125,9 @@
     "deploy": "部署",
     "renew": "更新",
     "format": "格式",
-    "selectGroup": "选择分组"
+    "selectGroup": "选择分组",
+    "onlyZip": "只能上传zip包!",
+    "upgrade": "系统升级"
   },
   "Authorization": "角色/用户组",
   "ResourceSpace": "资源空间",
@@ -140,8 +144,10 @@
   "ApiGrp": "API组",
   "OpGrp": "算子组",
   "ModelGrp": "模型组",
+  "BundleGrp": "Bundle组",
   "SettingsGrp": "服务配置组",
-  "PromptGrp": "Prompt组",
+  "PromptGrp": "提示模板组",
+  "LLAGrp": "应用模板组",
   "AuthSetting": "资源账号",
   "AuthSettingsGrp": "资源账号组",
   "menu": {
@@ -168,7 +174,8 @@
     "scriptLib": "脚本库",
     "modelLib": "模型库",
     "dictionaryLib": "字典库",
-    "promptLib": "Prompt",
+    "promptLib": "提示模板库",
+    "llaLib": "应用模板库",
     "processType": "流程类型",
     "processTypeManage": "流程类型管理",
     "datasourceLib": "数据源库",
@@ -264,6 +271,7 @@
   },
   "process": {
     "preOperators": "前置算子",
+    "preOperatorsTip": "请先连接数据流至该算子!",
     "nextOperators": "后置算子",
     "inputColumns": "输入列集",
     "outputColumns": "输出列集",
@@ -326,7 +334,18 @@
     "name": "API名称",
     "type": "API类型",
     "add": "新增API",
-    "edit": "编辑API"
+    "edit": "编辑API",
+    "request": "请求配置",
+    "response": "响应配置",
+    "requestHeaders": "请求头",
+    "requestBody": "请求体",
+    "requestParams": "请求参数",
+    "requestMethod": "请求方法",
+    "requestUrl": "请求地址",
+    "description": "接口说明",
+    "paramsSetting": "接口参数定义",
+    "responseColumns": "响应列集",
+    "responseExample": "响应示例"
   },
   "prompt": {
     "import": "导入提示模板",
@@ -342,13 +361,21 @@
     "complex": "复杂",
     "agent": "代理"
   },
+  "lla": {
+    "import": "导入应用模板",
+    "add": "新增应用模板",
+    "edit": "编辑应用模板",
+    "template": "应用模板"
+  },
   "model": {
+    "name": "模型名称",
     "info": "模型信息",
     "category": "模型分类",
     "type": "模型类型",
     "import": "导入模型",
     "service": "模型服务",
-    "removeService": "删除模型服务",
+    "serviceList": "服务列表",
+    "deployService": "部署服务",
     "scriptFragment": "脚本片段",
     "2Group": "转换模型到某个分组",
     "2Model": "转换模型到某个模型",
@@ -357,6 +384,12 @@
     "convertSuccess": "转换成功",
     "restUrl": "服务接口",
     "sourceType": "模型来源"
+  },
+  "bundle": {
+    "info": "Bundle信息",
+    "add": "新增Bundle",
+    "edit": "编辑Bundle",
+    "selectBundle": "选择Bundle"
   },
   "compox": {
     "columns": "列集",
