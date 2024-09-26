@@ -55,6 +55,9 @@
         <group name="trans" opCats="trans">
             <i18ns en_US="trans" zh_CN="转换"/>
         </group>
+        <group name="console" opCats="console">
+            <i18ns en_US="console" zh_CN="控制台"/>
+        </group>
     </group>
     <group name="writer" opType="Writer">
         <i18ns en_US="writer" zh_CN="写出"/>
@@ -226,18 +229,6 @@
                 <i18ns en_US="video" zh_CN="视频"/>
             </group>
         </group>
-        <group name="generator" opCats="generator">
-            <i18ns en_US="generator" zh_CN="生成"/>
-            <group name="img" opCats="generator,img">
-                <i18ns en_US="img" zh_CN="图像"/>
-            </group>
-            <group name="audio" opCats="generator,audio">
-                <i18ns en_US="audio" zh_CN="音频"/>
-            </group>
-            <group name="video" opCats="generator,video">
-                <i18ns en_US="video" zh_CN="视频"/>
-            </group>
-        </group>
         <group name="similarity" opCats="similarity">
             <i18ns en_US="similarity" zh_CN="相似"/>
             <group name="img" opCats="similarity,img">
@@ -248,6 +239,18 @@
             </group>
             <group name="video" opCats="similarity,video">
                 <i18ns en_US="video" zh_CN="视频"/>
+            </group>
+        </group>
+        <group name="aigc" opCats="aigc,generator">
+            <i18ns en_US="aigc" zh_CN="智能生成"/>
+            <group name="img" opCats="aigc,img">
+                <i18ns en_US="img" zh_CN="图像"/>
+            </group>
+            <group name="audio" opCats="aigc,audio">
+                <i18ns en_US="audio" zh_CN="语音"/>
+            </group>
+            <group name="viedo" opCats="aigc,viedo">
+                <i18ns en_US="viedo" zh_CN="视频"/>
             </group>
         </group>
     </group>
@@ -282,6 +285,9 @@
         </group>
         <group name="speed" opCats="speed">
             <i18ns en_US="speed" zh_CN="速度"/>
+        </group>
+        <group name="exception" opCats="exception">
+            <i18ns en_US="exception" zh_CN="异常"/>
         </group>
     </group>
     <group name="processing" opType="Processing">
@@ -356,8 +362,11 @@
                 <group name="prompt" opCats="domain,llm,prompt">
                     <i18ns en_US="prompt" zh_CN="提示"/>
                 </group>
-                <group name="thoughtAction" opCats="domain,llm,thoughtAction">
-                    <i18ns en_US="thoughtAction" zh_CN="思维行为"/>
+                <group name="agent" opCats="domain,llm,agent">
+                    <i18ns en_US="agent" zh_CN="智能体"/>
+                </group>
+                <group name="tool" opCats="domain,llm,tool">
+                    <i18ns en_US="tool" zh_CN="工具调用"/>
                 </group>
             </group>
             <group name="nlp" opCats="domain,nlp">
@@ -389,6 +398,9 @@
                 <group name="generator" opCats="domain,nlp,generator">
                     <i18ns en_US="generator" zh_CN="生成"/>
                 </group>
+                <group name="inferencer" opCats="domain,nlp,inferencer">
+                    <i18ns en_US="inferencer" zh_CN="推理"/>
+                </group>
                 <group name="fillMask" opCats="domain,nlp,fillMask">
                     <i18ns en_US="fillMask" zh_CN="填充"/>
                 </group>
@@ -415,12 +427,6 @@
         <group name="script" opCats="script">
             <i18ns en_US="script" zh_CN="脚本"/>
         </group>
-        <group name="aigc" opCats="aigc,generator">
-            <i18ns en_US="aigc" zh_CN="智能生成"/>
-        </group>
-        <group name="generator" opCats="generator">
-            <i18ns en_US="generator" zh_CN="生成"/>
-        </group>
     </group>
     <group name="analysis" opType="Analysis">
         <i18ns en_US="analysis" zh_CN="分析"/>
@@ -436,6 +442,9 @@
         <group name="regression" opCats="regression">
             <i18ns en_US="regression" zh_CN="回归"/>
         </group>
+        <group name="correlation" opCats="correlation">
+            <i18ns en_US="correlation" zh_CN="关联"/>
+        </group>
         <group name="timeSeries" opCats="timeSeries">
             <i18ns en_US="timeSeries" zh_CN="时间序列"/>
         </group>
@@ -447,6 +456,12 @@
         </group>
         <group name="predictor" opCats="predictor">
             <i18ns en_US="predictor" zh_CN="预测"/>
+        </group>
+        <group name="deep" opCats="deep">
+            <i18ns en_US="deep" zh_CN="深度学习"/>
+        </group>
+        <group name="reinforcement" opCats="reinforcement">
+            <i18ns en_US="reinforcement" zh_CN="强化学习"/>
         </group>
     </group>
     <group name="action" opType="Action">
@@ -462,6 +477,12 @@
         </group>
         <group name="data" opCats="data">
             <i18ns en_US="data" zh_CN="数据"/>
+        </group>
+    </group>
+    <group name="brick" opType="Brick">
+        <i18ns en_US="brick" zh_CN="配置"/>
+        <group name="deep" opCats="brick,deep">
+            <i18ns en_US="deep" zh_CN="深度学习"/>
         </group>
     </group>
 </groups>

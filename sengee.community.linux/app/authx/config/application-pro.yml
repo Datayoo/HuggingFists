@@ -113,8 +113,6 @@ auth:
       uri: 8As5ndg38iMpkBEuVb1CTw==
     - name: 5EwQQKvEk/33zirJ2fHjbg==
       uri: 1SFqemkeVChON/aNC1e26A==
-    - name: Rdx5nPB7Ej6F1E1wlSP7dg==
-      uri: GbBWogqr8D+a1DIGSn1wSw==
     - name: vjhz4U5h6cOddJNQxnmCQQ==
       uri: BGgvHgXLVJe3m/JOQhka6A==
     - name: TLL2AlSacO7NhNjRYcGWvDpeeg7WUGCuG2tJZG/jAzw=
@@ -149,6 +147,8 @@ auth:
       uri: 3RB1OalGAMsuXDsZxmxQQ5OEfdfnYlHAjjs3GgF343s=
     - name: lqENAryztVkc2dL3r7V/zD0OpiP4rgEbjrKCZMsVYsE=
       uri: hb/r68Uv8rw+CgCVxtxd48kn8wmj9UkyhcCY4ce+InE=
+    - name: k9OHS0bBPO+bnu0oI0RuXA==
+      uri: WKOmjbtCk+WK0DufvTujeg==
     - name: 8/RFezmFGQzN1LyjhIUUjA==
       uri: lIL+70efWzYPiOPb5ATqEpOEfdfnYlHAjjs3GgF343s=
     - name: 88R8/fXVQ5X2KrlKQ+uOIzzDzFM4sdUfkuhBVFcKr5Q=
@@ -181,6 +181,26 @@ auth:
       uri: RH+oDbGDmUpkylwdRy7NuQ==
     - name: 88R8/fXVQ5X2KrlKQ+uOI5OEfdfnYlHAjjs3GgF343s=
       uri: 1a+lVCgJ7yjv+fgw3h1GcZo/B1U4zIs1jQm6GNLi4Es=
+    - name: 44Byzo+e29C6vcTM0IyM5w==
+    - name: q0nlecWjSr5F/ma10Rxm2A==
+    - name: UvBwmMKjOx18E7T5lC18AQ==
+      uri: 9sURYyhT1VHeVdUin6vqcQ==
+    - name: lBoxiIRiRrMxwcTzA0kR65OEfdfnYlHAjjs3GgF343s=
+      uri: uMW6YbZTggBkMiRgyFOmQ2TmfaKyKtpukwcpu8myyQ0=
+    - name: RJhaU/7IkYn7yssykhXoHA==
+      uri: Chc9rPy+1EPidCH51/K6oA==
+    - name: MLNRm5FQGLagyEE0F+pgog==
+      uri: ZOH8gFMEfHO3cqtK8L02xg==
+    - name: kQJNVu1S88YTCDlyo5CQASJ5CAVfI2K5XE/sVI4ysZo=
+      uri: vPgII+y3JzFVlgeVr5RlcV3hPx13UT+YPUbm5iAmE74=
+    - name: 88R8/fXVQ5X2KrlKQ+uOIx0/nBo34tz5NTl+kbch1kpxRi+UBDlY66Ptc9J1ls1c
+    - name: 88R8/fXVQ5X2KrlKQ+uOI72diSuHPAl4oTY293N4q2GThH3X52JRwI47NxoBd+N7
+    - name: yXATfTWHe6ZV/cD95OV47g==
+      uri: uyRXYtvwr/51pdSA+Q3PFg==
+    - name: D7m1MLm2GDGy39HgwModiyjA3fkCzzanGufKQRVLLJ8=
+      uri: xvsl3J4OviSZmzkmQpgXnLSb+E7R8K//R/3oPmpOEXg=
+    - name: pk+nlHNfFLUDIrkRpQyDHuSNtdpVhcWrABAGxqDR00s=
+      uri: xvsl3J4OviSZmzkmQpgXnKMP1d2DU4VH9EU1HDr6uUk=
   entityTypes:
     - name: AuthSetting
       client: authx

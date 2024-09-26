@@ -147,11 +147,13 @@
   "BundleGrp": "Bundle Group",
   "SettingsGrp": "ServiceSetting Group",
   "PromptGrp": "Prompt Template Group",
-  "LLAGrp": "LLM Agent Group",
+  "LLAGrp": "Agent Template Group",
   "AuthSetting": "AuthSetting",
   "AuthSettingsGrp": "Resource Auth Group",
   "menu": {
     "index": "Home",
+    "datadirectory": "Data Directory",
+    "datarule": "Data Rule",
     "datasource": "Datasource",
     "setting": "ServiceSetting",
     "cluster": "Cluster",
@@ -175,14 +177,15 @@
     "modelLib": "Model Lib",
     "dictionaryLib": "Dictionary Lib",
     "promptLib": "Prompt Template Lib",
-    "llaLib": "App Template Lib",
+    "agentLib": "Agent Template Lib",
     "processType": "Process Type",
     "processTypeManage": "Process Type Manage",
     "datasourceLib": "Datasource Lib",
     "connectorLib": "Connector Lib",
     "auth": "Auth",
     "accountTypeManage": "Account Type Manage",
-    "serviceSettingManage": "ServiceSetting Manage"
+    "serviceSettingManage": "ServiceSetting Manage",
+    "authDesc": "Auth Description"
   },
   "index": {
     "files": "Files",
@@ -283,7 +286,10 @@
     "computionFramework": "Compution Framework",
     "versionNum": "Version Num",
     "historicalVersion": "Historical Version",
-    "versionType": "Version Type"
+    "versionType": "Version Type",
+    "stack": "Stack",
+    "replica": "Replica",
+    "runningStatus": "Operator Status"
   },
   "operator": {
     "info": "Operator Info",
@@ -307,19 +313,24 @@
   },
   "authx": {
     "add": "Add Account",
-    "edit": "Edit Account"
+    "edit": "Edit Account",
+    "select": "Select Account"
   },
   "job": {
     "task": "Task",
     "immediate": "Immediate Job",
     "scheduler": "Scheduler Job",
     "event": "Event Job",
+    "interaction": "Interaction Job",
+    "type": "Job Type",
     "addImmediate": "Add Immediate Job",
     "addScheduler": "Add Scheduler Job",
     "addEvent": "Add Event Job",
+    "addInteraction": "Add Interaction Job",
     "editImmediate": "Edit Immediate Job",
     "editScheduler": "Edit Scheduler Job",
     "editEvent": "Edit Event Job",
+    "editInteraction": "Edit Interaction Job",
     "selectProcess": "Select Process",
     "computingResource": "Computing Resource",
     "schedulingPlan": "Scheduling Plan",
@@ -345,7 +356,8 @@
     "description": "Description",
     "paramsSetting": "Params Setting",
     "responseColumns": "Response Columns",
-    "responseExample": "Response Example"
+    "responseExample": "Response Example",
+    "applicationScope": "Application Scope"
   },
   "prompt": {
     "import": "Import Prompt",
@@ -361,11 +373,16 @@
     "complex": "Complex",
     "agent": "Agent"
   },
-  "lla": {
+  "agent": {
     "import": "",
     "add": "",
     "edit": "",
-    "template": ""
+    "template": "",
+    "messages": "",
+    "toolEntries": "",
+    "selectedToolEntries": "",
+    "alternativeToolEntries": "",
+    "role": ""
   },
   "model": {
     "name": "Model Name",

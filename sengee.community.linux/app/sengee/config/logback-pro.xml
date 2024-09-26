@@ -14,13 +14,6 @@
               value="%d{yyyy/MM/dd HH:mm:ss.SSS} %-5level [%thread] %class{5}:%line : %msg%n"/>
 
     <!-- declare the appender that writes to the log file -->
-    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
-        <encoder>
-            <pattern>${FILE_LOG_PATTERN}</pattern>
-            <charset>UTF-8</charset>
-        </encoder>
-    </appender>
-    
     <appender name="FILE"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
         <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
@@ -37,6 +30,12 @@
             <totalSizeCap>${TOTAL_SIZE_CAP}</totalSizeCap>
             <maxFileSize>${MAX_FILE_SIZE}</maxFileSize>
         </rollingPolicy>
+    </appender>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
     </appender>
     <!-- default logging levels, unless we overwrite then use INFO-->
     <root>

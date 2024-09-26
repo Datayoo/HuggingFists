@@ -67,14 +67,15 @@ sengee:
     #loadOperator: create
     operateTypesFile: classpath:operator/operatorGroups.xml
     dbLoad: true
-    scanPackages: org.datayoo.sengee.op,org.datayoo.sengee.opd,org.datayoo.oyez.op,org.datayoo.moz.op,org.datayoo.moz.sop,org.datayoo.moz.bop,org.datayoo.gosooz.op,org.datayoo.gosooz.bop 
+    scanPackages: org.datayoo.sengee.op,org.datayoo.sengee.opd,org.datayoo.oyez.op
     portraitPath: ./config/operator/portraits
   descriptor:
     path: ./config/descriptor
   process:
     computionframework: oyez
-    type: 
-
+    type: APIFLOW
+  dencho:
+    apiServerUrls: http://datayoo.sengee:38500/sengee/jobCallApi/call?apiId=%s
 
 brackets:
   remote:
@@ -205,6 +206,18 @@ authx:
        alias: PromptGrp
        client: sengee
        behaviors: prompt.import,create,update,delete
+     - name: BundleGrp
+       alias: Bundle组
+       client: sengee
+       behaviors: create,update,delete,bundle.create,bundle.batchDelete
+     - name: ApiGrp
+       alias: ApiGrp组
+       client: sengee
+       behaviors: create,update,delete,api.create,api.batchDelete
+     - name: LLAGrp
+       alias: 应用模板组
+       client: sengee
+       behaviors: create,update,delete,agent.create,agent.batchDelete
 program:
   package:
     path: ./data/program/temp

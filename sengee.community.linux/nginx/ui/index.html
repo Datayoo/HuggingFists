@@ -17,13 +17,26 @@
     }
     if (!isMac()) loadStyle('./assets/css/scrollbar.css');
 
+    window.addEventListener('message', (e) => {
+      if (e.data.token) {
+        localStorage.setItem('s_token', e.data.token);
+        window.dispatchEvent(new Event('s_token'));
+      }
+    });
+
     window.ssoEnable = false;
     window.ssoUrl = 'http://172.16.8.43:8010/#/login?redirect=';
     window.ssoLogout = 'http://www.baidu.com';
+    window.datayoo = '数由科技';
+    window.member = 'http://172.19.56.250:38800';
+    window.aiFlowId = 'readLLMTools';
+
+    // localStorage.setItem('s_theme', 'blue1');
+    // window.title = '大数据智能分析沙箱';
   </script>
-<style>html,body{min-width:1366px}html{--ant-primary-color:#2a8b92;--primary-color-highlight:#d9fbfd;--primary-color-2highlight:#00eeff;--body-background:#fbffff;--text-color:#396669;--layout-sider-background:#e2eeee;--border-color-base:#dbe9ea;--table-header-bg:#c8dde0;--table-selected-bg-parameters:#d1e9ed;--group-bg:#f7fdfd;--item-bg:#f1fdfd;--admin-sider-highlight:#44aaae;--td-icon1:#4da79d;--td-icon2:#50a617;--td-icon3:#b2c56f;--td-icon-delete:#aec5c7;--header-bg:var(--ant-primary-color);--selected-color:var(--layout-sider-background)}</style><link rel="stylesheet" href="styles.6f4213a5fb1b9e7b.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.6f4213a5fb1b9e7b.css"></noscript></head>
+<style>html,body{min-width:1366px}html{--ant-primary-color:#2a8b92;--primary-color-highlight:#d9fbfd;--primary-color-2highlight:#00eeff;--body-background:#fbffff;--text-color:#396669;--text-color1:rgba(0, 0, 0, .25);--text-color2:rgba(0, 0, 0, .45);--text-color3:rgba(0, 0, 0, .65);--text-color4:rgba(0, 0, 0, .85);--layout-sider-background:#e2eeee;--border-color:#dbe9ea;--border-color1:rgba(0, 0, 0, .25);--table-header-bg:#c8dde0;--group-bg:#f7fdfd;--admin-sider-highlight:#44aaae;--td-icon1:#4da79d;--td-icon2:#50a617;--td-icon3:#b2c56f;--td-icon-delete:#aec5c7;--ant-result-title:#000000d9;--ant-result-subtitle:#00000073;--ant-empty-img-fill:#fafafa;--ant-empty-img-stroke:#d9d9d9;--disabled-bg:#f5f5f5;--disabled-border-color:#d9d9d9;--modal-mask-bg:#00000073;--header-bg:var(--ant-primary-color);--header-text-color:#fff;--header-border-color:var(--header-bg);--menu-bg:var(--layout-sider-background);--menu-top-bar-bg:var(--table-header-bg);--menu-item-selected-bg:var(--table-header-bg);--menu-item-bar-bg:var(--ant-primary-color);--menu-item-hover-bg:var(--table-header-bg);--menu-item-text-color:var(--ant-primary-color);--menu-item-selected-text-color:var(--ant-primary-color);--menu-item-tip-bg:var(--ant-primary-color);--menu-item-tip-text-color:#fff}</style><link rel="stylesheet" href="styles.147d51fb9e37ee70.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.147d51fb9e37ee70.css"></noscript></head>
 <body>
   <app-root></app-root>
-<script src="runtime.03372406124a4b14.js" type="module"></script><script src="polyfills.e5b7e4d0ff2ebf7c.js" type="module"></script><script src="scripts.47f1c9748bc127e3.js" defer></script><script src="main.84b15f9af9286b60.js" type="module"></script>
+<script src="runtime.ec6a807514f800d9.js" type="module"></script><script src="polyfills.e5b7e4d0ff2ebf7c.js" type="module"></script><script src="scripts.47f1c9748bc127e3.js" defer></script><script src="main.53875f57ee17a77c.js" type="module"></script>
 
 </body></html>

@@ -117,7 +117,7 @@
     "operator": "算子",
     "port": "端口",
     "model": "模型",
-    "bundle": "Bundle",
+    "bundle": "服务簇",
     "retrieval": "检索",
     "boot": "启动",
     "start": "开始",
@@ -144,7 +144,7 @@
   "ApiGrp": "API组",
   "OpGrp": "算子组",
   "ModelGrp": "模型组",
-  "BundleGrp": "Bundle组",
+  "BundleGrp": "服务簇组",
   "SettingsGrp": "服务配置组",
   "PromptGrp": "提示模板组",
   "LLAGrp": "应用模板组",
@@ -152,6 +152,8 @@
   "AuthSettingsGrp": "资源账号组",
   "menu": {
     "index": "首页",
+    "datadirectory": "数据目录",
+    "datarule": "数据规则",
     "datasource": "数据源",
     "setting": "服务配置",
     "cluster": "集群",
@@ -175,14 +177,15 @@
     "modelLib": "模型库",
     "dictionaryLib": "字典库",
     "promptLib": "提示模板库",
-    "llaLib": "应用模板库",
+    "agentLib": "应用模板库",
     "processType": "流程类型",
     "processTypeManage": "流程类型管理",
     "datasourceLib": "数据源库",
     "connectorLib": "连接器库",
     "auth": "用户管理",
     "accountTypeManage": "账号类型管理",
-    "serviceSettingManage": "服务类型管理"
+    "serviceSettingManage": "服务类型管理",
+    "authDesc": "权限控制描述"
   },
   "index": {
     "files": "文件数",
@@ -283,7 +286,10 @@
     "computionFramework": "计算框架",
     "versionNum": "当前版本号",
     "historicalVersion": "查看历史版本",
-    "versionType": "版本类型"
+    "versionType": "版本类型",
+    "stack": "层组",
+    "replica": "实例数",
+    "runningStatus": "算子运行状态"
   },
   "operator": {
     "info": "算子信息",
@@ -307,19 +313,24 @@
   },
   "authx": {
     "add": "新增资源账号",
-    "edit": "编辑资源账号"
+    "edit": "编辑资源账号",
+    "select": "选择账号"
   },
   "job": {
     "task": "任务",
     "immediate": "即时",
     "scheduler": "定时",
     "event": "事件触发",
+    "interaction": "交互式",
+    "type": "作业类型",
     "addImmediate": "新增即时作业",
     "addScheduler": "新增定时作业",
     "addEvent": "新增事件触发作业",
+    "addInteraction": "新增交互式作业",
     "editImmediate": "编辑即时作业",
     "editScheduler": "编辑定时作业",
     "editEvent": "编辑事件触发作业",
+    "editInteraction": "编辑交互式作业",
     "selectProcess": "选择流程",
     "computingResource": "计算资源",
     "schedulingPlan": "调度计划",
@@ -345,7 +356,8 @@
     "description": "接口说明",
     "paramsSetting": "接口参数定义",
     "responseColumns": "响应列集",
-    "responseExample": "响应示例"
+    "responseExample": "响应示例",
+    "applicationScope": "应用范围"
   },
   "prompt": {
     "import": "导入提示模板",
@@ -361,11 +373,16 @@
     "complex": "复杂",
     "agent": "代理"
   },
-  "lla": {
+  "agent": {
     "import": "导入应用模板",
     "add": "新增应用模板",
     "edit": "编辑应用模板",
-    "template": "应用模板"
+    "template": "应用模板",
+    "messages": "场景对话",
+    "toolEntries": "数据工具",
+    "selectedToolEntries": "已选数据工具",
+    "alternativeToolEntries": "备选数据工具",
+    "role": "智能体角色"
   },
   "model": {
     "name": "模型名称",
@@ -386,10 +403,10 @@
     "sourceType": "模型来源"
   },
   "bundle": {
-    "info": "Bundle信息",
-    "add": "新增Bundle",
-    "edit": "编辑Bundle",
-    "selectBundle": "选择Bundle"
+    "info": "服务簇信息",
+    "add": "新增服务簇",
+    "edit": "编辑服务簇",
+    "selectBundle": "选择服务簇"
   },
   "compox": {
     "columns": "列集",

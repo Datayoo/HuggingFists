@@ -23,6 +23,7 @@ gsmConfiguration:
   yeeProps:
     yc.srv.address: datayoo.sengee
     yc.srv.port: 8823
+    yc.calling.expiration: 2000
   #rmsClazz
   #rmsPropFiles
   gspConfigurations:

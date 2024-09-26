@@ -1,9 +1,9 @@
 @font-face {
   font-family: "dy"; /* Project id 2678125 */
-  src: url('iconfont.woff2?t=1715497027373') format('woff2'),
-       url('iconfont.woff?t=1715497027373') format('woff'),
-       url('iconfont.ttf?t=1715497027373') format('truetype'),
-       url('iconfont.svg?t=1715497027373#dy') format('svg');
+  src: url('iconfont.woff2?t=1725717980749') format('woff2'),
+       url('iconfont.woff?t=1725717980749') format('woff'),
+       url('iconfont.ttf?t=1725717980749') format('truetype'),
+       url('iconfont.svg?t=1725717980749#dy') format('svg');
 }
 
 .dy {
@@ -11,6 +11,38 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.ic-qiehuan:before {
+  content: "\e70a";
+}
+
+.ic-chakanshouquanma:before {
+  content: "\e671";
+}
+
+.ic-caidan:before {
+  content: "\e617";
+}
+
+.ic-yonghushezhi:before {
+  content: "\e673";
+}
+
+.ic-huifu:before {
+  content: "\e670";
+}
+
+.ic-SubFilled:before {
+  content: "\e66c";
+}
+
+.ic-AddFilled:before {
+  content: "\e66f";
+}
+
+.ic-user2:before {
+  content: "\e66e";
 }
 
 .ic-upgrade:before {

@@ -11,6 +11,7 @@ services:
       - LC_ALL=zh_CN.UTF-8
       - LANGUAGE=zh_CN.UTF-8
       - TZ=Asia/Shanghai
+      - PATH=$PATH:/home/datayoo/jupyter_bin
     ulimits:
       nproc: 65535
       nofile:
@@ -18,6 +19,11 @@ services:
         hard: 40000
     ports:
       - 38505:38505
+      - 32021:32021
+      - 8888:8888
+      - 38800:38800
+      - 38801:38801
+      - 38802:38802
     volumes:
       - ./app/oyez:/home/datayoo/app/oyez
       - ./app/lib:/home/datayoo/app/oyez/lib
@@ -25,7 +31,10 @@ services:
       - ./app/oyez/logs:/home/datayoo/logs
       - ./operators:/home/datayoo/app/oyez/oyezlet/operators
       - ./dfs:/home/datayoo/dfs
-      - ./app/oyez/dist-packages:/usr/local/lib/python3.10/dist-packages
+      - ./moo:/home/datayoo/moo
+      - ./ftp:/home/datayoo/ftp
+     # - ./jupyterlab:/home/datayoo/.local
+     # - ./app/oyez/dist-packages:/usr/local/lib/python3.10/dist-packages
   nginx:
     image: nginx:alpine
     privileged: true
@@ -50,6 +59,8 @@ services:
       - "8823"
     ports:
       - 38502:38502
+      - 8822:8822
+      - 8823:8823
     depends_on:
       - mysql
     environment:
@@ -111,7 +122,6 @@ services:
       - ./app/lib:/home/datayoo/app/authx/lib
       - ./app/authx/scripts:/home/datayoo/scripts
       - ./app/authx/logs/:/home/datayoo/logs
-
     hostname: datayoo.authx
   mysql:
     restart: always

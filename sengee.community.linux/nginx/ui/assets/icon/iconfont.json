@@ -6,6 +6,62 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "7605695",
+      "name": "切换",
+      "font_class": "qiehuan",
+      "unicode": "e70a",
+      "unicode_decimal": 59146
+    },
+    {
+      "icon_id": "27854919",
+      "name": "查看授权码",
+      "font_class": "chakanshouquanma",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "7587933",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "2860810",
+      "name": "用户设置",
+      "font_class": "yonghushezhi",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "5809113",
+      "name": "恢复",
+      "font_class": "huifu",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "35684104",
+      "name": "SubFilled",
+      "font_class": "SubFilled",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "35684116",
+      "name": "AddFilled",
+      "font_class": "AddFilled",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "220373",
+      "name": "user",
+      "font_class": "user2",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
+    },
+    {
       "icon_id": "2589035",
       "name": "系统升级",
       "font_class": "upgrade",

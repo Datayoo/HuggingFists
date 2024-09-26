@@ -69,7 +69,6 @@ footstone-dizoo-common-2.0-SNAPSHOT.jar
 footstone-dizoo-web-2.0-SNAPSHOT.jar
 footstone-domain-2.0-SNAPSHOT.jar
 footstone-em-spring-boot-starter-1.0-SNAPSHOT.jar
-footstone-keycloak-spring-boot-starter-1.0-SNAPSHOT.jar
 footstone-netx-2.0-SNAPSHOT.jar
 footstone-platform-2.0-SNAPSHOT.jar
 footstone-pluginx-1.0-SNAPSHOT.jar
@@ -77,6 +76,7 @@ footstone-sightx-2.0-SNAPSHOT.jar
 footstone-srvx-common-1.0-SNAPSHOT.jar
 footstone-srvx-manager-1.0-SNAPSHOT.jar
 footstone-timerx-2.0-SNAPSHOT.jar
+footstone-auth-web-community-1.0-SNAPSHOT.jar
 gson-2.9.0.jar
 guava-28.1-jre.jar
 hadoop-annotations-3.3.4.jar
