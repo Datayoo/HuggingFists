@@ -1,6 +1,0 @@
-[
-  {
-    "name": "GraphComment",
-    "parameters": "<parameters><parametergroup name=\"general\" c_Alias=\"一般\" c_Compox=\"sightx-tab\"><parameter name=\"bgColor\" c_Alias=\"背景色\" c_Compox=\"sightx-color\"></parameter><parameter name=\"txtAlign\" c_Alias=\"文本水平\" c_Compox=\"sightx-txtAlign\">flex-start</parameter><parameter name=\"txtPos\" c_Alias=\"文本纵向\" c_Compox=\"sightx-txtPos\">flex-start</parameter><parameter name=\"txt\" c_Alias=\"文本内容\" c_Compox=\"sightx-text\">Please enter comments.</parameter></parametergroup></parameters>"
-  }
-]

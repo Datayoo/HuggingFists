@@ -1,9 +1,0 @@
-#!/bin/bash
-
-export DIR=`dirname $0`
-export PRO=`basename $0`
-
-export JAVA_OPTS="-Xdebug -Xms512M -Xmx512M -Xrunjdwp:transport=dt_socket,address=38702,server=y,suspend=n ${JAVA_OPTS}"
-
-$DIR/springboot.sh $PRO org.datayoo.footstone.auth.AuthWebApplication   $1 $2 
-
