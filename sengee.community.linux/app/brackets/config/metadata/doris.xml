@@ -1,0 +1,343 @@
+<bracketsourcedescriptor>
+    <name>doris</name>
+    <alias>Doris</alias>
+    <dsVersion>*</dsVersion>
+    <version>1.0</version>
+    <types>RDB</types>
+    <category>DATABASE</category>
+    <dataObjectType>STRUCTED</dataObjectType>
+    <provider>DataYoo</provider>
+    <factoryClass>org.datayoo.brackets.doris.DorisBracketSourceFactory</factoryClass>
+
+    <elementDescriptor name="ConnectionSettings">
+        <parameters>
+            <parametergroup name="general" c_Alias="连接配置" c_Compox="sightx-tab">
+                <parametergroup name="connectionSettings">
+                    <parameter name="connType" c_Alias="连接类型" c_Option="false"
+                               c_Compox="connType">DEFAULT
+                    </parameter>
+                    <parameter name="dbType" c_Alias="数据库类型"
+                               c_Compox="sightx-hidden">mysql
+                    </parameter>
+                    <parameter name="address" c_Alias="数据库地址" c_Option="false"
+                               c_Compox="address"></parameter>
+                    <parameter name="port" c_Alias="数据库端口" c_Option="false"
+                               c_Compox="port">9030
+                    </parameter>
+                    <parameter name="dbName" c_Alias="数据库名" c_Option="false"
+                               c_Compox="dbName">
+                    </parameter>
+                    <parametergroup name="authSettingsService" c_Option="true"
+                                    c_Compox="datayoo-doris-auth"
+                                    c_Alias="访问帐号">
+                        <parameter name="serviceName"></parameter>
+                        <parameter name="serviceId"></parameter>
+                    </parametergroup>
+                    <parameter name="url" c_Alias="URL" c_Option="false"
+                               c_Compox="url">
+                        jdbc:mysql://%s:%p/%d?characterEncoding=UTF8
+                    </parameter>
+                    <parameter name="driver" c_Compox="sightx-hidden">
+                        com.mysql.cj.jdbc.Driver
+                    </parameter>
+                    <parametertable name="props" c_Option="true"
+                                    c_Compox="sightx-tablelist">
+                        <head>
+                            <parameter name="key" c_Alias="字段名"
+                                       c_Compox="sightx-input"
+                                       c_type="String">
+                            </parameter>
+                            <parameter name="value" c_Alias="字段值"
+                                       c_Compox="sightx-input"
+                                       c_type="String">
+                            </parameter>
+                        </head>
+                    </parametertable>
+                </parametergroup>
+            </parametergroup>
+        </parameters>
+
+        <compoxes>
+            <compox id="connType" parentId="sightx-combox" type="CONTROLER">
+                <attributes/>
+                <dataDescriptor>
+                    <defaultValue><![CDATA[DEFAULT]]></defaultValue>
+                    <data>
+                        <![CDATA[[{"label": "缺省", "value": "DEFAULT"}, {"label": "URL", "value": "URL"}]]]></data>
+                    <actionScript><![CDATA[]]></actionScript>
+                </dataDescriptor>
+                <visibleDescriptors/>
+                <components/>
+            </compox>
+            <compox id="address" parentId="sightx-input" type="CONTROLER">
+                <attributes/>
+                <dataDescriptor/>
+                <visibleDescriptors>
+                    <visibleDescriptor type="VISIBLE">
+                        <condition>
+                            <![CDATA[connType == "DEFAULT"]]></condition>
+                    </visibleDescriptor>
+                </visibleDescriptors>
+                <components/>
+            </compox>
+            <compox id="port" parentId="sightx-integer" type="CONTROLER">
+                <attributes/>
+                <dataDescriptor/>
+                <visibleDescriptors>
+                    <visibleDescriptor type="VISIBLE">
+                        <condition>
+                            <![CDATA[connType == "DEFAULT"]]></condition>
+                    </visibleDescriptor>
+                </visibleDescriptors>
+                <components/>
+            </compox>
+            <compox id="dbName" parentId="sightx-input" type="CONTROLER">
+                <attributes/>
+                <dataDescriptor/>
+                <visibleDescriptors>
+                    <visibleDescriptor type="VISIBLE">
+                        <condition>
+                            <![CDATA[connType == "DEFAULT"]]></condition>
+                    </visibleDescriptor>
+                </visibleDescriptors>
+                <components/>
+            </compox>
+            <compox id="url" parentId="sightx-input" type="CONTROLER">
+                <attributes/>
+                <actionDescriptors>
+                    <actionDescriptor>
+                        <event eventType="VCHANGE" handler="connectionTypes">
+                        </event>
+                        <actionScript>
+                            <![CDATA[
+                        if (handlerParameter.value === "URL") {
+                            selfParameter.value = "jdbc:mysql://localhost:9030/test";
+                        } else {
+                            selfParameter.value = "jdbc:mysql://%s:%p/%d?characterEncoding=UTF8";
+                        }
+                    ]]>
+                        </actionScript>
+                    </actionDescriptor>
+                </actionDescriptors>
+                <dataDescriptor>
+                    <defaultValue><![CDATA[]]></defaultValue>
+                    <data/>
+                    <actionScript>
+                    </actionScript>
+                </dataDescriptor>
+                <visibleDescriptors>
+                    <visibleDescriptor type="VISIBLE">
+                        <condition><![CDATA[connType == "URL"]]></condition>
+                    </visibleDescriptor>
+                </visibleDescriptors>
+                <components/>
+            </compox>
+        </compoxes>
+    </elementDescriptor>
+
+    <elementDescriptor name="DataTypes">
+        <parameters>
+            <parametergroup name="bit">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">1
+                </parameter>
+            </parametergroup>
+            <parametergroup name="tinyint">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">1
+                </parameter>
+            </parametergroup>
+            <parametergroup name="smallint">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">1
+                </parameter>
+            </parametergroup>
+            <parametergroup name="mediumint">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">1
+                </parameter>
+            </parametergroup>
+            <parametergroup name="int">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">1
+                </parameter>
+            </parametergroup>
+            <parametergroup name="integer">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">10
+                </parameter>
+            </parametergroup>
+            <parametergroup name="double">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">10
+                </parameter>
+                <parameter name="scale" c_Compox="sightx-integer"
+                           c_Alias="精度">10
+                </parameter>
+            </parametergroup>
+            <parametergroup name="float">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">10
+                </parameter>
+                <parameter name="scale" c_Compox="sightx-integer"
+                           c_Alias="精度">10
+                </parameter>
+            </parametergroup>
+            <parametergroup name="decimal">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">10
+                </parameter>
+                <parameter name="scale" c_Compox="sightx-integer"
+                           c_Alias="精度">10
+                </parameter>
+            </parametergroup>
+            <parametergroup name="char">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">10
+                </parameter>
+            </parametergroup>
+            <parametergroup name="VARCHAR">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">10
+                </parameter>
+            </parametergroup>
+            <parametergroup name="TINYTEXT">
+            </parametergroup>
+            <parametergroup name="TEXT">
+            </parametergroup>
+            <parametergroup name="MEDIUMTEXT">
+            </parametergroup>
+            <parametergroup name="LONGTEXT">
+            </parametergroup>
+            <parametergroup name="TINYBLOB">
+            </parametergroup>
+            <parametergroup name="BLOB">
+            </parametergroup>
+            <parametergroup name="MEDIUMBLOB">
+            </parametergroup>
+            <parametergroup name="LONGBLOB">
+            </parametergroup>
+            <parametergroup name="DATE">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值">
+                </parameter>
+            </parametergroup>
+            <parametergroup name="DATETIME">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值">
+                </parameter>
+            </parametergroup>
+            <parametergroup name="TIMESTAMP">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值">
+                </parameter>
+            </parametergroup>
+            <parametergroup name="VARBINARY">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值">
+                </parameter>
+            </parametergroup>
+            <parametergroup name="ENUM">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值">
+                </parameter>
+            </parametergroup>
+            <parametergroup name="SET">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值">
+                </parameter>
+            </parametergroup>
+            <parametergroup name="GEOMETRY">
+            </parametergroup>
+            <parametergroup name="POINT">
+            </parametergroup>
+            <parametergroup name="MULTIPOINT">
+            </parametergroup>
+            <parametergroup name="LINESTRING">
+            </parametergroup>
+            <parametergroup name="MULTILINESTRING">
+            </parametergroup>
+            <parametergroup name="POLYGON">
+            </parametergroup>
+            <parametergroup name="GEOMETRYCOLLECTION">
+            </parametergroup>
+        </parameters>
+
+    </elementDescriptor>
+
+
+    <elementDescriptor name="Table">
+        <parameters>
+            <parametergroup name="Field"> <!-- 字段 -->
+                <parameter name="name"></parameter> <!-- 字段名称 -->
+                <parameter name="type"></parameter><!-- 字段类型 -->
+                <parameter name="key"></parameter><!-- 是否为主键 -->
+                <parameter name="nullable"></parameter> <!-- 字段名称 -->
+            </parametergroup>
+            <parametergroup name="Index"> <!-- 索引 -->
+                <parameter name="name"></parameter><!-- 索引名称 -->
+                <parameter name="type"></parameter><!-- 索引类型 -->
+                <parameter name="field"></parameter><!-- 索引关联列表 -->
+            </parametergroup>
+<!--            <parametergroup name="ForeignKey"> &lt;!&ndash; 约束 &ndash;&gt;-->
+<!--                <parameter name="name"></parameter>&lt;!&ndash; 外键名称 &ndash;&gt;-->
+<!--                <parameter name="column"></parameter>&lt;!&ndash; 字段 &ndash;&gt;-->
+<!--                <parameter name="foreignDb"></parameter>&lt;!&ndash; 参考数据库 &ndash;&gt;-->
+<!--                <parameter name="foreignTable"></parameter>&lt;!&ndash; 参考表 &ndash;&gt;-->
+<!--                <parameter name="foreignTableColumn"></parameter>&lt;!&ndash; 参考字段&ndash;&gt;-->
+<!--                <parameter name="onDelete"></parameter>&lt;!&ndash; 删除时 &ndash;&gt;-->
+<!--                <parameter name="onUpdate"></parameter>&lt;!&ndash; 更新时 &ndash;&gt;-->
+<!--            </parametergroup>-->
+<!--            <parametergroup name="Attribute"> &lt;!&ndash; 属性 &ndash;&gt;-->
+<!--                <parametertable name="tags" c_Option="true"-->
+<!--                                c_Compox="sightx-tablelist">-->
+<!--                    <head>-->
+<!--                        <parameter name="key" c_Alias="字段名" c_Compox="sightx-input">-->
+<!--                        </parameter>-->
+<!--                        <parameter name="value" c_Alias="字段值" c_Compox="sightx-input">-->
+<!--                        </parameter>-->
+<!--                    </head>-->
+<!--                </parametertable>-->
+<!--            </parametergroup>-->
+        </parameters>
+        <compoxes>
+        </compoxes>
+    </elementDescriptor>
+
+    <elementDescriptor name="IndexTypes">
+        <parameters>
+            <parametergroup name="BloomFilter">
+            </parametergroup>
+            <parametergroup name="Bitmap">
+            </parametergroup>
+        </parameters>
+    </elementDescriptor>
+
+    <elementDescriptor name="View">
+    </elementDescriptor>
+
+    <elementDescriptor name="Query">
+    </elementDescriptor>
+</bracketsourcedescriptor>

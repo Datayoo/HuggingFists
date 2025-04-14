@@ -1,0 +1,58 @@
+application:
+  version: 1.0-SNAPSHOT
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    url: jdbc:mysql://datayoo.mysql:3306/sengee?characterEncoding=UTF8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: datayoo@123
+    driverClassName: com.mysql.cj.jdbc.Driver
+    initial-size: 5
+    min-idle: 5
+    max-idle: 100
+    max-wait: 10000
+    max-lifetime: 800000
+    validation-query: SELECT 1
+    test-while-idle: true
+    time-between-eviction-runs-millis: 27800
+    test-on-borrow: true
+    hikari:
+      connection-timeout: 10000
+      validation-timeout: 3000
+      idle-timeout: 60000
+      login-timeout: 5        
+      max-lifetime: 60000
+      maximum-pool-size: 10
+      minimum-idle: 5
+      read-only: false
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    show-sql: false
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    database: mysql
+  servlet:
+    multipart:
+      max-file-size: 700MB
+      max-request-size: 700MB
+      enabled: true
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+server:
+  servlet:
+    context-path: /dencho
+  port: 39500
+
+feign:
+  hystrix:
+    enabled: false
+
+logging:
+  config: classpath:logback-pro.xml
+
+swagger:
+  enable: true

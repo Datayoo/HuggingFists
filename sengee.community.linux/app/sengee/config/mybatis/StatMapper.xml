@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.datayoo.sengee.repository.mapper.StatMapper">
+    <select id="getTaskStat" parameterType="map" resultType="java.util.Map">
+        select p.trigger_type as JOBTRIGGERTYPE
+        <if test="null != intervalType">
+            <if test="1 == intervalType">
+                ,DATE_FORMAT(p.created_time,'%Y%m%d%H%i') as RESULTTIME
+            </if>
+            <if test="2 == intervalType">
+                ,DATE_FORMAT(from_unixtime(floor(unix_timestamp(p.created_time)/600)*600),'%Y%m%d%H%i') as RESULTTIME
+            </if>
+            <if test="3 == intervalType">
+                ,DATE_FORMAT(p.created_time,'%Y%m%d%H') as RESULTTIME
+            </if>
+            <if test="4 == intervalType">
+                ,DATE_FORMAT(from_unixtime(floor(unix_timestamp(p.created_time)/7200)*7200),'%Y%m%d%H') as RESULTTIME
+            </if>
+            <if test="5 == intervalType">
+                ,DATE_FORMAT(p.created_time,'%Y%m%d') as RESULTTIME
+            </if>
+        </if>
+        ,count(*) as RESULTCOUNT
+        from gee_proc_task p
+        where (p.created_time between #{startTime} and #{endTime})
+        and p.trigger_type in
+        <foreach collection="jobTriggerTypes" item="triggerType" index="index" open="(" close=")" separator=",">
+            #{triggerType}
+        </foreach>
+        and p.ot_state in
+        <foreach collection="runningStates" item="state" index="index" open="(" close=")" separator=",">
+            #{state}
+        </foreach>
+        group by p.trigger_type,RESULTTIME
+        order by p.trigger_type,RESULTTIME
+    </select>
+</mapper>

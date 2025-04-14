@@ -1,0 +1,9 @@
+<parameters>
+    <parameter name="userName">system</parameter>
+    <parameter name="password">oracle</parameter>
+    <parameter name="url">jdbc:oracle:thin:@//localhost:1521/xe</parameter>
+    <parametertable name="props">
+        <head/>
+        <parameterrow key="123" value="456"/>
+    </parametertable>
+</parameters>

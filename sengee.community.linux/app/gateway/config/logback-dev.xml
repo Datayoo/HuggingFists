@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <springProperty scope="context" name="APP_NAME" source="APP_NAME"/>
+    <springProperty scope="context" name="APP_LOG_DIR" source="APP_LOG_DIR"/>
+    <springProperty scope="context" name="console.log.level" source="console.log.level"/>
+    <!-- <property name="APP_LOG_DIR" value="${APP_LOG_DIR}"/> -->
+    <!-- the rollover settings with mean a max size per log of 100Mb and 7 days -->
+    <property name="MAX_HISTORY" value="7"/>
+    <property name="MAX_FILE_SIZE" value="20MB"/>
+    <property name="TOTAL_SIZE_CAP" value="300MB"/>
+    <property name="FILE_LOG_PATTERN"
+              value="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %class{5}:%line : %msg%n"/>
+
+    <property name="CONSOLE_LOG_PATTERN"
+              value="%d{yyyy/MM/dd HH:mm:ss.SSS} %-5level [%thread] %class{5}:%line : %msg%n"/>
+
+    <!-- declare the different appenders -->
+
+    <!-- declare the appender that writes to the console -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>${console.log.level}</level>
+        </filter>
+        <encoder>
+            <pattern>${CONSOLE_LOG_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- declare the appender that writes to the log file -->
+    <appender name="FILE"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+        <file>${APP_LOG_DIR}/sys.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${APP_LOG_DIR}/sys_%d{yyyy-MM-dd}_%i.log</fileNamePattern>
+            <MaxHistory>${MAX_HISTORY}</MaxHistory>
+            <totalSizeCap>${TOTAL_SIZE_CAP}</totalSizeCap>
+            <maxFileSize>${MAX_FILE_SIZE}</maxFileSize>
+        </rollingPolicy>
+    </appender>
+
+    <!-- default logging levels, unless we overwrite then use INFO-->
+    <root>
+        <level value="INFO"/>
+        <appender-ref ref="FILE"/>
+        <appender-ref ref="CONSOLE"/>
+    </root>
+
+</configuration>

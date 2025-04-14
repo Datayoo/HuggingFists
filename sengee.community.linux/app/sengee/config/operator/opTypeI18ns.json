@@ -1,0 +1,65 @@
+[
+  {
+    "id": "Input",
+    "i18ns": {
+      "en_US": "Input",
+      "zh_CN": "输入"
+    }
+  },
+  {
+    "id": "Reader",
+    "i18ns": {
+      "en_US": "Reader",
+      "zh_CN": "读取"
+    }
+  },
+  {
+    "id": "Output",
+    "i18ns": {
+      "en_US": "Output",
+      "zh_CN": "输出"
+    }
+  },
+  {
+    "id": "Writer",
+    "i18ns": {
+      "en_US": "Writer",
+      "zh_CN": "写出"
+    }
+  },
+  {
+    "id": "ResMan",
+    "i18ns": {
+      "en_US": "ResMan",
+      "zh_CN": "资源池"
+    }
+  },
+  {
+    "id": "Control",
+    "i18ns": {
+      "en_US": "Control",
+      "zh_CN": "控制"
+    }
+  },
+  {
+    "id": "Processing",
+    "i18ns": {
+      "en_US": "Processing",
+      "zh_CN": "处理"
+    }
+  },
+  {
+    "id": "Analysis",
+    "i18ns": {
+      "en_US": "Analysis",
+      "zh_CN": "分析"
+    }
+  },
+  {
+    "id": "Action",
+    "i18ns": {
+      "en_US": "Action",
+      "zh_CN": "动作"
+    }
+  }
+]

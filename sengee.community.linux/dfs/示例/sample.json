@@ -1,0 +1,1922 @@
+[{
+  "id": "66881254e482093db1d6f9ba",
+  "name": "New Threat: A Deep Dive Into the Zergeca Botnet",
+  "description": "An analysis of a newly discovered botnet named Zergeca, implemented in Go language, with capabilities for DDoS attacks, proxying, scanning, self-upgrading, persistence, file transfer, reverse shell, and collecting sensitive device information. The report delves into the botnet\u0027s unique features, including its multi-DNS resolution methods, encrypted communication protocol, and connection to a previously used IP address associated with Mirai botnets. The analysis covers sample detection, infrastructure details, reverse engineering findings, and provides insights into the author\u0027s techniques and expertise.",
+  "author_name": "AlienVault",
+  "modified": "2024-08-04T15:04:12.123000",
+  "created": "2024-07-05T15:33:40.475000",
+  "revision": 2,
+  "tlp": "white",
+  "public": 1,
+  "adversary": "",
+  "indicators": [
+    {
+      "id": 3916428821,
+      "indicator": "23ca4ab1518ff76f5037ea12f367a469",
+      "type": "FileHash-MD5",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3033884741,
+      "indicator": "596a96cc7bf9108cd896f33c44aedc8a",
+      "type": "FileHash-MD5",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428822,
+      "indicator": "604397198f291fa5eb2c363f7c93c9bf",
+      "type": "FileHash-MD5",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428823,
+      "indicator": "60f23acebf0ddb51a3176d0750055cf8",
+      "type": "FileHash-MD5",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428824,
+      "indicator": "6ac8958d3f542274596bd5206ae8fa96",
+      "type": "FileHash-MD5",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428825,
+      "indicator": "980cad4be8bf20fea5c34c5195013200",
+      "type": "FileHash-MD5",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428826,
+      "indicator": "9d96646d4fa35b6f7c19a3b5d3846777",
+      "type": "FileHash-MD5",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428827,
+      "indicator": "b19642a3c672d4f20cbdb5b1569bf98f",
+      "type": "FileHash-MD5",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428828,
+      "indicator": "d78d1c57fb6e818eb1b52417e262ce59",
+      "type": "FileHash-MD5",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428829,
+      "indicator": "d7b5d45628aa22726fd09d452a9e5717",
+      "type": "FileHash-MD5",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428830,
+      "indicator": "f68139904e127b95249ffd40dfeedd21",
+      "type": "FileHash-MD5",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428831,
+      "indicator": "04e8b08cda521a6f939f46856449ea53f846083a",
+      "type": "FileHash-SHA1",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428832,
+      "indicator": "1001b06820145ac69f3d440f1cc25990eb14cc71",
+      "type": "FileHash-SHA1",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428833,
+      "indicator": "34e38f2ceeed80c34f3aa8bd663654f50e6fa2b1",
+      "type": "FileHash-SHA1",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428834,
+      "indicator": "4a6cb6640b7a43ccfc6ee9921f0e88ba84da8a0b",
+      "type": "FileHash-SHA1",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428835,
+      "indicator": "d419c3ba75ec203cd002734114cc04d3dc735cfb",
+      "type": "FileHash-SHA1",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428836,
+      "indicator": "d729aa662ea7d652908326dc5d91b97d836ba936",
+      "type": "FileHash-SHA1",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428837,
+      "indicator": "ffb6b44c5911efb7397a02da9b66f83a42e3fd20",
+      "type": "FileHash-SHA1",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428838,
+      "indicator": "0dbbe5616de71c5753768de555203fb9eb2f1e72a8cb5bdce0559bc5cdfa3b2e",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428839,
+      "indicator": "2e9df8987212300815928e0426e9358b1380a1eaba38270d03dd69e421686b5b",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428840,
+      "indicator": "6b81d548c0fbd7a2275bb0d29deca0de96c1584ce7aadaf4f5dac3cb28ee9c29",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428841,
+      "indicator": "7db9189afd00c2b60b7f892ef1b86d040fb1cf02145c7d2e414ef77ba3335c11",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428842,
+      "indicator": "7e62e3e8911c0cb19df3477df0603fddeff82223e1cc6da7fb1698f512ff2cd2",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428843,
+      "indicator": "b55b1947a11de7ee2cb3aaede12ce15c85abf2b607d1ebd8f5ed56e3a6ef7c43",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916428844,
+      "indicator": "cea6e4aa15d7c6a2b2c794a660afaf96d43462e0b74436600a2c8a2288ad0c27",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 2688539626,
+      "indicator": "multi-user.target",
+      "type": "domain",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 2961293650,
+      "indicator": "network.target",
+      "type": "domain",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3760034786,
+      "indicator": "bot.hamsterrace.space",
+      "type": "hostname",
+      "created": "2024-07-05T15:33:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    }
+  ],
+  "tags": [
+    "zergeca",
+    "ddos",
+    "botnet",
+    "cve-2018-10562",
+    "persistence",
+    "go",
+    "cve-2018-10561",
+    "cve-2016-20016",
+    "cve-2022-35733",
+    "cve-2017-17215"
+  ],
+  "targeted_countries": [
+    "Canada",
+    "United States of America",
+    "Germany"
+  ],
+  "malware_families": [
+    "Zergeca"
+  ],
+  "attack_ids": [
+    "T1082",
+    "T1059.002",
+    "T1190",
+    "T1583.003",
+    "T1609",
+    "T1059.004",
+    "T1195.002",
+    "T1499",
+    "T1071.001",
+    "T1021.001"
+  ],
+  "references": [
+    "https://blog.xlab.qianxin.com/a-deep-dive-into-the-zergeca-botnet"
+  ],
+  "industries": [],
+  "extract_source": [],
+  "more_indicators": false
+},{
+  "id": "668807c860b915f2f6980755",
+  "name": "Exploring the Infection Chain: ScreenConnect\u0027s Link to AsyncRAT Deployment",
+  "description": "In June 2024, eSentire\u0027s Threat Response Unit observed several incidents involving users downloading the ScreenConnect remote access client, potentially facilitated through drive-by downloads. Threat actors exploited ScreenConnect to establish unauthorized remote sessions, ultimately deploying the AsyncRAT trojan. The malicious scripts executed exhibited techniques like delaying tactics and conditional execution to evade detection by security software.",
+  "author_name": "AlienVault",
+  "modified": "2024-08-04T14:01:57.415000",
+  "created": "2024-07-05T14:48:40.985000",
+  "revision": 3,
+  "tlp": "white",
+  "public": 1,
+  "adversary": "",
+  "indicators": [
+    {
+      "id": 3916578929,
+      "indicator": "3f8ca557d51e210952bdd7180cb33d10",
+      "type": "FileHash-MD5",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916578930,
+      "indicator": "4f3bb0cdfff1c15b75041d07c1b7aac9",
+      "type": "FileHash-MD5",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916578931,
+      "indicator": "6bdba391a77bb67cb5aaae203d061ea8",
+      "type": "FileHash-MD5",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 19635227,
+      "indicator": "b06e67f9767e5023892d9698703ad098",
+      "type": "FileHash-MD5",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 19635228,
+      "indicator": "acc07666f4c1d4461d3e1c263cf6a194a8dd1544",
+      "type": "FileHash-SHA1",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 19635223,
+      "indicator": "8498900e57a490404e7ec4d8159bee29aed5852ae88bd484141780eaadb727bb",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916578932,
+      "indicator": "aviranpreschool.com",
+      "type": "domain",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916578933,
+      "indicator": "lomklauekabjikaiwoge.com",
+      "type": "domain",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592062,
+      "indicator": "27acb9a27fe43dbb44edd9bcf02c0b1a",
+      "type": "FileHash-MD5",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592063,
+      "indicator": "85994bc658a6cbcf3c3e89d5081b3780",
+      "type": "FileHash-MD5",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592064,
+      "indicator": "b347396f26f24d3d85f38962405d3dda",
+      "type": "FileHash-MD5",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592065,
+      "indicator": "c2ce295b2922e408d1e4c98fa8021742",
+      "type": "FileHash-MD5",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592066,
+      "indicator": "3fae0b5fdd7a5c0334ec5639d7692abadc78d55d",
+      "type": "FileHash-SHA1",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592067,
+      "indicator": "7820b5593862ac24cfd0bff82dd5d4aae58a5bde",
+      "type": "FileHash-SHA1",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592068,
+      "indicator": "8d2aee98ba6bf3b4e3fddb8e441ba196c79a2321",
+      "type": "FileHash-SHA1",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592069,
+      "indicator": "c8f673d790974ebd879fc09862bf2451ced95a51",
+      "type": "FileHash-SHA1",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3914430221,
+      "indicator": "fe66b8fac524ad2ab28f78fbb11994e6e0b2a467",
+      "type": "FileHash-SHA1",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592070,
+      "indicator": "0294ac2898d8db407f961eed90af5f63f074f7c37c5f803b707b56b81740a4b6",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592071,
+      "indicator": "1c31231b53b0baa178c93c26bec5039237329e9f814b61954a475d6052528c43",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592072,
+      "indicator": "22ccc6e138ff12b9c7738caf64c25bdf00b478b1b2e523daf25be3fca196f984",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592073,
+      "indicator": "236c5323d8aeb74d97f0bd5d54d8c774d07ff26f6befbc7f155b5349d0ba604a",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592074,
+      "indicator": "249edf69d999163b1dbc9923ff2c8a5903757ffc9b027461f03047b171afe1d1",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592075,
+      "indicator": "279241ff7fd78e4152b35cd2f1e673994e7b2a02ded4edd31ef152f95d9bc969",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592076,
+      "indicator": "2ac4277b12a5091ff5e041989d932cff2b0b69a1d31a7de6d74984d5fd725641",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592077,
+      "indicator": "2da256191573d99e7c36606c6748ea84d8665cc2f8000bd0d2fadbd66ab3004a",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592078,
+      "indicator": "2e370ce4d05ab6154489ba3a9ed75e7a6890c5b5b7974a687f928683a5bda221",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592079,
+      "indicator": "31a81bddfce4cf7cc065e451c9445372a55854dffca0fc520ae81f9bfa4f22a0",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592080,
+      "indicator": "3285c76f50ce1bd5985e3201a7e85695bd94fc595fc3da70b71f7d87fc4f69c2",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592081,
+      "indicator": "32ccda7747cd105f270caee6494a453b4a6614f332f5c23193d8ad8fcb9ed939",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592082,
+      "indicator": "3d3f9a8fdc25492e1f797d7ea40c0afdef8aafb65c3d7248d3d76f4817fb66d4",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592083,
+      "indicator": "3f43b6029cb0c42b95c9205356746ce72db43ed82163f6b176a6f280b2eae98b",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592084,
+      "indicator": "47bc65e3d83d26b419535d9ecd9c14ea2a66554eca0222b30356105abcd62ed0",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592085,
+      "indicator": "50450ca18d815947ba511ba18d18261c6206254891b25734824caa68a602c4d0",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592086,
+      "indicator": "526abb1dd44dad419d000482a5f92cfc4d290673aa8dc7c60ca2017a4fb5de88",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592087,
+      "indicator": "533ffd45167d8029a62cd54986bbf933199676dc731898083f1287f8fe65451a",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592088,
+      "indicator": "55b588463e9af8c4e4d2dbbe608f6e47e8987a2c32b5aa69c6a19ddc3fc25a4c",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592089,
+      "indicator": "568be120305376a9b9d9dfaacccdaf8788883b5c544a330294d4671c57796f6d",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592090,
+      "indicator": "579daf4b58d3f1b9903dad053ccdbbf05f445cb70339996ce90f477958035e68",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592091,
+      "indicator": "597a55ac25fc4ca4d5fcba33bbd88f3b1fc47ace41e89daf394f76b0841d0979",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592092,
+      "indicator": "59dea613bbff003ad139da01c6243f3d8f6cd31f09c192b38c8beb0c6ade8acc",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592093,
+      "indicator": "5aed97c59a0286107312dab7982983d4bf638eb1a999ac86c1056114fd4f12e0",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592094,
+      "indicator": "5d45100f7f80903ea2031dbd4c546bee6c12a8a98d6f27ac5d741a8886c81b83",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592095,
+      "indicator": "5eb2ebe9104e6ef814851ccfb6493408a3f02fa7b2a0d06da4e7b678f1f93833",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592096,
+      "indicator": "5f27802fabf7e1921c04359bfa48cfc96c18514d3f7a32a39fc80566e2e18008",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592097,
+      "indicator": "62d76b7498756fcbc87629cb0fa001e8e1272883e434054a5356901ac2699aec",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592098,
+      "indicator": "6513878c1be24fe2f041008a51754071fa90fd48fd9de65290a6d01fdcd7efa6",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592099,
+      "indicator": "6a6226eb265a361098bb8fc947448f831ee9549a84208033045e2cbdc3b0ba34",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592100,
+      "indicator": "6bfea924734c7ccdf2822729d72d78a5174011768de0cd2576643e99832f8452",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592101,
+      "indicator": "6ed34a18930c558f946a17f2d0de649413b7441c96458b762ea588d185df797c",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592102,
+      "indicator": "6f1905e804200c694582758c63244fd966e807eeee443bd0d40bebd5072045a5",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592103,
+      "indicator": "717c083156d07b631e42e3d9f4d175c59d206f7b3b04add1f761b43fbdf41cee",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592104,
+      "indicator": "784b8907059b57709fbcfc8e4a97d914a181a8d6f955202ce4815abeac85f033",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592105,
+      "indicator": "7ccab1d1207272966907184d73c655a0035451f9bc7f4d602e069312ac819244",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592106,
+      "indicator": "8ab5db97785ca6fe0213e779b4a3960712bf9202dcfe4ab6ce0add5a2531d862",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592107,
+      "indicator": "9243236bd249560e2a626171fe17771656d02418efa6b6ac3c3823c6c747e6a8",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592108,
+      "indicator": "95692e64e52f38f3285fc1a071691551aa14d01e4c5867a4c34b60e003d0da61",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592109,
+      "indicator": "98f219e6becd0f0501256146bd7bfc6d2f0ce28003c048c821fcb7501686ee38",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592110,
+      "indicator": "9ae6bea13bbe186dde5a380c94d309c56aba8c055b0f540eadf9c988b914b729",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592111,
+      "indicator": "9e7c5a22db466c5c093d9eb91b79fa0c17f4491667aac585b7b8d60a5b0976a0",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592112,
+      "indicator": "a0cdda26ad1452391df07f904ca5784345b2199308664cf613b09c6f1e24af17",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592113,
+      "indicator": "a4e2bbb403f5bcf7709456d412716323022039b87a79c4fe1f8c726269ca236d",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592114,
+      "indicator": "ab6979ed8daf3875cda868be8c794035567920f980d491b647efcc922e6375b7",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592115,
+      "indicator": "abc884a816b3c414ff9d15c1152cf5e5c2d3e670ee6dcee3d052d08056f3ac74",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592116,
+      "indicator": "af962298ee5c9fb41cf82d00dc919bfd6e514bd6aca71ae4d674b259eee0fc7c",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3914430230,
+      "indicator": "b31c484cabd6030c919fe519a7697736485f0004c79dbd081c9fb236fc18503f",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592117,
+      "indicator": "b4e71358c183707b27361219af2146f7b72042f56cec7ed8f917795a76b2296f",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592118,
+      "indicator": "b96bd9decf14957fcb03ff4ad753735d00164da2d02ff694607c643531b626cd",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592119,
+      "indicator": "c30702ce7c9931b5a9525a2fef0018ad9a4b314668b72339a4914b0f1783ce9e",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592120,
+      "indicator": "ce87ff0b32de840a2499d82260bdc83805ce24b9373e190314e5639b0dd034b3",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592121,
+      "indicator": "d38bbb755ba411e2457833b700e4d3fe4d19acf03feb8f59ac29f804b8a2e938",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592122,
+      "indicator": "d9c038ec71396e395fbd88b384e3335f3afb94bdf2371fb0713bfe963f342185",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592123,
+      "indicator": "df2e7c2aabe2f6889589aef8f6e8c604207aff07f121f9e6d82a309f1cfd3079",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592124,
+      "indicator": "e0df0ad47456b7d8a0c34645a7c9990e99ff6fe5d0c96ca55a406b34d5ae91a4",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592125,
+      "indicator": "e3ad352e1c9a3a1842c17262d626bb95f9ec3b199cacd4a8011e954a1473843f",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592126,
+      "indicator": "e522531d2cd8fca257452945e0c00a1a04a2d132cef848aef41a1a2e1ef2d8b4",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592127,
+      "indicator": "e535a00f01748954152e16a28ac1dabeb056d097f4e98aa59f07b9a6f0e9434e",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592128,
+      "indicator": "e597fd01bd50700473316d7bcbfe0f6b43d10842d45eb8598bd35438831ae897",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592129,
+      "indicator": "e5d37c781676a67bacc070088dd8d14f70bf74827c3d788eb9602884c38b7c19",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592130,
+      "indicator": "ea28712cd43fbad5b018a6d19594a5b8a6770965a0221c19f1fb8ebf459d2b31",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592131,
+      "indicator": "f3abb0cc802f3d7b95fc8762b94bdcb13bf39634c40c357301c4aa1d67a256fb",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592132,
+      "indicator": "f42c7da665f73fdf6e86f1ebf1054af265541f534912599d27b6dc671e9c8375",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3910273374,
+      "indicator": "f6e41c3092c5e1167d95330a2a482f695598c31ad79963c59b07ab79dbfb87f7",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592133,
+      "indicator": "fa55401d78f8eabf5dff1b903a9f072b8324851286f67c0aca5b3af931bb4877",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592134,
+      "indicator": "fb5aac98c73fa13b244d763b495701ab2eb44815dbd0019531fe081536ef9b9a",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592135,
+      "indicator": "fd0d3c38d2bbb517a8e74d8879b73ba57a3832a450abbe826803ceef5726a14a",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916592136,
+      "indicator": "uipwbmldpswkgwle.site",
+      "type": "domain",
+      "created": "2024-07-05T14:48:41",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    }
+  ],
+  "tags": [
+    "NSI script",
+    "ScreenConnect",
+    "NSIS installer",
+    "AutoIt",
+    "AsyncRAT"
+  ],
+  "targeted_countries": [],
+  "malware_families": [
+    "AsyncRAT"
+  ],
+  "attack_ids": [
+    "T1053.005",
+    "T1059.007",
+    "T1204.002",
+    "T1053",
+    "T1562",
+    "T1219",
+    "T1055",
+    "T1090",
+    "T1059",
+    "T1204",
+    "T1059.001",
+    "T1059.004",
+    "T1027.005",
+    "T1027",
+    "T1059.003",
+    "T1027.002",
+    "T1059.005",
+    "T1204.001",
+    "T1490"
+  ],
+  "references": [
+    "https://www.esentire.com/blog/exploring-the-infection-chain-screenconnects-link-to-asyncrat-deployment",
+    "https://github.com/esThreatIntelligence/iocs/blob/main/ScreenConnect/ScreenConnect_AsyncRAT_6-24-2024.txt"
+  ],
+  "industries": [],
+  "extract_source": [],
+  "more_indicators": false
+},{
+  "id": "66867e1fa39cf80103eaff43",
+  "name": "Mekotio Banking Trojan Threatens Financial Systems in Latin America",
+  "description": "The Mekotio banking trojan, active since 2015, primarily targets Latin American countries to steal sensitive banking credentials through phishing emails containing malicious links or attachments. Upon execution, it gathers system information, connects to a command-and-control server, and performs credential theft, information gathering, and employs persistence mechanisms. The stolen data is sent back to the server for fraudulent activities. Users and organizations should follow security best practices to mitigate this threat.",
+  "author_name": "AlienVault",
+  "modified": "2024-08-03T10:03:30.935000",
+  "created": "2024-07-04T10:49:02.975000",
+  "revision": 2,
+  "tlp": "white",
+  "public": 1,
+  "adversary": "",
+  "indicators": [
+    {
+      "id": 3916017435,
+      "indicator": "3e4f3d7f962653220759a1169c3bad45",
+      "type": "FileHash-MD5",
+      "created": "2024-07-04T10:49:04",
+      "content": "",
+      "title": "stack_string",
+      "description": "MD5 of 1087b318449d7184131f0f21a2810013b166bf37",
+      "is_active": 1
+    },
+    {
+      "id": 3916017436,
+      "indicator": "6c81cf6d72baffb7cfe0d62d8d17d5f4",
+      "type": "FileHash-MD5",
+      "created": "2024-07-04T10:49:04",
+      "content": "",
+      "title": "stack_string",
+      "description": "MD5 of ef22c6b4323a4557ad235f5bd80d995a6a15024a",
+      "is_active": 1
+    },
+    {
+      "id": 3916017437,
+      "indicator": "1087b318449d7184131f0f21a2810013b166bf37",
+      "type": "FileHash-SHA1",
+      "created": "2024-07-04T10:49:04",
+      "content": "",
+      "title": "stack_string",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916017438,
+      "indicator": "3fe5d098952796c0593881800975bcb09f1fe9ed",
+      "type": "FileHash-SHA1",
+      "created": "2024-07-04T10:49:04",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916017439,
+      "indicator": "5e92f0fcddc1478d46914835f012137d7ee3c217",
+      "type": "FileHash-SHA1",
+      "created": "2024-07-04T10:49:04",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916017440,
+      "indicator": "ef22c6b4323a4557ad235f5bd80d995a6a15024a",
+      "type": "FileHash-SHA1",
+      "created": "2024-07-04T10:49:04",
+      "content": "",
+      "title": "stack_string",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916017441,
+      "indicator": "f68d3a25433888aa606e18f0717d693443fe9f5a",
+      "type": "FileHash-SHA1",
+      "created": "2024-07-04T10:49:04",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916017442,
+      "indicator": "439eecb230fb53b817ae535d6a6d978066134b4b52e49e065e9ddeff5f2bbbd3",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-04T10:49:04",
+      "content": "",
+      "title": "stack_string",
+      "description": "SHA256 of ef22c6b4323a4557ad235f5bd80d995a6a15024a",
+      "is_active": 1
+    },
+    {
+      "id": 3916017443,
+      "indicator": "a7112aa5b398fc7a77100164c818b5e17612d828320b4e3e1f895e56b4fd6797",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-04T10:49:04",
+      "content": "",
+      "title": "stack_string",
+      "description": "SHA256 of 1087b318449d7184131f0f21a2810013b166bf37",
+      "is_active": 1
+    },
+    {
+      "id": 3916017452,
+      "indicator": "http://tudoprafrente.co:7958",
+      "type": "URL",
+      "created": "2024-07-04T10:49:04",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916017453,
+      "indicator": "https://christcrucifiedinternational.org/descargafactmayo/eletricidad/",
+      "type": "URL",
+      "created": "2024-07-04T10:49:04",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916017454,
+      "indicator": "https://intimaciones.afip.gob.ar.kdental.cl/Documentos_Intimacion/",
+      "type": "URL",
+      "created": "2024-07-04T10:49:04",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916017455,
+      "indicator": "https://techpowerup.net/cgefacturacl/descargafactmayo/eletricidad/",
+      "type": "URL",
+      "created": "2024-07-04T10:49:04",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916017456,
+      "indicator": "christcrucifiedinternational.org",
+      "type": "domain",
+      "created": "2024-07-04T10:49:04",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916017457,
+      "indicator": "techpowerup.net",
+      "type": "domain",
+      "created": "2024-07-04T10:49:04",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916017458,
+      "indicator": "tudoprafrente.co",
+      "type": "domain",
+      "created": "2024-07-04T10:49:04",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916017459,
+      "indicator": "tudoprafrente.org",
+      "type": "domain",
+      "created": "2024-07-04T10:49:04",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3915206902,
+      "indicator": "intimaciones.afip.gob.ar.kdental.cl",
+      "type": "hostname",
+      "created": "2024-07-04T10:49:04",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    }
+  ],
+  "tags": [
+    "banking trojan",
+    "credential theft",
+    "mekotio"
+  ],
+  "targeted_countries": [
+    "Brazil",
+    "Chile",
+    "Mexico",
+    "Spain",
+    "Peru"
+  ],
+  "malware_families": [
+    "Mekotio"
+  ],
+  "attack_ids": [
+    "T1566",
+    "T1589"
+  ],
+  "references": [
+    "https://www.trendmicro.com/en_us/research/24/g/mekotio-banking-trojan.html",
+    "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/24/g/mekotio/mekotio-banking-trojan-threatens-financial-systems-in-latin-america.txt"
+  ],
+  "industries": [],
+  "extract_source": [],
+  "more_indicators": false
+},{
+  "id": "66867b22cc21e77a84c97a04",
+  "name": "Mallox Ransomware: Linux Variant Decryptor Found",
+  "description": "The report analyzes the Mallox ransomware, which has been active since mid-2021 and focuses on multi-extortion by encrypting victims\u0027 data and threatening to post it on public TOR sites. Initially targeting Windows systems, Mallox has now developed Linux variants using custom Python scripts for payload delivery and data exfiltration. The analysis reveals a Flask-based web panel for creating Linux ransomware builds, with capabilities like user authentication, build management, and admin functions. The encryptor uses AES-256-CBC encryption with a specific key and IV, appends the .lmallox extension to encrypted files, and drops a ransom note. The report also includes decryptors for various build IDs and covers Uptycs XDR detection capabilities and indicators of compromise.",
+  "author_name": "AlienVault",
+  "modified": "2024-08-03T10:03:30.935000",
+  "created": "2024-07-04T10:36:18.692000",
+  "revision": 2,
+  "tlp": "white",
+  "public": 1,
+  "adversary": "Mallox",
+  "indicators": [
+    {
+      "id": 3916018335,
+      "indicator": "1448ce8abc2f0184ec898d55f9c338b4",
+      "type": "FileHash-MD5",
+      "created": "2024-07-04T10:36:19",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916018336,
+      "indicator": "231478ff24055d5cdb5fbec36060c8ff",
+      "type": "FileHash-MD5",
+      "created": "2024-07-04T10:36:19",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916018337,
+      "indicator": "3dde1507996cf8c3dd53a726501be33b",
+      "type": "FileHash-MD5",
+      "created": "2024-07-04T10:36:19",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916018338,
+      "indicator": "4825f3a92780be4a285583b0f24fed99",
+      "type": "FileHash-MD5",
+      "created": "2024-07-04T10:36:19",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916018339,
+      "indicator": "51d51696c7f3a0e3fba4b8ceab210bac",
+      "type": "FileHash-MD5",
+      "created": "2024-07-04T10:36:19",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916018340,
+      "indicator": "5b0c1958a875c205951b88fd1c885900",
+      "type": "FileHash-MD5",
+      "created": "2024-07-04T10:36:19",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916018341,
+      "indicator": "68785d476573955d50a3908dc18bf73b",
+      "type": "FileHash-MD5",
+      "created": "2024-07-04T10:36:19",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916018342,
+      "indicator": "6bb2752ea73b4d6a5c33f543b5c29461",
+      "type": "FileHash-MD5",
+      "created": "2024-07-04T10:36:19",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916018343,
+      "indicator": "779aa15cd6a8d416e7f722331d87f47b",
+      "type": "FileHash-MD5",
+      "created": "2024-07-04T10:36:19",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916018344,
+      "indicator": "7f099845d8e6849d6ab4d64b546477d6",
+      "type": "FileHash-MD5",
+      "created": "2024-07-04T10:36:19",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916018345,
+      "indicator": "8d0fd41d35df82d3e7e2ff5c1747b87c",
+      "type": "FileHash-MD5",
+      "created": "2024-07-04T10:36:19",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916018346,
+      "indicator": "b0770b7f24a436d256f2d58fc8581a18",
+      "type": "FileHash-MD5",
+      "created": "2024-07-04T10:36:19",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916018347,
+      "indicator": "be08c3e95df5992903a69e04cbab22e3",
+      "type": "FileHash-MD5",
+      "created": "2024-07-04T10:36:19",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916018348,
+      "indicator": "cb60ad37c9a632c697fb2da7add7ccb5",
+      "type": "FileHash-MD5",
+      "created": "2024-07-04T10:36:19",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916018349,
+      "indicator": "e9e087c52b97c7a3e343642379829e0a",
+      "type": "FileHash-MD5",
+      "created": "2024-07-04T10:36:19",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916018350,
+      "indicator": "http://185.73.125.6/output",
+      "type": "URL",
+      "created": "2024-07-04T10:36:19",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3916018351,
+      "indicator": "http://185.73.125.6/output/",
+      "type": "URL",
+      "created": "2024-07-04T10:36:19",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    }
+  ],
+  "tags": [
+    "fargo",
+    "encryption",
+    "cyber-extortion",
+    "mawahelper",
+    "ransomware",
+    "targetcompany",
+    "mallox"
+  ],
+  "targeted_countries": [],
+  "malware_families": [
+    "Mallox"
+  ],
+  "attack_ids": [
+    "T1489",
+    "T1137",
+    "T1071",
+    "T1567",
+    "T1491",
+    "T1059",
+    "T1083",
+    "T1497",
+    "T1566",
+    "T1078",
+    "T1486",
+    "T1499",
+    "T1588",
+    "T1505",
+    "T1485",
+    "T1498",
+    "T1134",
+    "T1484",
+    "T1490"
+  ],
+  "references": [
+    "https://www.uptycs.com/blog/mallox-ransomware-linux-variant-decryptor-discovered"
+  ],
+  "industries": [],
+  "extract_source": [],
+  "more_indicators": false
+},{
+  "id": "6685387168b4cf13f282f2c3",
+  "name": "Attack Case against HFS (HTTP File Server) Server (Suspected CVE-2024-23692)",
+  "description": "A remote code execution vulnerability (CVE-2024-23692) in the HFS (HTTP File Server) program has allowed attackers to execute malicious commands on vulnerable systems. Various attack cases exploiting this vulnerability have been observed, leading to the installation of malware such as coin miners, RATs, backdoors, and information stealers. The attackers seem to be primarily Chinese-speaking threat actors.",
+  "author_name": "AlienVault",
+  "modified": "2024-08-02T11:00:38.092000",
+  "created": "2024-07-03T11:39:29.513000",
+  "revision": 4,
+  "tlp": "white",
+  "public": 1,
+  "adversary": "",
+  "indicators": [
+    {
+      "id": 3912850048,
+      "indicator": "CVE-2024-23692",
+      "type": "CVE",
+      "created": "2024-07-03T11:39:30",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3912850049,
+      "indicator": "4383b1ea54a59d27e5e6b3122b3dadb2",
+      "type": "FileHash-MD5",
+      "created": "2024-07-03T11:39:30",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3912850050,
+      "indicator": "6adaeb6543955559c05a9de8f92d1e1d",
+      "type": "FileHash-MD5",
+      "created": "2024-07-03T11:39:30",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3912850051,
+      "indicator": "77970a04551636cc409e90d39bbea931",
+      "type": "FileHash-MD5",
+      "created": "2024-07-03T11:39:30",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3912850052,
+      "indicator": "8f0071027d513867feb3eb8943ccaf05",
+      "type": "FileHash-MD5",
+      "created": "2024-07-03T11:39:30",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3912850053,
+      "indicator": "ce7dc5df5568a79affa540aa86b24773",
+      "type": "FileHash-MD5",
+      "created": "2024-07-03T11:39:30",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3912850054,
+      "indicator": "86f163a248e2a9eb2209881351029ce2bbcc5b58",
+      "type": "FileHash-SHA1",
+      "created": "2024-07-03T11:39:30",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3912850055,
+      "indicator": "be42f6a567b193884333d0668b94f7635c08dc00",
+      "type": "FileHash-SHA1",
+      "created": "2024-07-03T11:39:30",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3912850056,
+      "indicator": "0af21e5bdeaf84c33c172a1170987cca478c2b3e13a3de5653f724f36e278ee4",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-03T11:39:30",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3912850057,
+      "indicator": "cbb265cfae15aa0f39bc67447aa82fc3ac40be6f9239a111e21e1532295eb4ed",
+      "type": "FileHash-SHA256",
+      "created": "2024-07-03T11:39:30",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3912850060,
+      "indicator": "http://121.204.249.123/2345.exe",
+      "type": "URL",
+      "created": "2024-07-03T11:39:30",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3912850061,
+      "indicator": "http://121.204.249.123:8077/systeminfo.exe",
+      "type": "URL",
+      "created": "2024-07-03T11:39:30",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3912850064,
+      "indicator": "http://185.173.93.167:13306/Roboform.dll",
+      "type": "URL",
+      "created": "2024-07-03T11:39:30",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3912850065,
+      "indicator": "http://185.173.93.167:13306/WindowsWatcher.key",
+      "type": "URL",
+      "created": "2024-07-03T11:39:30",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3912850066,
+      "indicator": "http://188.116.22.65:5000/submit",
+      "type": "URL",
+      "created": "2024-07-03T11:39:30",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3912850067,
+      "indicator": "http://support.firewallsupportservers.com:80",
+      "type": "URL",
+      "created": "2024-07-03T11:39:30",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    },
+    {
+      "id": 3912850068,
+      "indicator": "support.firewallsupportservers.com",
+      "type": "hostname",
+      "created": "2024-07-03T11:39:30",
+      "content": "",
+      "title": "",
+      "description": "",
+      "is_active": 1
+    }
+  ],
+  "tags": [
+    "cve-2024-23692",
+    "gothief",
+    "gh0strat",
+    "xenorat",
+    "xmrig",
+    "cobaltstrike",
+    "rat",
+    "korplug",
+    "vulnerability",
+    "backdoor",
+    "exploit",
+    "plugx",
+    "destroyrat"
+  ],
+  "targeted_countries": [],
+  "malware_families": [
+    "XMRig",
+    "XenoRAT",
+    "Gh0stRAT",
+    "PlugX - S0013",
+    "DestroyRAT",
+    "Korplug",
+    "GoThief",
+    "CobaltStrike"
+  ],
+  "attack_ids": [
+    "T1047",
+    "T1089",
+    "T1082",
+    "T1053",
+    "T1106",
+    "T1190",
+    "T1021",
+    "T1059",
+    "T1070",
+    "T1083",
+    "T1057",
+    "T1072",
+    "T1027",
+    "T1012",
+    "T1569",
+    "T1134",
+    "T1136",
+    "T1018",
+    "T1105"
+  ],
+  "references": [
+    "https://asec.ahnlab.com/ko/67509/"
+  ],
+  "industries": [],
+  "extract_source": [],
+  "more_indicators": false
+}]

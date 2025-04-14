@@ -1,0 +1,10 @@
+{
+  "presetEndTime":"2023-7-1",
+  "operatorManifest": [
+    "FileInput",
+    "FileOutput",
+    "FileOutputs",
+    "CsvReader",
+    "CsvWriter"
+  ]
+}
