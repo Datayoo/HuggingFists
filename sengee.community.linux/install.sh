@@ -14,12 +14,8 @@ echo '创建用户'
 adduser datayoo
 echo 'nerdctl安装开始'
 mkdir -p /usr/local/bin
-cat ./nerdctl* > ./nerdctl.tar.gz
-rm -r ./nerdctl
-mkdir ./nerdctl
 chown -R datayoo:datayoo ../sengee.community.linux/*
 chmod -R 777 ../sengee.community.linux/*
-tar -zxvf nerdctl.tar.gz -C ./nerdctl
 \cp -f ./nerdctl/bin/* /usr/local/bin
 \cp -f ./nerdctl/lib/systemd/system/*.service /lib/systemd/system
 mkdir -p /opt/cni/bin
