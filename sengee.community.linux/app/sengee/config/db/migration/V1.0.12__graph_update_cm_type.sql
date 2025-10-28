@@ -1,0 +1,1 @@
+update  gee_proc_graph set cm_type = 'batch' where cm_type is null or cm_type='';

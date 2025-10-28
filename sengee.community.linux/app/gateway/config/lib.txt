@@ -1,3 +1,4 @@
+footstone-platform-2.0-SNAPSHOT.jar
 commons-compress-1.21.jar
 commons-lang3-3.12.0.jar
 footstone-common-2.0-SNAPSHOT.jar

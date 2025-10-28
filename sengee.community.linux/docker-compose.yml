@@ -1,13 +1,9 @@
 services:
-  gateway:
+  mcp:
     image: sengee:base
     privileged: true
     restart: always
-    container_name: gateway
-    expose:
-      - "38800"
-    ports:
-      - 38801:38801
+    container_name: mcp
     environment:
       - LC_ALL=zh_CN.UTF-8
       - LANGUAGE=zh_CN.UTF-8
@@ -18,6 +14,37 @@ services:
       nofile:
         soft: 20000
         hard: 40000
+    user: root
+    ports:
+      - 43121:43121
+      - 10000:10000
+    volumes:
+      - ./app/mcp:/home/datayoo/app/mcp
+      - ./app/lib:/home/datayoo/app/mcp/lib
+      - ./app/mcp/scripts:/home/datayoo/scripts
+      - ./app/mcp/logs:/home/datayoo/logs
+      - ./dfs:/home/datayoo/dfs
+    hostname: datayoo.mcp
+  gateway:
+    image: sengee:base
+    privileged: true
+    restart: always
+    container_name: gateway
+    expose:
+      - "38800"
+    environment:
+      - LC_ALL=zh_CN.UTF-8
+      - LANGUAGE=zh_CN.UTF-8
+      - TZ=Asia/Shanghai
+      - LD_LIBRARY_PATH=/usr/lib/
+    ulimits:
+      nproc: 65535
+      nofile:
+        soft: 20000
+        hard: 40000
+    user: root
+    ports:
+      - 38801:38801
     volumes:
       - ./app/gateway:/home/datayoo/app/gateway
       - ./app/lib:/home/datayoo/app/gateway/lib
@@ -39,11 +66,16 @@ services:
       nofile:
         soft: 20000
         hard: 40000
+    user: root
+    ports:
+      - 39500:39500
+      - 39501:39501
     volumes:
       - ./app/dencho:/home/datayoo/app/dencho
       - ./app/lib:/home/datayoo/app/dencho/lib
       - ./app/dencho/scripts:/home/datayoo/scripts
       - ./app/dencho/logs:/home/datayoo/logs
+      - ./dfs:/home/datayoo/dfs
       - ./operators:/home/datayoo/app/dencho/operators
     hostname: datayoo.dencho
   oyez:
@@ -55,13 +87,18 @@ services:
       - LC_ALL=zh_CN.UTF-8
       - LANGUAGE=zh_CN.UTF-8
       - TZ=Asia/Shanghai
+      - LD_LIBRARY_PATH=/usr/lib/
     ulimits:
       nproc: 65535
       nofile:
         soft: 20000
         hard: 40000
+    user: root
     ports:
       - 38505:38505
+      - 32569:32569
+      - 32021:32021
+      - 514:8514/udp
     volumes:
       - ./app/oyez:/home/datayoo/app/oyez
       - ./app/lib:/home/datayoo/app/oyez/lib
@@ -71,6 +108,8 @@ services:
       - ./dfs:/home/datayoo/dfs
       - ./moo:/home/datayoo/moo
       - ./app/oyez/dist-packages:/usr/local/lib/python3.9/dist-packages
+      - ./app/oyez/nzfs:/home/datayoo/nzfs
+      - ./app/oyez/drivers:/home/datayoo/utils/drivers
   nginx:
     image: nginx:alpine
     privileged: true
@@ -78,6 +117,7 @@ services:
     container_name: nginx
     depends_on:
       - gateway
+    user: root
     ports:
       - 38172:38172
     volumes:
@@ -91,11 +131,12 @@ services:
     expose:
       - "38500"
       - "8823"
+    user: root
     ports:
-      - 38500:38500
       - 38502:38502
-    depends_on:
-      - mysql
+      - 38500:38500
+      - 8823:8823
+      - 8822:8822
     environment:
       - LC_ALL=zh_CN.UTF-8
       - LANGUAGE=zh_CN.UTF-8
@@ -108,6 +149,11 @@ services:
       - ./operators:/home/datayoo/app/sengee/operators/
       - ./dfs:/home/datayoo/dfs
     hostname: datayoo.sengee
+    ulimits:
+      nproc: 65535
+      nofile:
+        soft: 20000
+        hard: 40000
   brackets:
     image: sengee:base
     privileged: true
@@ -115,8 +161,9 @@ services:
     container_name: brackets
     expose:
       - "38600"
-    depends_on:
-      - mysql
+    user: root
+    ports:
+      - 38601:38601
     environment:
       - LC_ALL=zh_CN.UTF-8
       - LANGUAGE=zh_CN.UTF-8
@@ -135,8 +182,10 @@ services:
     container_name: authx
     expose:
       - "38700"
-    depends_on:
-      - mysql
+    user: root
+    ports:
+      - 38702:38702
+      - 38700:38700
     environment:
       - LC_ALL=zh_CN.UTF-8
       - LANGUAGE=zh_CN.UTF-8
@@ -149,7 +198,8 @@ services:
       - ./app/lib:/home/datayoo/app/authx/lib
       - ./app/authx/scripts:/home/datayoo/scripts
       - ./app/authx/logs/:/home/datayoo/logs
-      - ./nginx/ui:/home/datayoo/ui
+      - ./nginx/:/home/datayoo/nginx
+      - ./app/gateway:/home/datayoo/app/gateway
     hostname: datayoo.authx
   mysql:
     restart: always
@@ -161,11 +211,10 @@ services:
       - ./mysql/conf:/etc/mysql/conf.d
       - ./mysql/init/initDb.sql:/docker-entrypoint-initdb.d/init.sql
     command:
-     - --character-set-server=utf8mb4
-     - --collation-server=utf8mb4_general_ci
-     - --explicit_defaults_for_timestamp=true
-     - --authentication_policy=mysql_native_password
-     - --skip-log-bin
+      --character-set-server=utf8mb4
+      --collation-server=utf8mb4_general_ci
+      --explicit_defaults_for_timestamp=true
+      --authentication_policy=mysql_native_password
     environment:
       MYSQL_ROOT_PASSWORD: "datayoo@123"
       TZ: "Asia/Shanghai"

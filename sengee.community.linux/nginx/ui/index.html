@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Sengee</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script type="text/javascript">
+    function isMac() {
+      return /macintosh|mac os x/i.test(navigator.userAgent);
+    }
+    function loadStyle(url) {
+      var link = document.createElement("link");
+      link.type = "text/css";
+      link.rel = "stylesheet";
+      link.href = url;
+      document.getElementsByTagName("head")[0].appendChild(link);
+    }
+    if (!isMac()) loadStyle('./assets/css/scrollbar.css');
+
+    window.addEventListener('message', (e) => {
+      if (e.data.token) {
+        localStorage.setItem('s_token', e.data.token);
+        window.dispatchEvent(new Event('s_token'));
+      }
+    });
+
+    // window.ssoEnable = true;
+    // window.ssoUrl = 'http://172.16.8.43:8010/#/login?redirect=';
+    // window.ssoLogout = 'http://www.baidu.com';
+    // window.datayoo = '数由科技';
+    // window.member = 'http://172.19.56.250:38800';
+    // window.aiFlowId = 'readLLMTools';
+
+    // localStorage.setItem('s_theme', 'blue1');
+    // window.title = '大数据智能分析沙箱';
+  </script>
+<style>html{--ant-primary-color:#2a8b92;--ant-primary-color-rgb:42, 139, 146;--ant-primary-color-disabled:#b7c4c3;--ant-primary-color-hover:#479b9e;--ant-primary-color-active:#0d3d45;--ant-primary-color-outline:rgba(42, 139, 146, .2);--ant-primary-color-deprecated-bg:#b7c4c3;--ant-primary-color-deprecated-border:#68abab;--ant-primary-1:#c5d1d0;--ant-primary-2:#b7c4c3;--ant-primary-3:#8db8b6;--ant-primary-4:#68abab;--ant-primary-5:#479b9e;--ant-primary-6:#2a8b92;--ant-primary-7:#1a636b;--ant-primary-8:#0d3d45;--ant-primary-9:#041a1f;--ant-primary-10:#000000;--ant-primary-color-deprecated-l-35:rgb(144, 218, 223);--ant-primary-color-deprecated-l-20:rgb(84, 198, 206);--ant-primary-color-deprecated-t-20:rgb(85, 162, 168);--ant-primary-color-deprecated-t-50:rgb(149, 197, 201);--ant-primary-color-deprecated-f-12:rgba(42, 139, 146, .12);--ant-primary-color-active-deprecated-f-30:rgba(197, 209, 208, .3);--ant-primary-color-active-deprecated-d-02:rgb(191, 204, 203);--ant-success-color:#52c41a;--ant-success-color-hover:#73d13d;--ant-success-color-active:#389e0d;--ant-success-color-outline:rgba(82, 196, 26, .2);--ant-success-color-deprecated-bg:#f6ffed;--ant-success-color-deprecated-border:#b7eb8f;--ant-error-color:#ff4d4f;--ant-error-color-hover:#ff7875;--ant-error-color-active:#d9363e;--ant-error-color-outline:rgba(255, 77, 79, .2);--ant-error-color-deprecated-bg:#fff2f0;--ant-error-color-deprecated-border:#ffccc7;--ant-warning-color:#faad14;--ant-warning-color-hover:#ffc53d;--ant-warning-color-active:#d48806;--ant-warning-color-outline:rgba(250, 173, 20, .2);--ant-warning-color-deprecated-bg:#fffbe6;--ant-warning-color-deprecated-border:#ffe58f;--ant-info-color:#2a8b92;--ant-info-color-deprecated-bg:#c5d1d0;--ant-info-color-deprecated-border:#8db8b6}html,body{width:100%;height:100%}*,*:before,*:after{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{margin:0;color:var(--text-color);font-size:13px;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";font-variant:tabular-nums;line-height:1.5715;background-color:var(--body-background);font-feature-settings:"tnum"}html{--antd-wave-shadow-color:var(--ant-primary-color);--scroll-bar:0}html,body{min-width:1366px}html{--ant-primary-color:#2a8b92;--ant-primary-color-rgb:42, 139, 146;--primary-color-highlight:#d9fbfd;--primary-color-2highlight:#00eeff;--body-background:#fbffff;--body-background-rgb:251, 255, 255;--text-color:#396669;--text-color-rgb:57, 102, 105;--text-color1:rgba(0, 0, 0, .25);--text-color2:rgba(0, 0, 0, .45);--text-color3:rgba(0, 0, 0, .65);--text-color4:rgba(0, 0, 0, .85);--layout-sider-background:#e2eeee;--layout-sider-background-rgb:226, 238, 238;--border-color:#dbe9ea;--border-color-rgb:219, 233, 234;--border-color1:rgba(0, 0, 0, .25);--table-header-bg:#c8dde0;--group-bg:#f7fdfd;--admin-sider-highlight:#44aaae;--td-icon1:#4da79d;--td-icon2:#50a617;--td-icon3:#b2c56f;--td-icon-delete:#aec5c7;--ant-result-title:#000000d9;--ant-result-subtitle:#00000073;--ant-empty-img-fill:#fafafa;--ant-empty-img-stroke:#d9d9d9;--disabled-bg:#f5f5f5;--disabled-border-color:#d9d9d9;--modal-mask-bg:#00000073;--header-bg:var(--ant-primary-color);--header-text-color:#fff;--header-border-color:var(--header-bg);--menu-bg:var(--layout-sider-background);--menu-top-bar-bg:var(--table-header-bg);--menu-item-selected-bg:var(--table-header-bg);--menu-item-bar-bg:var(--ant-primary-color);--menu-item-hover-bg:var(--table-header-bg);--menu-item-text-color:var(--ant-primary-color);--menu-item-selected-text-color:var(--ant-primary-color);--menu-item-tip-bg:var(--ant-primary-color);--menu-item-tip-text-color:#fff}html{--login-bg:#f0f2f5;--login-mask-bg:transparent;--index-card-border-color:#dbe9ea99;--index-card-bg:#ffffff80;--index-card-icon-bg:#e2eeee66;--index-card-small-bg:#fff;--index-text-color:var(--ant-primary-color);--index-job-error:#e62c00;--tab-menu-bg:var(--layout-sider-background);--tab-menu-color:var(--ant-primary-color);--tab-menu-selected-bg:var(--ant-primary-color);--tab-menu-selected-text-color:#fff;--compox-border-color:#fff;--compox-table-border-color:#ffffffb3;--sightx-tab-bg:transparent;--sightx-tab-active-bg:transparent;--sightx-tab-active-color:var(--ant-primary-color);--resource-book-bg:#fff;--resource-book-border-color1:#dbe9eacc;--resource-book-border-color2:#dbe9ea99;--resource-book-border-color3:#dbe9ea66;--resource-icon-bg:#fff;--retrieval-types-bg:#f1fdfd}</style><link rel="stylesheet" href="styles.a4532d9632eb31a3.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.a4532d9632eb31a3.css"></noscript></head>
+<body>
+  <app-root></app-root>
+<script src="runtime.2a16b55baadedc8b.js" type="module"></script><script src="polyfills.e5b7e4d0ff2ebf7c.js" type="module"></script><script src="scripts.3835e7a489a5e7c2.js" defer></script><script src="main.012ca8dd03de17a0.js" type="module"></script>
+
+</body></html>

@@ -1,0 +1,1 @@
+alter table moo_mcp_tool add column api_name varchar(128) default  null;

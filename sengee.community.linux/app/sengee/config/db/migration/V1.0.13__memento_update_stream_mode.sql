@@ -1,0 +1,1 @@
+update  gee_pg_memento set stream_mode = false where stream_mode is null;

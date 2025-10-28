@@ -1,0 +1,30 @@
+{
+  "provider": "数由科技",
+  "logo": {
+    "visible": true,
+    "navBar": "huggingfists.svg",
+    "login": "huggingfists-login.svg",
+    "text": ""
+  },
+  "login": {
+    "enabled": true,
+    "loginUrlOfThirdParty": "",
+    "logoutUrlOfThirdParty": ""
+  },
+  "register": {
+    "type": "both"
+  },
+  "theme": {
+    "name": "default"
+  },
+  "browserTab": {
+    "icon": "favicon.ico",
+    "title": "Sengee"
+  },
+  "tozoo": {
+    "url": "http://member.datayoo.com:38172"
+  },
+  "other": {
+    "aiFlowId": "readLLMTools"
+  }
+}
