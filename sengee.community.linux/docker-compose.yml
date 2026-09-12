@@ -18,6 +18,7 @@ services:
     ports:
       - 43121:43121
       - 10000:10000
+      - 39602:39602
     volumes:
       - ./app/mcp:/home/datayoo/app/mcp
       - ./app/lib:/home/datayoo/app/mcp/lib
@@ -70,6 +71,7 @@ services:
     ports:
       - 39500:39500
       - 39501:39501
+      - 39502:39502
     volumes:
       - ./app/dencho:/home/datayoo/app/dencho
       - ./app/lib:/home/datayoo/app/dencho/lib
