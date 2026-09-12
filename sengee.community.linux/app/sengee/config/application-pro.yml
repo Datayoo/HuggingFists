@@ -42,6 +42,14 @@ spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
+  flyway:
+    enabled: false
+  cloud:
+    nacos:
+      discovery:
+        enabled: false # 关闭服务注册与发现
+      config:
+        enabled: false # 关闭配置中心（如果也用到了Nacos配置中心）
 server:
   servlet:
     context-path: /sengee
@@ -50,6 +58,11 @@ server:
 feign:
   hystrix:
     enabled: false
+  client:
+    config:
+      default:
+        connectTimeout: 30000
+        readTimeout: 300000
 
 logging:
   config: classpath:logback-pro.xml
@@ -73,7 +86,7 @@ sengee:
     path: ./config/descriptor
   process:
     computionframework: oyez
-    type: APIFLOW
+    type: APIFLOW,DURAFLOW
   dencho:
     apiServerUrls: http://datayoo.sengee:38500/sengee/jobCallApi/call?apiId=%s
 
@@ -83,12 +96,12 @@ brackets:
 
 dencho:
   service:
-    url: http://datayoo.dencho:39500/dencho
+    url: http://datayoo.dencho:39500
 tozoo:
   remote:
     member:
-      url: http://member.datayoo.com:38172/member
-
+      url: http://member.datayoo.com:38800/member
+      #url: http://192.168.0.222:8080/member
 authx:
   service:
     url: http://datayoo.authx:38700/authx
@@ -243,3 +256,4 @@ mybatis:
 
 running:
   mode: local
+
