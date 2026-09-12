@@ -1,0 +1,1 @@
+var t=(n=>(n.UNKNOWN="UNKNOWN",n.S2T="S2T",n.T2S="T2S",n.BOTH="BOTH",n))(t||{}),r=(e=>(e.Unknown="Unknown",e.One2One="One2One",e.One2Many="One2Many",e.Many2Many="Many2Many",e.Many2One="Many2One",e))(r||{});export{t as a,r as b};

@@ -1,0 +1,58 @@
+<bracketsourcedescriptor>
+    <name>ftp</name>
+    <alias>FTP文件系统</alias>
+    <dsVersion>*</dsVersion>
+    <group>远程文件系统</group>
+    <version>1.0</version>
+    <types>RemoteFS</types>
+    <category>FILESYSTEM</category>
+    <dataObjectType>UNSTRUCTED</dataObjectType>
+    <provider>DataYoo</provider>
+    <factoryClass>org.datayoo.brackets.fs.FSBracketSourceFactory</factoryClass>
+    <elementDescriptor name="ConnectionSettings">
+        <parameters>
+            <parametergroup name="general" c_Alias="连接配置" c_Compox="sightx-tab">
+                <parametergroup name="connectionSettings">
+                    <parameter name="address" c_Alias="服务器地址" c_Option="false"
+                               c_Compox="sightx-input"></parameter>
+                    <parameter name="port" c_Alias="服务器端口" c_Option="false"
+                               c_Compox="sightx-port">21
+                    </parameter>
+                    <parametergroup name="authSettingsService" c_Option="true"
+                                    c_Compox="datayoo-ftp-auth"
+                                    c_Alias="访问帐号">
+                        <parameter name="serviceName"></parameter>
+                        <parameter name="serviceId"></parameter>
+                    </parametergroup>
+                    <parameter name="connectionTimeout" c_Alias="控制连接超时(s)"
+                               c_Compox="sightx-uinteger">10
+                    </parameter>
+                    <parameter name="dataTimeout" c_Alias="数据连接超时(s)"
+                               c_Compox="sightx-uinteger">10
+                    </parameter>
+                    <parameter name="dataConnectionMode" c_Alias="数据连接模式"
+                               c_Compox="ftp-conn-mode">2
+                    </parameter>
+                    <parameter name="dataEncoding" c_Alias="数据控制编码"
+                               c_Compox="sightx-charset">ISO-8859-1
+                    </parameter>
+                </parametergroup>
+            </parametergroup>
+        </parameters>
+        <compoxes>
+            <compox id="ftp-conn-mode" parentId="sightx-combox"
+                    type="CONTROLER">
+                <attributes/>
+                <dataDescriptor>
+                    <defaultValue><![CDATA[2]]></defaultValue>
+                    <data>
+                        <![CDATA[[{"label": "主动模式", "value": "0"}, {"label": "被动模式", "value": "2"}]]]></data>
+                    <actionScript><![CDATA[]]></actionScript>
+                </dataDescriptor>
+                <visibleDescriptors/>
+                <components/>
+            </compox>
+        </compoxes>
+    </elementDescriptor>
+
+</bracketsourcedescriptor>

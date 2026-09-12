@@ -1,0 +1,1 @@
+import{a as i}from"./chunk-KJSS3CNQ.js";import{i as a}from"./chunk-BF5D6XE4.js";function s(n,e){return a(this,null,function*(){let o=e.type;if(o==="svg"){let t=decodeURIComponent(n.split(",")[1]);return new Blob([t],{type:"image/svg+xml"})}let l=yield i(n,e);return new Promise(t=>l.toBlob(m=>t(m),`image/${o}`,e.quality))})}export{s as a};

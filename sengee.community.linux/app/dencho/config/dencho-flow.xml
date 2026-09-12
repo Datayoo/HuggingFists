@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fnodes>
+    <fnode id="1" name="mortenFlow" alias="mortenFlow">
+        <fnode id="2" name="org.datayoo.dencho.main.DenchoComponent"
+               alias="denchoComponent">
+            <parameters>
+            </parameters>
+        </fnode>
+    </fnode>
+</fnodes>

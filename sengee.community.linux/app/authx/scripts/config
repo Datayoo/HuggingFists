@@ -1,0 +1,22 @@
+function getdir {
+  if [ -h "$1" ];then
+    dir=`readlink $1`
+    dir=`dirname $dir`
+    echo $dir
+  else
+    echo `dirname $1`
+  fi
+}
+
+if [ "${BASE_DIR}" == "" ];then
+  DIR=`getdir $0`
+  export BASE_DIR=$(cd $DIR/../>/dev/null;pwd)
+fi
+
+[ ! -d ${BASE_DIR}  ]  &&  return 1
+
+export BASE_LOG_DIR=${BASE_DIR}/logs
+
+[ ! -d ${BASE_LOG_DIR} ] && mkdir -p ${BASE_LOG_DIR}
+
+return 0

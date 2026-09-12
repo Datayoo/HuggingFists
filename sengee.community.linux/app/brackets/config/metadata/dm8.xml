@@ -1,0 +1,353 @@
+<bracketsourcedescriptor>
+    <name>dm8</name>
+    <alias>达梦数据库v8</alias>
+    <dsVersion>*</dsVersion>
+    <version>1.0</version>
+    <types>RDB</types>
+    <category>DATABASE</category>
+    <dataObjectType>STRUCTED</dataObjectType>
+    <provider>DataYoo</provider>
+    <factoryClass>org.datayoo.brackets.dm8.DM8BracketSourceFactory
+    </factoryClass>
+    <elementDescriptor name="ConnectionSettings">
+        <parameters>
+            <parametergroup name="general" c_Alias="连接配置" c_Compox="sightx-tab">
+                <parametergroup name="connectionSettings">
+                    <parameter name="connType" c_Alias="连接类型" c_Option="false"
+                               c_Compox="connType">DEFAULT
+                    </parameter>
+                    <parameter name="dbType" c_Alias="数据库类型"
+                               c_Compox="sightx-hidden">dm8
+                    </parameter>
+                    <parameter name="address" c_Alias="数据库地址" c_Option="false"
+                               c_Compox="address"></parameter>
+                    <parameter name="port" c_Alias="数据库端口" c_Option="false"
+                               c_Compox="port">5236
+                    </parameter>
+                    <parameter name="dbName" c_Alias="数据库名" c_Option="false"
+                               c_Compox="dbName">
+                    </parameter>
+                    <parametergroup name="authSettingsService" c_Option="true"
+                                    c_Compox="datayoo-dm8-auth"
+                                    c_Alias="访问帐号">
+                        <parameter name="serviceName"></parameter>
+                        <parameter name="serviceId"></parameter>
+                    </parametergroup>
+                    <parameter name="url" c_Alias="URL" c_Option="false"
+                               c_Compox="url">
+                        jdbc:dm://%s:%p/schema=%d
+                    </parameter>
+                    <parameter name="driver" c_Compox="sightx-hidden">
+                        dm.jdbc.driver.DmDriver
+                    </parameter>
+                    <parametertable name="props" c_Option="true"
+                                    c_Compox="sightx-tablelist">
+                        <head>
+                            <parameter name="key" c_Alias="字段名"
+                                       c_Compox="sightx-input"
+                                       c_type="String">
+                            </parameter>
+                            <parameter name="value" c_Alias="字段值"
+                                       c_Compox="sightx-input"
+                                       c_type="String">
+                            </parameter>
+                        </head>
+                    </parametertable>
+                </parametergroup>
+            </parametergroup>
+        </parameters>
+
+        <compoxes>
+            <compox id="connType" parentId="sightx-combox" type="CONTROLER">
+                <attributes/>
+                <dataDescriptor>
+                    <defaultValue><![CDATA[DEFAULT]]></defaultValue>
+                    <data>
+                        <![CDATA[[{"label": "缺省", "value": "DEFAULT"}, {"label": "URL", "value": "URL"}]]]></data>
+                    <actionScript><![CDATA[]]></actionScript>
+                </dataDescriptor>
+                <visibleDescriptors/>
+                <components/>
+            </compox>
+            <compox id="address" parentId="sightx-input" type="CONTROLER">
+                <attributes/>
+                <dataDescriptor/>
+                <visibleDescriptors>
+                    <visibleDescriptor type="VISIBLE">
+                        <condition>
+                            <![CDATA[connType == "DEFAULT"]]></condition>
+                    </visibleDescriptor>
+                </visibleDescriptors>
+                <components/>
+            </compox>
+            <compox id="port" parentId="sightx-integer" type="CONTROLER">
+                <attributes/>
+                <dataDescriptor/>
+                <visibleDescriptors>
+                    <visibleDescriptor type="VISIBLE">
+                        <condition>
+                            <![CDATA[connType == "DEFAULT"]]></condition>
+                    </visibleDescriptor>
+                </visibleDescriptors>
+                <components/>
+            </compox>
+            <compox id="dbName" parentId="sightx-input" type="CONTROLER">
+                <attributes/>
+                <dataDescriptor/>
+                <visibleDescriptors>
+                    <visibleDescriptor type="VISIBLE">
+                        <condition>
+                            <![CDATA[connType == "DEFAULT"]]></condition>
+                    </visibleDescriptor>
+                </visibleDescriptors>
+                <components/>
+            </compox>
+            <compox id="url" parentId="sightx-input" type="CONTROLER">
+                <attributes/>
+                <actionDescriptors>
+                    <actionDescriptor>
+                        <event eventType="VCHANGE" handler="connectionTypes">
+                        </event>
+                        <actionScript>
+                            <![CDATA[
+                        if (handlerParameter.value === "URL") {
+                            selfParameter.value = "jdbc:dm://127.0.0.1:5236/";
+                        } else {
+                            selfParameter.value = "jdbc:dm://%s:%p/schema=%d";
+                        }
+                    ]]>
+                        </actionScript>
+                    </actionDescriptor>
+                </actionDescriptors>
+                <dataDescriptor>
+                    <defaultValue><![CDATA[]]></defaultValue>
+                    <data/>
+                    <actionScript>
+                    </actionScript>
+                </dataDescriptor>
+                <visibleDescriptors>
+                    <visibleDescriptor type="VISIBLE">
+                        <condition><![CDATA[connType == "URL"]]></condition>
+                    </visibleDescriptor>
+                </visibleDescriptors>
+                <components/>
+            </compox>
+        </compoxes>
+    </elementDescriptor>
+
+    <elementDescriptor name="DataTypes">
+        <parameters>
+            <parametergroup name="CHAR">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">1
+                </parameter>
+            </parametergroup>
+            <parametergroup name="CHARACTER">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">1
+                </parameter>
+            </parametergroup>
+            <parametergroup name="VARCHAR">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">1
+                </parameter>
+            </parametergroup>
+            <parametergroup name="NUMERIC">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">10
+                </parameter>
+                <parameter name="scale" c_Compox="sightx-integer"
+                           c_Alias="精度">10
+                </parameter>
+            </parametergroup>
+            <parametergroup name="DECIMAL">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">10
+                </parameter>
+                <parameter name="scale" c_Compox="sightx-integer"
+                           c_Alias="精度">10
+                </parameter>
+            </parametergroup>
+            <parametergroup name="DEC">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">10
+                </parameter>
+                <parameter name="scale" c_Compox="sightx-integer"
+                           c_Alias="精度">10
+                </parameter>
+            </parametergroup>
+            <parametergroup name="NUMBER">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">10
+                </parameter>
+                <parameter name="scale" c_Compox="sightx-integer"
+                           c_Alias="精度">10
+                </parameter>
+            </parametergroup>
+            <parametergroup name="INTEGER">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+            </parametergroup>
+            <parametergroup name="INT">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+            </parametergroup>
+            <parametergroup name="BIGINT">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+            </parametergroup>
+            <parametergroup name="TINYINT">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+            </parametergroup>
+            <parametergroup name="BYTE">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+            </parametergroup>
+            <parametergroup name="SMALLINT">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+            </parametergroup>
+            <parametergroup name="BINARY">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">1
+                </parameter>
+            </parametergroup>
+            <parametergroup name="VARBINARY">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">1
+                </parameter>
+            </parametergroup>
+            <parametergroup name="FLOAT">
+                <parameter name="scale" c_Compox="sightx-integer"
+                           c_Alias="精度">10
+                </parameter>
+            </parametergroup>
+            <parametergroup name="DOUBLE">
+                <parameter name="scale" c_Compox="sightx-integer"
+                           c_Alias="精度">10
+                </parameter>
+            </parametergroup>
+            <parametergroup name="REAL">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+            </parametergroup>
+            <parametergroup name="DOUBLE PRECISION">
+                <parameter name="scale" c_Compox="sightx-integer"
+                           c_Alias="精度">10
+                </parameter>
+            </parametergroup>
+            <parametergroup name="BIT">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+            </parametergroup>
+            <parametergroup name="DATE">
+            </parametergroup>
+            <parametergroup name="TIME">
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="小数秒精度">10
+                </parameter>
+            </parametergroup>
+            <parametergroup name="TIMESTAMP">
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="小数秒精度">10
+                </parameter>
+            </parametergroup>
+            <parametergroup name="TEXT">
+            </parametergroup>
+            <parametergroup name="LONG">
+            </parametergroup>
+            <parametergroup name="LONGVARCHAR">
+            </parametergroup>
+            <parametergroup name="IMAGE">
+            </parametergroup>
+            <parametergroup name="LONGVARBINARY">
+            </parametergroup>
+            <parametergroup name="BLOB">
+            </parametergroup>
+            <parametergroup name="CLOB">
+            </parametergroup>
+            <parametergroup name="BFILE">
+            </parametergroup>
+        </parameters>
+
+    </elementDescriptor>
+
+
+    <elementDescriptor name="IndexTypes">
+        <parameters>
+            <parametergroup name="UNIQUE">
+            </parametergroup>
+            <parametergroup name="VIRTUAL">
+            </parametergroup>
+            <parametergroup name="BITMAP">
+            </parametergroup>
+            <parametergroup name="CLUSTER">
+            </parametergroup>
+            <parametergroup name="NOT PARTIAL">
+            </parametergroup>
+            <parametergroup name="NORMAL">
+            </parametergroup>
+        </parameters>
+    </elementDescriptor>
+
+    <elementDescriptor name="Table">
+        <parameters>
+            <parametergroup name="Field"> <!-- 字段 -->
+                <parameter name="name"></parameter> <!-- 字段名称 -->
+                <parameter name="type"></parameter><!-- 字段类型 -->
+                <parameter name="key"></parameter><!-- 是否为主键 -->
+                <parameter name="nullable"></parameter> <!-- 字段名称 -->
+            </parametergroup>
+            <parametergroup name="Index"> <!-- 索引 -->
+                <parameter name="name"></parameter><!-- 索引名称 -->
+                <parameter name="type"></parameter><!-- 索引类型 -->
+                <parameter name="field"></parameter><!-- 索引关联列表 -->
+            </parametergroup>
+            <parametergroup name="ForeignKey"> <!-- 约束 -->
+<!--                <parameter name="name"></parameter>-->
+                <parameter name="column"></parameter><!-- 字段 -->
+                <parameter name="foreignDb"></parameter><!-- 参考数据库 -->
+                <parameter name="foreignTable"></parameter><!-- 参考表 -->
+                <parameter name="foreignTableColumn"></parameter><!-- 参考字段-->
+            </parametergroup>
+            <parametergroup name="Attribute"> <!-- 属性 -->
+                <parametertable name="tags" c_Option="true"
+                                c_Compox="sightx-tablelist">
+                    <head>
+                        <parameter name="key" c_Alias="字段名"
+                                   c_Compox="sightx-input">
+                        </parameter>
+                        <parameter name="value" c_Alias="字段值"
+                                   c_Compox="sightx-input">
+                        </parameter>
+                    </head>
+                </parametertable>
+            </parametergroup>
+        </parameters>
+    </elementDescriptor>
+
+    <elementDescriptor name="View">
+    </elementDescriptor>
+
+    <elementDescriptor name="Query">
+    </elementDescriptor>
+</bracketsourcedescriptor>

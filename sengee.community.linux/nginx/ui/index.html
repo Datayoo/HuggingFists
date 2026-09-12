@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sengee</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style type="text/css">.preloader{position:fixed;top:0;left:0;z-index:9999;width:100%;height:100%;overflow:hidden;background:#f7fdfd;transition:opacity .65s;}.preloader-hidden-add{display:block;opacity:1;}.preloader-hidden-add-active{opacity:0;}.preloader-hidden{display:none;}.cs-loader{position:absolute;top:0;left:0;width:100%;height:100%;}.cs-loader-inner{position:absolute;top:50%;width:100%;color:#2a8b92;text-align:center;transform:translateY(-50%);}.cs-loader-inner label{display:inline-block;font-size:20px;opacity:0;}@keyframes lol{0%{transform:translateX(-300px);opacity:0;}33%{transform:translateX(0);opacity:1;}66%{transform:translateX(0);opacity:1;}100%{transform:translateX(300px);opacity:0;}}.cs-loader-inner label:nth-child(6){animation:lol 3s infinite ease-in-out;}.cs-loader-inner label:nth-child(5){animation:lol 3s .1s infinite ease-in-out;}.cs-loader-inner label:nth-child(4){animation:lol 3s .2s infinite ease-in-out;}.cs-loader-inner label:nth-child(3){animation:lol 3s .3s infinite ease-in-out;}.cs-loader-inner label:nth-child(2){animation:lol 3s .4s infinite ease-in-out;}.cs-loader-inner label:nth-child(1){animation:lol 3s .5s infinite ease-in-out;}</style>
+  <script type="text/javascript">
+    function isMac() {
+      return /macintosh|mac os x/i.test(navigator.userAgent);
+    }
+    function loadStyle(url) {
+      var link = document.createElement("link");
+      link.type = "text/css";
+      link.rel = "stylesheet";
+      link.href = url;
+      document.getElementsByTagName("head")[0].appendChild(link);
+    }
+    if (!isMac()) loadStyle('./assets/css/scrollbar.css');
+
+    window.addEventListener('message', (e) => {
+      if (e.data.token) {
+        localStorage.setItem('s_token', e.data.token);
+        window.dispatchEvent(new Event('s_token'));
+      }
+    });
+  </script>
+<link rel="stylesheet" href="styles-CXGEMVNT.css"></head>
+<body>
+  <app-root></app-root>
+  <div class="preloader">
+    <div class="cs-loader">
+      <div class="cs-loader-inner">
+        <label>●</label>
+        <label>●</label>
+        <label>●</label>
+        <label>●</label>
+        <label>●</label>
+        <label>●</label>
+      </div>
+    </div>
+  </div>
+<link rel="modulepreload" href="chunk-KV6LQWUM.js"><link rel="modulepreload" href="chunk-TQ22PLTY.js"><link rel="modulepreload" href="chunk-CRMUKJP7.js"><link rel="modulepreload" href="chunk-2AMKG5UU.js"><link rel="modulepreload" href="chunk-3537YKKQ.js"><link rel="modulepreload" href="chunk-XAMZRLWA.js"><link rel="modulepreload" href="chunk-LXRXX27O.js"><link rel="modulepreload" href="chunk-2JVNOYMM.js"><link rel="modulepreload" href="chunk-6QLCK4B2.js"><link rel="modulepreload" href="chunk-AIY3PXYD.js"><script src="polyfills-EO764MBO.js" type="module"></script><script src="scripts-EO22MH3T.js" defer></script><script src="main-LCCKYNR3.js" type="module"></script></body>
+</html>

@@ -1,0 +1,31 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: sengee
+        uri: http://datayoo.sengee:38500
+        predicates:
+        - Path=/sengee/**
+      - id: brackets
+        uri: http://datayoo.brackets:38600
+        predicates:
+        - Path=/brackets/**
+      - id: authx
+        uri: http://datayoo.authx:38700
+        predicates:
+        - Path=/authx/**
+      - id: dencho
+        uri: http://datayoo.dencho:39500
+        predicates:
+          - Path=/dencho/**
+  servlet:
+    multipart:
+      max-file-size: 512MB
+      max-request-size: 512MB
+  codec:
+    max-in-memory-size: 256MB
+server:
+  port: 38800
+
+logging:
+  config: classpath:logback-pro.xml

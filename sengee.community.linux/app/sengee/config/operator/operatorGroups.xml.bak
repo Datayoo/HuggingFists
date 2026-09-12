@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<groups>
+    <group name="input" alias="输入">
+        <group name="stream" alias="文件"></group>
+        <group name="db" alias="数据库"></group>
+        <group name="message" alias="事件流"></group>
+        <group name="app" alias="应用"></group>
+        <group name="generator" alias="生成器"></group>
+        <group name="resource" alias="资源"></group>
+        <group name="web" alias="WEB"></group>
+        <group name="trans" alias="转换"></group>
+    </group>
+    <group name="reader" alias="读取">
+        <group name="stream" alias="文件"/>
+        <group name="obj" alias="对象"/>
+    </group>
+    <group name="output" alias="输出">
+        <group name="stream" alias="批量文件"></group>
+        <group name="byte" alias="文件"></group>
+        <group name="db" alias="数据库"></group>
+        <group name="message" alias="事件流"></group>
+        <group name="resource" alias="资源"></group>
+        <group name="trans" alias="转换"></group>
+    </group>
+    <group name="writer" alias="写出">
+        <group name="stream" alias="文件"/>
+    </group>
+    <group name="streamProcessing" alias="文件处理">
+        <group name="convertor" alias="格式转换">
+            <group name="stream" alias="文件"/>
+            <group name="img" alias="图像"/>
+            <group name="audio" alias="音频"/>
+            <group name="video" alias="视频"/>
+        </group>
+        <group name="embedding" alias="向量化">
+            <group name="stream" alias="文件"/>
+            <group name="img" alias="图像"/>
+            <group name="audio" alias="音频"/>
+            <group name="video" alias="视频"/>
+        </group>
+        <group name="splitter" alias="分割">
+            <group name="stream" alias="文件"/>
+            <group name="img" alias="图像"/>
+            <group name="audio" alias="音频"/>
+            <group name="video" alias="视频"/>
+        </group>
+        <group name="transformer" alias="转换">
+            <group name="stream" alias="文件"/>
+            <group name="img" alias="图像"/>
+            <group name="audio" alias="音频"/>
+            <group name="video" alias="视频"/>
+        </group>
+        <group name="extractor" alias="抽取">
+            <group name="stream" alias="文件">
+                <group name="props" alias="属性"/>
+                <group name="txt" alias="文本"/>
+                <group name="obj" alias="对象"/>
+                <group name="rel" alias="关系"/>
+            </group>
+            <group name="img" alias="图像">
+                <group name="props" alias="属性"/>
+                <group name="txt" alias="文本"/>
+                <group name="obj" alias="对象"/>
+            </group>
+            <group name="audio" alias="音频">
+                <group name="props" alias="属性"/>
+                <group name="txt" alias="文本"/>
+                <group name="obj" alias="对象"/>
+            </group>
+            <group name="video" alias="视频">
+                <group name="props" alias="属性"/>
+                <group name="txt" alias="文本"/>
+                <group name="obj" alias="对象"/>
+            </group>
+        </group>
+        <group name="recognizer" alias="识别">
+            <group name="stream" alias="文件"/>
+            <group name="img" alias="图像"/>
+            <group name="audio" alias="音频"/>
+            <group name="video" alias="视频"/>
+        </group>
+    </group>
+    <group name="resMan" alias="资源池">
+        <group name="db" alias="数据库"></group>
+    </group>
+    <group name="control" alias="控制">
+        <group name="loop" alias="循环"></group>
+        <group name="condition" alias="条件分支"></group>
+        <group name="logic" alias="逻辑门"></group>
+        <group name="ref" alias="引用"></group>
+        <group name="pipeline" alias="管道"></group>
+        <group name="env" alias="环境"></group>
+        <group name="engine" alias="引擎"></group>
+        <group name="speed" alias="速度"></group>
+    </group>
+    <group name="processing" alias="处理">
+        <group name="column" alias="列值处理">
+            <group name="coding" alias="编码"/>
+            <group name="transformer" alias="转换"/>
+            <group name="splitter" alias="分割"/>
+            <group name="extractor" alias="抽取"></group>
+            <group name="recognizer" alias="识别"></group>
+        </group>
+        <group name="rowset" alias="集合处理">
+            <group name="structure" alias="结构化"></group>
+            <group name="splitter" alias="分割"/>
+            <group name="filter" alias="过滤"></group>
+            <group name="sampling" alias="采样"></group>
+            <group name="grouping" alias="分组"></group>
+            <group name="join" alias="连接"></group>
+            <group name="order" alias="排序"></group>
+            <group name="sql" alias="SQL"></group>
+        </group>
+        <group name="feature" alias="特征处理">
+            <group name="selector" alias="特征筛选"/>
+            <group name="extractor" alias="特征抽取"/>
+            <group name="transformer" alias="特张转换"/>
+        </group>
+        <group name="domain" alias="领域处理">
+            <group name="nlp" alias="自然语言处理">
+                <group name="langRecognizer" alias="语种识别"></group>
+                <group name="segmenter" alias="分词"></group>
+                <group name="ner" alias="命名实体识别"></group>
+                <group name="rel" alias="关系识别"></group>
+                <group name="translator" alias="翻译"></group>
+                <group name="summarize" alias="摘要"></group>
+            </group>
+            <group name="aicg" alias="生成">
+                <group name="txt" alias="文本"></group>
+                <group name="img" alias="图像"></group>
+            </group>
+            <group name="privacy" alias="隐私"></group>
+            <group name="network" alias="网络"></group>
+            <group name="security" alias="安全">
+                <group name="extractor" alias="抽取"></group>
+            </group>
+        </group>
+        <group name="script" alias="脚本"></group>
+    </group>
+    <group name="analysis" alias="分析">
+        <group name="clustering" alias="聚类"></group>
+        <group name="classification" alias="分类"></group>
+        <group name="regression" alias="回归"></group>
+        <group name="timeSeries" alias="时间序列"></group>
+        <group name="evaluator" alias="评估"></group>
+        <group name="validator" alias="验证"></group>
+        <group name="predictor" alias="预测"></group>
+    </group>
+    <group name="action" alias="动作">
+        <group name="db" alias="数据库"></group>
+        <group name="web" alias="WEB"></group>
+        <group name="data" alias="数据"></group>
+    </group>
+</groups>

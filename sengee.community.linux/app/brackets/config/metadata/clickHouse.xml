@@ -1,0 +1,251 @@
+<bracketsourcedescriptor>
+    <name>clickhouse</name>
+    <alias>ClickHouse</alias>
+    <dsVersion>*</dsVersion>
+    <version>1.0</version>
+    <types>ColumnDB</types>
+    <category>DATABASE</category>
+    <dataObjectType>STRUCTED</dataObjectType>
+    <provider>DataYoo</provider>
+    <factoryClass>org.datayoo.brackets.clickhouse.ClickHouseBracketSourceFactory</factoryClass>
+    <elementDescriptor name="ConnectionSettings">
+        <parameters>
+            <parametergroup name="general" c_Alias="连接配置" c_Compox="sightx-tab">
+                <parametergroup name="connectionSettings">
+                    <parameter name="connType" c_Alias="连接类型" c_Option="false"
+                               c_Compox="connType">DEFAULT
+                    </parameter>
+                    <parameter name="dbType" c_Alias="数据库类型"
+                               c_Compox="sightx-hidden">clickhouse
+                    </parameter>
+                    <parameter name="address" c_Alias="数据库地址" c_Option="false"
+                               c_Compox="address" c_Index="1"></parameter>
+                    <parameter name="port" c_Alias="数据库端口" c_Option="false"
+                               c_Compox="port" c_Index="2">8123
+                    </parameter>
+                    <parameter name="dbName" c_Alias="数据库名" c_Option="false"
+                               c_Compox="dbName" c_Index="3">
+                    </parameter>
+                    <parametergroup name="authSettingsService" c_Option="true"
+                                    c_Compox="datayoo-clickhouse-auth"
+                                    c_Alias="访问帐号" c_Index="4">
+                        <parameter name="serviceName"></parameter>
+                        <parameter name="serviceId"></parameter>
+                    </parametergroup>
+                    <parameter name="url" c_Alias="URL" c_Option="false"
+                               c_Compox="url" c_Index="5">
+                        jdbc:clickhouse://%s:%p/%d
+                    </parameter>
+                    <parameter name="driver" c_Compox="sightx-hidden" c_Index="6">
+                        ru.yandex.clickhouse.ClickHouseDriver
+                    </parameter>
+                    <parametertable name="props" c_Option="true"
+                                    c_Compox="sightx-tablelist" c_Index="7">
+                        <head>
+                            <parameter name="key" c_Alias="字段名"
+                                       c_Compox="sightx-input"
+                                       c_type="String">
+                            </parameter>
+                            <parameter name="value" c_Alias="字段值"
+                                       c_Compox="sightx-input"
+                                       c_type="String">
+                            </parameter>
+                        </head>
+                    </parametertable>
+                </parametergroup>
+            </parametergroup>
+        </parameters>
+
+        <compoxes>
+            <compox id="connType" parentId="sightx-combox" type="CONTROLER">
+                <attributes/>
+                <dataDescriptor>
+                    <defaultValue><![CDATA[DEFAULT]]></defaultValue>
+                    <data>
+                        <![CDATA[[{"label": "缺省", "value": "DEFAULT"}, {"label": "URL", "value": "URL"}]]]></data>
+                    <actionScript><![CDATA[]]></actionScript>
+                </dataDescriptor>
+                <visibleDescriptors/>
+                <components/>
+            </compox>
+            <compox id="address" parentId="sightx-input" type="CONTROLER">
+                <attributes/>
+                <dataDescriptor/>
+                <visibleDescriptors>
+                    <visibleDescriptor type="VISIBLE">
+                        <condition>
+                            <![CDATA[connType == "DEFAULT"]]></condition>
+                    </visibleDescriptor>
+                </visibleDescriptors>
+                <components/>
+            </compox>
+            <compox id="port" parentId="sightx-integer" type="CONTROLER">
+                <attributes/>
+                <dataDescriptor/>
+                <visibleDescriptors>
+                    <visibleDescriptor type="VISIBLE">
+                        <condition>
+                            <![CDATA[connType == "DEFAULT"]]></condition>
+                    </visibleDescriptor>
+                </visibleDescriptors>
+                <components/>
+            </compox>
+            <compox id="dbName" parentId="sightx-input" type="CONTROLER">
+                <attributes/>
+                <dataDescriptor/>
+                <visibleDescriptors>
+                    <visibleDescriptor type="VISIBLE">
+                        <condition>
+                            <![CDATA[connType == "DEFAULT"]]></condition>
+                    </visibleDescriptor>
+                </visibleDescriptors>
+                <components/>
+            </compox>
+            <compox id="url" parentId="sightx-input" type="CONTROLER">
+                <attributes/>
+                <actionDescriptors>
+                    <actionDescriptor>
+                        <event eventType="VCHANGE" handler="connectionTypes">
+                        </event>
+                        <actionScript>
+                            <![CDATA[
+                        if (handlerParameter.value === "URL") {
+                            selfParameter.value = "jdbc:clickhouse://localhost:8123/default";
+                        } else {
+                            selfParameter.value = "jdbc:clickhouse://%s:%p/%d";
+                        }
+                    ]]>
+                        </actionScript>
+                    </actionDescriptor>
+                </actionDescriptors>
+                <dataDescriptor>
+                    <defaultValue><![CDATA[]]></defaultValue>
+                    <data/>
+                    <actionScript>
+                    </actionScript>
+                </dataDescriptor>
+                <visibleDescriptors>
+                    <visibleDescriptor type="VISIBLE">
+                        <condition><![CDATA[connType == "URL"]]></condition>
+                    </visibleDescriptor>
+                </visibleDescriptors>
+                <components/>
+            </compox>
+        </compoxes>
+    </elementDescriptor>
+
+
+
+    <elementDescriptor name="DataTypes">
+        <parameters>
+            <parametergroup name="integer">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">10
+                </parameter>
+            </parametergroup>
+            <parametergroup name="varchar">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">10
+                </parameter>
+            </parametergroup>
+            <parametergroup name="varchar2">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">10
+                </parameter>
+            </parametergroup>
+            <parametergroup name="INT8">
+            </parametergroup>
+            <parametergroup name="INT16">
+            </parametergroup>
+            <parametergroup name="INT32">
+            </parametergroup>
+            <parametergroup name="INT64">
+            </parametergroup>
+            <parametergroup name="INT128">
+            </parametergroup>
+            <parametergroup name="INT256">
+            </parametergroup>
+            <parametergroup name="UINT8">
+            </parametergroup>
+            <parametergroup name="UINT16">
+            </parametergroup>
+            <parametergroup name="UINT32">
+            </parametergroup>
+            <parametergroup name="UINT64">
+            </parametergroup>
+            <parametergroup name="UINT256">
+            </parametergroup>
+            <parametergroup name="FLOAT32">
+            </parametergroup>
+            <parametergroup name="FLOAT64">
+            </parametergroup>
+            <parametergroup name="DECIMAL">
+            </parametergroup>
+            <parametergroup name="DECIMAL32">
+            </parametergroup>
+            <parametergroup name="DECIMAL64">
+            </parametergroup>
+            <parametergroup name="DECIMAL128">
+            </parametergroup>
+            <parametergroup name="DECIMAL256">
+            </parametergroup>
+            <parametergroup name="String">
+                <parameter name="defaultValue"
+                           c_Compox="sightx-input" c_Alias="默认值"></parameter>
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">10
+                </parameter>
+            </parametergroup>
+            <parametergroup name="FIXEDSTRING">
+                <parameter name="precision" c_Compox="sightx-integer"
+                           c_Alias="长度">1
+                </parameter>
+            </parametergroup>
+            <parametergroup name="DATE">
+            </parametergroup>
+            <parametergroup name="DATETIME">
+            </parametergroup>
+            <parametergroup name="ARRAY">
+            </parametergroup>
+            <parametergroup name="ENUM8">
+            </parametergroup>
+            <parametergroup name="ENUM16">
+            </parametergroup>
+            <parametergroup name="TUPLE">
+            </parametergroup>
+            <parametergroup name="NULLABLE">
+            </parametergroup>
+            <parametergroup name="DOMAIN">
+            </parametergroup>
+        </parameters>
+
+    </elementDescriptor>
+
+    <elementDescriptor name="Table">
+        <parameters>
+            <parametergroup name="Field"> <!-- 字段 -->
+                <parameter name="name"></parameter> <!-- 字段名称 -->
+                <parameter name="type"></parameter><!-- 字段类型 -->
+                <parameter name="key"></parameter><!-- 是否为主键 -->
+                <parameter name="nullable"></parameter> <!-- 是否可以为空 -->
+            </parametergroup>
+
+        </parameters>
+        <compoxes>
+        </compoxes>
+    </elementDescriptor>
+
+
+    <elementDescriptor name="View">
+    </elementDescriptor>
+
+    <elementDescriptor name="Query">
+    </elementDescriptor>
+
+</bracketsourcedescriptor>

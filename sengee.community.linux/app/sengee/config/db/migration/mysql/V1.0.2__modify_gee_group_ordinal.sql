@@ -1,0 +1,1 @@
+alter TABLE gee_group modify column ordinal bigint;

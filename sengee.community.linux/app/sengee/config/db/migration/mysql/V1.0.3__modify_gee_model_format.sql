@@ -1,0 +1,1 @@
+update gee_model set mod_fmt='template' where model_st='EXTERNAL'

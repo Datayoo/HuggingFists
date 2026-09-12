@@ -1,0 +1,46 @@
+<bracketsourcedescriptor>
+    <name>sftp</name>
+    <alias>SFTP文件系统</alias>
+    <dsVersion>*</dsVersion>
+    <version>1.0</version>
+    <types>RemoteFS</types>
+    <category>FILESYSTEM</category>
+    <dataObjectType>UNSTRUCTED</dataObjectType>
+    <provider>DataYoo</provider>
+    <factoryClass>org.datayoo.brackets.fs.FSBracketSourceFactory</factoryClass>
+    <elementDescriptor name="ConnectionSettings">
+        <parameters>
+            <parametergroup name="general" c_Alias="连接配置" c_Compox="sightx-tab">
+                <parametergroup name="connectionSettings">
+                    <parameter name="address" c_Alias="服务器地址" c_Option="false"
+                               c_Compox="sightx-input"></parameter>
+                    <parameter name="port" c_Alias="服务器端口" c_Option="false"
+                               c_Compox="sightx-port">21
+                    </parameter>
+                    <parameter name="userName" c_Alias="用户名"
+                               c_Compox="sightx-input">
+                    </parameter>
+                    <parameter name="password" c_Alias="密码"
+                               c_Compox="sightx-password"></parameter>
+                    <parameter name="encrypt" c_Alias="密码是否加密"
+                               c_Compox="sightx-switch">false
+                    </parameter>
+                    <parameter name="connectionTimeout" c_Alias="控制连接超时(s)"
+                               c_Compox="sightx-uinteger">10
+                    </parameter>
+                    <parametertable name="props" c_Option="true"
+                                    c_Compox="sightx-tablelist">
+                        <head>
+                            <parameter name="key" c_Alias="属性名"
+                                       c_Compox="sightx-input">
+                            </parameter>
+                            <parameter name="value" c_Alias="属性值"
+                                       c_Compox="sightx-input">
+                            </parameter>
+                        </head>
+                    </parametertable>
+                </parametergroup>
+            </parametergroup>
+        </parameters>
+    </elementDescriptor>
+</bracketsourcedescriptor>

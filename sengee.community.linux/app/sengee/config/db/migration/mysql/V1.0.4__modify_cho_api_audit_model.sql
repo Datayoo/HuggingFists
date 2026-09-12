@@ -1,0 +1,1 @@
+update cho_api_ep set adt_mode='API_CALLING' where (adt_mode='' or adt_mode is null);

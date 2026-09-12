@@ -1,0 +1,19 @@
+jarGateConfiguration:
+  jarGateName: LocalJarGate
+  localLibPath: ./operators
+  gateProps:
+    settingsServiceId: jarGate
+
+#fsConfiguration:
+#  parameterFile: 'classpath:jargate/jarGate.xml'
+#  baseDir: /
+#  brokerName: jarGate
+#  brokerType: hdfs
+#  confFiles:
+#    - 'classpath:jargate/core-site.xml'
+
+parentFirstPatterns:
+  - org.datayoo
+parentFirstExcludePatterns:
+  - org.datayoo.sengee.op
+  - org.datayoo.oyez.op

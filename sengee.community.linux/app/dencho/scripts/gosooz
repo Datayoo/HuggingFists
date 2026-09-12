@@ -1,0 +1,28 @@
+#!/bin/bash
+
+export DIR=`dirname $0`
+export PRO=`basename $0`
+
+. $DIR/functions
+. $DIR/config
+
+DEBUG="-Xdebug -Xrunjdwp:transport=dt_socket,address=38506,server=y,suspend=n"
+
+#JMX="-Dcom.sun.management.jmxremote.ssl=false \
+#     -Dcom.sun.management.jmxremote.authenticate=false \
+#     -Dcom.sun.management.jmxremote.port=30000"
+
+if [ -f $NODE_HOME/java.policy ]; then
+    JSTATD="jstatd -p 10000 -J-Djava.security.policy=$NODE_HOME/java.policy \
+        -J-Djava.rmi.server.logCalls=true"
+fi
+
+export JAVA_OPTS="$DEBUG $JMX ${JAVA_OPTS}"
+
+#export SPARK_HOME=$(cd $DIR/../spark-3.2.1-bin-hadoop3.2>/dev/null;pwd)
+
+export SPARK_HOME=$BASE_DIR/spark-3.2.1-bin-hadoop3.2
+export PATH=$SPARK_HOME/bin:$PATH
+export HADOOP_CONF_DIR=$SPARK_HOME/conf
+
+$DIR/gosooz_node.sh $PRO $1  $2 

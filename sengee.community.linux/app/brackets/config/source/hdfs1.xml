@@ -1,0 +1,10 @@
+<parameters>
+    <parameter name="realUrl">hdfs://psmg-storage01:8020/tmp/hx</parameter>
+    <parameter name="brokerType">hdfs</parameter>
+    <parameter name="url">hdfs://hdfs</parameter>
+    <parameter name="configFiles"></parameter>
+    <parametertable name="props">
+        <head/>
+        <parameterrow key="123" value="456"/>
+    </parametertable>
+</parameters>

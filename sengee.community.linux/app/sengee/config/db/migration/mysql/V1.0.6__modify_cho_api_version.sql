@@ -1,0 +1,1 @@
+update cho_api_ep set api_version='V1' where api_version is null or api_version='';

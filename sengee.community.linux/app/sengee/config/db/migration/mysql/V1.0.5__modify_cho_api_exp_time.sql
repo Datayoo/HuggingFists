@@ -1,0 +1,1 @@
+update cho_api_ep set exp_time=30000 where exp_time is null;

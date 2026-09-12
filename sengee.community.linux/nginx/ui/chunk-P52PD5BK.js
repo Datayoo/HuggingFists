@@ -1,0 +1,1 @@
+import{a as r}from"./chunk-KJSS3CNQ.js";import{i}from"./chunk-BF5D6XE4.js";function h(d,t){return i(this,null,function*(){let a=yield r(d,t),e=new Image;return e.src=a.toDataURL(`image/${t.format}`,t.quality),yield e.decode(),e.style.width=`${a.width/t.dpr}px`,e.style.height=`${a.height/t.dpr}px`,e})}export{h as a};

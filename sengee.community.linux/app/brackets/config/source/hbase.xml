@@ -1,0 +1,8 @@
+<parameters>
+    <parameter name="realUrl">hbfs://test2/tt</parameter>
+    <parameter name="brokerType">hbfs</parameter>
+    <parameter name="url">hbfs://test1</parameter>
+    <parameter name="configFiles"></parameter>
+    <parametertable name="props">
+    </parametertable>
+</parameters>

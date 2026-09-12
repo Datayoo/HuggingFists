@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fnodes>
+    <fnode id="1" name="mortenFlow" alias="mortenFlow">
+        <fnode id="2" name="org.datayoo.moo.mcp.component.McpComponent"
+               alias="oyezLet">
+            <parameters>
+                <parameter name="mcpServerPort">43121</parameter>
+		<parameter name="denchoUrl"><![CDATA[http://datayoo.dencho:39500]]></parameter>
+            </parameters>
+        </fnode>
+    </fnode>
+</fnodes>
