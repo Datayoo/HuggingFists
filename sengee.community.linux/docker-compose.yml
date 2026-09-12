@@ -79,7 +79,7 @@ services:
       - ./operators:/home/datayoo/app/dencho/operators
     hostname: datayoo.dencho
   oyez:
-    image: oyez:paddle
+    image: sengee:base
     privileged: true
     restart: always
     container_name: oyez
