@@ -5,6 +5,7 @@ yeeProps:
   yc.cli.failure.retries: 0
   yc.calling.expiration: 20000
   yc.srv.work.threads: 32
+  yc.unser.exception.packages: org.springframework
 
 jarGateConfiguration:
   #jarGateName: HdfsJarGate

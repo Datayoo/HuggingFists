@@ -47,6 +47,16 @@
         </rollingPolicy>
     </appender>
 
+    <logger name="org.springframework.web.filter.CommonsRequestLoggingFilter" level="DEBUG"  additivity="false">
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+    <logger name="org.springframework.web.socket" level="DEBUG" additivity="false">
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+    <logger name="org.springframework.messaging" level="DEBUG" additivity="false">
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+
     <!-- default logging levels, unless we overwrite then use INFO-->
     <root>
         <level value="INFO"/>

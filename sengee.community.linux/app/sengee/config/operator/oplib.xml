@@ -2,15 +2,41 @@
 
 <opprofiles>
   <opprofile name="ApiGraphOperator" type="Control" clazz="org.datayoo.sengee.op.container.ApiGraphDescriptor" portrait="" version="1.0" computionFramework="sengee" atom="false">
-    <outport name="result" dataType="/"/>
+    <inport name="paramIn" dataType="/" extendable="false"/>
+    <outport name="result" dataType="/" extendable="false"/>
     <provider>DataYoo</provider>
     <dependencies/>
     <opimplementers>
       <opimplementer clazz="org.datayoo.oyez.op.ApiGraphOperator" computionFramework="oyez" version="1.0">
-        <outport name="result" dataType="/"/>
+        <inport name="paramIn" dataType="/" extendable="false"/>
+        <outport name="result" dataType="/" extendable="false"/>
         <provider>DataYoo</provider>
         <dependencies/>
       </opimplementer>
+    </opimplementers>
+  </opprofile>
+ 	<opprofile name="DurableFlowOperator" type="Control"
+             clazz="org.datayoo.sengee.op.container.DurableFlowDescriptor"
+             portrait="" version="1.0" computionFramework="sengee"
+             atom="false">
+    <inport name="inport1" dataType="/" extendable="true"/>
+    <outport name="outport1" dataType="/" extendable="true"/>
+    <parameters>
+        <parametergroup name="general" c_Compox="sightx-tab" c_Alias="一般">
+        </parametergroup>
+    </parameters>
+    <provider>DataYoo</provider>
+    <debugCacheable>true</debugCacheable>
+    <dependencies/>
+    <opimplementers>
+        <opimplementer clazz="org.datayoo.oyez.op.DurableFlowOperator"
+                       computionFramework="oyez" version="1.0">
+            <inport name="result1" dataType="/" extendable="true"/>
+            <inport name="inport1" dataType="/" extendable="true"/>
+            <outport name="outport1" dataType="/" extendable="true"/>
+            <provider>DataYoo</provider>
+            <dependencies/>
+        </opimplementer>
     </opimplementers>
   </opprofile>
   <opprofile name="ProcessOperator" type="Control" clazz="org.datayoo.sengee.op.container.ProcessDescriptor" portrait="" version="1.0" computionFramework="sengee" atom="false">
@@ -92,6 +118,11 @@
   <opprofile name="ChainOperator" type="Control" clazz="org.datayoo.sengee.op.container.ChainDescriptor" portrait="" version="1.0" computionFramework="sengee" atom="false">
     <inport name="inport1" dataType="/" extendable="true"/>
     <outport name="outport1" dataType="/" extendable="true"/>
+    <parameters>
+    	<parametergroup name="general" c_Compox="sightx-tab" c_Alias="一般">
+        <parameter name="pipelineMode" c_Alias="流水线模式" c_Compox="sightx-switch">true</parameter>
+      </parametergroup>
+    </parameters>
     <provider>DataYoo</provider>
     <debugCacheable>true</debugCacheable>
     <dependencies/>

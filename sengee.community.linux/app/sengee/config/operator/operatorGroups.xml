@@ -13,6 +13,9 @@
         <group name="app" opCats="app">
             <i18ns en_US="app" zh_CN="应用"/>
         </group>
+        <group name="chat" opCats="chat">
+            <i18ns en_US="chat" zh_CN="通讯"/>
+        </group>
         <group name="generator" opCats="generator">
             <i18ns en_US="generator" zh_CN="生成器"/>
         </group>
@@ -24,6 +27,9 @@
         </group>
         <group name="trans" opCats="trans">
             <i18ns en_US="trans" zh_CN="转换"/>
+        </group>
+        <group name="entry" opCats="entry">
+            <i18ns en_US="entry" zh_CN="参数入口"/>
         </group>
     </group>
     <group name="reader" opType="Reader">
@@ -51,6 +57,9 @@
         </group>
         <group name="message" opCats="message">
             <i18ns en_US="message" zh_CN="事件流"/>
+        </group>
+        <group name="chat" opCats="chat">
+            <i18ns en_US="chat" zh_CN="通讯"/>
         </group>
         <group name="resource" opCats="resource">
             <i18ns en_US="resource" zh_CN="资源"/>
@@ -355,6 +364,27 @@
                 <i18ns en_US="transformer" zh_CN="特征转换"/>
             </group>
         </group>
+        <group name="tensor" opCats="tensor">
+            <i18ns en_US="tensor" zh_CN="张量"/>
+            <group name="transformer" opCats="tensor,transformer">
+                <i18ns en_US="transformer" zh_CN="转换"/>
+            </group>
+            <group name="txt" opCats="tensor,txt">
+                <i18ns en_US="txt" zh_CN="文本"/>
+            </group>
+            <group name="img" opCats="tensor,img">
+                <i18ns en_US="img" zh_CN="图像"/>
+            </group>
+            <group name="audio" opCats="tensor,audio">
+                <i18ns en_US="audio" zh_CN="语音"/>
+            </group>
+            <group name="video" opCats="tensor,video">
+                <i18ns en_US="video" zh_CN="视频"/>
+            </group>
+        </group>
+        <group name="dura" opCats="dura">
+            <i18ns en_US="dura" zh_CN="断点续行"/>
+        </group>
         <group name="domain" opCats="domain">
             <i18ns en_US="domain" zh_CN="领域处理"/>
             <group name="llm" opCats="domain,llm">
@@ -417,17 +447,83 @@
                     <i18ns en_US="rank" zh_CN="排序"/>
                 </group>
             </group>
-            <group name="privacy" opCats="domain,privacy">
-                <i18ns en_US="privacy" zh_CN="隐私"/>
-            </group>
-            <group name="network" opCats="domain,network">
+            <group name="network" opCats="domain,net">
                 <i18ns en_US="network" zh_CN="网络"/>
+                <group name="npe" opCats="domain,net,npe">
+                    <i18ns en_US="npe" zh_CN="网络解析引擎"/>
+                </group>
+                <group name="l2" opCats="domain,net,l2">
+                    <i18ns en_US="l2" zh_CN="二层协议"/>
+                </group>
+                <group name="l3" opCats="domain,net,l3">
+                    <i18ns en_US="l3" zh_CN="网络层协议"/>
+                </group>
+                <group name="l4" opCats="domain,net,l4">
+                    <i18ns en_US="l4" zh_CN="传输层协议"/>
+                </group>
+                <group name="app" opCats="domain,net,app">
+                    <i18ns en_US="app" zh_CN="应用层协议"/>
+                </group>
+            </group>
+            <group name="signal" opCats="domain,signal">
+                <i18ns en_US="signal" zh_CN="信号"/>
+                <group name="bit" opCats="domain,signal,bit">
+                    <i18ns en_US="bit" zh_CN="比特处理"/>
+                </group>
+                <group name="channel" opCats="domain,signal,channel">
+                    <i18ns en_US="channel" zh_CN="信道模拟"/>
+                </group>
+                <group name="codec" opCats="domain,signal,codec">
+                    <i18ns en_US="codec" zh_CN="信道编解码"/>
+                </group>
+                <group name="conditioning" opCats="domain,signal,conditioning">
+                    <i18ns en_US="codec" zh_CN="信号调理"/>
+                </group>
+                <group name="equalizer" opCats="domain,signal,equalizer">
+                    <i18ns en_US="equalizer" zh_CN="信道均衡"/>
+                </group>
+                <group name="estimator" opCats="domain,signal,estimator">
+                    <i18ns en_US="equalizer" zh_CN="参数估计与分析"/>
+                </group>
+                <group name="filtering" opCats="domain,signal,filtering">
+                    <i18ns en_US="filtering" zh_CN="滤波处理"/>
+                </group>
+                <group name="measure" opCats="domain,signal,measure">
+                    <i18ns en_US="measure" zh_CN="指标测量"/>
+                </group>
+                <group name="modulation" opCats="domain,signal,modulation">
+                    <i18ns en_US="modulation" zh_CN="调制解调"/>
+                </group>
+                <group name="ofdm" opCats="domain,signal,ofdm">
+                    <i18ns en_US="ofdm" zh_CN="OFDM处理"/>
+                </group>
+                <group name="rf" opCats="domain,signal,rf">
+                    <i18ns en_US="rf" zh_CN="RF处理"/>
+                </group>
+                <group name="sync" opCats="domain,signal,sync">
+                    <i18ns en_US="sync" zh_CN="同步处理"/>
+                </group>
+                <group name="transform" opCats="domain,signal,transform">
+                    <i18ns en_US="transform" zh_CN="变换与重采样"/>
+                </group>
+            </group>
+            <group name="id" opCats="domain,id">
+                <i18ns en_US="id" zh_CN="标识"/>
             </group>
             <group name="security" opCats="domain,security">
                 <i18ns en_US="security" zh_CN="安全"/>
+                <group name="privacy" opCats="domain,security,privacy">
+                	<i18ns en_US="privacy" zh_CN="隐私"/>
+            		</group>
+                <group name="he" opCats="domain,security,he">
+                    <i18ns en_US="he" zh_CN="同态加密"/>
+                </group>
                 <group name="extractor" opCats="domain,security,extractor">
                     <i18ns en_US="extractor" zh_CN="抽取"/>
                 </group>
+            </group>
+           	<group name="goverance" opCats="domain,goverance">
+                <i18ns en_US="goverance" zh_CN="数据治理"/>
             </group>
         </group>
         <group name="script" opCats="script">

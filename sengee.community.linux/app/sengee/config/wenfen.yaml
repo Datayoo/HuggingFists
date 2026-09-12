@@ -1,0 +1,23 @@
+socketTimeout: 10
+
+connectionTimeout: 10
+
+interactionJobUrl: http://localhost:38500/sengee/job/%s/run
+
+flowApiUrl: http://localhost:38500/sengee/api/%s/call
+
+taskUrl:
+
+keepaliveInterval: 30
+
+storageCycle: 30
+
+workDir: ./connectors/
+
+jarGateConfiguration:
+  #jarGateName: HdfsJarGate
+  jarGateName: LocalJarGate
+  #remoteLibPath: /tmp/datayoo/operator
+  localLibPath: ./lib
+  #gateProps:
+  # settingsServiceId: jarGate

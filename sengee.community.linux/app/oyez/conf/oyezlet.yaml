@@ -13,8 +13,10 @@ parentFirstPatterns:
   - org.datayoo
 parentFirstExcludePatterns:
   - org.datayoo.sengee.op
-engineInstances: 10
-debuggableEngineInstances: 10
+engineInstances: 5
+streamEngineInstances: 2
+debuggableEngineInstances: 3
+durableEngineInstances: 5
 envProperties:
   #oyez.poll.interval:
   #oyez.stop.waiting:

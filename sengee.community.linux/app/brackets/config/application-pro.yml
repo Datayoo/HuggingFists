@@ -74,3 +74,8 @@ jarGate:
 authx:
   service:
     url: http://datayoo.authx:38700/authx
+
+#tozoo:
+#  remote:
+#    member:
+#      url: http://192.168.0.222:8080/member 

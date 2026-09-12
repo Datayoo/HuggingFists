@@ -79,7 +79,7 @@ services:
       - ./operators:/home/datayoo/app/dencho/operators
     hostname: datayoo.dencho
   oyez:
-    image: sengee:base
+    image: oyez:paddle
     privileged: true
     restart: always
     container_name: oyez
@@ -148,6 +148,7 @@ services:
       - ./app/sengee/logs:/home/datayoo/logs
       - ./operators:/home/datayoo/app/sengee/operators/
       - ./dfs:/home/datayoo/dfs
+      - ./app/brackets/connectors:/home/datayoo/app/sengee/connectors/
     hostname: datayoo.sengee
     ulimits:
       nproc: 65535

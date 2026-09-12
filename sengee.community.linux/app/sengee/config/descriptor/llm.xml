@@ -1,0 +1,15 @@
+<resourcedescriptor name="openai" alias="OpenAI语言模型接口"
+                    type="openAI" category="LLM">
+    <parametersDescriptor>
+        <parameters>
+            <parametergroup name="general" c_Alias="" c_Compox="sightx-tab">
+                <parameter name="requestUrl" c_Alias="模型地址" c_Option="false"
+                           c_Compox="sightx-input" c_Index="0">
+                </parameter>
+                <parameter name="modelName" c_Alias="模型名称" c_Option="false"
+                           c_Compox="sightx-input" c_Index="1">
+                </parameter>
+            </parametergroup>
+        </parameters>
+    </parametersDescriptor>
+</resourcedescriptor>
