@@ -100,7 +100,7 @@ dencho:
 tozoo:
   remote:
     member:
-      url: http://member.datayoo.com:38800/member
+      url: http://member.datayoo.com:38172/member
       #url: http://192.168.0.222:8080/member
 authx:
   service:
