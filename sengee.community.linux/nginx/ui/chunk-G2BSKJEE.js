@@ -1,0 +1,1 @@
+import{q as e,ve as r}from"./chunk-FGI2GNGV.js";import{Db as i,ga as t}from"./chunk-RKVDLLEY.js";var m=class o{static \u0275fac=function(n){return new(n||o)};static \u0275mod=i({type:o});static \u0275inj=t({imports:[e,r]})};export{m as a};
